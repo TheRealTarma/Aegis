@@ -1,0 +1,43 @@
+join_portal:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  Health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=portal_animation;d=false} @self ~onSpawn
+  - model{m=portal_animation;d=false} @self ~onLoad
+  - state{s=join_1} @self ~onSpawn
+  - sound{s=entity.illusioner.prepare_mirror} @selflocation ~onSpawn
+  - sound{s=entity.illusioner.mirror_move;delay=11} @selflocation ~onSpawn
+  - sound{s=block.grass.step;delay=18} @selflocation ~onSpawn
+  - remove{delay=33} @self ~onSpawn
+  - effect:particles{p=portal;amount=16;hS=0.6;vS=0.6} @ModelPart{pid=portal} ~onTimer:10
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+leave_portal:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  Health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=portal_animation;d=false} @self ~onSpawn
+  - model{m=portal_animation;d=false} @self ~onLoad
+  - state{s=leave_1} @self ~onSpawn
+  - sound{s=entity.illusioner.prepare_mirror} @selflocation ~onSpawn
+  - sound{s=block.grass.step;delay=9} @selflocation ~onSpawn
+  - sound{s=entity.illusioner.mirror_move;delay=18} @selflocation ~onSpawn
+  - remove{delay=31} @self ~onSpawn
+  - effect:particles{p=portal;amount=16;hS=0.6;vS=0.6} @ModelPart{pid=portal} ~onTimer:10
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true

@@ -1,0 +1,123 @@
+starts_with:
+- NPC named Guard
+- NPC with id 17
+name: "&a&lGuard"
+start_conversation_radius: 5
+end_conversation_radius: 5
+conversation:
+    conversation1:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Hello adventurer, welcome to the city of"
+                - "&f&lArgond&7. A magnificent place isn't it?"
+                time: 4
+            dialogue2:
+                text:
+                - "&7Can I help you with something?"
+                time: 2
+        options:
+            option1:
+                text: "&eTell me about the city."
+                start_conversation: conversation2
+            option2:
+                text: "&eWho are you?"
+                start_conversation: conversation3
+            option3:
+                text: "&eI am kind of a hero here."
+                requires:
+                - "%player_level% >= 20"
+                start_conversation: conversation4
+            option4:
+                text: "&eBye."
+                start_conversation: conversation7
+    conversation2:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7All began 350 years ago when the..."
+                time: 3
+            dialogue2:
+                text:
+                - "&e&o(You start to realice that asking that question"
+                - "&e&owas a really bad idea, now you have to hear the"
+                - "&e&oentire history of the city...)"
+                time: 6
+                show_name: false
+                actions:
+                - "give_potion_effect: BLINDNESS;180;1;false"
+                - "give_potion_effect: CONFUSION;180;1;false"
+            dialogue3:
+                text:
+                - "&7And that's how I ended up here, guarding the"
+                - "&7city walls."
+                time: 4
+                actions:
+                - "remove_potion_effect: BLINDNESS"
+                - "remove_potion_effect: CONFUSION"
+                start_options: conversation1          
+    conversation3:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7I am a simple man, making his way through"
+                - "&7the world."
+                time: 4
+                start_options: conversation1         
+    conversation4:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Wait a minute... Are you &b&l%player%&7?"
+                time: 2    
+                conditional_dialogue:
+                    conditional_dialogue1:
+                        requires:
+                        - "%interactions_has_dialogue_guard1.conversation5.dialogue1% == true"
+                        start_conversation: conversation9
+        options:
+            option1:
+                text: "&eYes I am."
+                start_conversation: conversation5
+            option2:
+                text: "&eNo, I am just kidding."
+                start_conversation: conversation6  
+    conversation5:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7My respects to you! If you need something"
+                - "&7you just need to ask!"
+                time: 4 
+                save_dialogue_to_player: true
+                start_options: conversation1
+    conversation6:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Haha, very funny, get out of here."
+                time: 2
+    conversation7:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Good luck!"
+                time: 1
+                conditional_dialogue:
+                    conditional_dialogue1:
+                        requires:
+                        - "%interactions_has_dialogue_guard1.conversation5.dialogue1% == true"
+                        start_conversation: conversation8
+    conversation8:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7May the stars guide you, hero of Argond!"
+                time: 2
+    conversation9:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Yes, you already told me that!"
+                time: 2
+                start_options: conversation1 

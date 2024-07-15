@@ -1,0 +1,556 @@
+info:
+  namespace: "workshop_six"
+items:
+  brown_mushroom_patch:
+    display_name: "Brown Mushroom Patch"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/brown_mushroom_patch
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  brown_mushroom_patch_large:
+    display_name: "Large Brown Mushroom Patch"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/brown_mushroom_patch_large
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  cattails:
+    display_name: "Cattails"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/cattails
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  clovers:
+    display_name: "Clovers"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/clovers
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  glow_mushroom_patch:
+    display_name: "Glow Mushroom Patch"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/glow_mushroom_patch
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  glow_mushroom_patch_large:
+    display_name: "Large Glow Mushroom Patch"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/glow_mushroom_patch_large
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  log_mushroom:
+    display_name: "Log Mushrooms"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/log_mushroom
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  log_mushroom_corner:
+    display_name: "Log Mushrooms"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/log_mushroom_corner
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  log_pile_large:
+    display_name: "Large Log Pile"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/log_pile_large
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 2
+          width: 1
+          height: 1
+          length_offset: 0.5
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  log_pile_large_overgrown:
+    display_name: "Overgrown Log Pile"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/log_pile_large_overgrown
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 2
+          width: 1
+          height: 1
+          length_offset: 0.5
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  log_pile_small_1:
+    display_name: "Small Log Pile"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/log_pile_small_1
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  log_pile_small_2:
+    display_name: "Small Log Pile"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/log_pile_small_2
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  log_pile_small_3:
+    display_name: "Small Log Pile"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/log_pile_small_3
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  orange_mushroom_patch:
+    display_name: "Orange Mushroom Patch"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/orange_mushroom_patch
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  orange_mushroom_patch_large:
+    display_name: "Large Orange Mushroom Patch"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/orange_mushroom_patch_large
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  pebbles_1:
+    display_name: "Pebbles"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/pebbles_1
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  pebbles_2:
+    display_name: "Pebbles"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/pebbles_2
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  pebbles_3:
+    display_name: "Pebbles"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/pebbles_3
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  plant:
+    display_name: "Plant"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/plant
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  red_mushroom_patch:
+    display_name: "Red Mushroom Patch"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/red_mushroom_patch
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  red_mushroom_patch_large:
+    display_name: "Large Red Mushroom Patch"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/red_mushroom_patch_large
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  rock_1:
+    display_name: "Rock"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/rock_1
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  rock_2:
+    display_name: "Rock"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/rock_2
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  rock_3:
+    display_name: "Rock"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/rock_3
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  rock_4:
+    display_name: "Rock"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/nature_decor/rock_4
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  clover_flowers:
+    display_name: "Clover Flowers"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/nature_decor/clover_flowers
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  crystal:
+    display_name: "Crystal"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/nature_decor/crystal
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  ore:
+    display_name: "Ore"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/nature_decor/ore
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true

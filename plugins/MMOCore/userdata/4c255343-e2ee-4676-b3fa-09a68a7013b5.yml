@@ -1,0 +1,57 @@
+class-points: 1
+skill-points: 1
+skill-reallocation-points: 0
+attribute-points: 3
+attribute-realloc-points: 0
+level: 4
+experience: 1.0
+class: HUMAN
+waypoints: []
+friends: []
+last-login: 1718520935301
+skill-tree-reallocation-points: 0
+health: 20.0
+mana: 20.0
+stellium: 20.0
+stamina: 20.0
+unlocked-items: []
+skill-tree-points:
+  global: 0
+times-claimed:
+  profession_attack:
+    attack_exp_table:
+      attribute_point: 2
+  class_HUMAN:
+    class_exp_table:
+      level_up: 3
+      attribute_point: 3
+      skill_point: 1
+  profession_defense:
+    defense_exp_table:
+      attribute_point: 8
+attribute:
+  constitution: 0
+  defense: 8
+  attack: 2
+profession:
+  smithing:
+    exp: 248.0
+  woodcutting:
+    exp: 51.93255449740686
+    level: 0
+  constitution:
+    exp: 191.61599999999999
+    level: 0
+  defense:
+    exp: 847.5731838995674
+    level: 9
+  attack:
+    exp: 760.381228554487
+    level: 3
+  farming:
+    exp: 1121.0840156715205
+    level: 7
+  mining:
+    exp: 350.0
+    level: 10
+quest: {}

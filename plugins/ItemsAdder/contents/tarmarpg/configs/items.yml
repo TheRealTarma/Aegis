@@ -1,0 +1,895 @@
+info:
+  namespace: tarmarpg
+items:
+  mithril_ingot:
+    permission: tarmarpg.mithril_ingot
+    mmoitem:
+      type: MATERIAL
+      id: MITHRIL_INGOT
+    display_name: Mithril Ingot
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - mithril_ingot
+  steel_ingot:
+    permission: tarmarpg.steel_ingot
+    mmoitem:
+      type: MATERIAL
+      id: STEEL_INGOT
+    display_name: Steel Ingot
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - steel_ingot
+  adamantite_ingot:
+    permission: tarmarpg.adamantite_ingot
+    mmoitem:
+      type: MATERIAL
+      id: ADAMANTITE_INGOT
+    display_name: Adamantite Ingot
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - adamantite_ingot
+  raw_mithril:
+    permission: tarmarpg.raw_mithril
+    mmoitem:
+      type: MATERIAL
+      id: RAW_MITHRIL
+    display_name: Raw Mithril
+    resource:
+      material: RAW_IRON
+      generate: true
+      textures:
+      - raw_mithril
+  raw_adamantite:
+    permission: tarmarpg.raw_adamantite
+    mmoitem:
+      type: MATERIAL
+      id: RAW_ADAMANTITE
+    display_name: Raw Adamantite
+    resource:
+      material: RAW_IRON
+      generate: true
+      textures:
+      - raw_adamantite
+  # Tool durability per material
+  # Wood: 59 uses
+  # Stone: 131 uses
+  # Copper: 191 uses
+  # Iron: 250 uses
+  # Steel: 576 uses
+  # Adamant: 1796 uses
+  # Diamond: 1561 uses
+  # Netherite: 2031 uses
+  adamant_axe:
+    permission: tarmarpg.adamant_axe
+    mmoitem:
+      type: TOOL
+      id: ADAMANT_AXE
+    durability:
+      max_custom_durability: 1796
+    display_name: Adamant Axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - adamant_axe
+  mithril_axe:
+    permission: tarmarpg.mithril_axe
+    mmoitem:
+      type: TOOL
+      id: MITHRIL_AXE
+    durability:
+      max_custom_durability: 1234
+    display_name: Mithril Axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - mithril_axe
+  copper_axe:
+    permission: tarmarpg.copper_axe
+    mmoitem:
+      type: TOOL
+      id: COPPER_AXE
+    durability:
+      max_custom_durability: 191
+    display_name: Copper Axe
+    resource:
+      material: STONE_AXE
+      generate: true
+      textures:
+      - copper_axe
+  steel_axe:
+    permission: tarmarpg.steel_axe
+    mmoitem:
+      type: TOOL
+      id: STEEL_AXE
+    durability:
+      max_custom_durability: 578
+    display_name: Steel Axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - steel_axe
+  adamant_hoe:
+    permission: tarmarpg.adamant_hoe
+    mmoitem:
+      type: TOOL
+      id: ADAMANT_HOE
+    durability:
+      max_custom_durability: 1796
+    display_name: Adamant Hoe
+    resource:
+      material: IRON_HOE
+      generate: true
+      textures:
+      - adamant_hoe
+  mithril_hoe:
+    permission: tarmarpg.mithril_hoe
+    mmoitem:
+      type: TOOL
+      id: MITHRIL_HOE
+    durability:
+      max_custom_durability: 1234
+    display_name: Mithril Hoe
+    resource:
+      material: IRON_HOE
+      generate: true
+      textures:
+      - mithril_hoe
+  copper_hoe:
+    permission: tarmarpg.copper_hoe
+    mmoitem:
+      type: TOOL
+      id: COPPER_HOE
+    durability:
+      max_custom_durability: 191
+    display_name: Copper Hoe
+    resource:
+      material: STONE_HOE
+      generate: true
+      textures:
+      - copper_hoe
+  steel_hoe:
+    permission: tarmarpg.steel_hoe
+    mmoitem:
+      type: TOOL
+      id: STEEL_HOE
+    durability:
+      max_custom_durability: 578
+    display_name: Steel Hoe
+    resource:
+      material: IRON_HOE
+      generate: true
+      textures:
+      - steel_hoe
+  adamant_pickaxe:
+    permission: tarmarpg.adamant_pickaxe
+    mmoitem:
+      type: TOOL
+      id: ADAMANT_PICKAXE
+    durability:
+      max_custom_durability: 1796
+    display_name: Adamant Pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - adamant_pickaxe
+  mithril_pickaxe:
+    permission: tarmarpg.mithril_pickaxe
+    mmoitem:
+      type: TOOL
+      id: MITHRIL_PICKAXE
+    durability:
+      max_custom_durability: 1234
+    display_name: Mithril Pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - mithril_pickaxe
+  copper_pickaxe:
+    permission: tarmarpg.copper_pickaxe
+    mmoitem:
+      type: TOOL
+      id: COPPER_PICKAXE
+    durability:
+      max_custom_durability: 191
+    display_name: Copper Pickaxe
+    resource:
+      material: STONE_PICKAXE
+      generate: true
+      textures:
+      - copper_pickaxe
+  steel_pickaxe:
+    permission: tarmarpg.steel_pickaxe
+    mmoitem:
+      type: TOOL
+      id: STEEL_PICKAXE
+    durability:
+      max_custom_durability: 578
+    display_name: Steel Pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - steel_pickaxe
+  adamant_shovel:
+    permission: tarmarpg.adamant_shovel
+    mmoitem:
+      type: TOOL
+      id: ADAMANT_SHOVEL
+    durability:
+      max_custom_durability: 1796
+    display_name: Adamant Shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - adamant_shovel
+  mithril_shovel:
+    permission: tarmarpg.mithril_shovel
+    mmoitem:
+      type: TOOL
+      id: MITHRIL_SHOVEL
+    durability:
+      max_custom_durability: 1234
+    display_name: Mithril Shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - mithril_shovel
+  copper_shovel:
+    permission: tarmarpg.copper_shovel
+    mmoitem:
+      type: TOOL
+      id: COPPER_SHOVEL
+    durability:
+      max_custom_durability: 191
+    display_name: Copper Shovel
+    resource:
+      material: STONE_SHOVEL
+      generate: true
+      textures:
+      - copper_shovel
+  steel_shovel:
+    permission: tarmarpg.steel_shovel
+    mmoitem:
+      type: TOOL
+      id: STEEL_SHOVEL
+    durability:
+      max_custom_durability: 578
+    display_name: Steel Shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - steel_shovel
+  adamant_sword:
+    permission: tarmarpg.adamant_sword
+    durability:
+      max_custom_durability: 1796
+    display_name: Adamant Sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - adamant_sword
+  mithril_sword:
+    permission: tarmarpg.mithril_sword
+    durability:
+      max_custom_durability: 1234
+    display_name: Mithril Sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - mithril_sword
+  copper_sword:
+    permission: tarmarpg.copper_sword
+    durability:
+      max_custom_durability: 191
+    display_name: Copper Sword
+    resource:
+      material: STONE_SWORD
+      generate: true
+      textures:
+      - copper_sword
+  steel_sword:
+    permission: tarmarpg.steel_sword
+    durability:
+      max_custom_durability: 578
+    display_name: Steel Sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - steel_sword
+  copper_longsword:
+    permission: tarmarpg.copper_longsword
+    display_name: Copper Longsword
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "copper_swords/copper_longsword"
+  copper_scimitar:
+    permission: tarmarpg.copper_scimitar
+    display_name: Copper Scimitar
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "copper_swords/copper_scimitar"
+  copper_saber:
+    permission: tarmarpg.copper_saber
+    display_name: Copper Saber
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "copper_swords/copper_saber"
+  iron_longsword:
+    permission: tarmarpg.iron_longsword
+    display_name: Iron Longsword
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "iron_swords/iron_longsword"
+  iron_scimitar:
+    permission: tarmarpg.iron_scimitar
+    display_name: Iron Scimitar
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "iron_swords/iron_scimitar"
+  iron_saber:
+    permission: tarmarpg.iron_saber
+    display_name: Iron Saber
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "iron_swords/iron_saber"
+  steel_longsword:
+    permission: tarmarpg.steel_longsword
+    display_name: Steel Longsword
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "steel_swords/steel_longsword"
+  steel_scimitar:
+    permission: tarmarpg.steel_scimitar
+    display_name: Steel Scimitar
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "steel_swords/steel_scimitar"
+  steel_saber:
+    permission: tarmarpg.steel_saber
+    display_name: Steel Saber
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "steel_swords/steel_saber"
+  mithril_longsword:
+    permission: tarmarpg.mithril_longsword
+    display_name: Mithril Longsword
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "mithril_swords/mithril_longsword"
+  mithril_scimitar:
+    permission: tarmarpg.mithril_scimitar
+    display_name: Mithril Scimitar
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "mithril_swords/mithril_scimitar"
+  mithril_saber:
+    permission: tarmarpg.mithril_saber
+    display_name: Mithril Saber
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "mithril_swords/mithril_saber"
+  adamant_longsword:
+    permission: tarmarpg.adamant_longsword
+    display_name: Adamant Longsword
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "adamant_swords/adamant_longsword"
+  adamant_scimitar:
+    permission: tarmarpg.adamant_scimitar
+    display_name: Adamant Scimitar
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "adamant_swords/adamant_scimitar"
+  adamant_saber:
+    permission: tarmarpg.adamant_saber
+    display_name: Adamant Saber
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "adamant_swords/adamant_saber"
+  diamond_longsword:
+    permission: tarmarpg.diamond_longsword
+    display_name: Diamond Longsword
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "diamond_swords/diamond_longsword"
+  diamond_scimitar:
+    permission: tarmarpg.diamond_scimitar
+    display_name: Diamond Scimitar
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "diamond_swords/diamond_scimitar"
+  diamond_saber:
+    permission: tarmarpg.diamond_saber
+    display_name: Diamond Saber
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "diamond_swords/diamond_saber"
+  netherite_longsword:
+    permission: tarmarpg.netherite_longsword
+    display_name: Netherite Longsword
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "netherite_swords/netherite_longsword"
+  netherite_scimitar:
+    permission: tarmarpg.netherite_scimitar
+    display_name: Netherite Scimitar
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "netherite_swords/netherite_scimitar"
+  netherite_saber:
+    permission: tarmarpg.netherite_saber
+    display_name: Netherite Saber
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "netherite_swords/netherite_saber"
+  copper_full_helmet:
+    permission: tarmarpg.copper_helmet
+    mmoitem:
+      type: ARMOR
+      id: COPPER_FULL_HELMET
+    display_name: Copper Full Helmet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "copper_helmets/copper_knight_helmet_1"
+  iron_full_helmet:
+    permission: tarmarpg.iron_helmet
+    mmoitem:
+      type: ARMOR
+      id: IRON_FULL_HELMET
+    display_name: Iron Full Helmet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "iron_helmets/iron_knight_helmet_1"
+    behaviours:
+      hat: true
+  steel_full_helmet:
+    permission: tarmarpg.steel_helmet
+    mmoitem:
+      type: ARMOR
+      id: STEEL_FULL_HELMET
+    display_name: Steel Full Helmet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "steel_helmets/steel_knight_helmet_1"
+  mithril_full_helmet:
+    permission: tarmarpg.mithril_helmet
+    mmoitem:
+      type: ARMOR
+      id: MITHRIL_FULL_HELMET
+    display_name: Mithril Full Helmet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "mithril_helmets/mithril_knight_helmet_1"
+  adamant_full_helmet:
+    permission: tarmarpg.adamant_helmet
+    mmoitem:
+      type: ARMOR
+      id: ADAMANT_FULL_HELMET
+    display_name: Adamant Full Helmet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "adamant_helmets/adamant_knight_helmet_1"
+  diamond_full_helmet:
+    permission: tarmarpg.diamond_helmet
+    mmoitem:
+      type: ARMOR
+      id: DIAMOND_FULL_HELMET
+    display_name: Diamond Full Helmet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "diamond_helmets/diamond_knight_helmet_1"
+    behaviours:
+      hat: true
+  netherite_full_helmet:
+    permission: tarmarpg.netherite_helmet
+    mmoitem:
+      type: ARMOR
+      id: NETHERITE_FULL_HELMET
+    display_name: Netherite Full Helmet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "netherite_helmets/netherite_knight_helmet_1"
+    behaviours:
+      hat: true
+  wind_staff:
+    permission: tarmarpg.wind_staff
+    display_name: Wind Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/wind_staff"
+  blossom_staff:
+    permission: tarmarpg.blossom_staff
+    display_name: Blossom Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/blossom_staff"
+  dark_forest_staff:
+    permission: tarmarpg.dark_forest_staff
+    display_name: Dark_forest Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/dark_forest_staff"
+  eclipse_staff:
+    permission: tarmarpg.eclipse_staff
+    display_name: Eclipse Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/eclipse_staff"
+  end_staff:
+    permission: tarmarpg.end_staff
+    display_name: End Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/end_staff"
+  fern_staff:
+    permission: tarmarpg.fern_staff
+    display_name: Fern Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/fern_staff"
+  geode_staff:
+    permission: tarmarpg.geode_staff
+    display_name: Geode Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/geode_staff"
+  hydra_staff:
+    permission: tarmarpg.hydra_staff
+    display_name: Hydra Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/hydra_staff"
+  light_staff:
+    permission: tarmarpg.light_staff
+    display_name: Light Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/light_staff"
+  nether_staff:
+    permission: tarmarpg.nether_staff
+    display_name: Nether Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/nether_staff"
+  ocean_staff:
+    permission: tarmarpg.ocean_staff
+    display_name: Ocean Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/ocean_staff"
+  penitence_staff:
+    permission: tarmarpg.penitence_staff
+    display_name: Penitence Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/penitence_staff"
+  redstone_staff:
+    permission: tarmarpg.redstone_staff
+    display_name: Redstone Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/redstone_staff"
+  shadow_staff:
+    permission: tarmarpg.shadow_staff
+    display_name: Shadow Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/shadow_staff"
+  totem_staff:
+    permission: tarmarpg.totem_staff
+    display_name: Totem Staff
+    resource:
+      material: PAPER
+      generate: false
+      model_path: "staffs/totem_staff"
+  iron_plow:
+    permission: tarmarpg.iron_plow
+    mmoitem:
+      type: TOOL
+      id: IRON_PLOW
+    display_name: Iron Plow
+    resource:
+      generate: false
+      model_path: minecraft:item/iron_hoe
+      material: IRON_HOE
+    events:
+      interact_mainhand:
+        right:
+         replace_near_blocks:
+           from: GRASS_BLOCK
+           to: FARMLAND
+           radius:
+             x: 3
+             y: 0
+             z: 3
+           decrement_durability: 9
+           flow:
+             skip_if_fail: replace_block_grass
+         replace_near_blocks_second:
+           from: DIRT
+           to: FARMLAND
+           radius:
+             x: 3
+             y: 0
+             z: 3
+           decrement_durability: 9
+           flow: 
+            skip_if_last_success: true
+  diamond_hammer:
+    enabled: true
+    display_name: Diamond Hammer
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+        - minecraft:item/diamond_pickaxe
+    lore:
+      - lore-blocked-enchants
+      - lore-enchantment-mending
+    blocked_enchants:
+      - MENDING
+    events:
+      block_break:
+        multiple_break:
+          keep_ores: true
+          drop_all_blocks:
+            enabled: true
+            need_silk_touch: true
+          size: 3
+
+
+
+             
+
+
+          
+        
+
+  # ####################blocks#############################
+  adamantite_ore:
+    display_name: Adamantite Ore
+    permission: tarmarpg.adamantite_ore
+    mmoitem:
+      type: BLOCK
+      id: ADAMANTITE_ORE
+    resource:
+      generate: true
+      material: IRON_ORE
+      textures:
+      - block/adamantite_ore.png
+    events:
+      placed_block:
+        break:
+          execute_commands:
+            cmd1:
+              command: 'rpg admin exp give {player} mining 95'
+              as_console: true
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: BLOCK
+          rotx: 0
+          roty: 0
+        cancel_drop: true # default is false. if true the custom block won't be dropped when
+                          # player mines it
+        light_level: 12 # make block emit light
+        # tools you can't use to break block(accepts partial name of material/customitem)
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        - STONE_PICKAXE
+        - IRON_PICKAXE
+        # tools you can use to break block(accepts partial name of material/customitem)
+        break_tools_whitelist:
+        - adamant_pickaxe
+        - PICKAXE
+        - pickaxe
+        
+        hardness: 2 # hardness of the block
+        blast_resistance: 1 # explosion resistance (by default is hardness*3)
+        no_explosion: false # totally immune from explosions, ignoring blast_resistance
+        sound: # customizable sounds of the block
+          break:
+            name: BLOCK_WOOD_BREAK
+            volume: 1
+            pitch: 0.9
+          place:
+            name: BLOCK_WOOD_PLACE
+            volume: 1
+            pitch: 0.9
+
+  mithril_ore:
+    display_name: Mithril Ore
+    permission: tarmarpg.mithril_ore
+    mmoitem:
+      type: BLOCK
+      id: MITHRIL_ORE
+    resource:
+      generate: true
+      material: IRON_ORE
+      textures:
+      - block/mithril_ore.png
+    events:
+      placed_block:
+        break:
+          execute_commands:
+            cmd1:
+              command: 'rpg admin exp give {player} mining 95'
+              as_console: true
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: BLOCK
+          rotx: 0
+          roty: 0
+        cancel_drop: true # default is false. if true the custom block won't be dropped when
+                          # player mines it
+
+# Drops
+
+loots:
+  blocks:
+    adamantite_ore:
+      type: tarmarpg:adamantite_ore
+      items:
+        raw_adamantite:
+          item: tarmarpg:raw_adamantite
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    # mithril_ore:
+    #   type: tarmarpg:mithril_ore
+    #   items:
+    #     raw_mythril:
+    #       item: tarmarpg:raw_mithril
+    #       min_amount: 1
+    #       max_amount: 1
+    #       chance: 100
+    #   exp:
+    #     exp_1:
+    #       min_amount: 0
+    #       max_amount: 3
+    #       chance: 100
+# Category in Gui
+categories:
+  tarmarpg:
+    enabled: true
+    icon: tarmarpg:adamantite_ingot
+    name: TarmaRPG
+    font_image:
+      name: mcguis:blank_menu
+      x_position_pixels: -16
+    # THIS IS OPTIONAL. Plugin will take the one in ia_gui.yml if not set.
+    title_position_pixels: 0
+    items:
+    - tarmarpg:*
+    
+ 
+# #################################Crafting Recipes############################################
+
+worlds_populators:
+  mithril_ore:
+    block: tarmarpg:mithril_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - DEEPSLATE
+    chunk_chance: 100.0
+    max_height: 0
+    min_height: -64
+    vein_blocks: 6
+    chunk_veins: 6
+  adamantite_ore:
+    block: tarmarpg:adamantite_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - DEEPSLATE
+    chunk_chance: 50.0
+    max_height: -32
+    min_height: -64
+    vein_blocks: 4
+    chunk_veins: 8
+
+
+
+# iron_scythe:
+#     permission: tarmatools.iron_scythe
+#     display_name: Iron Scythe
+#     lore:
+#       - "§7Harvest"
+#     resource:
+#         material: IRON_HOE
+#         generate: true
+#         textures:
+#             - iron_scythe
+#     durability:
+#         max_custom_durability: 750
+
+# road_tool:
+#     permission: tarmatools.roadtool
+#     display_name: Road Tool
+#     resource:
+#         material: STICK
+#         generate: true
+#         textures:
+#             - netherite_scythe
+#         durability:
+#             max_custom_durability: 6000
+#     events:
+#       interact_mainhand:
+#         right:
+#             replace_block_grass:
+#               from: GRASS
+#               to: COBBLESTONE
+#               decrement_durability: 1
+#               decrement_amount: 1
+#             replace_block_dirt:
+#               from: DIRT        
+#               to: COBBLESTONE
+#               decrement_durability: 1

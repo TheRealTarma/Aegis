@@ -1,0 +1,24 @@
+{
+  "main": {
+    "username": "OwMyGamerHoles",
+    "minutesPlayed": 383
+  },
+  "daily-rewards": {
+    "startDate": "2024-05-16",
+    "lastJoinDate": "2024-07-04",
+    "collectedDays": [],
+    "dayNum": 1,
+    "streak": 1,
+    "highestStreak": 1
+  },
+  "daily-playtime-rewards": {
+    "lastCollectedPlaytime": "145",
+    "startDate": "2024-05-16",
+    "previousDayEndPlaytime": 0
+  },
+  "global-playtime-rewards": {
+    "lastCollectedPlaytime": 0,
+    "startDate": "2024-05-16",
+    "previousDayEndPlaytime": 0
+  }
+}

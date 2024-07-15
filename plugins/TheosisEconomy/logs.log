@@ -1,0 +1,880 @@
+[2024-06-09 19:30:15 INFO] Set zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance to 1.
+[2024-06-09 19:33:19 INFO] Disabling TheosisEconomy v1.29
+[2024-06-09 20:03:19 INFO] Withdrew 1 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 20:03:19 INFO] Deposited 1 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-09 20:49:56 INFO] Disabling TheosisEconomy v1.29
+[2024-06-09 22:23:45 INFO] Disabling TheosisEconomy v1.29
+[2024-06-09 22:41:09 INFO] Deposited 5 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 22:41:10 INFO] Deposited 5 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 22:41:10 INFO] Deposited 5 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 22:41:13 INFO] Deposited 15 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 22:41:19 INFO] Deposited 15 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 22:41:20 INFO] Deposited 5 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 22:41:21 INFO] Deposited 5 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 22:41:21 INFO] Deposited 5 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 22:41:30 INFO] Deposited 15 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-09 23:53:46 INFO] Deposited 7.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-09 23:53:46 INFO] Deposited 7.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-09 23:54:04 INFO] Deposited 7.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-09 23:54:04 INFO] Deposited 7.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-09 23:54:07 INFO] Deposited 7.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-09 23:54:07 INFO] Deposited 7.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-10 00:05:10 INFO] Withdrew 46 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-10 00:05:10 INFO] Deposited 49.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-10 01:20:58 INFO] Withdrew 49.5 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-10 01:20:58 INFO] Deposited 54.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-10 01:38:28 INFO] Withdrew 54.5 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-10 01:38:28 INFO] Deposited 55.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-10 20:18:11 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 20:26:52 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 20:48:31 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 20:52:57 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 20:55:56 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 21:05:23 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 21:13:12 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 21:19:10 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 21:23:24 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 21:41:06 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 21:52:13 INFO] Disabling TheosisEconomy v1.29
+[2024-06-10 21:57:39 WARNING] Failed to deposit 3.3333333333333335 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Too many decimal places.
+[2024-06-10 21:57:39 WARNING] Failed to deposit 3.3333333333333335 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Too many decimal places.
+[2024-06-10 21:57:39 WARNING] Failed to deposit 3.3333333333333335 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Too many decimal places.
+[2024-06-10 22:07:34 INFO] Deposited 5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-10 22:07:34 INFO] Deposited 5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-10 22:07:55 WARNING] Failed to deposit 3.3333333333333335 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Too many decimal places.
+[2024-06-10 22:07:55 WARNING] Failed to deposit 3.3333333333333335 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Too many decimal places.
+[2024-06-10 22:07:56 WARNING] Failed to deposit 3.3333333333333335 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Too many decimal places.
+[2024-06-11 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-11 01:11:27 INFO] Deposited 10 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-11 03:18:04 INFO] Disabling TheosisEconomy v1.29
+[2024-06-11 19:04:35 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 19:04:51 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 19:07:03 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 19:31:23 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 19:31:30 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 19:31:42 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 19:34:59 INFO] Disabling TheosisEconomy v1.29
+[2024-06-11 19:58:04 INFO] Disabling TheosisEconomy v1.29
+[2024-06-11 20:06:27 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 20:13:10 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 20:23:21 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 20:59:40 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 21:03:17 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 21:11:09 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 21:44:01 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 21:44:02 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 21:44:03 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 21:44:05 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 21:59:09 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 21:59:11 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 21:59:13 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:00:20 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:00:25 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:02:50 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:02:53 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:36:06 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:36:09 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:36:10 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:36:12 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:36:13 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:43:23 INFO] Disabling TheosisEconomy v1.29
+[2024-06-11 22:50:24 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:50:33 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:51:33 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:51:35 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:51:37 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:51:39 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:51:40 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:51:42 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:57:13 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:57:15 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:57:21 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:57:23 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:57:25 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:57:41 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 22:57:52 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:05:13 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:05:15 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:05:26 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:05:39 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:06:16 INFO] Disabling TheosisEconomy v1.29
+[2024-06-11 23:09:56 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:09:58 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:09:59 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:10:01 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:10:12 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:10:14 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:10:16 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:10:52 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:10:54 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:18 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:22 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:24 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:25 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:26 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:27 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:28 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:30 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:31 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:33 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:35 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:36 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:37 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:38 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:40 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:41 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:42 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:43 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:44 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:45 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:46 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:53 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:54 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:55 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:56 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:57 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:35:58 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:36:00 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:36:01 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:36:02 WARNING] Failed to withdraw 0 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance. Error message: Amount is not greater than zero.
+[2024-06-11 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-12 01:07:30 INFO] Deposited 500000 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-12 01:09:20 INFO] Withdrew 50000 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-12 02:18:07 INFO] Deposited 2.5 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-12 02:18:08 INFO] Deposited 2.5 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-12 02:55:41 INFO] Disabling TheosisEconomy v1.29
+[2024-06-12 03:06:59 INFO] Disabling TheosisEconomy v1.29
+[2024-06-12 03:50:49 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-12 03:50:51 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-12 03:52:33 INFO] Disabling TheosisEconomy v1.29
+[2024-06-12 04:06:33 INFO] Withdrew 75.5 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 04:06:33 INFO] Deposited 78.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 04:33:21 INFO] Disabling TheosisEconomy v1.29
+[2024-06-12 04:37:53 INFO] Disabling TheosisEconomy v1.29
+[2024-06-12 04:48:55 INFO] Disabling TheosisEconomy v1.29
+[2024-06-12 04:55:54 INFO] Disabling TheosisEconomy v1.29
+[2024-06-12 06:15:14 INFO] Disabling TheosisEconomy v1.29
+[2024-06-12 19:29:56 INFO] Disabling TheosisEconomy v1.29
+[2024-06-12 19:36:13 INFO] Withdrew 78.5 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 19:36:13 INFO] Deposited 83.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 19:38:16 INFO] Withdrew 83.5 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 19:38:16 INFO] Deposited 83.7 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:10:11 INFO] Withdrew 83.7 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:10:11 INFO] Deposited 84.39 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:11:44 INFO] Withdrew 84.39 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:11:44 INFO] Deposited 84.52 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:21:24 INFO] Withdrew 84.52 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:21:24 INFO] Deposited 85.37 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:46:32 INFO] Withdrew 85.37 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:46:32 INFO] Deposited 86.06 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:46:37 INFO] Withdrew 86.06 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:46:37 INFO] Deposited 87.38 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:46:41 INFO] Withdrew 87.38 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 20:46:41 INFO] Deposited 88.7 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:12:00 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:12:01 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:12:01 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:12:03 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:12:03 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:12:03 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:12:03 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:15:58 INFO] Set Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance to 0.
+[2024-06-12 21:16:13 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:16:36 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:16:37 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:16:39 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:16:40 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:16:40 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:16:40 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:16:40 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:16:41 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:16:41 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:19:19 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:19:25 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:21:16 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:21:23 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:21:24 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:21:25 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:21:25 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:21:25 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:21:43 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:21:44 WARNING] Failed to withdraw 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Insufficient funds.
+[2024-06-12 21:25:42 INFO] Deposited 25 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:25:43 INFO] Deposited 25 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:25:43 INFO] Deposited 25 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:25:43 INFO] Deposited 25 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:25:43 INFO] Deposited 25 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:25:43 INFO] Deposited 25 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:26:31 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:26:34 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:26:48 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:08 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:10 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:13 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:13 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:14 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:14 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:15 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:18 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:18 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:18 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:18 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:18 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:19 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:19 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:19 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:20 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:21 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:21 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:21 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:21 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:22 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:22 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:22 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:22 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:22 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:23 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:23 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:23 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:23 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:24 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:24 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:25 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:25 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:25 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:25 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:25 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:25 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:33 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:33 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:33 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:34 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:34 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:27:34 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:28:39 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:28:41 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:28:48 INFO] Set Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance to 0.
+[2024-06-12 21:28:52 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:28:52 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:28:52 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:28:52 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:28:53 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:30 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:31 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:31 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:34 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:34 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:34 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:34 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:34 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:36 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:36 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:36 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:36 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:36 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:36 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:37 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:37 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:37 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:38 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:38 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:38 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:38 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:38 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:38 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:38 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:39 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:39 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:39 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:39 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:40 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:40 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:41 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:41 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:42 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:42 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:42 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:42 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:42 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:42 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:42 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:43 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:43 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:43 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:43 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:43 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:43 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:43 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:44 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:44 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:44 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:44 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:44 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:44 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:29:44 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:12 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:13 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:14 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:14 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:14 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:14 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:14 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:14 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:14 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:15 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:15 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:15 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:15 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:15 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:15 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:15 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:16 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:16 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:32:16 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:23 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:34 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:34 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:35 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:36 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:36 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:36 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:36 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:36 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:36 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:37 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:37 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:37 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:37 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:37 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:37 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:38 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:38 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:38 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:38 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:38 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:38 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:39 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:39 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:39 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:39 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:39 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:39 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:45:39 INFO] Withdrew 1.32 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:49:12 INFO] Withdrew 0.66 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:20 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:21 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:21 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:21 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:21 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:21 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:21 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:21 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:22 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:22 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:22 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:22 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:22 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:22 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:22 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:23 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:23 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:23 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:23 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:23 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:23 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:24 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:24 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:24 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:24 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:24 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:24 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:25 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:25 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:25 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:25 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:25 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:25 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:25 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:26 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:26 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:26 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:26 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:26 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:26 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:27 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:27 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:28 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:31 INFO] Withdrew 8.25 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:32 INFO] Withdrew 8.25 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:34 INFO] Withdrew 8.25 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:34 INFO] Withdrew 8.25 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:35 INFO] Withdrew 8.25 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:53:35 INFO] Withdrew 8.25 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:55:06 INFO] Withdrew 7.48 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 21:55:06 INFO] Deposited 8.03 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:04:02 INFO] Withdrew 2.76 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:06:08 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:06:10 INFO] Withdrew 2.76 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:06:10 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:45:45 INFO] Withdrew 2.76 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:18 INFO] Withdrew 2.76 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:32 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:48 INFO] Deposited 15.5 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:49 INFO] Withdrew 2.76 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:55 INFO] Withdrew 1.92 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:56 INFO] Withdrew 1.92 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:57 INFO] Withdrew 1.92 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:57 INFO] Withdrew 1.92 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:57 INFO] Withdrew 1.92 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:57 INFO] Withdrew 1.92 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:48:58 INFO] Withdrew 1.92 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 22:56:22 INFO] Withdrew 1.81 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:04 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:04 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:04 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:05 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:05 INFO] Deposited 1.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:06 INFO] Deposited 1.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:06 INFO] Deposited 1.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:07 INFO] Deposited 1.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:07 INFO] Deposited 1.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:07 INFO] Deposited 1.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:07 INFO] Deposited 1.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:08 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:08 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:29 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:30 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:30 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:30 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:30 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:30 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:31 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:32 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:32 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:32 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:32 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:32 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:32 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:33 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:33 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:33 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:17:33 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:18:26 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:18:27 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:18:27 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:18:27 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:18:27 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:18:27 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:02 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:02 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:24 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:24 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:24 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:44 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:44 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:45 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:45 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:45 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:45 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:46 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:20:46 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:24:14 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:24:15 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:24:15 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:24:15 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:24:15 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:24:15 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:24:16 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:05 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:06 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:06 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:09 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:12 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:12 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:12 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:12 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:14 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:14 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:23 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:24 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:53 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:54 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:55 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:55 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:55 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:56 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:56 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:57 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:57 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:57 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:58 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:58 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:58 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:58 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:58 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:25:58 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:40:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:40:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:40:57 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:40:57 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:41:01 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:41:01 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:41:01 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:41:02 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:06 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:06 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:06 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:07 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:08 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:08 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:08 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:08 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:09 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:09 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:09 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:09 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:09 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:09 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:09 INFO] Deposited 1.28 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:10 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:11 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:11 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:11 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:11 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:11 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:12 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-12 23:42:13 INFO] Deposited 1.84 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-13 01:18:06 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:18:07 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:18:08 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:18:09 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:18:09 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:18:21 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:40 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:40 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:41 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:41 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:43 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:43 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:43 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:44 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:44 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:26:44 INFO] Deposited 8.63 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:52 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:53 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:53 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:53 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:53 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:54 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:54 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:54 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:58 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:35:58 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:36:58 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:36:58 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:36:59 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:37:02 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:37:02 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:37:02 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:37:03 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:37:03 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:39:26 INFO] Deposited 9.09 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:39:26 INFO] Deposited 9.09 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:39:26 INFO] Deposited 9.09 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:39:26 INFO] Deposited 9.09 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:33 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:33 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:33 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:33 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:34 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:34 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:45 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:45 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:45 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:46 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:46 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:42:46 INFO] Deposited 3.86 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 01:49:41 INFO] Deposited 0.02 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-13 01:49:41 INFO] Deposited 0.02 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-13 01:50:33 INFO] Deposited 0.02 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-13 01:50:38 INFO] Deposited 0.02 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-13 01:50:39 INFO] Deposited 0.02 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-13 02:04:21 INFO] Deposited 0.05 to zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-13 02:10:36 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 02:10:36 INFO] Deposited 12.29 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:48:20 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:48:21 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:48:25 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:48:26 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:01 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:01 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:01 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:02 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:03 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:03 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:03 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:08 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:08 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:09 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:09 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:09 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:09 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:09 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:09 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:10 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:10 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:10 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:10 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:10 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:18 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 17:49:18 INFO] Deposited 0.9 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 18:12:38 INFO] Deposited 0.1 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 18:12:38 INFO] Deposited 0.1 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 18:12:38 INFO] Deposited 0.1 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 18:12:38 INFO] Deposited 0.1 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 18:15:03 INFO] Deposited 0.1 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 18:15:03 INFO] Deposited 0.1 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-13 19:27:14 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 19:27:14 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 19:27:15 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 19:27:15 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 19:27:15 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 19:27:15 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 19:27:15 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 19:27:15 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 19:27:16 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 19:27:16 INFO] Deposited 1.84 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-13 21:18:40 INFO] Disabling TheosisEconomy v1.29
+[2024-06-13 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-14 02:49:08 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:08 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:09 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:09 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:09 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:09 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:09 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:10 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:10 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:10 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 02:49:10 INFO] Deposited 1.32 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 17:41:32 INFO] Disabling TheosisEconomy v1.29
+[2024-06-14 18:01:13 INFO] Deposited 0.55 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 18:01:14 INFO] Deposited 0.55 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-14 18:07:23 INFO] Deposited 0.05 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-15 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-15 23:09:17 INFO] Disabling TheosisEconomy v1.29
+[2024-06-15 23:30:40 INFO] Disabling TheosisEconomy v1.29
+[2024-06-15 23:47:59 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-15 23:48:17 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-15 23:48:24 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-15 23:51:42 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-15 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-16 00:07:34 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 02:24:39 INFO] Disabling TheosisEconomy v1.29
+[2024-06-16 02:32:33 INFO] Disabling TheosisEconomy v1.29
+[2024-06-16 03:13:32 INFO] Disabling TheosisEconomy v1.29
+[2024-06-16 03:25:09 INFO] Disabling TheosisEconomy v1.29
+[2024-06-16 04:23:27 INFO] Disabling TheosisEconomy v1.29
+[2024-06-16 04:38:14 INFO] Withdrew 50 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 04:50:46 INFO] Created account for anni3rection (4c255343-e2ee-4676-b3fa-09a68a7013b5) with a default balance of 0.
+[2024-06-16 05:16:06 INFO] Deposited 250 to anni3rection's (4c255343-e2ee-4676-b3fa-09a68a7013b5) balance.
+[2024-06-16 05:22:10 INFO] Withdrew 150 from anni3rection's (4c255343-e2ee-4676-b3fa-09a68a7013b5) balance.
+[2024-06-16 05:22:10 INFO] Deposited 150 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 05:35:05 INFO] Disabling TheosisEconomy v1.29
+[2024-06-16 05:40:28 INFO] Disabling TheosisEconomy v1.29
+[2024-06-16 05:59:26 INFO] Withdrew 10 from anni3rection's (4c255343-e2ee-4676-b3fa-09a68a7013b5) balance.
+[2024-06-16 06:50:46 INFO] Deposited 0.02 to anni3rection's (4c255343-e2ee-4676-b3fa-09a68a7013b5) balance.
+[2024-06-16 07:29:57 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:57 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:57 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:58 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:58 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:58 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:58 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:58 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:58 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:59 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:29:59 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:00 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:00 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:00 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:00 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:00 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:01 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:01 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:01 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:01 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:01 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:01 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:02 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:02 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:02 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:02 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:02 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:02 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:02 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:03 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:03 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:03 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:03 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:03 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:30:03 INFO] Deposited 0.88 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:31:36 INFO] Deposited 10 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:31:41 INFO] Deposited 10 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-16 07:32:48 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:32:50 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:32:51 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:08 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:14 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:16 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:17 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:18 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:19 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:20 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:22 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:22 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:24 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:24 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:26 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:28 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:45 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:48 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:34:49 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:56:17 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:57:20 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:57:22 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:57:59 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:58:01 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:58:02 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:58:04 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:58:07 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:58:09 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-16 07:58:11 WARNING] Failed to withdraw 0 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance. Error message: Amount is not greater than zero.
+[2024-06-17 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-18 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-18 17:55:45 INFO] Disabling TheosisEconomy v1.29
+[2024-06-18 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-19 03:14:29 INFO] Disabling TheosisEconomy v1.29
+[2024-06-20 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-20 20:23:08 INFO] Disabling TheosisEconomy v1.29
+[2024-06-20 22:38:54 INFO] Disabling TheosisEconomy v1.29
+[2024-06-20 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-21 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-22 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-23 04:27:45 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-23 06:04:50 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-23 06:48:49 INFO] Disabling TheosisEconomy v1.29
+[2024-06-23 18:12:04 INFO] Disabling TheosisEconomy v1.29
+[2024-06-23 18:27:39 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-23 18:35:58 INFO] Disabling TheosisEconomy v1.29
+[2024-06-23 19:17:15 INFO] Disabling TheosisEconomy v1.29
+[2024-06-24 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-24 00:11:26 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-24 00:12:02 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-24 19:38:05 INFO] Disabling TheosisEconomy v1.29
+[2024-06-24 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-25 21:45:37 INFO] Disabling TheosisEconomy v1.29
+[2024-06-25 21:50:12 INFO] Disabling TheosisEconomy v1.29
+[2024-06-25 21:57:32 INFO] Disabling TheosisEconomy v1.29
+[2024-06-25 22:00:36 INFO] Disabling TheosisEconomy v1.29
+[2024-06-26 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-27 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-27 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-28 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-29 02:04:57 INFO] Disabling TheosisEconomy v1.29
+[2024-06-29 21:45:58 INFO] Disabling TheosisEconomy v1.29
+[2024-06-29 21:54:33 INFO] Disabling TheosisEconomy v1.29
+[2024-06-29 21:59:12 INFO] Disabling TheosisEconomy v1.29
+[2024-06-29 22:07:33 INFO] Disabling TheosisEconomy v1.29
+[2024-06-29 22:20:51 INFO] Disabling TheosisEconomy v1.29
+[2024-06-29 22:26:16 INFO] Disabling TheosisEconomy v1.29
+[2024-06-29 23:20:10 INFO] Disabling TheosisEconomy v1.29
+[2024-06-29 23:36:53 INFO] Disabling TheosisEconomy v1.29
+[2024-06-29 23:46:32 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-06-30 00:21:12 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 00:29:49 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 00:50:21 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 00:55:07 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-30 00:59:20 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-30 03:18:45 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 03:56:31 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-30 04:08:45 INFO] Withdrew 4.6 from OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-30 04:08:46 INFO] Withdrew 3.45 from OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-30 04:08:46 WARNING] Failed to withdraw 2.5875 from OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance. Error message: Too many decimal places.
+[2024-06-30 04:08:52 INFO] Withdrew 10.35 from OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-30 04:39:33 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 04:44:41 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 04:53:32 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 05:01:45 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 05:09:12 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 05:17:40 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 05:30:55 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 05:41:51 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 05:51:33 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 20:15:37 INFO] Withdrew 300 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-30 20:15:37 INFO] Deposited 300 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-30 20:15:40 INFO] Withdrew 150 from OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-30 20:15:40 INFO] Deposited 150 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-30 20:21:24 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 20:30:21 INFO] Disabling TheosisEconomy v1.29
+[2024-06-30 21:10:55 INFO] Withdrew 300 from Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-06-30 21:10:55 INFO] Deposited 300 to OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-30 21:11:37 INFO] Withdrew 150 from OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-30 21:12:49 INFO] Withdrew 150 from OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-30 23:00:40 INFO] Withdrew 150 from OwMyGamerHoles's (357abb5d-5248-4de1-a132-16ef7fa58ce5) balance.
+[2024-06-30 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-01 03:18:12 INFO] Disabling TheosisEconomy v1.29
+[2024-07-01 19:21:55 INFO] Disabling TheosisEconomy v1.29
+[2024-07-01 19:25:40 INFO] Disabling TheosisEconomy v1.29
+[2024-07-02 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-03 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-03 03:12:12 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 03:20:57 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 03:29:59 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 03:35:25 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 03:44:54 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 04:12:50 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 04:24:39 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 19:06:23 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 20:57:08 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 21:05:46 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 21:16:49 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 21:25:28 INFO] Disabling TheosisEconomy v1.29
+[2024-07-03 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-04 00:17:38 INFO] Disabling TheosisEconomy v1.29
+[2024-07-05 00:00:01 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-06 00:00:01 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-06 02:15:09 INFO] Deposited 0.02 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-07-06 02:15:13 INFO] Deposited 0.01 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-07-06 03:31:34 INFO] Deposited 0.01 to Tarma_'s (5cbd3a99-1bfe-4454-bb63-3a726985d6e3) balance.
+[2024-07-07 00:00:01 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-08 00:00:00 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-09 00:00:01 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-09 22:25:12 INFO] Disabling TheosisEconomy v1.29
+[2024-07-09 22:36:49 INFO] Disabling TheosisEconomy v1.29
+[2024-07-09 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-10 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-11 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.
+[2024-07-12 23:59:59 INFO] Withdrew 27 from zero99x's (0d3bc9aa-f31b-435e-bac9-d76fda8a2f51) balance.

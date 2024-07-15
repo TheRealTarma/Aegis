@@ -1,0 +1,155 @@
+# Don't change
+config-version: '37'
+
+# Debug
+debug: false
+
+# BStats
+metrics: true
+
+# Check updates
+update-checker: true
+
+# Language
+# https://github.com/Xiao-MoMi/Custom-Crops/tree/main/plugin/src/main/resources/messages
+lang: en
+
+# World settings
+worlds:
+  # This is designed for servers that using an independent folder for worlds
+  # Especially for realm systems
+  absolute-world-folder-path: ''
+  # A list of worlds that would decide where the plugin mechanisms take effect
+  # Mode: whitelist/blacklist/regex
+  mode: blacklist
+  list:
+  - blacklist_world
+  settings:
+    _DEFAULT_:
+      # Whether to enable the plugin's pre-made system
+      # Disabling this option will make all mechanisms stop counting ticks unless you have full control over it using the API.
+      # If you don't know how to code with CustomCropsAPI, just keep it true, because it is enough to meet the needs of 99% of users.
+      enable: true
+      # Season mechanisms
+      season:
+        enable: true
+        # Enable automatic seasonal change
+        auto-alternation: true
+        # Game days of each season
+        duration: 28
+      # Random tick speed
+      # It's different from the vanilla RandomTickSpeed.
+      # CustomCrops' random tick speed has a larger base value
+      # So we can have more precise control on crops' growth speed
+      random-tick-speed: 20
+      # The smallest tick unit in seconds used in scheduled tick mode
+      # 300s means that a crop would be certainly ticked once in 300s
+      # For crops, under the same conditions, the growth rate of crops is basically the same
+      # For sprinklers and pots, they would work periodically.
+      min-tick-unit: 300
+      # Offline tick settings
+      # This option allows crops to grow even if the world is unloaded or the server is closed
+      # This may lead to some issues caused by timeliness conditions for instance seasons
+      offline-tick:
+        enable: false
+        # Maximum offline time recorded in seconds
+        # Please do not set this option to a value that is too large,
+        # as it may cause chunks that have been unloaded for a long time
+        # taking long to load
+        max-offline-seconds: 1200
+      # Settings for crops
+      crop:
+        # [RANDOM_TICK]
+        # Random tick mode is similar to the vanilla one where crops grow randomly
+        # Due to randomness, crops grown under the same conditions may have significant stage differences
+        # [SCHEDULED_TICK]
+        # Scheduler mode provides more reliable growth schedule management
+        # which allows crops to grow at almost the same speed
+        mode: RANDOM_TICK
+        tick-interval: 1
+        # Limit the max amount of crops in one chunk
+        max-per-chunk: 256
+      # Settings for pots
+      pot:
+        # RANDOM_TICK / SCHEDULED_TICK
+        mode: SCHEDULED_TICK
+        tick-interval: 3
+        # Limit the max amount of pots in one chunk
+        max-per-chunk: -1
+      # Settings for sprinklers
+      sprinkler:
+        # RANDOM_TICK / SCHEDULED_TICK
+        mode: SCHEDULED_TICK
+        tick-interval: 2
+        # Limit the max amount of sprinklers in one chunk
+        max-per-chunk: 64
+    # You can override the default settings for worlds here
+    _WORLDS_:
+      world_nether:
+        enable: false
+      world_the_end:
+        enable: false
+
+# Mechanics settings
+mechanics:
+  # You can create more ranks by adding more "/" for instance x/x/x/x/x
+  # "x" is weight, represents the proportion of probability
+  # 17/2/1 = 85%/10%/5%
+  # 85% = 17/(17+2+1) * 100%
+  default-quality-ratio: 17/2/1
+  
+  # Scarecrow prevents crops from being attacked by crows
+  scarecrow:
+    enable: true
+    id: customcrops:scarecrow
+    type: ITEM_FRAME
+    range: 7
+    # If this option is enabled, the range above would not longer take effect
+    # This option would make the scarecrow protect all the crops in a chunk instead of crops in certain range
+    protect-chunk: false
+  
+  # Greenhouse glass prevents crops from withering from season changing
+  greenhouse:
+    enable: true
+    id: customcrops:greenhouse_glass
+    type: CHORUS
+    range: 5
+  
+  # Sync seasons
+  sync-season:
+    enable: false
+    reference: world
+  
+  # Vanilla farmland settings
+  vanilla-farmland:
+    # Disable vanilla farmland moisture mechanics
+    # This option exists because some users prefer to use the vanilla farmland but the water system conflicts with the vanilla one
+    disable-moisture-mechanic: false
+    # Prevent entities from trampling the farmland
+    prevent-trampling: false
+
+other-settings:
+  # It's recommended to use MiniMessage format. If you insist on using legacy color code "&", enable the support below.
+  # Disable this would improve performance
+  legacy-color-code-support: true
+  
+  # Requires PlaceholderAPI to work
+  placeholder-register:
+    '{skill-level}': '%levelplugin_farming%'
+  
+  # Thread pool settings
+  thread-pool-settings:
+    corePoolSize: 10
+    maximumPoolSize: 10
+    keepAliveTime: 30
+  
+  # Using items from other plugins
+  item-detection-order: []
+  
+  # Whether to protect the original lore of the item
+  # This uses the scoreboard component to identify the plugin's lore,
+  # which may conflict with some plugins that still use SpigotAPI#ItemMeta.
+  protect-original-lore: false
+  
+  # Should the plugin try to convert worlds from 3.3 to 3.4 when WorldLoadEvent is triggered
+  convert-on-world-load: false

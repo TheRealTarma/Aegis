@@ -1,0 +1,73 @@
+# QuestsEffect configuration. See https://tinyurl.com/effect-classes for class values.
+
+effects:
+  npc:
+    new-quest:
+      enabled: true
+      class: MusicEffect
+      height-offset: 0.0
+      if-applicable:
+        particle: note
+        color-source: '#123456'
+        color-target: '#abcdef'
+        text: Begin!
+    redo-quest:
+      enabled: true
+      class: HeartEffect
+      height-offset: 0.0
+      if-applicable:
+        particle: flame
+        color-source: '#123456'
+        color-target: '#abcdef'
+        text: Again!
+  player:
+    start-quest:
+      enabled: true
+      class: StarEffect
+      display-time: 1
+      height-offset: 0.0
+      if-applicable:
+        particle: flame
+        color-source: '#123456'
+        color-target: '#abcdef'
+        text: Start
+    complete-quest:
+      enabled: true
+      class: DiscoBallEffect
+      display-time: 2
+      height-offset: 0.0
+      if-applicable:
+        particle: flame
+        color-source: '#123456'
+        color-target: '#abcdef'
+        text: Complete
+    fail-quest:
+      enabled: true
+      class: TurnEffect
+      display-time: 1
+      height-offset: 0.0
+      if-applicable:
+        particle: flame
+        color-source: '#123456'
+        color-target: '#abcdef'
+        text: Oopsie
+    change-stage:
+      enabled: true
+      class: CylinderEffect
+      display-time: 1
+      height-offset: 0.0
+      if-applicable:
+        particle: flame
+        color-source: '#123456'
+        color-target: '#abcdef'
+        text: Next!
+    update-objective:
+      enabled: true
+      class: FlameEffect
+      display-time: 1
+      height-offset: -2.0
+      if-applicable:
+        particle: flame
+        color-source: '#123456'
+        color-target: '#abcdef'
+        text: Nice!

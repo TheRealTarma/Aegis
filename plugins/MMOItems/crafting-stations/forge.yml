@@ -1,0 +1,180 @@
+
+# Name which will be displayed
+# when opening the station
+name: 'Forge (#page#/#max#)'
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 24
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+# GET SOUND NAMES HERE:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: default
+
+# Configure GUI items here
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+# Station recipes
+recipes:
+    copper_ingot:
+    
+        # The item which the recipe gives
+        output:
+            type: MATERIAL
+            id: COPPER_INGOT
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 6
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=1}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - vanilla{type=CHARCOAL,amount=1}
+        - vanilla{type=RAW_COPPER,amount=1}
+
+        triggers:
+        - exp{profession=smithing;amount=17.5}
+
+    iron_ingot:
+    
+        # The item which the recipe gives
+        output:
+            type: MATERIAL
+            id: IRON_INGOT
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 6
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=11}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - vanilla{type=CHARCOAL,amount=1}
+        - vanilla{type=RAW_IRON,amount=1}
+
+        triggers:
+        - exp{profession=smithing;amount=30.0}
+    steel_ingot:
+    
+        # The item which the recipe gives
+        output:
+            type: MATERIAL
+            id: STEEL_INGOT
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 12
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=21}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - vanilla{type=COAL,amount=1}
+        - mmoitem{type=MATERIAL,id=IRON_INGOT,amount=1}
+
+        triggers:
+        - exp{profession=smithing;amount=40.0}
+    mithril_ingot:
+    
+        # The item which the recipe gives
+        output:
+            type: MATERIAL
+            id: MITHRIL_INGOT
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 8
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=31}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - vanilla{type=COAL,amount=1}
+        - mmoitem{type=MATERIAL,id=RAW_MITHRIL,amount=1}
+
+        triggers:
+        - exp{profession=smithing;amount=65.0}
+    adamantite_ingot:
+    
+        # The item which the recipe gives
+        output:
+            type: MATERIAL
+            id: ADAMANTITE_INGOT
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 8
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=41}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - vanilla{type=COAL,amount=1}
+        - mmoitem{type=MATERIAL,id=RAW_ADAMANTITE,amount=1}
+
+        triggers:
+        - exp{profession=smithing;amount=80.0}

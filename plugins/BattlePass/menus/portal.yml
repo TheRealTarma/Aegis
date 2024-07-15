@@ -1,0 +1,472 @@
+menu-title: ':offset_-16::bp_portal:'
+menu-rows: 4
+
+menu:
+  '0':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '1':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '2':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '3':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '9':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '10':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '11':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '12':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '18':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '19':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '20':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '21':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass: {#ffdc9e}Week %week%'
+      lore:
+        - '&8%pass_type% Battle Pass'
+        - ''
+        - '{#71797E}Your Tier: &f%tier%'
+        - '{#71797E}EXP: &f%points%{#71797E}/%required_points%'
+  '22':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '23':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '24':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '25':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '26':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '31':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '32':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '33':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '34':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '35':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#FFAC1C}&lBattle Pass Rewards'
+      lore:
+        - ''
+        - '{#71797E}Complete Battle Pass'
+        - '{#71797E}quests to unlock a huge '
+        - '{#71797E}variety of rewards!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {rewards}'
+  '4':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '5':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '6':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '7':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '8':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '13':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '14':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '15':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '16':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '17':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#e444c3}&lBattle Pass Quests'
+      lore:
+        - ''
+        - '{#71797E}Every week new quests are'
+        - '{#71797E}released! Complete them'
+        - '{#71797E}for some Battle Pass EXP!'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {quest-overview}'
+  '27':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#7CFC00}&lPremium Battle Pass'
+      lore:
+        - ''
+        - '{#71797E}Grab the premium pass'
+        - '{#71797E}so you don''t miss out'
+        - '{#71797E}on tons of rewards and'
+        - '{#71797E}an extra 3.5x more EXP!'
+        - ''
+        - '&ePurchase &8[Left Click]'
+    actions:
+      - '[message] {:bp: &7Purchase the Premium Battle Pass at &astore.server.com}'
+      - '[menu] {close}'
+      - '[sound] {BLOCK_LEVER_CLICK:1:1}'
+  '28':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#7CFC00}&lPremium Battle Pass'
+      lore:
+        - ''
+        - '{#71797E}Grab the premium pass'
+        - '{#71797E}so you don''t miss out'
+        - '{#71797E}on tons of rewards and'
+        - '{#71797E}an extra 3.5x more EXP!'
+        - ''
+        - '&ePurchase &8[Left Click]'
+    actions:
+      - '[message] {:bp: &7Purchase the Premium Battle Pass at &astore.server.com}'
+      - '[menu] {close}'
+      - '[sound] {BLOCK_LEVER_CLICK:1:1}'
+  '29':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#7CFC00}&lPremium Battle Pass'
+      lore:
+        - ''
+        - '{#71797E}Grab the premium pass'
+        - '{#71797E}so you don''t miss out'
+        - '{#71797E}on tons of rewards and'
+        - '{#71797E}an extra 3.5x more EXP!'
+        - ''
+        - '&ePurchase &8[Left Click]'
+    actions:
+      - '[message] {:bp: &7Purchase the Premium Battle Pass at &astore.server.com}'
+      - '[menu] {close}'
+      - '[sound] {BLOCK_LEVER_CLICK:1:1}'
+  '30':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#7CFC00}&lPremium Battle Pass'
+      lore:
+        - ''
+        - '{#71797E}Grab the premium pass'
+        - '{#71797E}so you don''t miss out'
+        - '{#71797E}on tons of rewards and'
+        - '{#71797E}an extra 3.5x more EXP!'
+        - ''
+        - '&ePurchase &8[Left Click]'
+    actions:
+      - '[message] {:bp: &7Purchase the Premium Battle Pass at &astore.server.com}'
+      - '[menu] {close}'
+      - '[sound] {BLOCK_LEVER_CLICK:1:1}'

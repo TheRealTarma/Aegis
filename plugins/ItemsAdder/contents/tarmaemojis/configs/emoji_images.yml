@@ -1,0 +1,15 @@
+info:
+  namespace: "tarmaemojis"
+font_images:
+  skulled:
+    permission: 0
+    show_in_gui: true
+    path: "font/emoji/skulled"
+    scale_ratio: 9
+    y_position: 8
+  globalchat:
+    permission: 0
+    show_in_gui: true
+    path: "font/emoji/globalchat"
+    scale_ratio: 9
+    y_position: 8

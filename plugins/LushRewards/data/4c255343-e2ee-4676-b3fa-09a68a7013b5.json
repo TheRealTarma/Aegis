@@ -1,0 +1,22 @@
+{
+  "main": {
+    "username": "anni3rection",
+    "minutesPlayed": 111
+  },
+  "daily-rewards": {
+    "startDate": "2024-06-16",
+    "lastJoinDate": "2024-06-16",
+    "lastCollectedDate": "2024-06-16",
+    "collectedDays": [
+      1
+    ],
+    "dayNum": 1,
+    "streak": 1,
+    "highestStreak": 1
+  },
+  "global-playtime-rewards": {
+    "lastCollectedPlaytime": 0,
+    "startDate": "2024-06-16",
+    "previousDayEndPlaytime": 0
+  }
+}

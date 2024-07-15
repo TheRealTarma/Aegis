@@ -1,0 +1,107 @@
+
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+cooking_pot:
+  Type: SILVERFISH
+  Display: 'Cooking Pot'
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear  
+  DamageModifiers:
+  - DROWNING 0
+  - VOID 0
+  - LIGHTNING 0
+  - SUICIDE 0
+  - STARVATION 0
+  - POISON 0
+  - MAGIC 0
+  - DRAGON_BREATH 0
+  - WITHER 0
+  - FALLING_BLOCK 0
+  - THORNS 0
+  - MELTING 0
+  - FIRE_TICK 0
+  - FIRE 0
+  - HOT_FLOOR 0
+  - SUFFOCATION 0
+  - PROJECTILE 0
+  - CONTACT 0
+  Options:
+    Collidable: false
+    #Invincible: true
+    Silent: true
+    PreventOtherDrops: true
+    Despawn: persistent
+    PreventBlockInfection: true
+    KnockbackResistance: 1
+  Skills:
+  - model{mid=cooking_pot;n=false;d=false;i=false} @self ~onSpawn
+  - model{mid=cooking_pot;n=false;d=false;i=false} @self ~onLoad
+  - skill{s=cookingpotINVIS} @self ~onTimer:1
+  - skill{s=cookingpotFX} @self ~onTimer:10
+  - skill{s=cookingpotPROXIMITY} @self ~onSpawn
+  - skill{s=cookingpotDENY} @self ~onInteract
+  - setstance{stance=cold} @self ~onSpawn
+  - skill{s=cookingpotACTIVATE} @self ~onInteract
+  - skill{s=cookingpotREMOVE} @self ~onDamaged
+  - skill{s=cookingpotPORK} @self ~onInteract
+  - skill{s=cookingpotHONEY} @self ~onInteract
+  - skill{s=cookingpotSTICK} @self ~onInteract
+  - skill{s=cookingpotBEEF} @self ~onInteract
+  - skill{s=cookingpotCHICKEN} @self ~onInteract
+  - skill{s=cookingpotMELON} @self ~onInteract
+  - skill{s=cookingpotAPPLE} @self ~onInteract
+  - skill{s=cookingpotSWEETBERRIES} @self ~onInteract
+  - skill{s=cookingpotCOD} @self ~onInteract
+  - skill{s=cookingpotSALMON} @self ~onInteract
+  - skill{s=cookingpotKELP} @self ~onInteract
+  - skill{s=cookingpotBREAD} @self ~onInteract
+  - skill{s=cookingpotSUGAR} @self ~onInteract
+  - skill{s=cookingpotCOCOA} @self ~onInteract
+  - skill{s=cookingpotEGG} @self ~onInteract
+  - skill{s=cookingpotMILK} @self ~onInteract
+  - skill{s=cookingpotPOTATO} @self ~onInteract
+  - skill{s=cookingpotSTRING} @self ~onInteract
+  - skill{s=cookingpotGLAZEDHAM} @self ~onTimer:1
+  - skill{s=cookingpotFRUITSALAD} @self ~onTimer:1
+  - skill{s=cookingpotSALMONSUSHI} @self ~onTimer:1
+  - skill{s=cookingpotCODSUSHI} @self ~onTimer:1
+  - skill{s=cookingpotBEEFKEBAB} @self ~onTimer:1
+  - skill{s=cookingpotCHICKENKEBAB} @self ~onTimer:1
+  - skill{s=cookingpotAPPLETURNOVER} @self ~onTimer:1
+  - skill{s=cookingpotPORKCHOPSAPPLESAUCE} @self ~onTimer:1
+  - skill{s=cookingpotCANDYAPPLE} @self ~onTimer:1
+  - skill{s=cookingpotBROWNIE} @self ~onTimer:1
+  - skill{s=cookingpotCODSANDWICH} @self ~onTimer:1
+  - skill{s=cookingpotSALMONSANDWICH} @self ~onTimer:1
+  - skill{s=cookingpotBEEFSANDWICH} @self ~onTimer:1
+  - skill{s=cookingpotCHICKENSANDWICH} @self ~onTimer:1
+  - skill{s=cookingpotEGGBASKET} @self ~onTimer:1
+  - skill{s=cookingpotHAMSANDWICH} @self ~onTimer:1
+  - skill{s=cookingpotDONUT} @self ~onTimer:1
+  - skill{s=cookingpotPANCAKES} @self ~onTimer:1
+  - skill{s=cookingpotCHOCOLATEBAR} @self ~onTimer:1
+  - skill{s=cookingpotCHOCOLATEMILK} @self ~onTimer:1
+  - skill{s=cookingpotFISHCHIPS} @self ~onTimer:1
+  - skill{s=cookingpotMILKSTEAK} @self ~onTimer:1
+  - skill{s=cookingpotSTEAKEGGS} @self ~onTimer:1
+  - skill{s=cookingpotLOLLIPOP} @self ~onTimer:1
+  - skill{s=cookingpotCOTTONCANDY} @self ~onTimer:1
+  - skill{s=cookingpotBACONEGGS} @self ~onTimer:1
+  - skill{s=cookingpotBERRYMILK} @self ~onTimer:1
+  - skill{s=cookingpotNOTHING} @self ~onTimer:1
+  
+cookingpot_splash:
+  Type: ARMOR_STAND
+  Disguise: PUFFERFISH setInvisible
+  Display: 'Cooking Pot Splash'
+  Options:
+    Marker: true
+    Invisible: true
+  Skills:
+  - model{mid=cooking_pot_splash;n=false;d=false} @self ~onSpawn
+  - skill{s=cookingpotsplashLIFE} @self ~onSpawn
+  

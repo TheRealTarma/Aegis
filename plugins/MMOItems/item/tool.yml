@@ -1,0 +1,587 @@
+WOODEN_PICKAXE:
+  base:
+    material: WOODEN_PICKAXE
+    name: Wooden Pickaxe
+    profession-mining: 1.0
+    attack-damage: 2.0
+    attack-speed: 1.2
+    weapon-damage: 2.0
+    two-handed: true
+    max-durability: 59.0
+    will-break: true
+WOODEN_AXE:
+  base:
+    material: WOODEN_AXE
+    name: Wooden Axe
+    profession-woodcutting: 1.0
+    attack-damage: 6.5
+    attack-speed: 0.6
+    weapon-damage: 2.0
+    two-handed: true
+    max-durability: 59.0
+    will-break: true
+WOODEN_HOE:
+  base:
+    material: WOODEN_HOE
+    name: Wooden Hoe
+    profession-farming: 1.0
+    attack-damage: 1.0
+    attack-speed: 1.0
+    weapon-damage: 2.0
+    two-handed: true
+    max-durability: 59.0
+    will-break: true
+WOODEN_SHOVEL:
+  base:
+    material: WOODEN_SHOVEL
+    name: Wooden Shovel
+    profession-mining: 1.0
+    attack-damage: 3.5
+    attack-speed: 1.0
+    weapon-damage: 2.5
+    two-handed: true
+    max-durability: 59.0
+    will-break: true
+STONE_PICKAXE:
+  base:
+    material: STONE_PICKAXE
+    name: Stone Pickaxe
+    profession-mining: 1.0
+    attack-damage: 3.0
+    attack-speed: 1.2
+    weapon-damage: 3.0
+    two-handed: true
+    max-durability: 131.0
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v cobblestone - 1.0..|v cobblestone - 1.0..|v cobblestone - 1.0..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+    will-break: true
+    additional-experience-mining: 5.0
+STONE_AXE:
+  base:
+    material: STONE_AXE
+    name: Stone Axe
+    profession-woodcutting: 1.0
+    attack-damage: 7.0
+    attack-speed: 0.7
+    weapon-damage: 3.0
+    two-handed: true
+    max-durability: 131.0
+    will-break: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v cobblestone - 1.0..|v cobblestone - 1.0..
+          - v AIR 0 1..|v stick - 1.0..|v cobblestone - 1.0..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+    additional-experience-woodcutting: 5.0
+
+STONE_HOE:
+  base:
+    material: STONE_HOE
+    name: Stone Hoe
+    profession-farming: 1.0
+    attack-damage: 1.0
+    attack-speed: 2.0
+    weapon-damage: 3.0
+    two-handed: true
+    max-durability: 131.0
+    will-break: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v cobblestone - 1.0..|v cobblestone - 1.0..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+        '2':
+          input:
+          - v cobblestone - 1.0..|v cobblestone - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+    additional-experience-farming: 5.0
+STONE_SHOVEL:
+  base:
+    material: STONE_SHOVEL
+    name: Stone Shovel
+    profession-mining: 1.0
+    attack-damage: 3.5
+    attack-speed: 1.0
+    weapon-damage: 3.5
+    two-handed: true
+    max-durability: 131.0
+    will-break: true
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v cobblestone - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+    additional-experience-mining: 5.0
+COPPER_PICKAXE:
+  base:
+    material: STONE_PICKAXE
+    custom-model-data: 10002.0
+    name: Copper Pickaxe
+    profession-mining: 6.0
+    attack-damage: 3.5
+    attack-speed: 1.2
+    weapon-damage: 4.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+    additional-experience-mining: 7.5
+COPPER_AXE:
+  base:
+    material: STONE_AXE
+    custom-model-data: 10002.0
+    name: Copper Axe
+    profession-woodcutting: 6.0
+    attack-damage: 7.5
+    attack-speed: 0.8
+    weapon-damage: 4.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+    additional-experience-woodcutting: 7.5
+COPPER_HOE:
+  base:
+    material: STONE_HOE
+    custom-model-data: 10002.0
+    name: Copper Hoe
+    profession-farming: 6.0
+    attack-damage: 1.0
+    attack-speed: 2.5
+    weapon-damage: 4.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+    additional-experience-farming: 7.5
+COPPER_SHOVEL:
+  base:
+    material: STONE_SHOVEL
+    custom-model-data: 10002.0
+    name: Copper Shovel
+    profession-mining: 6.0
+    attack-damage: 4.0
+    attack-speed: 1.0
+    weapon-damage: 4.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+    additional-experience-mining: 7.5
+IRON_PICKAXE:
+  base:
+    material: IRON_PICKAXE
+    name: Iron Pickaxe
+    profession-mining: 11.0
+    attack-damage: 3.5
+    attack-speed: 1.2
+    weapon-damage: 5.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+    additional-experience-mining: 10.0
+IRON_AXE:
+  base:
+    material: IRON_AXE
+    name: Iron Axe
+    profession-woodcutting: 11.0
+    attack-damage: 3.5
+    attack-speed: 1.2
+    weapon-damage: 5.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+    additional-experience-woodcutting: 10.0
+IRON_HOE:
+  base:
+    material: IRON_HOE
+    name: Iron Hoe
+    profession-farming: 11.0
+    attack-damage: 1.0
+    attack-speed: 3.0
+    weapon-damage: 5.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+    additional-experience-farming: 10.0
+IRON_SHOVEL:
+  base:
+    material: IRON_SHOVEL
+    name: Iron Shovel
+    profession-mining: 11.0
+    attack-damage: 3.5
+    attack-speed: 1.2
+    weapon-damage: 5.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+    additional-experience-mining: 10.0
+STEEL_PICKAXE:
+  base:
+    material: IRON_PICKAXE
+    custom-model-data: 10003.0
+    name: Steel Pickaxe
+    profession-mining: 21.0
+    attack-damage: 4.2
+    attack-speed: 1.2
+    weapon-damage: 6.0
+    two-handed: true
+    max-durability: 578.0
+    will-break: true
+    additional-experience-mining: 12.5
+STEEL_AXE:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10003.0
+    name: Steel Axe
+    profession-woodcutting: 21.0
+    attack-damage: 8.3
+    attack-speed: 1.0
+    weapon-damage: 6.0
+    two-handed: true
+    max-durability: 578.0
+    will-break: true
+    additional-experience-woodcutting: 12.5
+STEEL_HOE:
+  base:
+    material: IRON_HOE
+    custom-model-data: 10004.0
+    name: Steel Hoe
+    profession-farming: 21.0
+    attack-damage: 1.0
+    attack-speed: 3.3
+    weapon-damage: 6.0
+    two-handed: true
+    max-durability: 578.0
+    will-break: true
+    additional-experience-farming: 12.5
+STEEL_SHOVEL:
+  base:
+    material: IRON_SHOVEL
+    custom-model-data: 10003.0
+    name: Steel Shovel
+    profession-mining: 21.0
+    attack-damage: 4.8
+    attack-speed: 1.0
+    weapon-damage: 6.0
+    two-handed: true
+    max-durability: 578.0
+    will-break: true
+    additional-experience-mining: 12.5
+GOLDEN_PICKAXE:
+  base:
+    material: GOLDEN_PICKAXE
+    name: Golden Pickaxe
+    profession-mining: 6.0
+    attack-damage: 3.5
+    attack-speed: 1.2
+    weapon-damage: 4.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+GOLDEN_AXE:
+  base:
+    material: GOLDEN_AXE
+    name: Golden Axe
+    profession-woodcutting: 6.0
+    attack-damage: 3.5
+    attack-speed: 1.2
+    weapon-damage: 4.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+GOLDEN_HOE:
+  base:
+    material: GOLDEN_HOE
+    name: Golden Hoe
+    profession-farming: 6.0
+    attack-damage: 3.5
+    attack-speed: 1.2
+    weapon-damage: 4.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+GOLDEN_SHOVEL:
+  base:
+    material: GOLDEN_SHOVEL
+    name: Golden Shovel
+    profession-mining: 6.0
+    attack-damage: 3.5
+    attack-speed: 1.2
+    weapon-damage: 4.0
+    two-handed: true
+    max-durability: 191.0
+    will-break: true
+MITHRIL_PICKAXE:
+  base:
+    material: IRON_PICKAXE
+    custom-model-data: 10001.0
+    name: Mithril Pickaxe
+    profession-mining: 31.0
+    attack-damage: 4.4
+    attack-speed: 1.2
+    weapon-damage: 7.0
+    two-handed: true
+    max-durability: 1234.0
+    will-break: true
+    additional-experience-mining: 15.0
+MITHRIL_AXE:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10001.0
+    name: Mithril Axe
+    profession-woodcutting: 31.0
+    attack-damage: 8.5
+    attack-speed: 1.0
+    weapon-damage: 7.0
+    two-handed: true
+    max-durability: 1234.0
+    lore:
+    - Treefeller
+    will-break: true
+    additional-experience-woodcutting: 15.0
+MITHRIL_HOE:
+  base:
+    material: IRON_HOE
+    custom-model-data: 10002.0
+    name: Mithril Hoe
+    profession-farming: 31.0
+    attack-damage: 1.0
+    attack-speed: 3.6
+    weapon-damage: 7.0
+    two-handed: true
+    max-durability: 1234.0
+    will-break: true
+    additional-experience-farming: 15.0
+MITHRIL_SHOVEL:
+  base:
+    material: IRON_SHOVEL
+    custom-model-data: 10001.0
+    name: Mithril Shovel
+    profession-mining: 31.0
+    attack-damage: 5.1
+    attack-speed: 1.0
+    weapon-damage: 7.0
+    two-handed: true
+    max-durability: 1234.0
+    will-break: true
+    additional-experience-mining: 15.0
+ADAMANT_PICKAXE:
+  base:
+    material: IRON_PICKAXE
+    custom-model-data: 10000.0
+    name: Adamant Pickaxe
+    profession-mining: 41.0
+    attack-damage: 4.6
+    attack-speed: 1.2
+    weapon-damage: 8.0
+    two-handed: true
+    max-durability: 1796.0
+    will-break: true
+    additional-experience-mining: 17.5
+ADAMANT_AXE:
+  base:
+    material: IRON_AXE
+    custom-model-data: 10000.0
+    name: Adamant Axe
+    profession-woodcutting: 41.0
+    attack-damage: 8.7
+    attack-speed: 1.0
+    weapon-damage: 8.0
+    two-handed: true
+    max-durability: 1796.0
+    lore:
+    - Treefeller
+    will-break: true
+    additional-experience-woodcutting: 17.5
+ADAMANT_HOE:
+  base:
+    material: IRON_HOE
+    custom-model-data: 10001.0
+    name: Adamant Hoe
+    profession-farming: 41.0
+    attack-damage: 1.0
+    attack-speed: 3.9
+    weapon-damage: 8.0
+    two-handed: true
+    max-durability: 1796.0
+    will-break: true
+    additional-experience-farming: 17.5
+ADAMANT_SHOVEL:
+  base:
+    material: IRON_SHOVEL
+    custom-model-data: 10000.0
+    name: Adamant Shovel
+    profession-mining: 41.0
+    attack-damage: 5.4
+    attack-speed: 1.0
+    weapon-damage: 8.0
+    two-handed: true
+    max-durability: 1796.0
+    will-break: true
+    additional-experience-mining: 17.5
+DIAMOND_PICKAXE:
+  base:
+    material: DIAMOND_PICKAXE
+    name: Diamond Pickaxe
+    profession-mining: 51.0
+    attack-damage: 5.0
+    attack-speed: 1.2
+    weapon-damage: 9.0
+    two-handed: true
+    max-durability: 1931.0
+    custom-nbt:
+    - '"PublicBukkitValues": 1'
+    lore:
+    - 8 Block Vein Mine
+    will-break: true
+    additional-experience-mining: 20.0
+DIAMOND_AXE:
+  base:
+    material: DIAMOND_AXE
+    name: Diamond Axe
+    profession-woodcutting: 51.0
+    attack-damage: 9.0
+    attack-speed: 1.0
+    weapon-damage: 9.0
+    two-handed: true
+    max-durability: 1931.0
+    lore:
+    - Treefeller
+    will-break: true
+    additional-experience-woodcutting: 20.0
+DIAMOND_HOE:
+  base:
+    material: DIAMOND_HOE
+    name: Diamond Hoe
+    profession-farming: 51.0
+    attack-damage: 1.0
+    attack-speed: 4.0
+    weapon-damage: 9.0
+    two-handed: true
+    max-durability: 1931.0
+    will-break: true
+    additional-experience-farming: 20.0
+DIAMOND_SHOVEL:
+  base:
+    material: DIAMOND_SHOVEL
+    name: Diamond Shovel
+    profession-mining: 51.0
+    attack-damage: 5.5
+    attack-speed: 1.0
+    weapon-damage: 9.0
+    two-handed: true
+    max-durability: 1931.0
+    will-break: true
+    additional-experience-mining: 20.0
+NETHERITE_PICKAXE:
+  base:
+    material: NETHERITE_PICKAXE
+    name: Netherite Pickaxe
+    profession-mining: 61.0
+    attack-damage: 6.0
+    attack-speed: 1.2
+    weapon-damage: 10.0
+    two-handed: true
+    max-durability: 2032.0
+    lore:
+    - 12 Block Vein Mine
+    will-break: true
+    additional-experience-mining: 25.0
+NETHERITE_AXE:
+  base:
+    material: NETHERITE_AXE
+    name: Netherite Axe
+    profession-woodcutting: 61.0
+    attack-damage: 10.0
+    attack-speed: 1.0
+    weapon-damage: 10.0
+    two-handed: true
+    max-durability: 2032.0
+    lore:
+    - Treefeller
+    will-break: true
+    additional-experience-woodcutting: 25.0
+NETHERITE_HOE:
+  base:
+    material: NETHERITE_HOE
+    name: Netherite Hoe
+    profession-farming: 61.0
+    attack-damage: 1.0
+    attack-speed: 5.0
+    weapon-damage: 10.0
+    two-handed: true
+    max-durability: 2032.0
+    will-break: true
+    additional-experience-farming: 25.0
+NETHERITE_SHOVEL:
+  base:
+    material: NETHERITE_SHOVEL
+    name: Netherite Shovel
+    profession-mining: 61.0
+    attack-damage: 6.5
+    attack-speed: 1.0
+    weapon-damage: 10.0
+    two-handed: true
+    max-durability: 2032.0
+    will-break: true
+    additional-experience-mining: 25.0
+IRON_SCYTHE:
+  base:
+    material: IRON_SWORD
+    lore:
+    - 3x3 Harvest
+    custom-model-data: 10009.0
+    max-durability: 750.0
+    attack-speed: 0.8
+    attack-damage: 4.0
+    weapon-damage: 5.0
+    two-handed: true
+    custom-nbt:
+    - Harvest_I 1
+    name: Iron Scythe
+    profession-farming: 11.0
+    will-break: true
+    additional-experience-farming: 10.0
+DIAMOND_SCYTHE:
+  base:
+    material: IRON_SWORD
+    lore:
+    - 5x5 Harvest
+    custom-model-data: 10004.0
+    max-durability: 2500.0
+    attack-speed: 0.8
+    attack-damage: 5.5
+    weapon-damage: 9.0
+    two-handed: true
+    profession-farming: 51.0
+    will-break: true
+    additional-experience-farming: 20.0
+NETHERITE_SCYTHE:
+  base:
+    material: IRON_SWORD
+    lore:
+    - 7x7 Harvest
+    custom-model-data: 10005.0
+    max-durability: 4000.0
+    attack-speed: 0.8
+    attack-damage: 6.5
+    weapon-damage: 10.0
+    two-handed: true
+    profession-farming: 61.0
+    will-break: true
+    additional-experience-farming: 25.0
+IRON_PLOW:
+  base:
+    material: IRON_HOE
+    name: Iron Plow
+    profession-farming: 11.0
+    will-break: true

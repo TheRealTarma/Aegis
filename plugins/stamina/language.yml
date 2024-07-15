@@ -1,0 +1,22 @@
+# ___       ________  ________   ________  ___  ___  ________  ________  _______           ________ ___  ___       _______
+#|\  \     |\   __  \|\   ___  \|\   ____\|\  \|\  \|\   __  \|\   ____\|\  ___ \         |\  _____\\  \|\  \     |\  ___ \
+#\ \  \    \ \  \|\  \ \  \\ \  \ \  \___|\ \  \\\  \ \  \|\  \ \  \___|\ \   __/|        \ \  \__/\ \  \ \  \    \ \   __/|
+# \ \  \    \ \   __  \ \  \\ \  \ \  \  __\ \  \\\  \ \   __  \ \  \  __\ \  \_|/__       \ \   __\\ \  \ \  \    \ \  \_|/__
+#  \ \  \____\ \  \ \  \ \  \\ \  \ \  \|\  \ \  \\\  \ \  \ \  \ \  \|\  \ \  \_|\ \       \ \  \_| \ \  \ \  \____\ \  \_|\ \
+#   \ \_______\ \__\ \__\ \__\\ \__\ \_______\ \_______\ \__\ \__\ \_______\ \_______\       \ \__\   \ \__\ \_______\ \_______\
+#    \|_______|\|__|\|__|\|__| \|__|\|_______|\|_______|\|__|\|__|\|_______|\|_______|        \|__|    \|__|\|_______|\|_______|
+
+boss_bar_title: "Endurance"
+no_stamina_message: "You need more stamina!"
+insufficient_money: "You don't have enough money to upgrade your stamina."
+insufficient_money_max: "You don't have enough money to upgrade your stamina to the maximum level."
+rate_decreased: "&aSprint drain rate has been decreased by %s ⚡, new rate is %s ⚡"
+not_a_player: "This command can only be run by a player."
+minimumendurance: "&cYour endurance is already at max Level"
+refillmessage: "&2Your endurance has been refill"
+
+StaminaUpgradeGui:
+  #Don't touch the tile (Will be fix in future update)
+  Title: "&bStamina Upgrade"
+  ItemName: "&aUpgrade your stamina"
+  ItemLore: "&2Cost: %cost%$"

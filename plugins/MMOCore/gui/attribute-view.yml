@@ -1,0 +1,99 @@
+
+# GUI display name
+name: Player Attributes
+
+
+# Number of slots in your inventory. Must be
+# between 9 and 54 and must be a multiple of 9.
+slots: 27
+
+items:
+    reallocate:
+        slots: [26]
+        function: reallocation
+        item: CAULDRON
+        name: '&aAttribute Points'
+        lore:
+            - ''
+            - 'You have spent a total of &6{total}&7 attribute points.'
+            - '&7Right click to reallocate them.'
+            - ''
+            - '&eCosts 1 attribute reallocation point.'
+            - '&e◆ Attribute Reallocation Points: &6{points}'
+    att:
+        slots: [9]
+        function: attribute_attack
+        name: '&a{name}'
+        item: IRON_SWORD
+        lore: # {buffs} returns amount of buffs
+            - ''
+            - '&7Points Spent: &6{spent}&7/&6{max}'
+            - '&7Current {name}: &6&l{current}'
+            - ''
+            - '&8When Leveled Up:'
+            - '&7  +{buff_attack_speed}% Attack Speed (&a+{total_attack_speed}%&7)'
+            - '&eClick to level up for 1 attribute point.'
+            - '&e◆ Current Attribute Points: {attribute_points}'
+    def:
+        slots: [11]
+        function: attribute_defense
+        name: '&a{name}'
+        item: SHIELD
+        hide-flags: true
+        lore:
+            - ''
+            - '&7Points Spent: &6{spent}&7/&6{max}'
+            - '&7Current {name}: &6&l{current}'
+            - ''
+            - '&8When Leveled Up:'
+            - '&7  +{buff_armor_toughness}% Armor Toughness (&a+{total_armor_toughness}%&7)'
+            - ''
+            - '&eClick to level up for 1 attribute point.'
+            - '&e◆ Current Attribute Points: {attribute_points}'
+    con:
+        slots: [13]
+        function: attribute_constitution
+        name: '&a{name}'
+        item: POTION
+        lore:
+            - ''
+            - '&7Points Spent: &6{spent}&7/&6{max}'
+            - '&7Current {name}: &6&l{current}'
+            - ''
+            - '&8When Leveled Up:'
+            - '&7  +{buff_max_health}% Max Health (&a+{total_max_health}%&7)'
+            - ''
+            - '&eClick to level up for 1 attribute point.'
+            - '&e◆ Current Attribute Points: {attribute_points}'
+
+    mag:
+        slots: [15]
+        function: attribute_magic
+        name: '&a{name}'
+        item: ENCHANTED_BOOK
+        lore:
+            - ''
+            - '&7Points Spent: &6{spent}&7/&6{max}'
+            - '&7Current {name}: &6&l{current}'
+            - ''
+            - '&8When Leveled Up:'
+            - '&7  +{buff_max_mana}% Max Mana (&a+{total_max_mana}%&7)'
+            - ''
+            - '&eClick to level up for 1 attribute point.'
+            - '&e◆ Current Attribute Points: {attribute_points}'
+
+    ran:
+        slots: [17]
+        function: attribute_ranged
+        name: '&a{name}'
+        item: BOW
+        lore:
+            - ''
+            - '&7Points Spent: &6{spent}&7/&6{max}'
+            - '&7Current {name}: &6&l{current}'
+            - ''
+            - '&8When Leveled Up:'
+            - '&7  +{buff_projectile_damage}% Projectile Damage (&a+{total_projectile_damage}%&7)'
+            - ''
+            - '&eClick to level up for 1 attribute point.'
+            - '&e◆ Current Attribute Points: {attribute_points}'

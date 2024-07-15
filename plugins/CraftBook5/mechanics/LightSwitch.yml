@@ -1,0 +1,14 @@
+# CraftBook LightSwitch Configuration
+# -- Generated for version: 5.0.0-beta-01
+# 
+# More information about this mechanic is available at...
+# https://craftbook.enginehub.org/en/5.0.0/mechanics/light_switch/
+#
+# NOTE! Make sure to enable this in the config.yml file if you wish to use it.
+
+
+# The maximum range that the mechanic searches for lights in.
+max-range: 10
+
+# The maximum amount of lights that a light switch can toggle per usage.
+max-lights: 20

@@ -1,0 +1,6 @@
+IRON_SQUARE_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 336.0
+    name: Iron Square Shield
+    profession-defense: 11.0

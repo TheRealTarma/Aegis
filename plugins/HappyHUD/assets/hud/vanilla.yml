@@ -1,0 +1,28 @@
+vanilla-air:
+  conditions:
+    - progress{l=fill;o=<;v=100%} true hide
+  layers:
+    fill:
+      texture:
+        path: assets/sword/fill_air.png
+      align: right
+      position:
+         x: 0
+         y: 0
+      offset:
+        x: -60
+        y: -3
+      function:
+        listener: air
+        increment: 20
+        orientation: horizontal
+    outline:
+      texture:
+        path: assets/sword/unfill_air.png
+      align: right
+      position:
+         x: 0
+         y: 0
+      offset:
+        x: -60
+        y: -3

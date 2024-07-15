@@ -1,0 +1,16 @@
+name: zero99x
+minutes-played: 3541
+daily-rewards:
+  day-num: 3
+  streak-length: 2
+  highest-streak: 3
+  start-date: 12-06-2024
+  collected-dates:
+  - 12-06-2024
+  last-collected-date: 12-06-2024
+daily-playtime-goals:
+  date: 30-05-2024
+  last-collected-playtime: 3535
+  previous-day-end: 3355
+global-playtime-goals:
+  last-collected-playtime: 1465

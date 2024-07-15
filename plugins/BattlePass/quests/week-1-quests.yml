@@ -1,0 +1,155 @@
+quests:
+  '0':
+    name: Week 1 - Hope that was an utter
+    type: milk
+    variable: none
+    required-progress: 5
+    points: 30
+    item:
+      material: milk_bucket:0
+      name: '&eHope that was an utter'
+      lore:
+      - '&7Milk &e5 cows'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '1':
+    name: Week 1 - Caked Up
+    type: craft
+    variable: cake:0
+    required-progress: 8
+    points: 30
+    item:
+      material: cake:0
+      name: '&eCaked Up'
+      lore:
+      - '&7Craft &e8 Cakes'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '2':
+    name: Week 1 - Woodcutting XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: woodcutting # The block the player must break.
+    required-progress: 1500 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: iron_axe:0
+      amount: 1
+      name: '&eWoodcutting XP'
+      lore:
+      - '&7Gain &e1500 Woodcutting XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '3':
+    name: Week 1 - Attack XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: attack # The block the player must break.
+    required-progress: 1500 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: iron_sword:0
+      amount: 1
+      name: '&eAttack XP'
+      lore:
+      - '&7Gain &e1500 Attack XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '4':
+    name: Week 1 - Serial Killer
+    type: kill-player
+    variable: none
+    required-progress: 6
+    points: 30
+    item:
+      material: netherite_sword:0
+      name: '&eSerial Killer'
+      lore:
+      - '&7Kill &e6 players'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '5':
+    name: Week 1 - Active
+    type: login
+    variable: none
+    required-progress: 10
+    points: 30
+    item:
+      material: clock:0
+      name: '&eActive'
+      lore:
+      - '&7Login &e10 times'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '6':
+    name: Week 1 - Grinder 2
+    type: gain-experience
+    variable: none
+    required-progress: 500
+    points: 30
+    item:
+      material: experience_bottle:0
+      name: '&eGrinder 2'
+      lore:
+      - '&7Gain &e500 experience'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '7':
+    name: Week 1 - Defense XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: defense # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: golden_chestplate:0
+      amount: 1
+      name: '&eDefense XP'
+      lore:
+      - '&7Gain &e1200 Defense XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '8':
+    name: Week 1 - Alchemy XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: alchemy # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: brewing_stand:0
+      amount: 1
+      name: '&eAlchemy XP'
+      lore:
+      - '&7Gain &e1200 Alchemy XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '9':
+    name: Week 1 - Social # The name given to the quest.
+    type: chat # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 150 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: paper:0
+      amount: 1
+      name: '&eSocial'
+      lore:
+      - '&7Talk in chat &e150 times'
+      - '&7&oExclusive to premium members only.'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '10':
+    name: Week 1 - Agility XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: agility # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: golden_boots:0
+      amount: 1
+      name: '&eAgility XP'
+      lore:
+      - '&7Gain &e1200 Agility XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'

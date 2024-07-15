@@ -1,0 +1,97 @@
+# ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+# ┃   HuskClaims - Trust Levels  ┃
+# ┃    Developed by William278   ┃
+# ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+# ┣╸ List of trust levels users & groups can be assigned to in claims
+# ┣╸ Config Help: https://william278.net/docs/huskclaims/trust/
+# ┗╸ Documentation: https://william278.net/docs/huskclaims/
+
+trust_levels:
+- id: manage
+  display_name: Manage
+  description: Allows users to manage trustees & make child claims
+  color: '#fc4e03'
+  command_aliases:
+  - permissiontrust
+  - managetrust
+  flags:
+  - BLOCK_BREAK
+  - BLOCK_PLACE
+  - BLOCK_INTERACT
+  - REDSTONE_INTERACT
+  - ENTITY_INTERACT
+  - CONTAINER_OPEN
+  - FARM_BLOCK_BREAK
+  - FARM_BLOCK_PLACE
+  - FARM_BLOCK_INTERACT
+  - PLACE_HANGING_ENTITY
+  - BREAK_HANGING_ENTITY
+  - PLAYER_DAMAGE_PLAYER
+  - PLAYER_DAMAGE_PERSISTENT_ENTITY
+  - PLAYER_DAMAGE_MONSTER
+  - PLAYER_DAMAGE_ENTITY
+  - FILL_BUCKET
+  - EMPTY_BUCKET
+  - USE_SPAWN_EGG
+  - ENDER_PEARL_TELEPORT
+  privileges:
+  - MANAGE_TRUSTEES
+  - MANAGE_CHILD_CLAIMS
+  - MANAGE_OPERATION_GROUPS
+  weight: 400
+- id: build
+  display_name: Build
+  description: Allows users to build in the claim
+  color: '#fcd303'
+  command_aliases:
+  - trust
+  - buildtrust
+  flags:
+  - BLOCK_BREAK
+  - BLOCK_PLACE
+  - BLOCK_INTERACT
+  - REDSTONE_INTERACT
+  - ENTITY_INTERACT
+  - CONTAINER_OPEN
+  - FARM_BLOCK_BREAK
+  - FARM_BLOCK_PLACE
+  - FARM_BLOCK_INTERACT
+  - PLACE_HANGING_ENTITY
+  - BREAK_HANGING_ENTITY
+  - PLAYER_DAMAGE_PLAYER
+  - PLAYER_DAMAGE_PERSISTENT_ENTITY
+  - PLAYER_DAMAGE_MONSTER
+  - PLAYER_DAMAGE_ENTITY
+  - FILL_BUCKET
+  - EMPTY_BUCKET
+  - USE_SPAWN_EGG
+  - ENDER_PEARL_TELEPORT
+  privileges: []
+  weight: 300
+- id: container
+  display_name: Container
+  description: Allows users to open chests & other containers
+  color: '#5efc03'
+  command_aliases:
+  - containertrust
+  flags:
+  - BLOCK_INTERACT
+  - ENTITY_INTERACT
+  - CONTAINER_OPEN
+  - REDSTONE_INTERACT
+  - ENDER_PEARL_TELEPORT
+  privileges: []
+  weight: 200
+- id: access
+  display_name: Access
+  description: Allows users to use doors, buttons, levers, etc.
+  color: '#36e4ff'
+  command_aliases:
+  - accesstrust
+  flags:
+  - BLOCK_INTERACT
+  - ENTITY_INTERACT
+  - REDSTONE_INTERACT
+  - ENDER_PEARL_TELEPORT
+  privileges: []
+  weight: 100

@@ -1,0 +1,99 @@
+# Configuration for Badlands & Deserts biomes
+# List of biomes: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+
+# Color Guide:
+# - sky: Color of the sky during the day.
+# - water: Color of the water in lakes, rivers, and oceans.
+# - waterFog: Color of the fog effect when submerged in water.
+# - grass: Color of the grass blocks.
+# - tree: Color of the tree leaves.
+# - fog: Color of the atmospheric fog.
+#
+# Note: Colors are in HEX format. You can use color picker tools online to choose your desired colors.
+
+biomes:
+  - BADLANDS
+  - ERODED_BADLANDS
+  - DESERT
+  - WOODED_BADLANDS
+  - overworld/overworld/desert_flats
+  - overworld/overworld/salt_flats
+  - overworld/overworld/xeric_plains
+  - overworld/overworld/chaparral_flats
+  - overworld/overworld/arid_spikes
+  - overworld/overworld/xeric_hills
+  - overworld/overworld/chaparral
+  - overworld/overworld/shrubland
+  - overworld/overworld/xerophytic_forest_hills
+  - overworld/overworld/moorland
+  - overworld/overworld/badlands_buttes
+  - overworld/overworld/desert
+  - overworld/overworld/desert_spikes
+  - overworld/overworld/desert_spikes_gold
+  - overworld/overworld/eroded_badlands_buttes
+  - overworld/overworld/rocky_desert
+  - overworld/overworld/low_chaparral
+  - overworld/overworld/xeric_low_hills
+  - overworld/overworld/xerophytic_forest
+  - overworld/overworld/cracked_badlands_plateau
+  - overworld/overworld/dry_wild_highlands
+  - overworld/overworld/dry_temperate_mountains
+  - overworld/overworld/dry_temperate_mountains_river
+  - overworld/overworld/dry_temperate_white_mountains
+  - overworld/overworld/dry_temperate_white_mountains_river
+  - overworld/overworld/arid_highlands
+  - overworld/overworld/dry_rocky_bumpy_mountains
+  - overworld/overworld/rocky_bumpy_mountains
+  - overworld/overworld/arid_highlands
+  - overworld/overworld/badlands_mountains
+  - overworld/overworld/badlands_mountains_river
+  - overworld/overworld/desert_pillars
+  - overworld/overworld/xeric_mountains
+  - overworld/overworld/xeric_mountains_river
+# Relative temperature difference compared to base temperature in config.yml
+temperature: 15
+
+# Seasonal Settings
+seasons:
+  # Define the behavior and appearance for each season.
+  spring:
+    # If snow is true, rain will be replaced by snow
+    snow: false
+    sky: "42c6d2"
+    fog: "83c9de"
+    water: "09a8cd"
+    waterFog: "09a8cd"
+    grass: "bda975"
+    tree: "b5ba63"
+
+  summer:
+    # If snow is true, rain will be replaced by snow
+    snow: false
+    sky: "1E90FF"
+    fog: "ADD8E6"
+    water: "6dd8db"
+    waterFog: "6dd8db"  
+    grass: "bda975"
+    tree: "b5ba63"
+
+  fall:
+    # If snow is true, rain will be replaced by snow
+    snow: false
+    sky: "81b6dd"
+    fog: "b2babc"
+    water: "BC8F8F"
+    waterFog: "F5DEB3"
+    grass: "bda975"
+    tree: "b5ba63"
+
+  winter:
+    # Should the biome freeze in winter? (true/false)
+    winter-freeze: false
+    # If snow is true, rain will be replaced by snow
+    snow: false
+    sky: "81b6dd"
+    fog: "b2babc"
+    water: "E6E6FA"
+    waterFog: "F5FFFA"
+    grass: "bda975"
+    tree: "b5ba63"

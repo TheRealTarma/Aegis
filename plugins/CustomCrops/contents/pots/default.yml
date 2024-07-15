@@ -1,0 +1,129 @@
+# ID
+default:
+  # Maximum water storage capacity
+  max-water-storage: 5
+  # The most basic settings
+  base:
+    # Pot models
+    dry: customcrops:dry_pot
+    wet: customcrops:wet_pot
+  # Does the pot absorb raindrop
+  absorb-rainwater: true
+  # Does nearby water make the pot wet
+  absorb-nearby-water: false
+  # Set unique looks for pots with different fertilizer statuses
+  fertilized-pots:
+    enable: false
+    quality:
+      dry: customcrops:dry_pot
+      wet: customcrops:wet_pot
+    yield-increase:
+      dry: customcrops:dry_pot
+      wet: customcrops:wet_pot
+    variation:
+      dry: customcrops:dry_pot
+      wet: customcrops:wet_pot
+    soil-retain:
+      dry: customcrops:dry_pot
+      wet: customcrops:wet_pot
+    speed-grow:
+      dry: customcrops:dry_pot
+      wet: customcrops:wet_pot
+  # Methods to fill the watering can
+  fill-method:
+    # The name of the method, it's totally customized
+    method_1:
+      # The item to use
+      item: WATER_BUCKET
+      # The item returned (Optional)
+      return: BUCKET
+      # The amount of water to add
+      amount: 3
+      actions:
+        sound_action:
+          type: sound
+          value:
+            source: player
+            key: minecraft:item.bucket.fill
+            volume: 1
+            pitch: 1
+        swing_hand_action:
+          type: swing-hand
+          value: true
+    method_2:
+      item: POTION
+      return: GLASS_BOTTLE
+      amount: 1
+      actions:
+        sound_action:
+          type: sound
+          value:
+            source: player
+            key: minecraft:item.bottle.fill
+            volume: 1
+            pitch: 1
+        swing_hand_action:
+          type: swing-hand
+          value: true
+  # Water bar image settings
+  water-bar:
+    left: '뀂'
+    full: '뀁뀃'
+    empty: '뀁뀄'
+    right: '뀁뀅'
+  # Event settings
+  events:
+    add_water:
+      particle_action:
+        type: particle
+        value:
+          particle: WATER_SPLASH
+          x: 0.5
+          y: 1.3
+          z: 0.5
+          count: 5
+          offset-x: 0.3
+          offset-z: 0.3
+    interact:
+      # This action allows to display hologram while holding the specified item.
+      conditional_action:
+        type: conditional
+        value:
+          conditions:
+            requirement_1:
+              type: item-in-hand
+              value:
+                amount: 1
+                item: customcrops:soil_surveyor
+          actions:
+            # If the fertilizer doesn't exist, this line would not appear
+            conditional_fertilizer_action:
+              type: conditional
+              value:
+                conditions:
+                  requirement_1:
+                    type: fertilizer
+                    value:
+                      has: true
+                actions:
+                  fertilizer_hologram:
+                    type: hologram
+                    value:
+                      duration: 20
+                      text: '<font:customcrops:default>{icon}</font> {left_times}/{max_times} '
+                      apply-correction: true
+                      x: 0.5
+                      y: 0.83
+                      z: 0.5
+                      visible-to-all: false
+            # Display the amount of water in pot
+            water_hologram:
+              type: hologram
+              value:
+                duration: 20
+                text: '<font:customcrops:default>{water_bar}</font>'
+                apply-correction: true
+                x: 0.5
+                y: 0.6
+                z: 0.5
+                visible-to-all: false

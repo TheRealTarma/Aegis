@@ -1,0 +1,27 @@
+info:
+  namespace: elitecreatures
+categories:
+  blacksmith_decoration_v1:
+    enabled: true
+    icon: "elitecreatures:blacksmith_decoration_v1_anvil"
+    name: "Blacksmith Decoration v1"
+    permission: "ia.menu.blacksmith_decoration_v1_furniture_v1"
+    items:
+      - "elitecreatures:blacksmith_decoration_v1_weaponshelf"
+      - "elitecreatures:blacksmith_decoration_v1_anvil"
+      - "elitecreatures:blacksmith_decoration_v1_bed"
+      - "elitecreatures:blacksmith_decoration_v1_carpet"
+      - "elitecreatures:blacksmith_decoration_v1_chair_double"
+      - "elitecreatures:blacksmith_decoration_v1_chair_single"
+      - "elitecreatures:blacksmith_decoration_v1_cupboard"
+      - "elitecreatures:blacksmith_decoration_v1_flag_red_white"
+      - "elitecreatures:blacksmith_decoration_v1_flag_red_white_hang"
+      - "elitecreatures:blacksmith_decoration_v1_furnace"
+      - "elitecreatures:blacksmith_decoration_v1_grindstone"
+      - "elitecreatures:blacksmith_decoration_v1_shopsign"
+      - "elitecreatures:blacksmith_decoration_v1_table_big"
+      - "elitecreatures:blacksmith_decoration_v1_table_mini"
+      - "elitecreatures:blacksmith_decoration_v1_toolrack"
+
+
+

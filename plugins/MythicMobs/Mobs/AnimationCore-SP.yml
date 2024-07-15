@@ -1,0 +1,47 @@
+join-warp_pipe:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=warp_pipe;d=false} @self ~onSpawn
+  - skill{s=anim-join-warp_pipe} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+leave-flyaway:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=leave_flyaway;d=false} @self ~onSpawn
+  - skill{s=anim-leave-flyaway} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true
+
+death-spike:
+  Type: ITEM_DISPLAY
+  Display: ' '
+  health: 50
+  Options:
+    Collidable: false
+    Despawn: persistent
+  Skills:
+  - model{m=death_spike;d=false} @self ~onSpawn
+  - skill{s=anim-death-spike} @self ~onSpawn
+  Options:
+    Despawn: false
+    NoGravity: true
+    NoAI: true
+    Invincible: true

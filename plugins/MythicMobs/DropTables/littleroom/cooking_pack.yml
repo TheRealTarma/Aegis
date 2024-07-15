@@ -1,0 +1,121 @@
+
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+cooking_pot_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=COOKING_POT} 1 1
+  
+failed_food_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=FAILED_FOOD} 1 1
+  
+glazed_ham_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=GLAZED_HAM} 1 1
+  
+beef_kebab_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=BEEF_KEBAB} 1 1
+  
+chicken_kebab_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=CHICKEN_KEBAB} 1 1
+  
+fruit_salad_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=FRUIT_SALAD} 1 1
+  
+cod_sushi_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=COD_SUSHI} 1 1
+  
+salmon_sushi_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=SALMON_SUSHI} 1 1
+  
+apple_turnover_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=APPLE_TURNOVER} 1 1
+  
+porkchop_applesauce_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=PORKCHOP_APPLESAUCE} 1 1
+  
+candy_apple_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=CANDY_APPLE} 1 1
+  
+brownie_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=BROWNIE} 1 1
+  
+cod_sandwich_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=COD_SANDWICH} 1 1
+  
+salmon_sandwich_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=SALMON_SANDWICH} 1 1
+  
+beef_sandwich_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=BEEF_SANDWICH} 1 1
+  
+chicken_sandwich_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=CHICKEN_SANDWICH} 1 1
+  
+egg_basket_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=EGG_BASKET} 1 1
+  
+ham_sandwich_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=HAM_SANDWICH} 1 1
+  
+donut_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=DONUT} 1 1
+  
+pancakes_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=PANCAKES} 1 1
+  
+chocolate_bar_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=CHOCOLATE_BAR} 1 1
+  
+chocolate_milk_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=CHOCOLATE_MILK} 1 1
+  
+fish_chips_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=FISH_CHIPS} 1 1
+  
+milk_steak_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=MILK_STEAK} 1 1
+  
+steak_eggs_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=STEAK_EGGS} 1 1
+  
+lollipop_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=LOLLIPOP} 1 1
+  
+cotton_candy_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=COTTON_CANDY} 1 1
+  
+bacon_eggs_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=BACON_EGGS} 1 1
+  
+berry_milk_drop:
+  Drops:
+  - mmoitems{type=COOKINGPACK;id=BERRY_MILK} 1 1
+  

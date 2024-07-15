@@ -1,0 +1,19 @@
+
+# Display options
+name: Slayer
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 0
+    per-level: 0
+
+max-level: 99
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levelsskills
+
+#recieves experience directly from a command triggered by a quest/contract board
+
+triggers:
+    level-up

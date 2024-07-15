@@ -1,0 +1,91 @@
+info:
+  namespace: animatedtitles
+items:
+  pizza:
+    display_name: pizza
+    permission: particles.pizza
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/pizza.png
+  you_win:
+    display_name: you_win
+    permission: particles.you_win
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/you_win.png
+  bruh:
+    display_name: bruh
+    permission: particles.bruh
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/bruh.png
+  found_ultra_rare_material:
+    display_name: bruh
+    permission: particles.found_ultra_rare_material
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/found_ultra_rare_material.png
+  lvl_up:
+    display_name: lvl_up
+    permission: particles.lvl_up
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/lvl_up.png
+  thicc:
+    display_name: thicc
+    permission: particles.thicc
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/thicc.png
+  bottomthicc:
+    display_name: bottomthicc
+    permission: particles.bottomthicc
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/bottomthicc.png
+  thiccnos:
+    display_name: thiccnos
+    permission: particles.thiccnos
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/thiccnos.png
+  shrexy:
+    display_name: shrexy
+    permission: particles.shrexy
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/shrexy.png
+  darkbrandon:
+    display_name: darkbrandon
+    permission: particles.darkbrandon
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/darkbrandon.png
+  ps1hagrid:
+    display_name: ps1hagrid
+    permission: particles.ps1hagrid
+    resource:
+      material: TOTEM_OF_UNDYING
+      generate: true
+      textures:
+      - particles/ps1hagrid.png

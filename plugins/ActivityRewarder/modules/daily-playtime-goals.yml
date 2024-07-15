@@ -1,0 +1,74 @@
+# Hourly playtime goals that reset daily
+
+# Time in minutes between checking whether any online players need to receive rewards (-1 to disable)
+refresh-time: 30
+# Whether rewards should be given when claiming daily rewards
+give-with-daily-rewards: false
+
+daily-goals:
+  - category: small
+    play-minutes: 60 # 1 Hour
+    rewards:
+      - type: item
+        material: iron_ingot
+        amount: 1
+  - category: small
+    play-minutes: 120 # 2 Hours
+    display-item:
+      amount: 2
+    rewards:
+      - type: item
+        material: diamond
+        amount: 3
+  - category: small
+    play-minutes: 180 # 3 Hours
+    display-item:
+      amount: 3
+    rewards:
+      - type: item
+        material: diamond
+        amount: 3
+  - category: small
+    play-minutes: 240 # 4 Hours
+    display-item:
+      amount: 4
+    rewards:
+      - type: item
+        material: diamond
+        amount: 3
+  - category: small
+    play-minutes: 360 # 6 Hours
+    display-item:
+      amount: 6
+    rewards:
+      - type: item
+        material: diamond
+        amount: 3
+  - category: medium
+    play-minutes: 480 # 8 Hours
+    display-item:
+      amount: 8
+    rewards:
+      - type: item
+        material: diamond
+        amount: 3
+  - category: large
+    play-minutes: 600 # 10 Hours
+    display-item:
+      amount: 10
+    rewards:
+      - type: item
+        material: diamond
+        amount: 3
+
+# The gui is not currently available for this module
+gui:
+  title: "    &#529bf2&lDaily Playtime Rewards"
+  # Available templates: DEFAULT, COMPACT
+  # Read https://dave-12.gitbook.io/activity-rewarder/configuring/gui-templates#custom-templates for more info on
+  # creating and using templates
+  template: "CUSTOM"
+  format:
+    - "#########"
+    - "#RRRRRRR#"
+    - "#########"

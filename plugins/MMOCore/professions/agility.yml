@@ -1,0 +1,15 @@
+
+# Display options
+name: Agility
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 0
+    per-level: 0
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levelsskills
+
+#this skill will gain experience by completing agility courses and reward users with more endurance points to sprint
+max-level: 99

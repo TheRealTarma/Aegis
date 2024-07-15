@@ -1,0 +1,14 @@
+info:
+  namespace: tarmaweapons
+items:
+  iron_longsword:
+    permission: tarmaweapons.iron_longsword
+    mmoitem:
+      type: LONGSWORD
+      id: IRON_LONGSWORD
+    display_name: Iron Longsword
+    resource:
+      material: PAPER
+      generate: false
+      model_id: 4000
+      model_path: "weapons/iron_longsword"

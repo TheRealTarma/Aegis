@@ -1,0 +1,549 @@
+Name: Daily XP
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - booster
+Block:
+  Locations:
+  - -85.0,-60.0,31.0,0.0,0.0,Flat
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: default
+    Y_Offset: 0.0
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: REDSTONE
+      Color: 57,26,167
+      Size: 1.0
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    10percentattack:
+      Name: 10% Attack Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivedrmusj418006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create attack 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10_percent_booster_defense:
+      Name: 10% Defense Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejjd1kmar3418006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create attack 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentconstitution:
+      Name: 10% Constitution Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre008mqqbeclhn4ob6egt6gpb1dhkmspo00400agrfeln78080
+      Commands:
+      - rpg booster create constitution 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentmining:
+      Name: 10% Mining Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 2g0004000j9cg01crb9dpim6sj1cpq3kqbidtn5us39cdlm2u3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create mining 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentwoodcutting:
+      Name: 10% Woodcutting Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb40096qqbeclhn4ob6egt6isjfdpfm2u3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create woodcutting 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentfarming:
+      Name: 10% Farming Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb40096qqbeclhn4ob6egt6isjfdpfmgrr518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create farming 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentalchemy:
+      Name: 10% Alchemy Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejgdtq6irre18006t31cs4001igdtq6irre008mqqbeclhn4ob6egt6qtbechgmsp800400agrfeln78080
+      Commands:
+      - rpg booster create alchemy 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentfishing:
+      Name: 10% Fishing Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej6d5pmgqbectfn4rr418006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create fishing 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentsmithing:
+      Name: 10% Smithing Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400bmqqbeclhn4ob6egt68obdc5jmap2vc5n7cqbc0400agrfeln78080
+      Commands:
+      - rpg booster create smithing 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentslayer:
+      Name: 10% Slayer Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 5000080016ip003lmmirj5cdp62pjk79pmmtbcdhfn0rrkehin4uavedk6asj40400agrfeln78080
+      Commands:
+      - rpg booster create slayer 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentenchanting:
+      Name: 10% Enchanting Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 5000080016ip001pmmirj5cdp62pjk79h6urrb0400agrfeln78080
+      Commands:
+      - rpg booster create enchanting 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    10percentagility:
+      Name: 10% Agility Booster (60m)
+      Weight: 15.0
+      Rarity: common
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400bmqqbeclhn4ob6egt6opb1ehk6asivc9nmut3j18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create agility 0.1 3600 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentenchanting:
+      Name: 30% Enchanting Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400c6qqbeclhn4ob6egt6arj3d1gmst35chfm4rrfdc5000rkc5jgi00iadq6usj5ch2msor8c5n78rb5dpq762g00000220009km800kdlkmspb3e9gmct1qe1p6ut35cdq6irre08006r3mdg0020000400agrfeln78080
+      Commands:
+      - rpg booster create agility 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentattack:
+      Name: 30% Attack Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400bmqqbeclhn4ob6egt68qb1dlnmsp2vedrmusj418006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create attack 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30_defense_booster_30m:
+      Name: 30% Defense Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i0043dd5n6aoric5j78ejjd1kmar3418006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create defense 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentconstitution:
+      Name: 30% Constitution Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400bmqqbeclhn4ob6egt76s3cc5pmgnrgdtq6irre18006t31cs4001igdtq6irre008mqqbeclhn4ob6egt6gpb1dhkmspo00400agrfeln78080
+      Commands:
+      - rpg booster create constitution 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentagility:
+      Name: 30% Agility Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800kdlkmspb3e9gmct1qd5p6urivc9nmut3j18006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create Agility 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentmining:
+      Name: 30% Mining Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 1800020009km800pdlkmspb3e9gmct1qchkm2rbfdpi5us39cdlm2u3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create mining 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentwoodcutting:
+      Name: 30% Woodcutting Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej4d5gmqrrechfm2u3518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create woodcutting 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentfarming:
+      Name: 30% Farming Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000g002d5i005bdd5n6aoric5j78ej4d5gmqrrechfmgrr518006t31cs1g01i4c5mm2pr5000000000400agrfeln78080
+      Commands:
+      - rpg booster create farming 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentfishing:
+      Name: 30% Fishing Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400bmqqbeclhn4ob6egt78sjfe1km6obcbtj6isr80400agrfeln78080
+      Commands:
+      - rpg booster create fishing 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentsmithing:
+      Name: 30% Smithing Booster (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k00010004qb400bmqqbeclhn4ob6egt66q39e1o6ap2vc5n7cqbc0400agrfeln78080
+      Commands:
+      - rpg booster create smithing 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentalchemy:
+      Name: 30% Smithing Alchemy (30m)
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 5000080016ip002dmmirj5cdp62pjk79h6oobqclfn4rr40400agrfeln78080
+      Commands:
+      - rpg booster create alchemy 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+    30percentslayer:
+      Name: 30percentslayer
+      Weight: 10.0
+      Rarity: rare
+      Broadcast: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 5000080016ip0031mmirj5cdp62pjk79pmmpbcclq6urivedlnar3c0400agrfeln78080
+      Commands:
+      - rpg booster create slayer 0.3 1800 %player_name%
+      Items: []
+      Ignored_For_Permissions: []
+Animation_Config: csgo
+Last_Opener: Tarma_
+Last_Reward: 10% Farming Booster (60m)
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 7a3c8c6d3aaa96363d4bef2578f1024781ea14e9d85a9dcfc0935847a6fb5c8d
+  Name: '&fDaily Xp Crate Crate'
+  Item_Flags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  - HIDE_UNBREAKABLE
+  - HIDE_DESTROYS
+  - HIDE_PLACED_ON
+  - HIDE_POTION_EFFECTS
+  - HIDE_DYE
+  - HIDE_ARMOR_TRIM

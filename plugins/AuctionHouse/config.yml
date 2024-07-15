@@ -1,0 +1,2259 @@
+# Default language file
+lang: en_US
+
+# Which economy should auction house use?
+# You have the following supported economy plugins installed: "Vault", "Reserve".
+economy provider: Vault
+
+# Once you set this to true, you will no longer be able to access it unless you enable it within the actual config.yml
+Allow Usage Of This Menu In Game: true
+
+# If true, auction house will check for updates periodically
+update checker: true
+
+auction setting:
+
+  # If true, an exception will be thrown and shown in the console if something goes wrong during item listing
+  show listing error in console: false
+
+  # If true, auction house will store the payments to be manually collected rather than automatically given to the player
+  store payments for manual collection: false
+
+  # If true, the usage of the manual payment collection will only be done if the user is offline
+  use stored payments for offline only: false
+
+  # If true, the highest bidder on an item can keep placing bids to raise their initial bid.
+  allow repeated bids: true
+
+  # How many items can be stored in the collection bin. If this is reached the player cannot list anymore items, regardless of active listings
+  collection bin item limit: 45
+
+  # If true the sell menu process will skip asking for the listing type depending on your auction settings (ie. bin only or auction only)
+  skip type selection for sell menu: false
+  bundle listing limit:
+
+    # How many bundled listings can a player sell at any given time
+    listing limit: 45
+
+    # If true, collection bin bundles will also count towards this limit
+    include collection bin: false
+  listings times:
+
+    # The default listing time for bin items (buy only items) before they expire
+    bin item: 86400
+
+    # The default listing time for auction items before they expire
+    auction item: 604800
+  default filters:
+
+    # Valid Options: ALL, FOOD, ARMOR, BLOCKS, TOOLS, WEAPONS, POTIONS, SPAWNERS, ENCHANTS, MISC, SEARCH, SELF
+    auction category: ALL
+
+    # Valid Options: RECENT, OLDEST, PRICE
+    auction sort: RECENT
+
+    # Valid Options: USED_BIDDING_SYSTEM, WITHOUT_BIDDING_SYSTEM, BOTH
+    sale type: BOTH
+
+  # How many ticks should auction house wait before actually creating the item.
+  internal create delay: 2
+  pricing:
+
+    # The max price for buy only / buy now items
+    max auction price: 1000000000
+
+    # The max price starting a bidding auction
+    max auction start price: 1000000000
+
+    # The max amount for incrementing a bid.
+    max auction increment price: 1000000000
+
+    # The min price for buy only / buy now items
+    min auction price: 1
+
+    # The min price starting a bidding auction
+    min auction start price: 1
+
+    # The min amount for incrementing a bid.
+    min auction increment price: 1
+  purchase:
+
+    # Should the owner of an auction be able to purchase it?
+    # This probably should be set to false...
+    owner can purchase own item: false
+
+    # Should the owner of an auction be able to bid on it?
+    # This probably should be set to false...
+    owner can bid on own item: false
+
+    # Should the owner of a request be able to fulfill it
+    # This probably should be set to false...
+    owner can fulfill own request: false
+
+  # How much of an item should a player be able to ask for in a single request?
+  max request amount: 64
+
+  # Should auction pages auto refresh?
+  auto refresh auction pages: true
+
+  # Should the /ah active pages be auto refreshed?
+  auto refresh active auction pages: false
+
+  # Should auction pages auto refresh use a synchronous?
+  auto refresh auction pages synchronously: false
+
+  # If true, on every refresh, the slots will be cleared (replaced by default item) then the actual listings will be placed.
+  auto refresh does slot clear: true
+
+  # Should numbers be shortened into a prefixed form?
+  use short numbers: false
+
+  # Should numbers be shortened into a prefixed form for the player balance?
+  use short numbers on balance: false
+
+  # Should the remaining time be increased when a bid is placed?
+  increase time on bid: true
+
+  # How many seconds should be added to the remaining time?
+  time to increase by on the bid: 20
+
+  # If true, player's can sell items that are damaged (not max durability)
+  allow sale of damaged items: true
+
+  # If true, player's who connected using floodgate (bedrock players) won't be able to use the auction house
+  allow flood gate players: false
+
+  # If true, player's will need the perm: auctionhouse.transactions.viewall to view all transactions
+  restrict viewing all transactions: false
+
+  # A list of worlds that Auction House will be disabled in
+  blocked worlds:
+  - creative
+
+  # Items repaired before this setting is turned on will still be able to be listed.
+  prevent sale of repaired items: false
+
+  # If an item is being added to a player's inventory, the process will be ran synchronously
+  synchronize item add: false
+
+  # If true when using the admin copy option the player must be in creative
+  admin copy requires creative: false
+
+  # If true, any admin actions made will be logged
+  log admin actions: true
+
+  # If true, any decimal numbers will be rounded to the nearest whole number
+  round all prices: false
+
+  # If true, auction house will not log the auto save task to the console
+  disable auto save message: false
+
+  # If true, auction house will not log the clean up process to the console
+  disable clean up message: false
+
+  # If true, auction house will not log the player profile updates to the console
+  disable profile update message: false
+
+  # How many seconds should pass before the plugin updates all the times on items?
+  tick auctions every: 1
+  garbage deletion:
+
+    # If true, auction house will only run the garbage deletion task, after set amount of seconds
+    # otherwise if false, it will wait until the total garbage bin count
+    # reaches/exceeds the specified value
+    timed mode: true
+
+    # If timed mode is true, this value will be ran after x specified seconds, the lower this number the more frequent a new async task will be ran!
+    timed delay: 60
+
+    # If timed mode is false, whenever the garbage bin reaches this number, auction house will run the deletion task.
+    # You should adjust this number based on your server since some servers may have more or less items being claimed / marked for garbage clean up
+    max items: 30
+
+  # How many ms should a player wait before being allowed to claim an item?, Ideally you don't wanna change this. It's meant to prevent auto clicker dupe claims
+  item claim delay: 100
+
+  # How many seconds should pass before the auction gui auto refreshes?
+  refresh gui every: 10
+
+  # Should every transaction be recorded (everything an auction is won or an item is bought)
+  record transactions: true
+
+  # When the player claims an expired item, if its a bundle, should it be automatically opened. (items that cannot fit will drop to the ground)
+  open bundle on reclaim: true
+
+  # Should the entire server be alerted when a player lists an item?
+  broadcast auction list: false
+
+  # Should the entire server be alerted when a player bids on an item?
+  broadcast auction bid: false
+
+  # Should the entire server be alerted when an auction is sold
+  broadcast auction sale: false
+
+  # Should the entire server be alerted when an auction is about to end?
+  broadcast auction ending: false
+
+  # When the time on the auction item reaches this amount of seconds left, the broadcast ending will take affect
+  broadcast auction ending at time: 20
+
+  # If true auction house will use a more realistic bidding approach. Ex. the previous bid is 400, and if a player bids 500, rather than making the new bid 900, it will be set to 500.
+  use realistic bidding: false
+
+  # Only applies if use realistic bidding is true, this will make it so that they must bid higher than the current bid.
+  bid must be higher than previous: true
+  live bid number in confirm gui:
+
+    # If true, the bid confirmation menu will auto update every 1 second by default
+    use: true
+
+    # How often the confirm gui for bids will update
+    rate: 1
+
+  # Should the player who is placing a bid on an item have the money in their account to cover the cost?
+  bidder must have funds in account: false
+
+  # Should players be allowed to use the bid option cmd params?
+  allow bid system usage: true
+
+  # Should players be allowed to use the right-click buy now feature on biddable items?
+  allow buy now system usage: true
+
+  # If true, players will just need to toggle buy now on their items to allow buy now
+  buy now disabled in sell menu by default: false
+  auto save:
+
+    # Should the auto save task be enabled?
+    enabled: true
+
+    # How often should the auto save active? (in seconds. Ex. 900 = 15min)
+    time: 900
+
+  # When a buy now item is right-clicked should it open a
+  # special gui to specify the quantity of items to buy from the stack?
+  allow purchase of specific quantities: false
+
+  # Should the refresh cooldown be enabled?
+  use refresh cool down: true
+
+  # How many seconds should pass before the player can refresh the auction house again?
+  refresh cool down: 2
+
+  # Should auction house allow players to buy items even if their
+  # inventory is full, if true, items will be dropped on the floor if there is no room.
+  allow purchase with full inventory: true
+
+  # Should Auction House open the confirmation menu for the user to confirm
+  # whether they actually meant to place a bid or not?
+  ask for bid confirmation: true
+
+  # Should Auction House ask the user to confirm the listing?
+  ask for listing confirmation: false
+
+  # This will replace the "How to Sell" button with a List Item button
+  replace how to sell with list button: false
+
+  # Should the sell menu be enabled?
+  allow usage of sell gui: true
+
+  # If enabled, all items sold on the auction house must be an auction (biddable) items
+  force auction usage: false
+
+  # If enabled, you will be able to click individual items from the expiration menu to claim them back. Otherwise you will have to use the claim all button
+  allow individual item claim: true
+
+  # If enabled, the bid increment line on auction items will be hidden, bid increment values will be ignored, and when you go to bid on an item, it will ask you to enter a custom amount.
+  force custom bid amount: false
+  sound:
+
+    # The pitch value for sounds played by auction house
+    pitch: 1.0
+
+    # The volume value for sounds played by auction house
+    volume: 1.0
+
+  # If enabled, players will be outright charged the current bid for the item
+  # If they are outbid or the item is cancelled, they will get their money back. Disables ability for owners to bid on their own items!
+  bidding takes money: false
+
+  # If not set to -1 (disabled) how many seconds must a player wait to list another item after listing 1?
+  list item delay: -1
+
+  # If true, auction house will forcefully run a sync task to withdraw/deposit cash, this does not apply when using the commands
+  force sync money actions: false
+  expiration time limit:
+
+    # If true, auction house will automatically delete un claimed expired items after 7 days (default)
+    enabled: false
+
+    # In hours, what should the minimum age of an unclaimed item be inorder for it to be deleted?
+    time: 168
+
+  # Should Auction House ask the user if they want to cancel the item?
+  ask for cancel confirm on bid items: true
+
+  # Should Auction House ask the user if they want to cancel the item?
+  ask for cancel confirm on non bid items: false
+
+  # Should Auction House ask the user to confirm in chat when using end all in active listings?
+  ask for cancel confirm on end all: true
+
+  # Should the base price (buy now price) be higher than the initial bid starting price?
+  base price must be higher than bid start: true
+
+  # Ex. If the buy now price was 100, and the current price exceeds 100 to say 200, the buy now price will become 200.
+  sync the base price to the current price: true
+
+  currency format: '%,.2f'
+
+  # If the price / amount is a whole number (ex. 40.00) it will drop the .00
+  strip zeros on whole numbers: false
+  admin option:
+
+    show return to player: true
+
+    show claim item: true
+
+    show delete item: true
+
+    show copy item: true
+
+  # If true, $123,456.78 will become $123.456,78
+  use alternate currency format: false
+
+  # If true, $123,456.78 will become $12345678
+  use flat number format: false
+
+  # If true, $123,456.78 will become $123 456.78
+  use space separator for number: false
+
+  # You can learn more about date formats by googling SimpleDateFormat patterns or visiting this link
+  # https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+  date format: MMM dd, yyyy hh:mm aa
+
+  # If true, players can right click a biddable item inside their active listings menu to accept the current bid
+  allow players to accept bid: true
+
+  # If true, players must wait out the duration of the auction listing if there is already a bid on it (makes them commit to selling it)
+  prevent cancellation of bid on items: false
+
+  # If true, items can only be seen in the world they were listed in, same goes for bidding/buying/collecting
+  per world items: false
+
+  # If true players can use -t 1 day for example to set the listing time for their item
+  allow players to set auction time: false
+
+  # What should the limit on custom defined listing times be in seconds?
+  max custom defined time: 604800
+
+  # Will calculate buy now/min prices on a per item basis. For example, if the user states $100 and the item is in a stack of
+  # 32, the min / buy now price will be $3200. If they provide -s or -stack in the command
+  # this will be ignored and the entire stack will sell for $100
+  smart min and buy price: false
+
+  # The word to be used to cancel chat inputs (users can also just click any block)
+  title input cancel word: cancel
+
+  # If true, rather than using a single filter item inside the auction menu
+  # it will open an entirely new menu to select the filter
+  use separate filter menu: false
+
+  # If true, auction house will ignore default filters, and only filter by the items added to the category whitelists
+  filter only uses whitelist: false
+
+  # If true, the filter will look at material names and durability values for comparisons only
+  filter whitelist uses durability: false
+
+  # If enabled, when running just /ah sell, the user will need to hold the item in their hand, otherwise they just add it in the gui.
+  require user to hold item when using sell menu: false
+
+  # Should the main auction house be opened after the user lists an item using the sell menu?
+  open main auction house after listing using menu: true
+
+  # If true, when the player clicks the close button within the sell menu, it will send them to the main auction house
+  sell menu close sends to listings: true
+  payment handle:
+
+    # In special cases, you will want to use this
+    use command: false
+
+    # Command that will be executed to withdraw a player's balance
+    withdraw command: eco take %player% %price%
+
+    # Command that will be executed to deposit a player's balance
+    deposit command: eco give %player% %price%
+  tax:
+
+    # Should auction house use it's tax system?
+    enabled: false
+
+    # Should auction house charge players to list an item?
+    charge listing fee: true
+
+    # How much should it cost to list a new item?
+    listing fee: 5.0
+
+    # Should the listing fee be based on a percentage instead?
+    listing fee is percentage: true
+
+    # Should auction house tax the buyer instead of the seller?
+    charge sale tax to buyer: false
+
+    # Tax % that should be charged on items that are bought immediately
+    buy now sales tax: 15.0
+
+    # Tax % that should be charged on items that are won through the auction
+    auction won sales tax: 10.0
+  filter icons:
+
+    all: HOPPER
+
+    food: APPLE
+
+    armor: DIAMOND_HELMET
+
+    blocks: GRASS_BLOCK
+
+    tools: STONE_SHOVEL
+
+    weapons: IRON_SWORD
+
+    spawners: SPAWNER
+
+    enchants: ENCHANTED_BOOK
+
+    potions: POTION
+
+    misc: OAK_SIGN
+
+    self: NAME_TAG
+
+    search: COMPASS
+  enabled filters:
+
+    # Should this filter be enabled?
+    all: true
+
+    # Should this filter be enabled?
+    food: true
+
+    # Should this filter be enabled?
+    armor: true
+
+    # Should this filter be enabled?
+    blocks: true
+
+    # Should this filter be enabled?
+    tools: true
+
+    # Should this filter be enabled?
+    weapons: true
+
+    # Should this filter be enabled?
+    spawners: true
+
+    # Should this filter be enabled?
+    enchants: true
+
+    # Should this filter be enabled?
+    potions: true
+
+    # Should this filter be enabled?
+    misc: true
+
+    # Should this filter be enabled?
+    search: true
+
+    # Should this filter be enabled?
+    self: true
+
+  # Enabling this will make it so players can only access the auction through the auction chest
+  use auction chest mode: false
+
+  # Auto enable bStats
+  auto bstats: true
+
+  # If true, auction house will use the actual material name rather than custom name
+  force material names for discord: false
+  bundles:
+
+    # If true, players can use -b in the sell command to bundle all similar items into a single item.
+    enabled: true
+
+    item: GOLD_BLOCK
+
+    name: '%item_name% &7Bundle'
+
+    lore:
+    - '&7This is a bundle item, it contains'
+    - '&7multiple items that can be unboxed.'
+
+  # If true, AH will just compare material and model data types
+  use simple compare for min item price: true
+  clicks:
+
+    # Valid Click Types
+    # LEFT
+    # RIGHT
+    # SHIFT_LEFT
+    # SHIFT_RIGHT
+    # MIDDLE
+    # 
+    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    non bid item purchase: LEFT
+
+    # Valid Click Types
+    # LEFT
+    # RIGHT
+    # SHIFT_LEFT
+    # SHIFT_RIGHT
+    # MIDDLE
+    # 
+    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    non bid item qty purchase: SHIFT_LEFT
+
+    # Valid Click Types
+    # LEFT
+    # RIGHT
+    # SHIFT_LEFT
+    # SHIFT_RIGHT
+    # MIDDLE
+    # 
+    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    bid item place bid: LEFT
+
+    # Valid Click Types
+    # LEFT
+    # RIGHT
+    # SHIFT_LEFT
+    # SHIFT_RIGHT
+    # MIDDLE
+    # 
+    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    bid item buy now: RIGHT
+
+    # Valid Click Types
+    # LEFT
+    # RIGHT
+    # SHIFT_LEFT
+    # SHIFT_RIGHT
+    # MIDDLE
+    # 
+    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    inspect container: SHIFT_RIGHT
+
+    # Valid Click Types
+    # LEFT
+    # RIGHT
+    # SHIFT_LEFT
+    # SHIFT_RIGHT
+    # MIDDLE
+    # 
+    # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+    remove item: DROP
+    filter:
+
+      # Valid Click Types
+      # LEFT
+      # RIGHT
+      # SHIFT_LEFT
+      # SHIFT_RIGHT
+      # MIDDLE
+      # DROP
+      # 
+      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      sort by price or recent: SHIFT_RIGHT
+
+      # Valid Click Types
+      # LEFT
+      # RIGHT
+      # SHIFT_LEFT
+      # SHIFT_RIGHT
+      # MIDDLE
+      # DROP
+      # 
+      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      sort sale type: RIGHT
+
+      # Valid Click Types
+      # LEFT
+      # RIGHT
+      # SHIFT_LEFT
+      # SHIFT_RIGHT
+      # MIDDLE
+      # DROP
+      # 
+      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      transaction buy type: SHIFT_LEFT
+
+      # Valid Click Types
+      # LEFT
+      # RIGHT
+      # SHIFT_LEFT
+      # SHIFT_RIGHT
+      # MIDDLE
+      # DROP
+      # 
+      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      reset: DROP
+
+      # Valid Click Types
+      # LEFT
+      # RIGHT
+      # SHIFT_LEFT
+      # SHIFT_RIGHT
+      # MIDDLE
+      # DROP
+      # 
+      # &cIf you overlap click types (ex. LEFT for both inspect and buy) things will go crazy.
+      change category: LEFT
+
+database:
+
+  # Should the plugin use a database to store shop data?
+  use database: false
+
+  # What prefix should be used for table names
+  table prefix: auctionhouse_
+
+  # What is the connection url/host
+  host: localhost
+
+  # What is the port to database (default is 3306)
+  port: 3306
+
+  # What is the name of the database?
+  name: plugin_dev
+
+  # What is the name of the user connecting?
+  username: root
+
+  # What is the password to the user connecting?
+  password: Password1.
+
+  # Leave this alone if you don't know what you're doing. Set to 'None' to use no custom connection params
+  custom parameters: ?useUnicode=yes&characterEncoding=UTF-8&useServerPrepStmts=false&rewriteBatchedStatements=true&useSSL=true
+
+discord:
+
+  # Should the discord webhook feature be enabled?
+  enabled: false
+  user:
+
+    # The name of the user who will send the message
+    username: Auction House
+
+    # The avatar image of the discord user
+    avatar picture: https://cdn.kiranhart.com/spigot/auctionhouse/icon.png
+
+  # A list of webhook urls (channels) you want a message sent to
+  webhooks:
+  - https://discord.com/api/webhooks/1077667480920653840/CZbJG7DBoGhPXYICgp2--Ey_itVVmYqaQgorBfpvL7nQoQZWWMxz1TQgs1xG45Mzlpsn
+  alerts:
+
+    # Should a message be sent when a new auction listing is made
+    new auction listing: true
+
+    # Should a message be sent when a new bin listing is made (non biddable)
+    new bin listing: true
+
+    # Should a message be sent when a bid is placed on an item
+    new bid: true
+
+    # Should a message be sent when an item is bought
+    bin listing bought: true
+
+    # Should a message be sent when an auction is won
+    auction listing won: true
+  colors:
+
+    # The color of the embed, it needs to be in hsb format.
+    # Separate the numbers with a -
+    new auction listing: 137-100-100
+
+    # The color of the embed, it needs to be in hsb format.
+    # Separate the numbers with a -
+    new bin listing: 137-100-100
+
+    # The color of the embed, it needs to be in hsb format.
+    # Separate the numbers with a -
+    new bid: 137-100-100
+
+    # The color of the embed, it needs to be in hsb format.
+    # Separate the numbers with a -
+    bin listing bought: 137-100-100
+
+    # The color of the embed, it needs to be in hsb format.
+    # Separate the numbers with a -
+    auction listing won: 137-100-100
+  titles:
+
+    new auction listing: New Auction Listing
+
+    new bin listing: New Bin Listing
+
+    new bid: New Bid
+
+    bin listing bought: Listing Bought
+
+    auction listing won: Auction Won
+  field:
+    seller:
+
+      name: Seller
+
+      value: '%seller%'
+
+      inline: true
+    item:
+
+      name: Item
+
+      value: '%item_name%'
+
+      inline: true
+    bin listing price:
+
+      name: Price
+
+      value: '%item_price%'
+
+      inline: true
+    item amount:
+
+      name: Quantity
+
+      value: '%item_amount%'
+
+      inline: true
+    auction buyout price:
+
+      name: Buy Now Price
+
+      value: '%buy_now_price%'
+
+      inline: true
+    auction start price:
+
+      name: Starting Price
+
+      value: '%starting_price%'
+
+      inline: false
+    bin listing bought:
+
+      name: Buyer
+
+      value: '%buyer%'
+
+      inline: false
+    auction listing won price:
+
+      name: Final Price
+
+      value: '%final_price%'
+
+      inline: false
+    auction winner:
+
+      name: Winner
+
+      value: '%winner%'
+
+      inline: false
+    auction bidder:
+
+      name: Bidder
+
+      value: '%bidder%'
+
+      inline: false
+    bid amount:
+
+      name: Bid Amount
+
+      value: '%bid_amount%'
+
+      inline: true
+    current auction price:
+
+      name: Current Price
+
+      value: '%current_price%'
+
+      inline: true
+
+# Materials that should be blocked (not allowed to sell)
+blocked items:
+- ENDER_CHEST
+
+# A list of NBT tags that are blocked from the auction house. These are case sensitive
+blocked nbt tags:
+- example_tag
+
+# If true, blocked items will become a whitelist, meaning only items specified in blacked list will be allowed in the ah
+blocked items is whitelist: false
+
+# If an item contains any words/names specified here, it won't list.
+blocked item names:
+- fuck
+- bitch
+- nigger
+- nigga
+- pussy
+
+# If an item lore contains any of these values, it won't list
+blocked item lores:
+- kill yourself
+- another random phrase
+
+# Special time permissions for users.
+# If they have the following permission in this format:
+# auctionhouse.time.rankone
+# rankone refers to the list item under auction time, they will get the time specified (in seconds)
+auction time:
+- rankone:30
+
+gui:
+
+  # An item to be used to fill empty gui slots, this will be
+  # removed in later versions to be done on a per gui basis
+  filler item: BLACK_STAINED_GLASS_PANE
+  global items:
+    back button:
+
+      # Settings for the previous page button
+      item: OAK_DOOR
+
+      name: '&e<< Previous Page'
+
+      lore:
+      - '&7Click the button to go'
+      - '&7back to the previous page.'
+    previous page button:
+
+      # Valid Slots: 45 - 53
+      slot: 48
+
+      # Settings for the previous page button
+      item: ARROW
+
+      name: '&e<< Previous Page'
+
+      lore:
+      - '&7Click the button to go'
+      - '&7back to the previous page.'
+    close button:
+
+      # Settings for the close button
+      item: BARRIER
+
+      name: '&cClose'
+
+      lore:
+      - '&7Click to close this menu.'
+    next page button:
+
+      # Valid Slots: 45 - 53
+      slot: 50
+
+      # Settings for the next button
+      item: ARROW
+
+      name: '&eNext Page >>'
+
+      lore:
+      - '&7Click the button to go'
+      - '&7to the next page.'
+    refresh button:
+
+      enabled: true
+
+      # Valid Slots: 45 - 53
+      slot: 49
+
+      # Settings for the refresh page
+      item: CHEST
+
+      name: '&6&LRefresh Page'
+
+      lore:
+      - '&7Click to refresh the currently'
+      - '&7available auction listings.'
+  auction house:
+
+    title: '&7Auction House'
+
+    rows: 6
+
+    fill slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    items:
+      guide:
+
+        enabled: true
+
+        # Valid Slots: 45 - 53
+        slot: 53
+
+        item: BOOK
+
+        name: '&e&lGuide'
+
+        lore:
+        - '&7This is the auction house, here you can'
+        - '&7list items for sale and purchase items'
+        - '&7that others have listed for sale.'
+        - ''
+        - '&7The auction is also a great way to make'
+        - '&7money by selling farmable items other'
+        - '&7players may be interested in buying.'
+        - ''
+        - '&7Any unsold items are sent to your collection bin.'
+        - ''
+        - '&7Each item is listed as a auction, so'
+        - '&7players can out bid each other, or simply'
+        - '&7purchase it right away with a set price.'
+      transactions:
+
+        enabled: true
+
+        # Valid Slots: 45 - 53
+        slot: 51
+
+        item: PAPER
+
+        name: '&e&lTransactions'
+
+        lore:
+        - '&7Click to view transaction history'
+        - ''
+        - '&eTotal Items Bought&f: &a%total_items_bought%'
+        - '&eTotal Items Sold&f: &a%total_items_sold%'
+      how to sell:
+
+        enabled: true
+
+        # Valid Slots: 45 - 53
+        slot: 52
+
+        item: GOLD_INGOT
+
+        name: '&e&lHow to Sell'
+
+        lore:
+        - '&7To list an item on the auction house, just hold'
+        - '&7the item in your hand and type the following command.'
+        - '&e/ah sell <buyNowPrice> [startPrice] [bidIncrement]'
+      list new item:
+
+        enabled: true
+
+        # Valid Slots: 45 - 53
+        slot: 52
+
+        item: CLOCK
+
+        name: '&e&lList Item'
+
+        lore:
+        - '&7Click to list an item on the auction house.'
+      your auctions:
+
+        enabled: true
+
+        # Valid Slots: 45 - 53
+        slot: 45
+
+        item: DIAMOND
+
+        name: '&e&lYour Auctions'
+
+        lore:
+        - '&7Click here to view all of the items you'
+        - '&7are currently selling on the auction.'
+        - ''
+        - '&e&l%active_player_auctions% Item(s)'
+        - '&e&lBalance &a$%player_balance%'
+      collection bin:
+
+        enabled: true
+
+        item: ENDER_CHEST
+
+        name: '&e&lCollection Bin'
+
+        lore:
+        - '&7Click here to view and collect all of the'
+        - '&7items you have cancelled or have expired.'
+        - ''
+        - '&e&l%expired_player_auctions% Item(s)'
+      collection bind:
+
+        # Valid Slots: 45 - 53
+        slot: 46
+      filter:
+
+        enabled: true
+
+        # Valid Slots: 45 - 53
+        slot: 47
+
+        item: NETHER_STAR
+
+        name: '&e&lFilter Options'
+
+        lore:
+        - '&eItem Category&f: &7%filter_category%'
+        - '&eAuction Type&f: &7%filter_auction_type%'
+        - '&eSort Order&f: &7%filter_sort_order%'
+        - ''
+        - '&7Left-Click to change item category'
+        - '&7Right-Click to change change auction type'
+        - '&7Shift Right-Click to change sort order'
+        - '&7Press Drop to reset filters'
+      filter menu:
+
+        enabled: true
+
+        # Valid Slots: 45 - 53
+        slot: 47
+
+        item: HOPPER
+
+        name: '&e&lCurrent Filter&f: &6%filter_category%'
+
+        lore:
+        - '&eItem Category&f: &7%filter_category%'
+        - '&eAuction Type&f: &7%filter_auction_type%'
+        - '&eSort Order&f: &7%filter_sort_order%'
+        - ''
+        - '&7Left-Click to change item category'
+        - '&7Right-Click to change change auction type'
+        - '&7Shift Right-Click to change sort order'
+        - '&7Press Drop to reset filters'
+  confirm buy:
+
+    title: '&7Are you sure?'
+
+    # Should the empty slots be filled with an item
+    # when the player decides to buy a specific quantity of items?
+    fill background when buying quantity: true
+
+    # This will only show when buying specific item quantities
+    bg item: BLACK_STAINED_GLASS_PANE
+    increase button:
+
+      item: LIME_STAINED_GLASS_PANE
+
+      name: '&a&l+1'
+
+      lore:
+      - '&7Click to add &a+1 &7to purchase quantity'
+    decrease button:
+
+      item: RED_STAINED_GLASS_PANE
+
+      name: '&c&l-1'
+
+      lore:
+      - '&7Click to remove &c-1 &7from the purchase quantity'
+    qty info:
+
+      item: PAPER
+
+      name: '&ePurchase Information'
+
+      # Valid Placeholders
+      # %original_stack_size%
+      # %original_stack_price%
+      # %price_per_item%
+      # %purchase_quantity%
+      # %purchase_price%
+      lore:
+      - '&7Original Stack Size&f: &e%original_stack_size%'
+      - '&7Price for entire stack&f: &a$%original_stack_price%'
+      - '&7Price per item&f: &a$%price_per_item%'
+      - ''
+      - '&7Purchase Qty&f: &e%purchase_quantity%'
+      - '&7Total&f: &a$%purchase_price%'
+    'no':
+      item: RED_STAINED_GLASS_PANE
+      name: '&c&LCancel'
+      lore:
+      - '&7Click to cancel your purchase'
+    'yes':
+      item: LIME_STAINED_GLASS_PANE
+      name: '&a&lConfirm'
+      lore:
+      - '&7Click to confirm your purchase'
+  confirm request:
+    'no':
+      item: RED_STAINED_GLASS_PANE
+      name: '&c&LCancel'
+      lore:
+      - '&7Click to cancel your purchase'
+    'yes':
+      item: LIME_STAINED_GLASS_PANE
+      name: '&a&lConfirm'
+      lore:
+      - '&7Click to confirm your purchase'
+  confirm listing:
+
+    title: '&7Are you sure?'
+    'no':
+      item: RED_STAINED_GLASS_PANE
+      name: '&c&LCancel'
+      lore:
+      - '&7Click to cancel listing'
+    'yes':
+      item: LIME_STAINED_GLASS_PANE
+      name: '&a&lConfirm'
+      lore:
+      - '&7Click to list your item'
+  confirm bid:
+
+    title: '&7Are you sure?'
+    'no':
+      item: RED_STAINED_GLASS_PANE
+      name: '&c&LCancel'
+      lore:
+      - '&7Click to cancel your bid'
+    'yes':
+      item: LIME_STAINED_GLASS_PANE
+      name: '&a&lConfirm'
+      lore:
+      - '&7Click to confirm your bid'
+  confirm cancel:
+
+    title: '&7Are you sure?'
+    'no':
+      item: RED_STAINED_GLASS_PANE
+      name: '&c&LCancel'
+      lore:
+      - '&7Click to cancel item removal'
+    'yes':
+      item: LIME_STAINED_GLASS_PANE
+      name: '&a&lConfirm'
+      lore:
+      - '&7Click to confirm item cancellation'
+  active auctions:
+
+    title: '&7Active Listings'
+    cancel all:
+
+      item: ENDER_CHEST
+
+      name: '&e&lEnd All'
+
+      lore:
+      - '&7Click here to end all of the active listings'
+      - '&7that you have posted.'
+  active bids:
+
+    title: '&7Your Winning Bids'
+  expired auctions:
+
+    title: '&7Expired Listings'
+    cancel all:
+
+      item: ENDER_CHEST
+
+      name: '&e&lClaim All'
+
+      lore:
+      - '&7Click here to claim all of your expired auctions'
+    collect payments:
+
+      item: GOLD_INGOT
+
+      name: '&e&lCollect Payments'
+
+      lore:
+      - '&7Click here to view your payments'
+  payment collection:
+
+    title: '&7Payment Collection'
+    claim all:
+
+      item: ENDER_CHEST
+
+      name: '&e&lClaim All'
+
+      lore:
+      - '&7Click here to claim all of your payments'
+    payment:
+
+      item: PAPER
+
+      name: '&a&l$%payment_amount%'
+
+      lore:
+      - '&7Item&f: &e%item_name%'
+      - '&7From&f: &e%from_name%'
+      - '&7Reason&f:'
+      - '&e%payment_reason%'
+      - ''
+      - '&7Click here to claim this payment'
+  transactions type:
+
+    title: '&7&LTransactions'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      all transactions:
+
+        item: PAPER
+
+        name: '&eAll Transactions'
+
+        lore:
+        - '&7Click to view all transactions'
+      self transactions:
+
+        item: DIAMOND
+
+        name: '&eYour Transactions'
+
+        lore:
+        - '&7Click to view all your transactions'
+      delete transactions:
+
+        item: LAVA_BUCKET
+
+        name: '&cDelete Transactions'
+
+        lore:
+        - '&7Click to delete transactions older than a specified period'
+        - '&7Ex. 3 day will delete every single transaction older'
+        - '&7than 3 days from the current time.'
+        - '&7Valid time ranges:'
+        - '&esecond'
+        - '&eminute'
+        - '&ehour'
+        - '&eday'
+        - '&eweek'
+        - '&emonth'
+        - '&eyear'
+  min item prices:
+
+    title: '&7&LMinimum Item Prices'
+
+    lore:
+    - '&7&m-------------------------'
+    - '&7Minimum Price&f: &a%price%'
+    - ''
+    - '&7Click to delete'
+  admin logs:
+
+    title: '&7&LAdmin Logs'
+
+    lore:
+    - '&7Admin&F: &e%admin%'
+    - '&7Target&F: &e%target%'
+    - '&7Item ID&F: %item_id%'
+    - '&7Action&F: &e%admin_action%'
+    - '&7Date&F: &e%admin_log_date%'
+  transactions:
+
+    title: '&7&LYour Transactions'
+
+    title all: '&7&LAll Transactions'
+    items:
+      transaction:
+
+        name: '&e%transaction_id%'
+
+        lore:
+        - '&7Seller&F: &e%seller%'
+        - '&7Buyer&F: &e%buyer%'
+        - '&7Item name&F: %item_name%'
+        - '&7Date&F: &e%date%'
+        - ''
+        - '&7Click to view more details'
+      filter:
+
+        # Valid Slots: 45 - 53
+        slot: 47
+
+        item: NETHER_STAR
+
+        name: '&e&lFilter Options'
+
+        lore:
+        - '&eItem Category&f: &7%filter_category%'
+        - '&eAuction Type&f: &7%filter_auction_type%'
+        - '&eTransaction Type&f: &7%filter_buy_type%'
+        - '&eSort Order&f: &7%filter_sort_order%'
+        - ''
+        - '&7Left-Click to change item category'
+        - '&7Right-Click to change change auction type'
+        - '&7Shift Right-Click to change sort order'
+        - '&7Shift Left-Click to change buy type'
+        - '&7Press Drop to reset filters'
+  transaction view:
+
+    title: '&7&LViewing Transaction'
+    background:
+
+      fill: true
+
+      item: BLACK_STAINED_GLASS_PANE
+    items:
+      seller:
+
+        name: '&e%seller%'
+
+        lore:
+        - '&7This is the player who sold the item.'
+      buyer:
+
+        name: '&e%buyer%'
+
+        lore:
+        - '&7This is the player who bought the item.'
+      information:
+
+        item: PAPER
+
+        name: '&e%transaction_id%'
+
+        lore:
+        - '&7ID&f: &e%transaction_id%'
+        - '&7Item name&F: %item_name%'
+        - '&7Sale Type&f: &e%sale_type%'
+        - '&7Date&f: &e%transaction_date%'
+        - '&7Final Price&f: &e%final_price%'
+  inspect:
+
+    title: '&7&LInspecting Container'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+  all bans:
+
+    title: '&7&LAuction House &f- &eAll Bans'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      user:
+
+        name: '&e%player_name%'
+
+        lore:
+        - '&7Banned By&f: &e%ban_banner%'
+        - ''
+        - '&7Banned On&f: &e%ban_date%'
+        - '&7Expires on&f: &e%ban_expiration%'
+        - '&7Permanent&F: %is_true%'
+        - ''
+        - '&7Ban Types'
+        - '&e%ban_type_list%'
+        - ''
+        - '&EClick &7to unban this user'
+  ban:
+
+    title: '&7&LAuction House &f- &eBan User'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      player:
+
+        name: '&e%player_name%'
+
+        lore:
+        - '&7This is the selected user to be banned.'
+      types:
+
+        item: COMPARATOR
+
+        name: '&eBan Types'
+
+        lore:
+        - '&7The types of ban this player will receive'
+        - ''
+        - '&7Currently Selected Bans'
+        - '&e%ban_type_list%'
+        - ''
+        - '&EClick &7to adjust ban types'
+      permanent:
+
+        item: LAVA_BUCKET
+
+        name: '&ePermanent'
+
+        lore:
+        - '&7Should this ban be permanent'
+        - ''
+        - '&7Permanent&f: &e%is_true%'
+        - ''
+        - '&EClick &7to toggle setting'
+      reason:
+
+        item: PAPER
+
+        name: '&eBan Reason'
+
+        lore:
+        - '&7The reason for the ban'
+        - ''
+        - '&7Ban Reason&F:'
+        - '&e%ban_reason%'
+        - ''
+        - '&EClick &7to change reason'
+      expiration:
+
+        item: CLOCK
+
+        name: '&eExpiration'
+
+        lore:
+        - '&7When should this ban be lifted?'
+        - '&7Will only matter if it''s no permanent'
+        - ''
+        - '&7Expiration Date&F: &e%ban_time%'
+        - ''
+        - '&EClick &7to change ban length'
+      create:
+
+        item: LIME_DYE
+
+        name: '&eBan User'
+
+        lore:
+        - '&EClick &7to confirm ban.'
+  ban types:
+
+    title: '&7&LAuction House &f- &eBan Types'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      type:
+
+        name: '&e%ban_type%'
+
+        lore:
+        - '&EClick &7to toggle ban type'
+  player selector:
+
+    title: '&7&LAuction House &f- &eSelect Player'
+    items:
+      player:
+
+        name: '&e%player_name%'
+
+        lore:
+        - '&eClick &7To select player'
+  filter:
+
+    title: '&7Auction House - &eFilter Selection'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      all:
+
+        item: HOPPER
+
+        name: '&e&lAll'
+
+        lore:
+        - '&7Click to set the filter to&f: &eAll'
+      own:
+
+        name: '&e&lYour Listings'
+
+        lore:
+        - '&7Click to set the filter to&f: &eYour Listings'
+      search:
+
+        item: NAME_TAG
+
+        name: '&e&lSearch'
+
+        lore:
+        - '&7Click to set the filter to&f: &eSearch'
+        - '&7Current search phrase&f: &e%filter_search_phrase%'
+      misc:
+
+        item: OAK_SIGN
+
+        name: '&e&lMiscellaneous'
+
+        lore:
+        - '&7Click to set the filter to&f: &eMiscellaneous'
+      potions:
+
+        item: SPLASH_POTION
+
+        name: '&e&LPotions'
+
+        lore:
+        - '&7Click to set the filter to&f: &ePotions'
+      enchants:
+
+        item: ENCHANTED_BOOK
+
+        name: '&e&lEnchantments'
+
+        lore:
+        - '&7Click to set the filter to&f: &eEnchantments'
+      armor:
+
+        item: CHAINMAIL_CHESTPLATE
+
+        name: '&e&lArmor'
+
+        lore:
+        - '&7Click to set the filter to&f: &eArmor'
+      weapons:
+
+        item: DIAMOND_SWORD
+
+        name: '&e&lWeapons'
+
+        lore:
+        - '&7Click to set the filter to&f: &eWeapons'
+      tools:
+
+        item: IRON_PICKAXE
+
+        name: '&e&lTools'
+
+        lore:
+        - '&7Click to set the filter to&f: &eTools'
+      spawners:
+
+        item: CREEPER_SPAWN_EGG
+
+        name: '&e&LSpawners'
+
+        lore:
+        - '&7Click to set the filter to&f: &eSpawners'
+      blocks:
+
+        item: GOLD_BLOCK
+
+        name: '&e&lBlocks'
+
+        lore:
+        - '&7Click to set the filter to&f: &eBlocks'
+  filter whitelist:
+
+    title: '&7Auction Filter - &eWhitelist'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      blocks:
+
+        item: GRASS_BLOCK
+
+        name: '&e&lBlock Filters'
+
+        lore:
+        - '&7Click to adjust the item whitelist for this filter'
+      food:
+
+        item: CAKE
+
+        name: '&e&lFood Filters'
+
+        lore:
+        - '&7Click to adjust the item whitelist for this filter'
+      armor:
+
+        item: DIAMOND_HELMET
+
+        name: '&e&LArmor Filters'
+
+        lore:
+        - '&7Click to adjust the item whitelist for this filter'
+      tools:
+
+        item: IRON_PICKAXE
+
+        name: '&e&lTool Filters'
+
+        lore:
+        - '&7Click to adjust the item whitelist for this filter'
+      spawners:
+
+        item: SPAWNER
+
+        name: '&e&lSpawner Filters'
+
+        lore:
+        - '&7Click to adjust the item whitelist for this filter'
+      enchants:
+
+        item: ENCHANTED_BOOK
+
+        name: '&e&lEnchantment Filters'
+
+        lore:
+        - '&7Click to adjust the item whitelist for this filter'
+      weapons:
+
+        item: DIAMOND_SWORD
+
+        name: '&e&lWeapon Filters'
+
+        lore:
+        - '&7Click to adjust the item whitelist for this filter'
+      potions:
+
+        item: SPLASH_POTION
+
+        name: '&e&LPotions Filters'
+
+        lore:
+        - '&7Click to adjust the item whitelist for this filter'
+      misc:
+
+        item: BONE_MEAL
+
+        name: '&e&lMiscellaneous Filters'
+
+        lore:
+        - '&7Click to adjust the item whitelist for this filter'
+  filter whitelist list:
+
+    title: '&7Filter Whitelist - &e%filter_category%'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+  sell listing type:
+
+    title: '&7Auction House - &eSelect Listing Type'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      bin:
+
+        item: SUNFLOWER
+
+        name: '&e&lBin Item'
+
+        lore:
+        - '&7A Bin item is an item that does not accept any'
+        - '&7bids, it must be bought for the listed price.'
+        - ''
+        - '&7Click to list as &aBin Item'
+      auction:
+
+        item: DIAMOND
+
+        name: '&e&lAuction Item'
+
+        lore:
+        - '&7An Auction item is an item that can be bid'
+        - '&7on by multiple people, the highest bid wins.'
+        - ''
+        - '&7Click to list as an &aAuction'
+      return:
+
+        item: BARRIER
+
+        name: '&e&lAuction House'
+
+        lore:
+        - ''
+        - '&7Click to go to the &aAuction House'
+  sell place item:
+
+    title: '&7Auction House - &ePlace Item'
+
+    bundle title: '&7Auction House - &ePlace Item(s)'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      continue:
+
+        item: LIME_STAINED_GLASS_PANE
+
+        name: '&e&lContinue'
+
+        lore:
+        - ''
+        - '&7Click to continue to pricing'
+      bundle:
+
+        item: GOLD_BLOCK
+
+        name: '&e&lListing Bundle'
+
+        lore:
+        - '&7You are currently in the bundle'
+        - '&7listing view.'
+        - ''
+        - '&7Click to list a single item instead'
+      single:
+
+        item: DIAMOND
+
+        name: '&e&lSingle Listing'
+
+        lore:
+        - '&7You are currently in the single'
+        - '&7item listing view.'
+        - ''
+        - '&7Click to list a bundle instead'
+  sell bin item:
+
+    title: '&7Auction House - &eBin Listing'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      confirm:
+
+        item: LIME_STAINED_GLASS_PANE
+
+        name: '&e&lList Item'
+
+        lore:
+        - ''
+        - '&7Click to list this item'
+      time:
+
+        item: CLOCK
+
+        name: '&e&lListing Time'
+
+        lore:
+        - ''
+        - '&eCurrent Time: &b%remaining_days%&fd &b%remaining_hours%&fh &b%remaining_minutes%&fm &b%remaining_seconds%&Fs'
+        - ''
+        - '&7Click to edit the listing time'
+      price:
+
+        item: DIAMOND
+
+        name: '&e&lPrice'
+
+        lore:
+        - ''
+        - '&7The current price if &F: &a$%listing_bin_price%'
+        - ''
+        - '&7Click to edit the listing price'
+      partial enabled:
+
+        item: LIME_STAINED_GLASS_PANE
+
+        name: '&e&lQuantity Purchase'
+
+        lore:
+        - ''
+        - '&7You have partial purchases &aenabled'
+        - ''
+        - '&7Click to &cdisable &7partial purchases'
+      partial disabled:
+
+        item: RED_STAINED_GLASS_PANE
+
+        name: '&e&lQuantity Purchase'
+
+        lore:
+        - ''
+        - '&7You have partial purchases &cdisabled'
+        - ''
+        - '&7Click to &aenable &7partial purchases'
+  request:
+
+    title: '&7Auction House - &eRequest Item'
+    items:
+      amt:
+
+        item: REPEATER
+
+        name: '&e&LRequest Amount'
+
+        lore:
+        - '&7How much of this item do you want?'
+        - ''
+        - '&eCurrent Amt: &e%request_amount%'
+        - ''
+        - '&7Click to edit request amount'
+      price:
+
+        item: SUNFLOWER
+
+        name: '&e&LPrice'
+
+        lore:
+        - '&7How much are you going to pay for this?'
+        - ''
+        - '&eCurrent: &e%request_price%'
+        - ''
+        - '&7Click to edit request price'
+      request:
+
+        item: LIME_STAINED_GLASS_PANE
+
+        name: '&e&lRequest Item(s)'
+
+        lore:
+        - ''
+        - '&7Click to make this request'
+  sell auction item:
+
+    title: '&7Auction House - &eAuction Listing'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      time:
+
+        item: CLOCK
+
+        name: '&e&lListing Time'
+
+        lore:
+        - ''
+        - '&eCurrent Time: &b%remaining_days%&fd &b%remaining_hours%&fh &b%remaining_minutes%&fm &b%remaining_seconds%&Fs'
+        - ''
+        - '&7Click to edit the listing time'
+      bin price:
+
+        item: DIAMOND
+
+        name: '&e&lBuyout Price'
+
+        lore:
+        - ''
+        - '&7The current buyout price is&F: &a$%listing_bin_price%'
+        - ''
+        - '&7Click to edit the buyout price'
+      starting price:
+
+        item: DIAMOND
+
+        name: '&e&lStarting Price'
+
+        lore:
+        - ''
+        - '&7The current starting price is&F: &a$%listing_start_price%'
+        - ''
+        - '&7Click to edit the starting price'
+      increment price:
+
+        item: DIAMOND
+
+        name: '&e&lIncrement Price'
+
+        lore:
+        - ''
+        - '&7The current increment price is&F: &a$%listing_increment_price%'
+        - ''
+        - '&7Click to edit the increment price'
+      buyout enabled:
+
+        item: LIME_STAINED_GLASS_PANE
+
+        name: '&e&lAuction Buyout'
+
+        lore:
+        - ''
+        - '&7You have buyout &aenabled'
+        - ''
+        - '&7Click to &cdisable &7auction buyout'
+      buyout disabled:
+
+        item: RED_STAINED_GLASS_PANE
+
+        name: '&e&lAuction Buyout'
+
+        lore:
+        - ''
+        - '&7You have buyout &cdisabled'
+        - ''
+        - '&7Click to &aenable &7auction buyout'
+      confirm:
+
+        item: LIME_STAINED_GLASS_PANE
+
+        name: '&e&lList Item'
+
+        lore:
+        - ''
+        - '&7Click to list this item'
+  stat view select:
+
+    title: '&7Auction House - &eStatistics'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      personal:
+
+        use head: true
+
+        item: DIAMOND
+
+        name: '&e&lPersonal Statistics'
+
+        lore:
+        - '&7Click to view your own stats'
+      leaderboard:
+
+        item: NETHER_STAR
+
+        name: '&e&lLeaderboard'
+
+        lore:
+        - '&7Click to view server leaderboard'
+  stat view self:
+    items:
+
+      title: '&7Auction House - &eYour Stats'
+      created auction:
+
+        item: DIAMOND
+
+        name: '&e&lCreated Auctions'
+
+        lore:
+        - '&7You created &e%created_auctions% &7auctions'
+      created bin:
+
+        item: HOPPER_MINECART
+
+        name: '&e&lCreated Bins'
+
+        lore:
+        - '&7You created &e%created_bins% &7bins'
+      sold auction:
+
+        item: LADDER
+
+        name: '&e&LSold Auctions'
+
+        lore:
+        - '&7You sold &e%sold_auctions% &7auction(s)'
+      sold bin:
+
+        item: CHEST
+
+        name: '&e&LSold Bins'
+
+        lore:
+        - '&7You sold &e%sold_bins% &7bin(s)'
+      money earned:
+
+        item: LIME_STAINED_GLASS_PANE
+
+        name: '&e&LMoney Earned'
+
+        lore:
+        - '&7You earned &a$%money_earned%'
+      money spent:
+
+        item: RED_STAINED_GLASS_PANE
+
+        name: '&e&LMoney Spent'
+
+        lore:
+        - '&7You spent &c$%money_spent%'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+  stat view leaderboard:
+    items:
+
+      title: '&7Auction House - &eStat Leaderboard'
+      player:
+
+        name: '&e&l%player_name%'
+
+        lore:
+        - ''
+        - '&7Statistic&f: &e%auction_statistic_name%'
+        - '&7Value&f: &e%auction_statistic_value%'
+        - ''
+      stat:
+
+        item: NETHER_STAR
+
+        name: '&e&lStatistic Type'
+
+        lore:
+        - ''
+        - '&7Selected&f: &e%statistic_name%'
+        - '&7Click to &achange &7viewed statistic'
+        - ''
+
+    bg item: BLACK_STAINED_GLASS_PANE
+  stat view other:
+    items:
+
+      title: '&7Auction House - &e%player_name% Stats'
+      created auction:
+
+        item: DIAMOND
+
+        name: '&e&lCreated Auctions'
+
+        lore:
+        - '&7They created &e%created_auctions% &7auctions'
+      created bin:
+
+        item: HOPPER_MINECART
+
+        name: '&e&lCreated Bins'
+
+        lore:
+        - '&7They created &e%created_bins% &7bins'
+      sold auction:
+
+        item: LADDER
+
+        name: '&e&LSold Auctions'
+
+        lore:
+        - '&7They sold &e%sold_auctions% &7auction(s)'
+      sold bin:
+
+        item: CHEST
+
+        name: '&e&LSold Bins'
+
+        lore:
+        - '&7They &e%sold_bins% &7bin(s)'
+      money earned:
+
+        item: LIME_STAINED_GLASS_PANE
+
+        name: '&e&LMoney Earned'
+
+        lore:
+        - '&7They earned &a$%money_earned%'
+      money spent:
+
+        item: RED_STAINED_GLASS_PANE
+
+        name: '&e&LMoney Spent'
+
+        lore:
+        - '&7They spent &c$%money_spent%'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+  expired items admin:
+
+    title: '&7Auction House - &eAdmin Expired'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+
+    item lore:
+    - '&7Click to delete this item'
+  item admin:
+
+    title: '&7Auction House - &eAdmin Item'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      send to player:
+
+        item: ENDER_CHEST
+
+        name: '&a&lReturn to player'
+
+        lore:
+        - '&7Click to return this item to the seller'
+      claim item:
+
+        item: HOPPER
+
+        name: '&a&lClaim Item'
+
+        lore:
+        - '&7Click to claim this item as yours'
+      delete item:
+
+        item: BARRIER
+
+        name: '&a&lDelete Item'
+
+        lore:
+        - '&7Click to delete this item'
+      copy item:
+
+        item: REPEATER
+
+        name: '&a&LCopy Item'
+
+        lore:
+        - '&7Click to copy this item'
+  bidding:
+
+    title: '&7Auction House - &eBidding'
+
+    bg item: BLACK_STAINED_GLASS_PANE
+    items:
+      default amount:
+
+        item: SUNFLOWER
+
+        name: '&a&LDefault Amount'
+
+        lore:
+        - '&7Click to bid default amount'
+      custom amount:
+
+        item: OAK_SIGN
+
+        name: '&a&lCustom Amount'
+
+        lore:
+        - '&7Click to bid a custom amount'
+  create bundle:
+
+    title: '&7Auction House - &eBundle Items'
+    items:
+      confirm:
+
+        item: LIME_STAINED_GLASS_PANE
+
+        name: '&a&LConfirm'
+
+        lore:
+        - '&7Click to confirm listing'
+
+auction stack:
+
+  header:
+  - '&7&m-------------------------'
+
+  seller lines:
+  - '&eSeller&f: &b%seller%'
+  - ''
+
+  requester lines:
+  - '&eRequester&f: &b%requester%'
+  - ''
+
+  request price lines:
+  - '&eOffering: &a$%request_price%'
+
+  request count lines:
+  - '&eRequest Amt: &a%request_amount%'
+  - ''
+
+  buy now lines:
+  - '&eBuy Now: &a$%buynowprice%'
+  - ''
+
+  current price lines:
+  - '&eCurrent Price: &a$%currentprice%'
+
+  bid increment lines:
+  - '&eBid Increment: &a$%bidincrement%'
+
+  highest bidder lines:
+  - '&eHighest Bidder: &a%highestbidder%'
+
+  time left lines:
+  - ''
+  - '&eTime Left: &b%remaining_days%&fd &b%remaining_hours%&fh &b%remaining_minutes%&fm &b%remaining_seconds%s'
+
+  # this will be used instead of the time left if the item is infinite
+  infinite lines:
+  - ''
+  - '&eTime Left: &bNo Expiration'
+  controls:
+
+    header:
+    - '&7&m-------------------------'
+
+    footer:
+    - '&7&m-------------------------'
+
+    # This will only be added to the control lore if the item can be inspected (skulker box/bundled item)
+    inspection:
+    - '&eShift Right-Click to inspect'
+
+    # This will only show on items within the active listings menu on biddable items.
+    accept bid:
+    - '&eRight-Click to accept the current bid'
+
+    cancel item:
+    - '&eLeft-Click to cancel this listing'
+
+    cancel request:
+    - '&eLeft-Click to cancel this request'
+
+    preview item:
+    - '&ePreviewing Listing'
+
+    highest bidder:
+    - '&eCurrently Winning!'
+
+    # This will be appended at the end of the lore
+    # If the auction item is using a bid, this will show
+    using bid:
+    - '&eLeft-Click&f: &bBid'
+    - '&eRight-Click&f: &bBuy Now'
+
+    # This will be appended at the end of the lore
+    # If the auction item is using a bid, this will show
+    using bid without buy now:
+    - '&eLeft-Click&f: &bBid'
+
+    # This will be appended at the end of the lore
+    # If the listing is a request this will be shown to fulfill
+    fulfill request:
+    - '&eLeft-Click&f: &bFulfill Request'
+
+    # This will be appended at the end of the lore
+    # If the auction item is not using a bid, this will show
+    not using bid:
+    - '&eLeft-Click&f: &bBuy Now'
+
+    # This will be appended at the end of the lore
+    # If the auction item allows partial buys, this will be added
+    partial buy:
+    - '&eShift Left-Click&f: &bBuy Quantity'
+
+sounds:
+
+  listed item on the auction house: ENTITY_EXPERIENCE_ORB_PICKUP
+
+  navigated between gui pages: ENTITY_BAT_TAKEOFF
+
+  not enough money: ENTITY_ITEM_BREAK

@@ -1,0 +1,282 @@
+info:
+  namespace: vanilla_star
+font_images:
+    vanilla_star_group_diamond1:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_diamond1.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_diamond2:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_diamond2.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_diamond3:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_diamond3.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_diamond4:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_diamond4.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_diamond5:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_diamond5.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_emerald1:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_emerald1.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_emerald2:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_emerald2.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_emerald3:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_emerald3.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_emerald4:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_emerald4.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_emerald5:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_emerald5.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_gold1:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_gold1.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_gold2:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_gold2.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_gold3:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_gold3.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_gold4:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_gold4.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_gold5:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_gold5.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_iron1:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_iron1.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_iron2:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_iron2.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_iron3:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_iron3.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_iron4:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_iron4.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_iron5:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_iron5.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_rainbow1:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_rainbow1.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_rainbow2:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_rainbow2.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_rainbow3:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_rainbow3.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_rainbow4:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_rainbow4.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_rainbow5:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_rainbow5.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_ruby1:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_ruby1.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_ruby2:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_ruby2.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_ruby3:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_ruby3.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_ruby4:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_ruby4.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_ruby5:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_ruby5.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_stone1:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_stone1.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_stone2:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_stone2.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_stone3:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_stone3.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_stone4:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_stone4.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_stone5:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_stone5.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_wooden1:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_wooden1.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_wooden2:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_wooden2.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_wooden3:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_wooden3.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_wooden4:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_wooden4.png"
+        scale_ratio: 9
+        y_position: 8
+
+    vanilla_star_group_wooden5:
+        permission: vanilla_star.use
+        show_in_gui: true
+        path: "group/star_group_wooden5.png"
+        scale_ratio: 9
+        y_position: 8

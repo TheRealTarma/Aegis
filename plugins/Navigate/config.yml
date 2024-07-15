@@ -1,0 +1,68 @@
+# Format for compasses, length of which should be divisible by 4.
+# S W N E are located respectively at indexes 0, length/4, 2*(length/4), and 3*(length/4)
+# Use dashes for inbetween characters and define your base/dash char below.
+format: S-----*-----W-----*-----N-----*-----E-----*-----
+
+# Border to place around the compass.
+# Use {compass} for the compass location.
+border: '[{compass}]'
+
+# Color/formatting codes to use for the pointer character.
+pointerColor: '&b'
+
+# Character and color/formatting for the dashes.
+base: '-'
+baseColor: '&7'
+
+barColor: blue
+
+# PlaceholderAPI integration enabled?
+# If true, you can put placeholders in your border
+# and it will be replaced appropriately.
+placeholder-api: true
+
+# Other dynamic replacements
+# Since the format text is used in calculations, you can"t put color codes
+# in format. So use this to put colors before certain characters.
+replacements:
+  '*': '&e*'
+  S: '&l&6S'
+  W: '&l&6W'
+  N: '&l&6N'
+  E: '&l&6E'
+
+# Landmarks added to players" maps automatically when they first join
+# They can edit or disable them on an individual level after that.
+# - - - - - - - - -
+# Format
+#
+# id:
+#  symbol: Character to display on compass
+#  formatting: Formatting (bold, colors) to place before character
+#  worldName: World. If not given, will apply in all worlds.
+#  worldUid: World, in UUID format.
+#  location:
+#    x: x coordinate
+#    y: y coordinate
+#    z: z coordinate
+defaultLandmarks:
+  spawn:
+    priority: 10
+    symbol: '5'
+    formatting: '&9'
+    location:
+      x: 100
+      z: 50
+
+# Global landmarks are added to compasses always
+# and cannot be modified by the player.
+# - - - - - - - - -
+# Same format as above.
+globalLandmarks:
+  origin:
+    priority: 100
+    symbol: O
+    formatting: '&9'
+    location:
+      x: 0
+      z: 0

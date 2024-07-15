@@ -1,0 +1,43 @@
+class-points: 1
+skill-points: 0
+skill-reallocation-points: 0
+attribute-points: 0
+attribute-realloc-points: 0
+level: 7
+experience: 2.0
+class: HUMAN
+waypoints: []
+friends: []
+last-login: 1720666887485
+skill-tree-reallocation-points: 0
+health: 20.0
+mana: 20.0
+stellium: 20.0
+stamina: 20.0
+unlocked-items: []
+skill-tree-points:
+  global: 0
+times-claimed:
+  class_HUMAN:
+    class_exp_table:
+      level_up: 6
+attribute:
+  magic: 0
+  constitution: 0
+  ranged: 0
+  defense: 0
+  attack: 0
+profession:
+  constitution:
+    exp: 30.0
+    level: 0
+  defense:
+    exp: 3.0
+    level: 0
+  attack:
+    exp: 0.0
+    level: 0
+  farming:
+    exp: 1.0854681532586001
+    level: 0
+quest: {}

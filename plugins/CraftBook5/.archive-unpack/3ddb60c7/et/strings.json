@@ -1,0 +1,7 @@
+{
+    "craftbook.mechanisms.click-to-enable": "Klõpsake lubamiseks",
+    "craftbook.mechanisms.click-to-disable": "Klõpsake keelamiseks",
+    "craftbook.version.version": "CraftBooki versioon {0}",
+    "craftbook.command.player-required": "Mängija peab olema antud.",
+    "craftbook.command.unknown-player": "Tundmatu mängija!"
+}

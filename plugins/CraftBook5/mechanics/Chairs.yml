@@ -1,0 +1,94 @@
+# CraftBook Chairs Configuration
+# -- Generated for version: 5.0.0-beta-01
+# 
+# More information about this mechanic is available at...
+# https://craftbook.enginehub.org/en/5.0.0/mechanics/chairs/
+#
+# NOTE! Make sure to enable this in the config.yml file if you wish to use it.
+
+
+# Allow players to sit in chairs when holding blocks.
+allow-holding-blocks: false
+
+# Allow players to sit in chairs while sneaking.
+allow-sneaking: 'false'
+
+# Regenerate health passively when seated.
+regen-health: true
+
+# Lower the player's exhaustion level when seated.
+lower-exhaustion: true
+
+# The amount of health regenerated passively. (Can be decimal)
+regen-health-amount: 0.2
+
+# A list of blocks that can be sat on.
+blocks:
+- minecraft:acacia_stairs
+- minecraft:andesite_stairs
+- minecraft:bamboo_mosaic_stairs
+- minecraft:bamboo_stairs
+- minecraft:birch_stairs
+- minecraft:blackstone_stairs
+- minecraft:brick_stairs
+- minecraft:cherry_stairs
+- minecraft:cobbled_deepslate_stairs
+- minecraft:cobblestone_stairs
+- minecraft:crimson_stairs
+- minecraft:cut_copper_stairs
+- minecraft:dark_oak_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:deepslate_brick_stairs
+- minecraft:deepslate_tile_stairs
+- minecraft:diorite_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:exposed_cut_copper_stairs
+- minecraft:granite_stairs
+- minecraft:jungle_stairs
+- minecraft:mangrove_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:mud_brick_stairs
+- minecraft:nether_brick_stairs
+- minecraft:oak_stairs
+- minecraft:oxidized_cut_copper_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- minecraft:polished_deepslate_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:polished_granite_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:spruce_stairs
+- minecraft:stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:warped_stairs
+- minecraft:waxed_cut_copper_stairs
+- minecraft:waxed_exposed_cut_copper_stairs
+- minecraft:waxed_oxidized_cut_copper_stairs
+- minecraft:waxed_weathered_cut_copper_stairs
+- minecraft:weathered_cut_copper_stairs
+
+# When the player sits, automatically face them the direction of the chair. (If possible)
+face-correct-direction: true
+
+# Require a sign to be attached to the chair in order to work!
+require-sign: false
+
+# The maximum distance between the click point and the sign. (When require sign is on)
+max-sign-distance: 3
+
+# The maximum distance the player can be from the sign.
+max-click-radius: 5
+
+# Teleport players to their last position when they exit the chair.
+exit-to-last-position: false

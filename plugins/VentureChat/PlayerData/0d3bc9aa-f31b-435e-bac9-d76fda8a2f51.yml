@@ -1,0 +1,16 @@
+name: zero99x
+current: Global
+ignores: ''
+listen: Trade,Help,Announcement,Donator,Network,Staff,Local,Global
+mutes: {}
+blockedcommands: ''
+host: true
+party: 0d3bc9aa-f31b-435e-bac9-d76fda8a2f51
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2024/Jul/12 02:10:00

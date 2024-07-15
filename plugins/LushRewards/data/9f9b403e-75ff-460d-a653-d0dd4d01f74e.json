@@ -1,0 +1,24 @@
+{
+  "main": {
+    "username": "TheSandersLad",
+    "minutesPlayed": 2127
+  },
+  "daily-rewards": {
+    "startDate": "2024-05-16",
+    "lastJoinDate": "2024-07-11",
+    "collectedDays": [],
+    "dayNum": 1,
+    "streak": 1,
+    "highestStreak": 1
+  },
+  "daily-playtime-rewards": {
+    "lastCollectedPlaytime": 985,
+    "startDate": "2024-06-16",
+    "previousDayEndPlaytime": 985
+  },
+  "global-playtime-rewards": {
+    "lastCollectedPlaytime": 1468,
+    "startDate": "2024-05-16",
+    "previousDayEndPlaytime": 0
+  }
+}

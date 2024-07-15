@@ -1,0 +1,53 @@
+name: 'Premium'
+default-points-required: 100
+required-permission: 'battlepass.premium'
+
+items:
+  doesnt-have-pass-item:
+    material: 'gold_nugget'
+    customModelData: 7008
+    name: '{#F33A6A}&lTier: {#ffb3c7}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '{#71797E}Purchase the Premium Battle'
+      - '{#71797E}Pass at &fstore.server.com'
+      - '{#71797E}to collect premium rewards!'
+      - ''
+      - '{#F33A6A}Locked!'
+  locked-tier-item:
+    material: 'gold_nugget'
+    customModelData: 7008
+    name: '{#F33A6A}&lTier: {#ffb3c7}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '{#F33A6A}Locked!'
+  unlocked-tier-item:
+    material: 'gold_nugget'
+    customModelData: 7003
+    name: '{#7CFC00}&lTier: {#c5ff8c}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '&eClaim &8[Left Click]'
+  claimed-tier-item:
+    material: 'gold_nugget'
+    customModelData: 7004
+    name: '{#7CFC00}&lTier: {#c5ff8c}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '{#7CFC00}Claimed!'
+
+tier-up-actions:
+  - '[message] {:bp: &7You reached Tier %tier%!}'
+
+tiers: # MAKE SURE TO COPY YOUR TIERS OVER FROM YOUR OLD PREMIUM.YML
+  '1': # MAKE SURE TO COPY YOUR TIERS OVER FROM YOUR OLD PREMIUM.YML
+    rewards: ['1'] # MAKE SURE TO COPY YOUR TIERS OVER FROM YOUR OLD PREMIUM.YML
+    required-points: 1 # MAKE SURE TO COPY YOUR TIERS OVER FROM YOUR OLD PREMIUM.YML

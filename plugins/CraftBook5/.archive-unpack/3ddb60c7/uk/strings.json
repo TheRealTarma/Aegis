@@ -1,0 +1,16 @@
+{
+    "craftbook.variables.get": "Змінна {0}: \"{1}\"",
+    "craftbook.variables.set": "Змінна {0} тепер встановлена на: \"{1}\"",
+    "craftbook.variables.remove": "Змінну {0} було видалено",
+    "craftbook.variables.list.copy": "Натисніть, щоб скопіювати",
+    "craftbook.variables.list.all-and-namespace": "Ви не можете вказувати простір імен при використанні -a",
+    "craftbook.variables.not-numeric": "Змінна {0} не типу 'number'",
+    "craftbook.mechanisms.click-to-enable": "Натисніть, щоб увімкнути",
+    "craftbook.mechanisms.click-to-disable": "Натисніть, щоб вимкнути",
+    "craftbook.mechanisms.create-permission": "У вас немає дозволу на створення механіки {0}.",
+    "craftbook.mechanisms.use-permission": "Ви не маєте дозволу використовувати механіки {0}.",
+    "craftbook.mechanisms.protection-blocked": "Механіку {0} заборонено системою захисту.",
+    "craftbook.version.version": "Версія CraftBook {0}",
+    "craftbook.command.player-required": "Необхідно вказати гравця.",
+    "craftbook.command.unknown-player": "Невідомий гравець!"
+}

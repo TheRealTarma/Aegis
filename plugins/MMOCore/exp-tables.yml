@@ -1,0 +1,406 @@
+
+# Experience tables are separated into multiple items.
+
+example_exp_table:
+
+  # Every item is fully independent and has its own chance
+  # of dropping every time a player passes a level! When an
+  # item drops, all its triggers are called.
+  first_table_item:
+
+    # This item will drop every 3 level ups
+    period: 3
+
+    # This item has a 80% chance to drop every 3 level ups
+    chance: 80
+
+    # Every successive drop failure the item will reduce the
+    # future risk by X%. With a 80% failure reduction rate,
+    # risks become:
+    # - 80%
+    # - 96% (almost guaranteed)
+    # - 99.2% (almost guaranteed+)
+    # - 99.84% (almost guaranteed++)
+    # so on forever..
+    #
+    # This is better than just increasing the claim chance by a
+    # certain amount each time because otherwise the claim chance
+    # just becomes/surpasses 100% at some point.
+    fail-reduction: 80
+
+    # What happens when that item is claimed. Does it give exp?
+    # Does it perform a command, unlocks a skill? etc
+    # You can find the list of available triggers on the wiki
+    triggers:
+      - 'exp{amount=20}'
+
+  # This is a second item, fully independent of the previous one.
+  second_table_item:
+    period: 2
+    triggers:
+      - 'exp{amount=80}'
+      - 'command{format="broadcast Boy, %player_name% level up twice in one of his(her) professions!"}'
+
+# Exp table used by class to provide
+# one skill tree point assigned every 10 lvls starting at lvl 10 and stopping at 60 -tarma
+class_exp_table:
+  level_up:
+    period: 1
+    triggers:
+      - 'command{format="iaplaytotemanimation animatedtitles:lvl_up %player%"}'
+
+attack_exp_table:
+  attribute_point:
+    period: 1
+    triggers:
+      - 'command{format="mmocore admin attribute give %player% attack 1"}'
+
+defense_exp_table:
+  attribute_point:
+    period: 1
+    triggers:
+      - 'command{format="mmocore admin attribute give %player% defense 1"}'
+
+constitution_exp_table:
+  attribute_point:
+    period: 1
+    triggers:
+      - 'command{format="mmocore admin attribute give %player% constitution 1"}'
+
+magic_exp_table:
+  attribute_point:
+    period: 1
+    triggers:
+      - 'command{format="mmocore admin attribute give %player% magic 1"}'
+  level_1:
+    level: 1
+    triggers:
+  level_2:
+    level: 2
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% BLIND"}'
+  level_3:
+    level: 3
+    triggers:
+  level_4:
+    level: 4
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% CHICKEN_WRAITH"}'
+  level_5:
+    level: 5
+    triggers:
+  level_6:
+    level: 6
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% SLOW"}'
+  level_7:
+    level: 7
+    triggers:
+  level_8:
+    level: 8
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% EARTHQUAKE"}'
+  level_9:
+    level: 9
+    triggers:
+  level_10:
+    level: 10
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% MINOR_HEALING"}'
+  level_11:
+    level: 11
+    triggers:
+  level_12:
+    level: 12
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% ICE_CRYSTAL"}'
+  level_13:
+    level: 13
+    triggers:
+  level_14:
+    level: 14
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% SWIFTNESS"}'
+  level_15:
+    level: 15
+    triggers:
+  level_16:
+    level: 16
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% HOLY_MISSILE"}'
+  level_17:
+    level: 17
+    triggers:
+  level_18:
+    level: 18
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% MINOR_EXPLOSION"}'
+  level_19:
+    level: 19
+    triggers:
+  level_20:
+    level: 20
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% HEAL"}'
+  level_21:
+    level: 21
+    triggers:
+  level_22:
+    level: 22
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% POISON"}'
+  level_23:
+    level: 23
+    triggers:
+  level_24:
+    level: 24
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% SHOCK"}'
+  level_25:
+    level: 25
+    triggers:
+  level_26:
+    level: 26
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% LEAP"}'
+  level_27:
+    level: 27
+    triggers:
+  level_28:
+    level: 28
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% LIGHT_DASH"}'
+  level_29:
+    level: 29
+    triggers:
+  level_30:
+    level: 30
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% GREATER_HEALINGS"}'
+  level_31:
+    level: 31
+    triggers:
+  level_32:
+    level: 32
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% SNOWMAN_TURRET"}'
+  level_33:
+    level: 33
+    triggers:
+  level_34:
+    level: 34
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% ICE_SPIKES"}'
+  level_35:
+    level: 35
+    triggers:
+  level_36:
+    level: 36
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% MAGICAL_PATH"}'
+  level_37:
+    level: 37
+    triggers:
+  level_38:
+    level: 38
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% HUMAN_SHIELD"}'
+  level_39:
+    level: 39
+    triggers:
+  level_40:
+    level: 40
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% GRAND_HEAL"}'
+  level_41:
+    level: 41
+    triggers:
+  level_42:
+    level: 42
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% LIGHTNING_BEAM"}'
+  level_43:
+    level: 43
+    triggers:
+  level_44:
+    level: 44
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% SHOCKWAVE"}'
+  level_45:
+    level: 45
+    triggers:
+  level_46:
+    level: 46
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% HOEARTHQUAKE"}'
+  level_47:
+    level: 47
+    triggers:
+  level_48:
+    level: 48
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% OVERLOAD"}'
+  level_49:
+    level: 49
+    triggers:
+  level_50:
+    level: 50
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% SKY_SMASH"}'
+  level_51:
+    level: 51
+    triggers:
+  level_52:
+    level: 52
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% FIRE_METEOR"}'
+  level_53:
+    level: 53
+    triggers:
+  level_54:
+    level: 54
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% THOW_UP"}'
+  level_55:
+    level: 55
+    triggers:
+  level_56:
+    level: 56
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% VAMPIRISM"}'
+  level_57:
+    level: 57
+    triggers:
+  level_58:
+    level: 58
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% FIREFLY"}'
+  level_59:
+    level: 59
+    triggers:
+  level_60:
+    level: 60
+    triggers:
+      - 'command{format="rpg admin skill unlock %player% DEATH_MARK"}'
+  level_61:
+    level: 61
+    triggers:
+  level_62:
+    level: 62
+    triggers:
+  level_63:
+    level: 63
+    triggers:
+  level_64:
+    level: 64
+    triggers:
+  level_65:
+    level: 65
+    triggers:
+  level_66:
+    level: 66
+    triggers:
+  level_67:
+    level: 67
+    triggers:
+  level_68:
+    level: 68
+    triggers:
+  level_69:
+    level: 69
+    triggers:
+  level_70:
+    level: 70
+    triggers:
+  level_71:
+    level: 71
+    triggers:
+  level_72:
+    level: 72
+    triggers:
+  level_73:
+    level: 73
+    triggers:
+  level_74:
+    level: 74
+    triggers:
+  level_75:
+    level: 75
+    triggers:
+  level_76:
+    level: 76
+    triggers:
+  level_77:
+    level: 77
+    triggers:
+  level_78:
+    level: 78
+    triggers:
+  level_79:
+    level: 79
+    triggers:
+  level_80:
+    level: 80
+    triggers:
+  level_81:
+    level: 81
+    triggers:
+  level_82:
+    level: 82
+    triggers:
+  level_83:
+    level: 83
+    triggers:
+  level_84:
+    level: 84
+    triggers:
+  level_85:
+    level: 85
+    triggers:
+  level_86:
+    level: 86
+    triggers:
+  level_87:
+    level: 87
+    triggers:
+  level_88:
+    level: 88
+    triggers:
+  level_89:
+    level: 89
+    triggers:
+  level_90:
+    level: 90
+    triggers:
+  level_91:
+    level: 91
+    triggers:
+  level_92:
+    level: 92
+    triggers:
+  level_93:
+    level: 93
+    triggers:
+  level_94:
+    level: 94
+    triggers:
+  level_95:
+    level: 95
+    triggers:
+  level_96:
+    level: 96
+    triggers:
+  level_97:
+    level: 97
+    triggers:
+  level_98:
+    level: 98
+    triggers:
+  level_99:
+    level: 99
+    triggers:
+ranged_exp_table:
+  attribute_point:
+    period: 1
+    triggers:
+      - 'command{format="mmocore admin attribute give %player% ranged 1"}'

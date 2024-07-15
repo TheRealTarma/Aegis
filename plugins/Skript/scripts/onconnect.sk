@@ -1,0 +1,7 @@
+on resource pack response:
+	if the resource pack was successfully load:
+		make player execute command "/screeneffect fullscreen BLACK 1 50 30 freeze self Welcome to Aegis"
+
+on first join:
+    execute console command "/warp Tutorial %player%"
+

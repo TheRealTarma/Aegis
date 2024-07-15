@@ -1,0 +1,220 @@
+oreshop-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to open the Ore Shop.'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=5}
+woodshop-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to open the Wood Shop.'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=10}
+slayershop-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to open the Slayer Shop.'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=13}
+farmershop-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to open the Farm Shop.'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=11}
+Banker-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to open your bank.'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=16}
+auction1-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to open the Auction House.'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=7}
+auction2-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to open the Auction House.'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=6}
+auction3-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to open the Auction House.'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=2}
+auction4-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to open the Auction House.'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=8}
+skillmaster-preset:
+   # Optional. Defines the default content inside this tooltip
+   content:
+      # The max amount of lines here, is the amount of lines in the themes settings
+      text:
+      - '{right-click} to start your adventure!'
+   fade:
+      fadein: 20
+      fadeout: 20
+   # Settings related to how this tooltips is displayed
+   display:
+      # Which theme to use
+      theme: default-one-line
+      # The color of the theme (background)
+      color: white
+      # Where should the tooltip be aligned to (horizontally)
+      horizontal-shift: 0
+   # Condition related settings
+   conditions:
+      # List of conditions
+      conditions:
+      - lookingatcitizen{id=9}

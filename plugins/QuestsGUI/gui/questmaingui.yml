@@ -1,0 +1,142 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: 'Quest: Timed Quest§7 (ID:default4)'
+    rows: 2
+    inventory:
+    - slot: 0
+      item:
+        material: NAME_TAG
+        amount: 1
+        durability: 0
+        displayName: §eSet name
+        lore: null
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: FISHING_ROD
+        amount: 1
+        durability: 0
+        displayName: §eSet ask message
+        lore:
+        - §7(§eDig up §d10§e blocks of §dDirt§e before time runs out!§7)
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: ENDER_EYE
+        amount: 1
+        durability: 0
+        displayName: §eSet finish message
+        lore:
+        - §7(§eYou did it in time! Have an §dIron Shovel§e and some §aexperience§e.§7)
+        enchants: []
+      task: '3'
+    - slot: 3
+      item:
+        material: ARMOR_STAND
+        amount: 1
+        durability: 0
+        displayName: §eSet NPC start
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '4'
+    - slot: 4
+      item:
+        material: BRICK
+        amount: 1
+        durability: 0
+        displayName: §eSet block start
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '5'
+    - slot: 5
+      item:
+        material: WOODEN_AXE
+        amount: 1
+        durability: 0
+        displayName: §eSet region start
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '6'
+    - slot: 6
+      item:
+        material: CHEST
+        amount: 1
+        durability: 0
+        displayName: §eSet GUI item display
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '7'
+    - slot: 7
+      item:
+        material: FEATHER
+        amount: 1
+        durability: 0
+        displayName: §3Edit Requirements
+        lore: null
+        enchants: []
+      task: '8'
+    - slot: 8
+      item:
+        material: CLOCK
+        amount: 1
+        durability: 0
+        displayName: §bEdit Planner
+        lore: null
+        enchants: []
+      task: '9'
+    - slot: 9
+      item:
+        material: BOOK
+        amount: 1
+        durability: 0
+        displayName: §dEdit Stages
+        lore: null
+        enchants: []
+      task: '10'
+    - slot: 10
+      item:
+        material: DIAMOND
+        amount: 1
+        durability: 0
+        displayName: §5Edit Rewards
+        lore: null
+        enchants: []
+      task: '11'
+    - slot: 11
+      item:
+        material: BONE
+        amount: 1
+        durability: 0
+        displayName: §2Edit Options
+        lore: null
+        enchants: []
+      task: '12'
+    - slot: 16
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §aSave
+        lore: null
+        enchants: []
+      task: '13'
+    - slot: 17
+      item:
+        material: BARRIER
+        amount: 1
+        durability: 0
+        displayName: §cExit
+        lore: null
+        enchants: []
+      task: '14'

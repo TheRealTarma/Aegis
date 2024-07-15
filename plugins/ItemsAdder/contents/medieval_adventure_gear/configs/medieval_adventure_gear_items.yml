@@ -1,0 +1,875 @@
+info:
+    namespace: medieval_adventure_gear
+items:
+  antidote:
+    display_name: "&fAntidote"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - antidote.png
+  arrow:
+    display_name: "&fArrow"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - arrow.png
+  awl:
+    display_name: "&fAwl"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - awl.png
+  bandage:
+    display_name: "&fBandage"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - bandage.png
+  battle_axe:
+    display_name: "&fBattle Axe"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - battle_axe.png
+  bear_trap:
+    display_name: "&fBear Trap"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - bear_trap.png
+  bedroll:
+    display_name: "&fBedroll"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - bedroll.png
+  bellows:
+    display_name: "&fBellows"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - bellows.png
+  blanket:
+    display_name: "&fBlanket"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - blanket.png
+  blowgun:
+    display_name: "&fBlowgun"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - blowgun.png
+  boomerang:
+    display_name: "&fBoomerang"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - boomerang.png
+  bow:
+    display_name: "&fBow"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - bow.png
+  broom:
+    display_name: "&fBroom"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - broom.png
+  brown_marble:
+    display_name: "&fBrown Marble"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - brown_marble.png
+  bucket:
+    display_name: "&fBucket"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - bucket.png
+  bugle:
+    display_name: "&fBugle"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - bugle.png
+  caltrops:
+    display_name: "&fCaltrops"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - caltrops.png
+  chalk:
+    display_name: "&fChalk"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - chalk.png
+  chisel:
+    display_name: "&fChisel"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - chisel.png
+  compass:
+    display_name: "&fCompass"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - compass.png
+  cooking_pot:
+    display_name: "&fCooking Pot"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - cooking_pot.png
+  crossbow:
+    display_name: "&fCrossbow"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - crossbow.png
+  crowbar:
+    display_name: "&fCrowbar"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - crowbar.png
+  dagger:
+    display_name: "&fDagger"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - dagger.png
+  dice:
+    display_name: "&fDice"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - dice.png
+  druidic_focus:
+    display_name: "&fDruidic Focus"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - druidic_focus.png
+  drum:
+    display_name: "&fDrum"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - drum.png
+  dungeon_key:
+    display_name: "&fDungeon Key"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - dungeon_key.png
+  dungeon_lock:
+    display_name: "&fDungeon Lock"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - dungeon_lock.png
+  empty_bottle:
+    display_name: "&fEmpty Bottle"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - empty_bottle.png
+  first_aid_kit:
+    display_name: "&fFirst Aid Kit"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - first_aid_kit.png
+  fishing_rod:
+    display_name: "&fFishing Rod"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - fishing_rod.png
+  flail:
+    display_name: "&fFlail"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - flail.png
+  flint_and_steel:
+    display_name: "&fFlint And Steel"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - flint_and_steel.png
+  flute:
+    display_name: "&fFlute"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - flute.png
+  gem_pouch:
+    display_name: "&fGem Pouch"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - gem_pouch.png
+  glass_marble:
+    display_name: "&fGlass Marble"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - glass_marble.png
+  glass_marbles:
+    display_name: "&fGlass Marbles"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - glass_marbles.png
+  golden_key:
+    display_name: "&fGolden Key"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - golden_key.png
+  golden_lock:
+    display_name: "&fGolden Lock"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - golden_lock.png
+  golden_whistle:
+    display_name: "&fGolden Whistle"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - golden_whistle.png
+  grappling_hook:
+    display_name: "&fGrappling Hook"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - grappling_hook.png
+  hammer:
+    display_name: "&fHammer"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - hammer.png
+  harmonica:
+    display_name: "&fHarmonica"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - harmonica.png
+  healing_salve:
+    display_name: "&fHealing Salve"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - healing_salve.png
+  helberd:
+    display_name: "&fHelberd"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - helberd.png
+  holy_symboll:
+    display_name: "&fHoly Symboll"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - holy_symboll.png
+  horn:
+    display_name: "&fHorn"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - horn.png
+  ink_and_feather:
+    display_name: "&fInk And Feather"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - ink_and_feather.png
+  iron_key:
+    display_name: "&fIron Key"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - iron_key.png
+  iron_lock:
+    display_name: "&fIron Lock"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - iron_lock.png
+  javalin:
+    display_name: "&fJavalin"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - javalin.png
+  journal:
+    display_name: "&fJournal"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - journal.png
+  katana:
+    display_name: "&fKatana"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - katana.png
+  lantern:
+    display_name: "&fLantern"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - lantern.png
+  longsword:
+    display_name: "&fLongsword"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - longsword.png
+  lucky_horseshoe:
+    display_name: "&fLucky Horseshoe"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - lucky_horseshoe.png
+  lucky_talisman:
+    display_name: "&fLucky Talisman"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - lucky_talisman.png
+  lute:
+    display_name: "&fLute"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - lute.png
+  mace:
+    display_name: "&fMace"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - mace.png
+  magic_scroll:
+    display_name: "&fMagic Scroll"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - magic_scroll.png
+  manacles:
+    display_name: "&fManacles"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - manacles.png
+  map:
+    display_name: "&fMap"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - map.png
+  marbles_brown:
+    display_name: "&fMarbles Brown"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - marbles_brown.png
+  mirror:
+    display_name: "&fMirror"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - mirror.png
+  money_pouch:
+    display_name: "&fMoney Pouch"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - money_pouch.png
+  morning_star:
+    display_name: "&fMorning Star"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - morning_star.png
+  mouth_harp:
+    display_name: "&fMouth Harp"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - mouth_harp.png
+  nails:
+    display_name: "&fNails"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - nails.png
+  pan_flute:
+    display_name: "&fPan Flute"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - pan_flute.png
+  pickaxe:
+    display_name: "&fPickaxe"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - pickaxe.png
+  playing_card_1:
+    display_name: "&fPlaying Card 1"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - playing_card_1.png
+  playing_card_2:
+    display_name: "&fPlaying Card 2"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - playing_card_2.png
+  playing_card_3:
+    display_name: "&fPlaying Card 3"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - playing_card_3.png
+  playing_card_4:
+    display_name: "&fPlaying Card 4"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - playing_card_4.png
+  poison_vial:
+    display_name: "&fPoison Vial"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - poison_vial.png
+  potion_1:
+    display_name: "&fPotion 1"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - potion_1.png
+  potion_2:
+    display_name: "&fPotion 2"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - potion_2.png
+  potion_3:
+    display_name: "&fPotion 3"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - potion_3.png
+  quiver:
+    display_name: "&fQuiver"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - quiver.png
+  rope:
+    display_name: "&fRope"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - rope.png
+  saw:
+    display_name: "&fSaw"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - saw.png
+  saw_2:
+    display_name: "&fSaw 2"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - saw_2.png
+  scimitar:
+    display_name: "&fScimitar"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - scimitar.png
+  scroll_tube:
+    display_name: "&fScroll Tube"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - scroll_tube.png
+  sewing_needle:
+    display_name: "&fSewing Needle"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - sewing_needle.png
+  shortsword:
+    display_name: "&fShortsword"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - shortsword.png
+  shovel:
+    display_name: "&fShovel"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - shovel.png
+  slingshot:
+    display_name: "&fSlingshot"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - slingshot.png
+  smoke_bomb:
+    display_name: "&fSmoke Bomb"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - smoke_bomb.png
+  spear:
+    display_name: "&fSpear"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - spear.png
+  spell_book:
+    display_name: "&fSpell Book"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - spell_book.png
+  spool_of_thread:
+    display_name: "&fSpool Of Thread"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - spool_of_thread.png
+  spyglass:
+    display_name: "&fSpyglass"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - spyglass.png
+  staff:
+    display_name: "&fStaff"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - staff.png
+  stirrups:
+    display_name: "&fStirrups"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - stirrups.png
+  tambourine:
+    display_name: "&fTambourine"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - tambourine.png
+  tent:
+    display_name: "&fTent"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - tent.png
+  throwing_knife:
+    display_name: "&fThrowing Knife"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - throwing_knife.png
+  tongs:
+    display_name: "&fTongs"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - tongs.png
+  torch:
+    display_name: "&fTorch"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - torch.png
+  triangle:
+    display_name: "&fTriangle"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - triangle.png
+  wand:
+    display_name: "&fWand"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - wand.png
+  war_hammer:
+    display_name: "&fWar Hammer"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - war_hammer.png
+  water_salve:
+    display_name: "&fWater Salve"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - water_salve.png
+  whip:
+    display_name: "&fWhip"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - whip.png
+  white_marble:
+    display_name: "&fWhite Marble"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - white_marble.png
+  white_marbles:
+    display_name: "&fWhite Marbles"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - white_marbles.png
+  wooden_whistle:
+    display_name: "&fWooden Whistle"
+    permission: medieval_adventure_gear
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - wooden_whistle.png

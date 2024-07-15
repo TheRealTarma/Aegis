@@ -1,0 +1,62 @@
+name: '&a&lTeleporter'
+starts_with:
+- NPC named Teleporter
+block_movement: true
+slow_effect: true
+save_conversation_progress: false
+start_conversation_radius: 0
+end_conversation_radius: 0
+requires_permission: false
+cooldown: 30
+conversation:
+  conversation1:
+    dialogue:
+      dialogue1:
+        text:
+        - '&7Welcome to the server, would you like to go'
+        - '&7somewhere? %next%'
+        time: 4
+    options:
+      option1:
+        text: '&eTake me to the Spawn.'
+        start_conversation: conversation2
+      option2:
+        text: '&eTake me to the PvP Zone.'
+        start_conversation: conversation3
+      option3:
+        text: '&eTake me to the Shop.'
+        start_conversation: conversation4
+      option4:
+        text: '&eNot right now.'
+        start_conversation: conversation5
+  conversation2:
+    dialogue:
+      dialogue1:
+        text:
+        - '&7No problem!'
+        time: 1
+        last_actions:
+        - 'console_command: warp spawn %player%'
+  conversation3:
+    dialogue:
+      dialogue1:
+        text:
+        - '&7Just be careful and try not to die!'
+        time: 2
+        last_actions:
+        - 'console_command: warp pvp %player%'
+  conversation4:
+    dialogue:
+      dialogue1:
+        text:
+        - '&7Teleporting you to the shop!'
+        time: 2
+        last_actions:
+        - 'console_command: warp shop %player%'
+  conversation5:
+    dialogue:
+      dialogue1:
+        text:
+        - '&7Ok let me know when you need to'
+        - '&7go somewhere! %next%'
+        time: 2

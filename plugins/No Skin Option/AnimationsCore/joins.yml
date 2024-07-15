@@ -1,0 +1,5 @@
+animations:
+  portal_join:
+    mm-id: join_portal
+    duration: 33
+    permission: "animcore.join.portal"

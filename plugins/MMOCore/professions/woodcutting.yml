@@ -1,0 +1,239 @@
+
+# Display options
+name: Woodcutting
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 0
+    per-level: 0
+
+max-level: 99
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levelsskills
+
+on-mine:
+
+    # Config example showing how you can bind drops and experience
+    # to custom player heads based on the skull texture.
+
+
+    oaklog:
+        material: vanilla{type=OAK_LOG}
+        drop-table:
+            items:
+                - 'vanilla{type=OAK_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=15-50}'
+    oakwood:
+        material: vanilla{type=OAK_WOOD}
+        drop-table:
+            items:
+                - 'vanilla{type=OAK_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=15-50}'
+    birchlog:
+        material: vanilla{type=BIRCH_LOG}
+        drop-table:
+            items:
+                - 'vanilla{type=BIRCH_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=15-50}'
+    birchwood:
+        material: vanilla{type=BIRCH_WOOD}
+        drop-table:
+            items:
+                - 'vanilla{type=BIRCH_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=15-50}'
+    sprucelog:
+        material: vanilla{type=SPRUCE_LOG}
+        drop-table:
+            items:
+                - 'vanilla{type=SPRUCE_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=25-65}'
+    sprucewood:
+        material: vanilla{type=SPRUCE_WOOD}
+        drop-table:
+            items:
+                - 'vanilla{type=SPRUCE_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=25-65}'
+    junglelog:
+        material: vanilla{type=JUNGLE_LOG}
+        drop-table:
+            items:
+                - 'vanilla{type=JUNGLE_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=35-75}'
+    junglewood:
+        material: vanilla{type=JUNGLE_WOOD}
+        drop-table:
+            items:
+                - 'vanilla{type=JUNGLE_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=35-75}'
+    dark_oaklog:
+        material: vanilla{type=DARK_OAK_LOG}
+        drop-table:
+            items:
+                - 'vanilla{type=DARK_OAK_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=45-85}'
+    dark_oakwood:
+        material: vanilla{type=DARK_OAK_WOOD}
+        drop-table:
+            items:
+                - 'vanilla{type=DARK_OAK_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=45-85}'
+    acacialog:
+        material: vanilla{type=ACACIA_LOG}
+        drop-table:
+            items:
+                - 'vanilla{type=ACACIA_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=55-95}'
+    acaciawood:
+        material: vanilla{type=ACACIA_WOOD}
+        drop-table:
+            items:
+                - 'vanilla{type=ACACIA_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=55-95}'
+    cherrylog:
+        material: vanilla{type=CHERRY_LOG}
+        drop-table:
+            items:
+                - 'vanilla{type=CHERRY_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=65-105}'
+    cherrywood:
+        material: vanilla{type=CHERRY_WOOD}
+        drop-table:
+            items:
+                - 'vanilla{type=CHERRY_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=65-105}'
+    mangrovelog:
+        material: vanilla{type=MANGROVE_LOG}
+        drop-table:
+            items:
+                - 'vanilla{type=MANGROVE_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=75-115}'
+    mangrovewood:
+        material: vanilla{type=MANGROVE_WOOD}
+        drop-table:
+            items:
+                - 'vanilla{type=MANGROVE_LOG}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=75-115}'
+    oaksapling:
+        material: vanilla{type=OAK_SAPLING}
+        drop-table:
+            items:
+                - 'vanilla{type=AIR}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=0}'
+    birchsapling:
+        material: vanilla{type=BIRCH_SAPLING}
+        drop-table:
+            items:
+                - 'vanilla{type=AIR}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=0}'
+    sprucesapling:
+        material: vanilla{type=SPRUCE_SAPLING}
+        drop-table:
+            items:
+                - 'vanilla{type=AIR}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=0}'
+    junglesapling:
+        material: vanilla{type=JUNGLE_SAPLING}
+        drop-table:
+            items:
+                - 'vanilla{type=AIR}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=0}'
+    acaciasapling:
+        material: vanilla{type=ACACIA_SAPLING}
+        drop-table:
+            items:
+                - 'vanilla{type=AIR}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=0}'
+    dark_oaksapling:
+        material: vanilla{type=DARK_OAK_SAPLING}
+        drop-table:
+            items:
+                - 'vanilla{type=AIR}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=0}'
+    cherrysapling:
+        material: vanilla{type=CHERRY_SAPLING}
+        drop-table:
+            items:
+                - 'vanilla{type=AIR}'
+        options:
+            vanilla-drops: false
+        triggers:
+            - 'exp{profession=woodcutting;amount=0}'
+exp-sources:
+ - 'placeblock{type=OAK_SAPLING;amount=1-4}'
+ - 'placeblock{type=BIRCH_SAPLING;amount=1-4}'
+ - 'placeblock{type=SPRUCE_SAPLING;amount=1-4}'
+ - 'placeblock{type=JUNGLE_SAPLING;amount=1-4}'
+ - 'placeblock{type=DARK_OAK_SAPLING;amount=1-4}'
+ - 'placeblock{type=ACACIA_SAPLING;amount=1-4}'
+ - 'placeblock{type=CHERRY_SAPLING;amount=1-4}'
+ - 'placeblock{type=MANGROVE_SAPLING;amount=1-4}'
+ - 'placeblock{type=AZALEA;amount=1-4}'
+ - 'placeblock{type=FLOWERING_AZALEA;amount=1-4}'

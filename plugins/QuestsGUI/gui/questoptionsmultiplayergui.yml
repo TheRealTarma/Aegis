@@ -1,0 +1,73 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: §2Multiplayer
+    rows: 1
+    inventory:
+    - slot: 0
+      item:
+        material: OAK_SIGN
+        amount: 1
+        durability: 0
+        displayName: §eSet provider via Unite
+        lore: null
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: GOLDEN_SWORD
+        amount: 1
+        durability: 0
+        displayName: §eUse Parties plugin
+        lore: null
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: LADDER
+        amount: 1
+        durability: 0
+        displayName: §eLevel of progress sharing
+        lore: null
+        enchants: []
+      task: '3'
+    - slot: 3
+      item:
+        material: BOOK
+        amount: 1
+        durability: 0
+        displayName: §eShare with the same quest only
+        lore: null
+        enchants: []
+      task: '4'
+    - slot: 4
+      item:
+        material: COMPASS
+        amount: 1
+        durability: 0
+        displayName: §eMaximum radial distance
+        lore: null
+        enchants: []
+      task: '5'
+    - slot: 5
+      item:
+        material: RED_BED
+        amount: 1
+        durability: 0
+        displayName: §eInclude offline players
+        lore: null
+        enchants: []
+      task: '6'
+    - slot: 8
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §eDone
+        lore: null
+        enchants: []
+      task: '7'

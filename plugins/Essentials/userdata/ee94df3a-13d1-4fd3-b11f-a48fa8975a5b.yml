@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.59.66.44
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1715721338448
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1715723393846
+  login: 1715722749262
+money: '0.0'
+last-account-name: BattleBros522
+lastlocation:
+  world: 50fe244b-06b7-44d4-bc84-22d12fa3c391
+  world-name: Flat
+  x: -67.6917634374643
+  y: -58.878703159460805
+  z: 4.113842922521939
+  yaw: 77.05322265625
+  pitch: 54.59907150268555
+logoutlocation:
+  world: 3c0711c8-e82e-4f32-a6ba-28dccdedb101
+  world-name: Palette
+  x: -15.888752033906428
+  y: -60.0
+  z: -0.30632902734310535
+  yaw: -166.515869140625
+  pitch: 30.000123977661133

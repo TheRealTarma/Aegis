@@ -1,0 +1,35 @@
+info:
+    namespace: tarmaicons
+items:
+    questlinehorizontal:
+        display_name: ''
+        permission: tarmaicons.questlinehorizontal
+        resource:
+          material: PAPER
+          generate: false
+          model_path: icons/questlinehorizontal
+    questlinehorizontallocked:
+        display_name: ''
+        permission: tarmaicons.questlinehorizontallocked
+        resource:
+          material: PAPER
+          generate: false
+          model_path: icons/questlinehorizontallocked
+font_images:
+  taro:
+    show_in_gui: true
+    path: "icons/taro.png"
+    scale_ratio: 11
+    y_position: 9
+#    iron_scythe:
+#        permission: tarmatools.iron_scythe
+#        display_name: Iron Scythe
+#        lore:
+#          - "§7Harvest"
+#        resource:
+#            material: IRON_HOE
+#            generate: true
+#            textures:
+#                - iron_scythe
+#        durability:
+#            max_custom_durability: 750

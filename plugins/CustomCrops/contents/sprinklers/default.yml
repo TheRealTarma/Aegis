@@ -1,0 +1,275 @@
+# ID
+sprinkler_1:
+  # This decides the work range
+  # □□□
+  # □■□
+  # □□□
+  range: 1
+  # Maximum water storage capacity
+  storage: 5
+  # Unlimited water source
+  infinite: false
+  # Amount of water added in a single sprinkling
+  water: 1
+  # Basic 3d model
+  3D-item: customcrops:sprinkler_1
+  # Optional 2d model
+  2D-item: customcrops:sprinkler_1_item
+  # ITEM_FRAME / TRIPWIRE / ITEM_DISPLAY (1.19.4+)
+  type: ITEM_FRAME
+  # Sprinklers only work in specified planting pots
+  pot-whitelist:
+    - default
+  # Methods to fill the sprinkler
+  fill-method:
+    # The name of the method, it's totally customized
+    method_1:
+      # The item to use
+      item: WATER_BUCKET
+      # The item returned (Optional)
+      return: BUCKET
+      # The amount of water to add
+      amount: 3
+    method_2:
+      item: POTION
+      return: GLASS_BOTTLE
+      amount: 1
+  # Water bar image settings
+  water-bar:
+    left: '뀂'
+    full: '뀁뀃'
+    empty: '뀁뀄'
+    right: '뀁뀅'
+  # Event settings
+  events:
+    place:
+      swing_hand_action:
+        type: swing-hand
+        value: true
+      sound_action:
+        type: sound
+        value:
+          source: player
+          key: minecraft:block.bone_block.place
+          volume: 1
+          pitch: 1
+    interact:
+      force_work_action:
+        type: conditional
+        value:
+          conditions:
+            requirement_1:
+              type: sneak
+              value: true
+          actions:
+            action_1:
+              type: force-tick
+      hologram_action:
+        type: hologram
+        value:
+          text: '<font:customcrops:default>{water_bar}</font>'
+          duration: 40
+          x: 0.5
+          y: -0.3
+          z: 0.5
+          visible-to-all: false
+    work:
+      fake_item_action:
+        type: fake-item
+        value:
+          item: customcrops:water_effect
+          duration: 100
+          x: 0.5
+          y: 0.4
+          z: 0.5
+          visible-to-all: true
+    add_water:
+      particle_action:
+        type: particle
+        value:
+          particle: WATER_SPLASH
+          x: 0.5
+          y: 0.7
+          z: 0.5
+          count: 5
+      sound_action:
+        type: sound
+        value:
+          key: "minecraft:item.bucket.empty"
+          source: 'player'
+          volume: 1
+          pitch: 1
+sprinkler_2:
+  # □□□□□
+  # □□□□□
+  # □□■□□
+  # □□□□□
+  # □□□□□
+  range: 2
+  storage: 5
+  water: 1
+  3D-item: customcrops:sprinkler_2
+  2D-item: customcrops:sprinkler_2_item
+  type: ITEM_FRAME
+  pot-whitelist:
+    - default
+  fill-method:
+    method_1:
+      item: WATER_BUCKET
+      return: BUCKET
+      amount: 3
+    method_2:
+      item: POTION
+      return: GLASS_BOTTLE
+      amount: 1
+  water-bar:
+    left: '뀂'
+    full: '뀁뀃'
+    empty: '뀁뀄'
+    right: '뀁뀅'
+  events:
+    place:
+      swing_hand_action:
+        type: swing-hand
+        value: true
+      sound_action:
+        type: sound
+        value:
+          source: player
+          key: minecraft:block.bone_block.place
+          volume: 1
+          pitch: 1
+    interact:
+      force_work_action:
+        type: conditional
+        value:
+          conditions:
+            requirement_1:
+              type: sneak
+              value: true
+          actions:
+            action_1:
+              type: force-tick
+      hologram_action:
+        type: hologram
+        value:
+          text: '<font:customcrops:default>{water_bar}</font>'
+          duration: 40
+          x: 0.5
+          y: -0.3
+          z: 0.5
+          visible-to-all: false
+    work:
+      fake_item_action:
+        type: fake-item
+        value:
+          item: customcrops:water_effect
+          duration: 100
+          x: 0.5
+          y: 0.4
+          z: 0.5
+          visible-to-all: true
+    add_water:
+      particle_action:
+        type: particle
+        value:
+          particle: WATER_SPLASH
+          x: 0.5
+          y: 0.7
+          z: 0.5
+          count: 5
+      sound_action:
+        type: sound
+        value:
+          key: "minecraft:item.bucket.empty"
+          source: 'player'
+          volume: 1
+          pitch: 1
+sprinkler_3:
+  # □□□□□□□
+  # □□□□□□□
+  # □□□□□□□
+  # □□□■□□□
+  # □□□□□□□
+  # □□□□□□□
+  # □□□□□□□
+  range: 3
+  storage: 3
+  water: 1
+  3D-item: customcrops:sprinkler_3
+  2D-item: customcrops:sprinkler_3_item
+  type: ITEM_FRAME
+  pot-whitelist:
+    - default
+  fill-method:
+    method_1:
+      item: WATER_BUCKET
+      return: BUCKET
+      amount: 3
+    method_2:
+      item: POTION
+      return: GLASS_BOTTLE
+      amount: 1
+  water-bar:
+    left: '뀂'
+    full: '뀁뀃'
+    empty: '뀁뀄'
+    right: '뀁뀅'
+  events:
+    place:
+      swing_hand_action:
+        type: swing-hand
+        value: true
+      sound_action:
+        type: sound
+        value:
+          source: player
+          key: minecraft:block.bone_block.place
+          volume: 1
+          pitch: 1
+    interact:
+      force_work_action:
+        type: conditional
+        value:
+          conditions:
+            requirement_1:
+              type: sneak
+              value: true
+          actions:
+            action_1:
+              type: force-tick
+      hologram_action:
+        type: hologram
+        value:
+          text: '<font:customcrops:default>{water_bar}</font>'
+          duration: 40
+          x: 0.5
+          y: -0.3
+          z: 0.5
+          visible-to-all: false
+    work:
+      fake_item_action:
+        type: fake-item
+        value:
+          item: customcrops:water_effect
+          duration: 100
+          x: 0.5
+          y: 0.4
+          z: 0.5
+          visible-to-all: true
+    add_water:
+      particle_action:
+        type: particle
+        value:
+          particle: WATER_SPLASH
+          x: 0.5
+          y: 0.7
+          z: 0.5
+          count: 5
+      sound_action:
+        type: sound
+        value:
+          key: "minecraft:item.bucket.empty"
+          source: 'player'
+          volume: 1
+          pitch: 1

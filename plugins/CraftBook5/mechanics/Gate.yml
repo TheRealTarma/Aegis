@@ -1,0 +1,37 @@
+# CraftBook Gate Configuration
+# -- Generated for version: 5.0.0-beta-01
+# 
+# More information about this mechanic is available at...
+# https://craftbook.enginehub.org/en/5.0.0/mechanics/gate/
+#
+# NOTE! Make sure to enable this in the config.yml file if you wish to use it.
+
+
+# Allows the gate mechanic to be toggled via redstone.
+allow-redstone: true
+
+# The maximum number of columns that a gate can toggle. -1 for no limit.
+max-columns: 14
+
+# The list of blocks that a gate can use.
+blocks:
+- minecraft:birch_fence
+- minecraft:oak_fence
+- minecraft:nether_brick_fence
+- minecraft:jungle_fence
+- minecraft:acacia_fence
+- minecraft:cherry_fence
+- minecraft:spruce_fence
+- minecraft:dark_oak_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:mangrove_fence
+- minecraft:bamboo_fence
+- minecraft:iron_bars
+- minecraft:glass_pane
+
+# The max height of a column.
+max-column-height: 12
+
+# The radius around the sign the gate checks for fences in. Note: This is doubled upwards.
+search-radius: 3

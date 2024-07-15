@@ -1,0 +1,94 @@
+starts_with:
+- NPC named Skill Master
+name: "&a&lSkill Master"
+block_movement: true
+slow_effect: false
+save_conversation_progress: true
+requires_permission: false
+conversation:
+    conversation1:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Welcome to the world of Aegis,"
+                - "&7my job is to start you on your journey! %next%"
+                time: 8
+                actions:
+                - 'console_command: questadmin give %player% Your Journey Begins'
+
+            dialogue2:
+                text:
+                - "&7Before we get going, would you be so kind to let me know how much experience you have with Aegis? %next%"
+                time: 8
+        options:
+            option1:
+                text: "&eThis is my first time!"
+                start_conversation: conversation2
+            option2:
+                text: "&eI am and experienced player."
+                start_conversation: conversation3
+            option3:
+                text: "&eI've played in the past, but not recently."
+                start_conversation: conversation4
+    conversation2:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Wonderful! Let's get started then. %next%"
+                time: 8 
+                start_conversation: conversation5
+    conversation3:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Great! If you would like, you can complete the rest of the tutorial."
+                - "&7or you can speak with Skippy and skip the tutorial. %next%"
+                time: 8
+                start_conversation: conversation5
+    conversation4:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Glad to have you back! If you would like, you can complete the rest of the tutorial."
+                - "&7or you can speak with Skippy and skip to spawn. %next%"
+                time: 8
+                start_conversation: conversation5
+    conversation5:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7This is Tutorial Island, a spec of and land in a sea of blue. Here we will cover the basics of the Aegis world. Around the island, you can find guides to help start you on your Journey. %next%"
+                time: 15
+            dialogue2:
+                text:
+                - "&7To start you off, I would like to quickly cover the Friends, Parties, Voting, and Banking System %next%"
+                time: 15
+            dialogue3:
+                text:
+                - "&7You will meet many other adventurers during your time here in Aegis. One way you can keep track of the friends you meet along the way is with the friends list.  %next%"
+                time: 15
+            dialogue4:
+                text:
+                - "&7In order to do this, you can type /friends and open the friends menu, here you can see who you have added, the last time they were logged in and so much more. %next%"
+                time: 15
+            dialogue5:
+                text:
+                - "&7Speaking of friends, let's talk about the party system. Parties are a great way to group up and getting a nice bonus for doing so. By doing /party, you will be prompted to create a party if you are not already in one. %next%"
+                time: 15
+            dialogue6:
+                text:
+                - "&7The experience earned by any player is evenly split over all the party members. If your party has a total of 4 members you will only earn 25% of the exp you'd get with no party. This makes sure all the party members level up at the same time. %next%"
+                time: 15
+            dialogue7:
+                text:
+                - "&7As for being part of a community, make sure that your voice is heard. The Gods of Aegis often times put up polls for community events, new content, and ideas. Ensure your voice is heard by joining the discord server or right clicking any polling booth to cast your vote on the most recent poll. %next%"
+                time: 15
+            dialogue8:
+                text:
+                - "&7Finally, but maybe most importantly, Banking is integral for ensuring that your riches are protected. If you happen upon misfortune on your ventures, upon your death you will drop part of your cash stack. Keeping your money in the bank protects it. Access your bank via one of many bankers spread around the world. Be wary, there is a tax on your withdrawals. %next%"
+                time: 15
+            dialogue9:
+                text:
+                - "&7I'm afraid this is all I have to teach you! Speak to the Angler outside to continue the tutorial. If at any time you wish to skip over the rest, just talk to Skippy here in the Tavern. Good luck, adventurer!  %next%"
+                time: 15
+    #fix conversation numbers

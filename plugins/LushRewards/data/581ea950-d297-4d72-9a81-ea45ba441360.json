@@ -1,0 +1,14 @@
+{
+  "main": {
+    "name": "kageyy",
+    "minutesPlayed": 0
+  },
+  "daily-rewards": {
+    "startDate": "2024-06-04",
+    "lastJoinDate": "2024-06-14",
+    "collectedDays": [],
+    "dayNum": 7,
+    "streak": 0,
+    "highestStreak": 0
+  }
+}

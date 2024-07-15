@@ -1,0 +1,25 @@
+{
+  "main": {
+    "username": "zero99x",
+    "minutesPlayed": 4086
+  },
+  "daily-rewards": {
+    "startDate": "2024-06-12",
+    "lastJoinDate": "2024-07-12",
+    "lastCollectedDate": "2024-06-12",
+    "collectedDays": [],
+    "dayNum": 1,
+    "streak": 1,
+    "highestStreak": 3
+  },
+  "daily-playtime-rewards": {
+    "lastCollectedPlaytime": "3535",
+    "startDate": "2024-06-12",
+    "previousDayEndPlaytime": 0
+  },
+  "global-playtime-rewards": {
+    "lastCollectedPlaytime": 1465,
+    "startDate": "2024-06-12",
+    "previousDayEndPlaytime": 0
+  }
+}

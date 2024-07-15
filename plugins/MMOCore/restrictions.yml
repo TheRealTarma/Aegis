@@ -1,0 +1,129 @@
+# Mining a block in creative will NOT drop any
+# custom drops/will not apply block regen, etc.
+#
+# Any block specified in this config, wherever it
+# is located, MUST be mined using the correct tool
+# otherwise nothing will drop!
+
+# The corresponding tool. It's CASE_SENSITIVE!
+####################Pick Axes#########################
+TOOL?WOODEN_PICKAXE:
+    parent: AIR
+    can-mine:
+    - vanilla{type=COAL_ORE}
+    - vanilla{type=DEEPSLATE_COAL_ORE}
+TOOL?STONE_PICKAXE:
+    parent: TOOL?WOODEN_PICKAXE
+    can-mine:
+    - vanilla{type=COPPER_ORE}
+    - vanilla{type=DEEPSLATE_COPPER_ORE}
+TOOL?COPPER_PICKAXE:
+    parent: TOOL?STONE_PICKAXE
+    can-mine:
+    - vanilla{type=IRON_ORE}
+    - vanilla{type=DEEPSLATE_IRON_ORE}
+TOOL?IRON_PICKAXE:
+    parent: TOOL?COPPER_PICKAXE
+    can-mine:
+    - vanilla{type=REDSTONE_ORE}
+    - vanilla{type=LAPIS_ORE}
+    - vanilla{type=DEEPSLATE_REDSTONE_ORE}
+    - vanilla{type=DEEPSLATE_LAPIS_ORE}
+TOOL?STEEL_PICKAXE:
+    parent: TOOL?IRON_PICKAXE
+    can-mine:
+    - mmoitems{id=9}
+    - vanilla{type=DEEPSLATE_GOLD_ORE}
+    - vanilla{type=GOLD_ORE}
+TOOL?MITHRIL_PICKAXE:
+    parent: TOOL?STEEL_PICKAXE
+    can-mine:
+    - mmoitems{id=9}
+
+TOOL?ADAMANT_PICKAXE:
+    parent: TOOL?MITHRIL_PICKAXE
+    can-mine:
+    - vanilla{type=EMERALD_ORE}
+    - vanilla{type=DIAMOND_ORE}
+    - vanilla{type=DEEPSLATE_DIAMOND_ORE}
+    - vanilla{type=DEEPSLATE_EMERALD_ORE}
+TOOL?DIAMOND_PICKAXE:
+    parent: TOOL?ADAMANT_PICKAXE
+
+TOOL?NETHERITE_PICKAXE:
+    parent: TOOL?DIAMOND_PICKAXE
+
+#################AXES################
+
+TOOL?WOODEN_AXE:
+    parent: AIR
+    can-mine:
+    - vanilla{type=OAK_LOG}
+    - vanilla{type=BIRCH_LOG}
+    - vanilla{type=OAK_WOOD}
+    - vanilla{type=BIRCH_WOOD}
+TOOL?STONE_AXE:
+    parent: TOOL?WOODEN_AXE
+TOOL?COPPER_AXE:
+    parent: TOOL?STONE_AXE
+    can-mine:
+    - vanilla{type=SPRUCE_LOG}
+    - vanilla{type=SPRUCE_WOOD}
+TOOL?IRON_AXE:
+    parent: TOOL?COPPER_AXE
+    can-mine:
+    - vanilla{type=JUNGLE_LOG}
+    - vanilla{type=JUNGLE_WOOD}
+TOOL?STEEL_AXE:
+    parent: TOOL?IRON_AXE
+    can-mine:
+    - vanilla{type=DARK_OAK_LOG}
+    - vanilla{type=DARK_OAK_WOOD}
+
+TOOL?MITHRIL_AXE:
+    parent: TOOL?STEEL_AXE
+    can-mine:
+    - vanilla{type=ACACIA_LOG}
+    - vanilla{type=ACACIA_WOOD}
+
+TOOL?ADAMANT_AXE:
+    parent: TOOL?MITHRIL_AXE
+    can-mine:
+    - vanilla{type=CHERRY_LOG}
+    - vanilla{type=CHERRY_WOOD}
+TOOL?GOLDEN_AXE:
+    parent: TOOL?IRON_AXE
+
+TOOL?DIAMOND_AXE:
+    parent: TOOL?GOLDEN_AXE
+    can-mine:
+    - vanilla{type=MANGROVE_LOG}
+    - vanilla{type=MANGROVE_WOOD}
+TOOL?NETHERITE_AXE:
+    parent: TOOL?DIAMOND_AXE
+##########################AIR###########################
+AIR:
+    parent: AIR
+    can-mine:
+        - vanilla{type=OAK_SAPLING}
+        - vanilla{type=BIRCH_SAPLING}
+        - vanilla{type=SPRUCE_SAPLING}
+        - vanilla{type=JUNGLE_SAPLING}
+        - vanilla{type=ACACIA_SAPLING}
+        - vanilla{type=DARK_OAK_SAPLING}
+        - vanilla{type=CHERRY_SAPLING}
+OAK_SAPLING:
+    parent: AIR
+BIRCH_SAPLING:
+    parent: AIR
+SPRUCE_SAPLING:
+    parent: AIR
+JUNGLE_SAPLING:
+    parent: AIR
+ACACIA_SAPLING:
+    parent: AIR
+DARK_OAK_SAPLING:
+    parent: AIR
+CHERRY_SAPLING:
+    parent: AIR
+

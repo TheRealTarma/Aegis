@@ -1,0 +1,129 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: Rewards | Your Journey Begins
+    rows: 2
+    inventory:
+    - slot: 0
+      item:
+        material: EMERALD
+        amount: 1
+        durability: 0
+        displayName: §eSet money reward
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: STICK
+        amount: 1
+        durability: 0
+        displayName: §eSet Quest Points reward
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: APPLE
+        amount: 1
+        durability: 0
+        displayName: §eSet item rewards
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '3'
+    - slot: 3
+      item:
+        material: EXPERIENCE_BOTTLE
+        amount: 1
+        durability: 0
+        displayName: §eSet experience reward
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '4'
+    - slot: 4
+      item:
+        material: COMMAND_BLOCK
+        amount: 1
+        durability: 0
+        displayName: §eSet command rewards
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '5'
+    - slot: 5
+      item:
+        material: BUCKET
+        amount: 1
+        durability: 0
+        displayName: §eSet permission rewards
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '6'
+    - slot: 6
+      item:
+        material: DIAMOND_SWORD
+        amount: 1
+        durability: 0
+        displayName: §7Set mcMMO Classic skill rewards
+        lore:
+        - §7(Not installed)
+        enchants: []
+      task: '7'
+    - slot: 7
+      item:
+        material: IRON_SWORD
+        amount: 1
+        durability: 0
+        displayName: §7Set Heroes experience rewards
+        lore:
+        - §7(Not installed)
+        enchants: []
+      task: '8'
+    - slot: 8
+      item:
+        material: GOLDEN_SWORD
+        amount: 1
+        durability: 0
+        displayName: §7Set Parties experience reward
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '9'
+    - slot: 9
+      item:
+        material: DIAMOND
+        amount: 1
+        durability: 0
+        displayName: §5Set custom rewards
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '10'
+    - slot: 10
+      item:
+        material: SADDLE
+        amount: 1
+        durability: 0
+        displayName: §7Set details list override
+        lore:
+        - §7(Optional)
+        enchants: []
+      task: '11'
+    - slot: 17
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §eDone
+        lore: null
+        enchants: []
+      task: '12'

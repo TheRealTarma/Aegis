@@ -1,0 +1,15 @@
+name: Tarma_
+minutes-played: 6577
+daily-rewards:
+  day-num: 2
+  streak-length: 1
+  highest-streak: 3
+  start-date: 15-06-2024
+  collected-dates: []
+  last-collected-date: 07-06-2024
+daily-playtime-goals:
+  date: 30-05-2024
+  last-collected-playtime: 6505
+  previous-day-end: 6145
+global-playtime-goals:
+  last-collected-playtime: 1465

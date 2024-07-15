@@ -1,0 +1,11 @@
+# CraftBook PaintingSwitcher Configuration
+# -- Generated for version: 5.0.0-beta-01
+# 
+# More information about this mechanic is available at...
+# https://craftbook.enginehub.org/en/5.0.0/mechanics/painting_switcher/
+#
+# NOTE! Make sure to enable this in the config.yml file if you wish to use it.
+
+
+# The maximum distance from which you can modify paintings.
+modify-range: 5

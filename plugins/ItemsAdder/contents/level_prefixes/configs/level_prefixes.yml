@@ -1,0 +1,503 @@
+info:
+  namespace: "level_prefixes"
+font_images:
+  level_1:
+    show_in_gui: true
+    path: "level_1.png"
+    scale_ratio: 7
+    y_position: 7
+  level_2:
+    show_in_gui: true
+    path: "level_2.png"
+    scale_ratio: 7
+    y_position: 7
+  level_3:
+    show_in_gui: true
+    path: "level_3.png"
+    scale_ratio: 7
+    y_position: 7
+  level_4:
+    show_in_gui: true
+    path: "level_4.png"
+    scale_ratio: 7
+    y_position: 7
+  level_5:
+    show_in_gui: true
+    path: "level_5.png"
+    scale_ratio: 7
+    y_position: 7
+  level_6:
+    show_in_gui: true
+    path: "level_6.png"
+    scale_ratio: 7
+    y_position: 7
+  level_7:
+    show_in_gui: true
+    path: "level_7.png"
+    scale_ratio: 7
+    y_position: 7
+  level_8:
+    show_in_gui: true
+    path: "level_8.png"
+    scale_ratio: 7
+    y_position: 7
+  level_9:
+    show_in_gui: true
+    path: "level_9.png"
+    scale_ratio: 7
+    y_position: 7
+  level_10:
+    show_in_gui: true
+    path: "level_10.png"
+    scale_ratio: 7
+    y_position: 7
+  level_11:
+    show_in_gui: true
+    path: "level_11.png"
+    scale_ratio: 7
+    y_position: 7
+  level_12:
+    show_in_gui: true
+    path: "level_12.png"
+    scale_ratio: 7
+    y_position: 7
+  level_13:
+    show_in_gui: true
+    path: "level_13.png"
+    scale_ratio: 7
+    y_position: 7
+  level_14:
+    show_in_gui: true
+    path: "level_14.png"
+    scale_ratio: 7
+    y_position: 7
+  level_15:
+    show_in_gui: true
+    path: "level_15.png"
+    scale_ratio: 7
+    y_position: 7
+  level_16:
+    show_in_gui: true
+    path: "level_16.png"
+    scale_ratio: 7
+    y_position: 7
+  level_17:
+    show_in_gui: true
+    path: "level_17.png"
+    scale_ratio: 7
+    y_position: 7
+  level_18:
+    show_in_gui: true
+    path: "level_18.png"
+    scale_ratio: 7
+    y_position: 7
+  level_19:
+    show_in_gui: true
+    path: "level_19.png"
+    scale_ratio: 7
+    y_position: 7
+  level_20:
+    show_in_gui: true
+    path: "level_20.png"
+    scale_ratio: 7
+    y_position: 7
+  level_21:
+    show_in_gui: true
+    path: "level_21.png"
+    scale_ratio: 7
+    y_position: 7
+  level_22:
+    show_in_gui: true
+    path: "level_22.png"
+    scale_ratio: 7
+    y_position: 7
+  level_23:
+    show_in_gui: true
+    path: "level_23.png"
+    scale_ratio: 7
+    y_position: 7
+  level_24:
+    show_in_gui: true
+    path: "level_24.png"
+    scale_ratio: 7
+    y_position: 7
+  level_25:
+    show_in_gui: true
+    path: "level_25.png"
+    scale_ratio: 7
+    y_position: 7
+  level_26:
+    show_in_gui: true
+    path: "level_26.png"
+    scale_ratio: 7
+    y_position: 7
+  level_27:
+    show_in_gui: true
+    path: "level_27.png"
+    scale_ratio: 7
+    y_position: 7
+  level_28:
+    show_in_gui: true
+    path: "level_28.png"
+    scale_ratio: 7
+    y_position: 7
+  level_29:
+    show_in_gui: true
+    path: "level_29.png"
+    scale_ratio: 7
+    y_position: 7
+  level_30:
+    show_in_gui: true
+    path: "level_30.png"
+    scale_ratio: 7
+    y_position: 7
+  level_31:
+    show_in_gui: true
+    path: "level_31.png"
+    scale_ratio: 7
+    y_position: 7
+  level_32:
+    show_in_gui: true
+    path: "level_32.png"
+    scale_ratio: 7
+    y_position: 7
+  level_33:
+    show_in_gui: true
+    path: "level_33.png"
+    scale_ratio: 7
+    y_position: 7
+  level_34:
+    show_in_gui: true
+    path: "level_34.png"
+    scale_ratio: 7
+    y_position: 7
+  level_35:
+    show_in_gui: true
+    path: "level_35.png"
+    scale_ratio: 7
+    y_position: 7
+  level_36:
+    show_in_gui: true
+    path: "level_36.png"
+    scale_ratio: 7
+    y_position: 7
+  level_37:
+    show_in_gui: true
+    path: "level_37.png"
+    scale_ratio: 7
+    y_position: 7
+  level_38:
+    show_in_gui: true
+    path: "level_38.png"
+    scale_ratio: 7
+    y_position: 7
+  level_39:
+    show_in_gui: true
+    path: "level_39.png"
+    scale_ratio: 7
+    y_position: 7
+  level_40:
+    show_in_gui: true
+    path: "level_40.png"
+    scale_ratio: 7
+    y_position: 7
+  level_41:
+    show_in_gui: true
+    path: "level_41.png"
+    scale_ratio: 7
+    y_position: 7
+  level_42:
+    show_in_gui: true
+    path: "level_42.png"
+    scale_ratio: 7
+    y_position: 7
+  level_43:
+    show_in_gui: true
+    path: "level_43.png"
+    scale_ratio: 7
+    y_position: 7
+  level_44:
+    show_in_gui: true
+    path: "level_44.png"
+    scale_ratio: 7
+    y_position: 7
+  level_45:
+    show_in_gui: true
+    path: "level_45.png"
+    scale_ratio: 7
+    y_position: 7
+  level_46:
+    show_in_gui: true
+    path: "level_46.png"
+    scale_ratio: 7
+    y_position: 7
+  level_47:
+    show_in_gui: true
+    path: "level_47.png"
+    scale_ratio: 7
+    y_position: 7
+  level_48:
+    show_in_gui: true
+    path: "level_48.png"
+    scale_ratio: 7
+    y_position: 7
+  level_49:
+    show_in_gui: true
+    path: "level_49.png"
+    scale_ratio: 7
+    y_position: 7
+  level_50:
+    show_in_gui: true
+    path: "level_50.png"
+    scale_ratio: 7
+    y_position: 7
+  level_51:
+    show_in_gui: true
+    path: "level_51.png"
+    scale_ratio: 7
+    y_position: 7
+  level_52:
+    show_in_gui: true
+    path: "level_52.png"
+    scale_ratio: 7
+    y_position: 7
+  level_53:
+    show_in_gui: true
+    path: "level_53.png"
+    scale_ratio: 7
+    y_position: 7
+  level_54:
+    show_in_gui: true
+    path: "level_54.png"
+    scale_ratio: 7
+    y_position: 7
+  level_55:
+    show_in_gui: true
+    path: "level_55.png"
+    scale_ratio: 7
+    y_position: 7
+  level_56:
+    show_in_gui: true
+    path: "level_56.png"
+    scale_ratio: 7
+    y_position: 7
+  level_57:
+    show_in_gui: true
+    path: "level_57.png"
+    scale_ratio: 7
+    y_position: 7
+  level_58:
+    show_in_gui: true
+    path: "level_58.png"
+    scale_ratio: 7
+    y_position: 7
+  level_59:
+    show_in_gui: true
+    path: "level_59.png"
+    scale_ratio: 7
+    y_position: 7
+  level_60:
+    show_in_gui: true
+    path: "level_60.png"
+    scale_ratio: 7
+    y_position: 7
+  level_61:
+    show_in_gui: true
+    path: "level_61.png"
+    scale_ratio: 7
+    y_position: 7
+  level_62:
+    show_in_gui: true
+    path: "level_62.png"
+    scale_ratio: 7
+    y_position: 7
+  level_63:
+    show_in_gui: true
+    path: "level_63.png"
+    scale_ratio: 7
+    y_position: 7
+  level_64:
+    show_in_gui: true
+    path: "level_64.png"
+    scale_ratio: 7
+    y_position: 7
+  level_65:
+    show_in_gui: true
+    path: "level_65.png"
+    scale_ratio: 7
+    y_position: 7
+  level_66:
+    show_in_gui: true
+    path: "level_66.png"
+    scale_ratio: 7
+    y_position: 7
+  level_67:
+    show_in_gui: true
+    path: "level_67.png"
+    scale_ratio: 7
+    y_position: 7
+  level_68:
+    show_in_gui: true
+    path: "level_68.png"
+    scale_ratio: 7
+    y_position: 7
+  level_69:
+    show_in_gui: true
+    path: "level_69.png"
+    scale_ratio: 7
+    y_position: 7
+  level_70:
+    show_in_gui: true
+    path: "level_70.png"
+    scale_ratio: 7
+    y_position: 7
+  level_71:
+    show_in_gui: true
+    path: "level_71.png"
+    scale_ratio: 7
+    y_position: 7
+  level_72:
+    show_in_gui: true
+    path: "level_72.png"
+    scale_ratio: 7
+    y_position: 7
+  level_73:
+    show_in_gui: true
+    path: "level_73.png"
+    scale_ratio: 7
+    y_position: 7
+  level_74:
+    show_in_gui: true
+    path: "level_74.png"
+    scale_ratio: 7
+    y_position: 7
+  level_75:
+    show_in_gui: true
+    path: "level_75.png"
+    scale_ratio: 7
+    y_position: 7
+  level_76:
+    show_in_gui: true
+    path: "level_76.png"
+    scale_ratio: 7
+    y_position: 7
+  level_77:
+    show_in_gui: true
+    path: "level_77.png"
+    scale_ratio: 7
+    y_position: 7
+  level_78:
+    show_in_gui: true
+    path: "level_78.png"
+    scale_ratio: 7
+    y_position: 7
+  level_79:
+    show_in_gui: true
+    path: "level_79.png"
+    scale_ratio: 7
+    y_position: 7
+  level_80:
+    show_in_gui: true
+    path: "level_80.png"
+    scale_ratio: 7
+    y_position: 7
+  level_81:
+    show_in_gui: true
+    path: "level_81.png"
+    scale_ratio: 7
+    y_position: 7
+  level_82:
+    show_in_gui: true
+    path: "level_82.png"
+    scale_ratio: 7
+    y_position: 7
+  level_83:
+    show_in_gui: true
+    path: "level_84.png"
+    scale_ratio: 7
+    y_position: 7
+  level_84:
+    show_in_gui: true
+    path: "level_84.png"
+    scale_ratio: 7
+    y_position: 7
+  level_85:
+    show_in_gui: true
+    path: "level_85.png"
+    scale_ratio: 7
+    y_position: 7
+  level_86:
+    show_in_gui: true
+    path: "level_86.png"
+    scale_ratio: 7
+    y_position: 7
+  level_87:
+    show_in_gui: true
+    path: "level_87.png"
+    scale_ratio: 7
+    y_position: 7
+  level_88:
+    show_in_gui: true
+    path: "level_88.png"
+    scale_ratio: 7
+    y_position: 7
+  level_89:
+    show_in_gui: true
+    path: "level_89.png"
+    scale_ratio: 7
+    y_position: 7
+  level_90:
+    show_in_gui: true
+    path: "level_90.png"
+    scale_ratio: 7
+    y_position: 7
+  level_91:
+    show_in_gui: true
+    path: "level_91.png"
+    scale_ratio: 7
+    y_position: 7
+  level_92:
+    show_in_gui: true
+    path: "level_92.png"
+    scale_ratio: 7
+    y_position: 7
+  level_93:
+    show_in_gui: true
+    path: "level_93.png"
+    scale_ratio: 7
+    y_position: 7
+  level_94:
+    show_in_gui: true
+    path: "level_94.png"
+    scale_ratio: 7
+    y_position: 7
+  level_95:
+    show_in_gui: true
+    path: "level_95.png"
+    scale_ratio: 7
+    y_position: 7
+  level_96:
+    show_in_gui: true
+    path: "level_96.png"
+    scale_ratio: 7
+    y_position: 7
+  level_97:
+    show_in_gui: true
+    path: "level_97.png"
+    scale_ratio: 7
+    y_position: 7
+  level_98:
+    show_in_gui: true
+    path: "level_98.png"
+    scale_ratio: 7
+    y_position: 7
+  level_99:
+    show_in_gui: true
+    path: "level_99.png"
+    scale_ratio: 7
+    y_position: 7
+  level_100:
+    show_in_gui: true
+    path: "level_100.png"
+    scale_ratio: 7
+    y_position: 7

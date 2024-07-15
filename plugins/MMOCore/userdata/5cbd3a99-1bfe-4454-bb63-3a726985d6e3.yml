@@ -1,0 +1,261 @@
+class-points: 1
+skill-points: 0
+skill-reallocation-points: 0
+attribute-points: 0
+attribute-realloc-points: 0
+level: 18
+experience: 1.0
+class: HUMAN
+waypoints: []
+friends: []
+last-login: 1720854060195
+skill-tree-points:
+  magic: 0
+  trading: 0
+  general: 0
+  mage-arcane-mage: 0
+  rogue-marksman: 0
+  crafting: 0
+  farming: 0
+  warrior-paladin: 0
+  construction: 0
+  combat: 0
+  global: 0
+skill-tree-reallocation-points: 0
+health: 20.0
+mana: 20.0
+stellium: 20.0
+stamina: 20.0
+skill-tree-level:
+  crafting_a1: 0
+  crafting_a3: 0
+  crafting_a2: 0
+  warrior-paladin_d1: 0
+  warrior-paladin_d2: 0
+  warrior-paladin_d3: 0
+  general_e2: 0
+  general_e3: 0
+  magic_a3: 0
+  magic_a2: 0
+  general_e1: 0
+  magic_a1: 0
+  combat_h1: 0
+  mage-arcane-mage_e1: 0
+  combat_h2: 0
+  combat_h3: 0
+  mage-arcane-mage_e3: 0
+  mage-arcane-mage_e2: 0
+  crafting_b1: 0
+  warrior-paladin_e1: 0
+  warrior-paladin_e2: 0
+  warrior-paladin_e3: 0
+  general_d1: 0
+  general_d2: 0
+  general_d3: 0
+  rogue-marksman_g3: 0
+  magic_b1: 0
+  rogue-marksman_g1: 0
+  rogue-marksman_g2: 0
+  mage-arcane-mage_f2: 0
+  combat_g1: 0
+  mage-arcane-mage_f1: 0
+  combat_g2: 0
+  combat_g3: 0
+  mage-arcane-mage_f3: 0
+  warrior-paladin_b3: 0
+  crafting_c1: 0
+  warrior-paladin_b1: 0
+  warrior-paladin_b2: 0
+  combat_f3: 0
+  rogue-marksman_b1: 0
+  general_g1: 0
+  mage-arcane-mage_g1: 0
+  mage-arcane-mage_g3: 0
+  mage-arcane-mage_g2: 0
+  combat_f1: 0
+  rogue-marksman_b2: 0
+  combat_f2: 0
+  rogue-marksman_b3: 0
+  warrior-paladin_c1: 0
+  warrior-paladin_c2: 0
+  warrior-paladin_c3: 0
+  combat_e2: 0
+  general_f3: 0
+  combat_e3: 0
+  general_f1: 0
+  general_f2: 0
+  rogue-marksman_a3: 0
+  rogue-marksman_a1: 0
+  combat_e1: 0
+  rogue-marksman_a2: 0
+  construction_a1: 0
+  mage-arcane-mage_a1: 0
+  trading_b1: 0
+  construction_a2: 0
+  mage-arcane-mage_a3: 0
+  mage-arcane-mage_a2: 0
+  general_j1: 0
+  combat_d1: 0
+  rogue-marksman_d2: 0
+  combat_d2: 0
+  rogue-marksman_d3: 0
+  combat_d3: 0
+  general_a1: 0
+  rogue-marksman_d1: 0
+  general_a2: 0
+  general_a3: 0
+  mage-arcane-mage_b2: 0
+  warrior-paladin_a2: 0
+  mage-arcane-mage_b1: 0
+  warrior-paladin_a3: 0
+  trading_a2: 0
+  construction_b1: 0
+  mage-arcane-mage_b3: 0
+  trading_a1: 0
+  warrior-paladin_a1: 0
+  rogue-marksman_c1: 0
+  combat_c1: 0
+  rogue-marksman_c2: 0
+  combat_c2: 0
+  combat_c3: 0
+  general_h1: 0
+  trading_a3: 0
+  construction_a3: 0
+  rogue-marksman_c3: 0
+  mage-arcane-mage_c3: 0
+  mage-arcane-mage_c2: 0
+  farming_a1: 0
+  warrior-paladin_f1: 0
+  warrior-paladin_f2: 0
+  farming_a3: 0
+  warrior-paladin_f3: 0
+  farming_a2: 0
+  general_c1: 0
+  combat_b1: 0
+  general_c2: 0
+  rogue-marksman_f2: 0
+  combat_b2: 0
+  general_c3: 0
+  rogue-marksman_f3: 0
+  combat_b3: 0
+  magic_c1: 0
+  rogue-marksman_f1: 0
+  combat_j1: 0
+  combat_j2: 0
+  combat_j3: 0
+  mage-arcane-mage_c1: 0
+  mage-arcane-mage_d3: 0
+  warrior-paladin_g1: 0
+  warrior-paladin_g2: 0
+  warrior-paladin_g3: 0
+  rogue-marksman_e3: 0
+  general_b1: 0
+  rogue-marksman_e1: 0
+  combat_a1: 0
+  general_b2: 0
+  rogue-marksman_e2: 0
+  combat_a2: 0
+  combat_a3: 0
+  general_b3: 0
+  mage-arcane-mage_d2: 0
+  mage-arcane-mage_d1: 0
+unlocked-items: []
+times-claimed:
+  profession_attack:
+    attack_exp_table:
+      attribute_point: 21
+  class_HUMAN:
+    class_exp_table:
+      level_up: 19
+      skill_point: 6
+      attribute_point: 17
+      skill_tree_point: 1
+  profession_defense:
+    defense_exp_table:
+      attribute_point: 30
+  profession_constitution:
+    constitution_exp_table:
+      attribute_point: 20
+  profession_magic:
+    magic_exp_table:
+      attribute_point: 60
+      level_2: 2
+      level_18: 2
+      level_16: 2
+      level_28: 2
+      level_10: 2
+      level_32: 2
+      level_22: 2
+      level_30: 2
+      level_20: 2
+      level_14: 2
+      level_26: 2
+      level_12: 2
+      level_24: 2
+      level_8: 2
+      level_6: 2
+      level_4: 2
+      level_38: 1
+      level_54: 1
+      level_52: 1
+      level_36: 1
+      level_58: 1
+      level_34: 1
+      level_56: 1
+      level_50: 1
+      level_44: 1
+      level_42: 1
+      level_48: 1
+      level_46: 1
+      level_40: 1
+      level_60: 1
+  profession_ranged:
+    ranged_exp_table:
+      attribute_point: 4
+attribute:
+  magic: 0
+  constitution: 0
+  ranged: 0
+  defense: 4
+  attack: 19
+profession:
+  magic:
+    exp: 0.0
+    level: 0
+  slayer:
+    exp: 0.0
+    level: 0
+  constitution:
+    exp: 229.8119733256192
+    level: 2
+  fishing:
+    exp: 0.0
+    level: 0
+  alchemy:
+    exp: 0.0
+    level: 0
+  mining:
+    exp: 0.0
+    level: 0
+  smithing:
+    exp: 0.0
+    level: 0
+  woodcutting:
+    exp: 0.0
+    level: 0
+  defense:
+    exp: 3959.670611504227
+    level: 31
+  ranged:
+    exp: 0.0
+    level: 0
+  attack:
+    exp: 2549.7298741340637
+    level: 22
+  farming:
+    exp: 0.0
+    level: 0
+  agility:
+    exp: 0.0
+    level: 0
+quest: {}

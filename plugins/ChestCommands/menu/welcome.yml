@@ -1,0 +1,50 @@
+menu-settings:
+  name: ':offset_-16::welcome_menu:'
+  rows: 6
+  auto-reopen: true
+  commands:
+  - welcome
+accept1:
+  ACTIONS:
+  - "close-this:"
+  - "warp survival"
+  - "open: welcome_accepted.yml"
+  NAME: '&aAccept'
+  KEEP-OPEN: true
+  LORE:
+  - /home
+  BLANK: true
+  POSITION-X: 3
+  POSITION-Y: 5
+accept2:
+  ACTIONS:
+  - "close-this:"
+  - "warp survival"
+  - "open: welcome_accepted.yml"
+  NAME: '&aAccept'
+  KEEP-OPEN: true
+  LORE:
+  - /home
+  BLANK: true
+  POSITION-X: 4
+  POSITION-Y: 5
+cancel1:
+  ACTIONS:
+  - "console: kick {player} You have to accept the rules to enter the server!"
+  - "close-this:"
+  NAME: '&cLeave the server'
+  LORE:
+  - /home
+  BLANK: true
+  POSITION-X: 6
+  POSITION-Y: 5
+cancel2:
+  ACTIONS:
+  - "console: kick {player} You have to accept the rules to enter the server!"
+  - "close-this:"
+  NAME: '&cLeave the server'
+  LORE:
+  - /home
+  BLANK: true
+  POSITION-X: 7
+  POSITION-Y: 5

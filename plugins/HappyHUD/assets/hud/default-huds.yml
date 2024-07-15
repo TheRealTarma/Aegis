@@ -1,0 +1,76 @@
+sword:
+  layers:
+    health-bar:
+      texture:
+        path: assets/sword/fill_health.png
+      color: white
+      offset:
+        x: -155
+        y: -7
+      function:
+        listener: health
+        increment: 20
+        orientation: vertical
+    mana-bar:
+      texture:
+        path: assets/sword/fill_mana.png
+      color: white
+      offset:
+        x: 116
+        y: -7
+      function:
+        listener: mana
+        increment: 20
+        orientation: vertical
+    food-bar:
+      texture:
+        path: assets/sword/fill_food.png
+      color: white
+      offset:
+        x: 15
+        y: -9
+      function:
+        listener: food
+        increment: 20
+        orientation: horizontal
+    armor-bar:
+      texture:
+        path: assets/sword/fill_armor.png
+      color: white
+      offset:
+        x: -91
+        y: -9
+      function:
+        listener: armor
+        increment: 20
+        orientation: horizontal
+    exp-bar:
+      texture:
+        path: assets/sword/fill_exp.png
+      offset:
+        x: -91
+        y: -15
+      function:
+        listener: exp
+        increment: 20
+        orientation: horizontal
+    outline_left:
+      texture:
+        path: assets/sword/outline_left.png
+      align: left
+      position:
+         x: 0
+         y: 0
+      offset:
+        x: 0
+        y: -7
+    outline_right:
+      texture:
+        path: assets/sword/outline_right.png
+      align: right
+      position:
+         x: 0
+         y: 0
+      offset:
+        x: -1
+        y: -7

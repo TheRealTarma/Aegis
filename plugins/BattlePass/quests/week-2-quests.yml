@@ -1,0 +1,152 @@
+quests:
+  '0':
+    name: Week 2 - Nudist
+    type: shear
+    variable: none
+    required-progress: 10
+    points: 30
+    item:
+      material: white_wool:0
+      name: '&eFarmer 2'
+      lore:
+      - '&7Sheer &e10 Nudist'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '1':
+    name: Week 2 - Murderer
+    type: kill-player
+    variable: none
+    required-progress: 1
+    points: 30
+    item:
+      material: wooden_sword:0
+      name: '&eMurderer'
+      lore:
+      - '&7Kill &e1 player'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '2':
+    name: Week 2 - Equestrian
+    type: ride-mob
+    variable: horse
+    required-progress: 1
+    points: 30
+    item:
+      material: saddle:0
+      name: '&eEquestrian'
+      lore:
+      - '&7Ride &e1 horse'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '3':
+    name: Week 2 - Blacksmith
+    type: smelt
+    variable: copper_ingot:0
+    required-progress: 20
+    points: 30
+    item:
+      material: copper_ingot:0
+      name: '&eBlacksmith'
+      lore:
+      - '&7Smelt &e20 copper ores'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '4':
+    name: Week 2 - Defense XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: defense # The block the player must break.
+    required-progress: 1500 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: diamond_chestplate:0
+      amount: 1
+      name: '&eDefense XP'
+      lore:
+      - '&7Gain &e1500 Defense XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '5':
+    name: Week 2 - New
+    type: execute-command
+    variable: /rewards
+    required-progress: 1
+    points: 7
+    item:
+      material: emerald:0
+      name: '&eGreedy'
+      lore:
+      - '&7Open Daily Rewards 7 times &e/rewards'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '6':
+    name: Week 2 - Agility XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: agility # The block the player must break.
+    required-progress: 1500 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: leather_boots:0
+      amount: 1
+      name: '&eAgility XP'
+      lore:
+      - '&7Gain &e1500 Agility XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '7':
+    name: Week 2 - Slayer XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: slayer # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: skull_pottery_sherd:0
+      amount: 1
+      name: '&eSlayer XP'
+      lore:
+      - '&7Gain &e1200 Slayer XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '8':
+    name: Week 2 - Active
+    type: login
+    variable: none
+    required-progress: 15
+    points: 30
+    exclusive: premium
+    item:
+      material: stone_sword:0
+      name: '&eWorld Traveler'
+      lore:
+      - '&7Travel&e6000 Blocks'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '9':
+    name: Week 2 - Constitution XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: constitution # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: potion:0
+      amount: 1
+      name: '&eConstitution XP'
+      lore:
+      - '&7Gain &e1200 Constitution XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '10':
+    name: Week 2 - Menace
+    type: kill-player
+    variable: none
+    required-progress: 3
+    points: 30
+    exclusive: premium
+    item:
+      material: stone_sword:0
+      name: '&eMenace'
+      lore:
+      - '&7Kill &e6 players'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'

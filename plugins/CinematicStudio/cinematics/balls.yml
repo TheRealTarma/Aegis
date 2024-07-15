@@ -1,0 +1,46 @@
+metadata:
+  version: 1.0
+  serverVersion: 'git-Paper-496 (MC: 1.20.4)'
+  bukkitVersion: 1.20.4-R0.1-SNAPSHOT
+  creationDate: '2024-06-27 02:25:20'
+  saveDate: '2024-06-27 02:25:52'
+  author:
+    name: Tarma_
+    uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
+properties:
+  durationTicks: 20.0
+  usePumpkinHelmet: false
+  useWanderingTraderEggHelmet: false
+  endActions:
+    playerCommands: [
+      ]
+    consoleCommands: [
+      ]
+timelineRows:
+  '0':
+    '0':
+      type: CAMERA
+      pos:
+        x: 6.912026865784795
+        y: 69.5986238659839
+        z: 40.89742328240569
+      rot:
+        x: 0.1492927223443985
+        y: 0.60009765625
+      mode: C
+      interpolation: SMOOTH
+      interpolationFrequency: 15.0
+      instantTeleport: false
+    '1':
+      type: CAMERA
+      pos:
+        x: 6.79398831289952
+        y: 92.688163547657
+        z: 92.81649225944865
+      rot:
+        x: 9.599323272705078
+        y: 0.750244140625
+      mode: C
+      interpolation: SMOOTH
+      interpolationFrequency: 15.0
+      instantTeleport: false

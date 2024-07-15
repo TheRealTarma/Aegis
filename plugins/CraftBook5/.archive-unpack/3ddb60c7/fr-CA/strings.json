@@ -1,0 +1,10 @@
+{
+    "craftbook.ammeter.line": "Ammètre: {0} {1}A",
+    "craftbook.ammeter.description": "Outil permettant d'afficher le niveau de puissance au bloc cliqué",
+    "craftbook.betterai.description": "Améliore l'IA et le comportement des créatures hostiles",
+    "craftbook.betterphysics.description": "Améliore la physique des aspects du jeu, par exemple avec la chute des échelles",
+    "craftbook.betterpistons.description": "Améliore les pistons, par exemple en leur permettant de déplacer plusieurs blocs",
+    "craftbook.betterpistons.invalid-piston-block": "Cette machine ne peut pas être utilisé sur ce type de piston",
+    "craftbook.cookingpot.no-refuel-permissions": "Vous n'avez pas la permission de ravitailler cette machine.",
+    "craftbook.door.different-materials": "La porte doit être entièrement fabriquée à partir du même matériau !"
+}

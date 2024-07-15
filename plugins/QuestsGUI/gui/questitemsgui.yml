@@ -1,0 +1,69 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: Items
+    rows: 1
+    inventory:
+    - slot: 0
+      item:
+        material: LEATHER
+        amount: 1
+        durability: 0
+        displayName: §eCraft items
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: FURNACE
+        amount: 1
+        durability: 0
+        displayName: §eSmelt items
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: BOOKSHELF
+        amount: 1
+        durability: 0
+        displayName: §eEnchant items
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '3'
+    - slot: 3
+      item:
+        material: BREWING_STAND
+        amount: 1
+        durability: 0
+        displayName: §eBrew potions
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '4'
+    - slot: 4
+      item:
+        material: POTATO
+        amount: 1
+        durability: 0
+        displayName: §eConsume items
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '5'
+    - slot: 8
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §aDone
+        lore: null
+        enchants: []
+      task: '6'

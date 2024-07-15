@@ -1,0 +1,11 @@
+# CraftBook ChunkAnchor Configuration
+# -- Generated for version: 5.0.0-beta-01
+# 
+# More information about this mechanic is available at...
+# https://craftbook.enginehub.org/en/5.0.0/mechanics/chunk_anchor/
+#
+# NOTE! Make sure to enable this in the config.yml file if you wish to use it.
+
+
+# Allow Chunk Anchors to be turned on and off with redstone.
+redstone-toggle: true

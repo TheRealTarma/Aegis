@@ -1,0 +1,14 @@
+name: TheSandersLad
+minutes-played: 1029
+daily-rewards:
+  day-num: 1
+  streak-length: 0
+  highest-streak: 0
+  start-date: 16-06-2024
+  collected-dates: []
+daily-playtime-goals:
+  date: 30-05-2024
+  last-collected-playtime: 985
+  previous-day-end: 865
+global-playtime-goals:
+  last-collected-playtime: 625

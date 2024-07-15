@@ -1,0 +1,19 @@
+
+# Display options
+name: Attack
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 1
+    per-level: 0
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levelsskills
+
+exp-table: attack_exp_table
+
+max-level: 99
+
+exp-sources:
+- 'damagedealt{type=WEAPON;amount=10}'

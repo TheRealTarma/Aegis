@@ -1,0 +1,4 @@
+animations:
+  portal_leave:
+    mm-id: leave_portal
+    permission: "animcore.leave.portal"

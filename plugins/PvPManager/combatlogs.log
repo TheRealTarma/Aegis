@@ -1,0 +1,6 @@
+This file logs every player that disconnected during combat
+You can disable the logging in the config file
+
+[2024/05/06 21:00:16] zero99x tried to escape combat!
+[2024/05/06 21:00:17] Tarma_ tried to escape combat!
+[2024/05/08 23:11:22] Tarma_ tried to escape combat!

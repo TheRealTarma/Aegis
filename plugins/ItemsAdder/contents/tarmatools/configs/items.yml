@@ -1,0 +1,70 @@
+info:
+    namespace: tarmatools
+items:
+    iron_scythe:
+        permission: tarmatools.iron_scythe
+        mmoitem:
+            type: TOOL
+            id: IRON_SCYTHE
+        display_name: Iron Scythe
+        lore:
+          - "§7Harvest"
+        resource:
+            material: IRON_SWORD
+            generate: true
+            textures:
+                - iron_scythe
+        durability:
+            max_custom_durability: 750
+    diamond_scythe:
+        permission: tarmatools.diamond_scythe
+        mmoitem:
+            type: TOOL
+            id: DIAMOND_SCYTHE
+        display_name: Diamond Scythe
+        lore:
+          - "§7Harvest II"
+        resource:
+            material: IRON_SWORD
+            generate: true
+            textures:
+                - diamond_scythe
+            durability:
+                max_custom_durability: 4500
+    netherite_scythe:
+        permission: tarmatools.netherite_scythe
+        mmoitem:
+            type: TOOL
+            id: NETHERITE_SCYTHE
+        display_name: Netherite Scythe
+        lore:
+          - "§7Harvest III"
+        resource:
+            material: IRON_SWORD
+            generate: true
+            textures:
+                - netherite_scythe
+            durability:
+                max_custom_durability: 6000
+    # road_tool:
+    #     permission: tarmatools.roadtool
+    #     display_name: Road Tool
+    #     resource:
+    #         material: STICK
+    #         generate: true
+    #         textures:
+    #             - netherite_scythe
+    #         durability:
+    #             max_custom_durability: 6000
+    #     events:
+    #       interact_mainhand:
+    #         right:
+    #             replace_block_grass:
+    #               from: GRASS
+    #               to: COBBLESTONE
+    #               decrement_durability: 1
+    #               decrement_amount: 1
+    #             replace_block_dirt:
+    #               from: DIRT        
+    #               to: COBBLESTONE
+    #               decrement_durability: 1

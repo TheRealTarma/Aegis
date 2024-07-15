@@ -1,0 +1,16 @@
+currentQuests:
+- '000002'
+currentStages:
+- 0
+quest-points: 0
+questData:
+  '000002':
+    has-talked-to:
+    - false
+    - false
+    custom-objective-counts:
+    - 1
+    - 2
+completed-Quests:
+- '000002'
+lastKnownName: Tarma_

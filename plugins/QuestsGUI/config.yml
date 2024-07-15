@@ -1,0 +1,88 @@
+# QuestsGUI configuration. Changes may require regeneration of /gui folder.
+
+all:
+  blank-slots:
+    material: AIR
+    amount: 1
+    durability: 0
+  next-slot:
+    material: ARROW
+    amount: 1
+    durability: 0
+    name: Next >
+  previous-slot:
+    material: ARROW
+    amount: 1
+    durability: 0
+    name: < Prev
+  default-quest:
+    material: BOOK
+    amount: 1
+    durability: 0
+  default-action:
+    material: FLINT_AND_STEEL
+    amount: 1
+    durability: 0
+  default-condition:
+    material: TRIPWIRE_HOOK
+    amount: 1
+    durability: 0
+anvil:
+  enable: true
+  scoreboard-limit: 9
+  quest: Enter quest name
+  action: Enter action name
+  condition: Enter condition name
+command:
+  list:
+    enable: true
+    click-to-take: false
+    flanked-arrows: false
+    min-size: 9
+    text: Click to take
+  journal:
+    enable: true
+    click-to-quit: false
+    flanked-arrows: false
+    min-size: 9
+    text: Click to quit
+editor:
+  quest:
+    enable: true
+    flanked-arrows: false
+  action:
+    enable: true
+    flanked-arrows: false
+  condition:
+    enable: true
+    flanked-arrows: false
+misc:
+  abandon:
+    enable: false
+  accept:
+    enable: false
+  offer:
+    enable: false
+npc:
+  display:
+    enable: true
+    flanked-arrows: false
+    hide-flags: true
+    show-times: true
+    cooldown:
+      material: SNOW_BALL
+    early:
+      material: CLOCK
+    late:
+      material: BARRIER
+player:
+  loaditem:
+    enable: true
+    title: Your inventory
+stages:
+  edit:
+    material: IRON_FENCE
+  new:
+    material: NETHER_STAR
+  done:
+    material: SLIME_BALL

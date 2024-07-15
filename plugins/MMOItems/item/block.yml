@@ -1,0 +1,7 @@
+MITHRIL_ORE:
+  base:
+    material: IRON_ORE
+    block-id: 12001.0
+DEEPSLATE_IRON_ORE:
+  base:
+    material: DEEPSLATE_IRON_ORE

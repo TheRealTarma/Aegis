@@ -1,0 +1,19 @@
+{
+    "craftbook.bounceblocks.invalid-velocity": "Você precisa inserir uma velocidade válida na terceira linha!",
+    "craftbook.chairs.block-in-use": "Esta cadeira está em uso!",
+    "craftbook.chairs.floating": "Essa cadeira está flutuando!",
+    "craftbook.chairs.obstructed": "Essa cadeira está obstruída!",
+    "craftbook.chairs.too-far-away": "Essa cadeira está muito longe!",
+    "craftbook.headdrops.description": "Permite que a cabeça de jogadores e criaturas sejam coletadas",
+    "craftbook.paintingswitcher.now-editing": "Você está editando essa pintura!",
+    "craftbook.paintingswitcher.no-longer-editing": "Você não está mais editando essa pintura!",
+    "craftbook.paintingswitcher.too-far-away": "Você está muito longe daquela pintura!",
+    "craftbook.paintingswitcher.in-use": "Essa pintura já está sendo usada por {0}!",
+    "craftbook.readablebookshelf.failed-to-read": "Falha na leitura do arquivo",
+    "craftbook.readablebookshelf.empty": "O arquivo está vazio",
+    "craftbook.readablebookshelf.read": "Você pega um livro...",
+    "craftbook.readablebookshelf.description": "Lê uma linha de um arquivo quando um jogador clica em uma estante",
+    "craftbook.variables.list.copy": "Clique para copiar",
+    "craftbook.variables.no-permission": "Você não tem permissão para usar o comando \"{0}'",
+    "craftbook.variables.failed-to-load": "Falha em carregar o arquivo de variáveis"
+}

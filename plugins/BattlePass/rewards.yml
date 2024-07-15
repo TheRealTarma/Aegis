@@ -1,0 +1,7 @@
+'1': # The id of the reward
+  type: command
+  name: 'Booster Key'
+  lore-addon:
+    - '&7 - &eBooster Key'
+  commands:
+    - 'crate key give %player% booster 1'

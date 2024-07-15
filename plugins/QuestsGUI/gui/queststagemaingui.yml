@@ -1,0 +1,178 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: Fishing Tutorial | Stage 1
+    rows: 2
+    inventory:
+    - slot: 0
+      item:
+        material: BRICK
+        amount: 1
+        durability: 0
+        displayName: §6Blocks
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: APPLE
+        amount: 1
+        durability: 0
+        displayName: §6Items
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: ARMOR_STAND
+        amount: 1
+        durability: 0
+        displayName: §6NPCs
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '3'
+    - slot: 3
+      item:
+        material: SKELETON_SKULL
+        amount: 1
+        durability: 2
+        displayName: §6Mobs
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '4'
+    - slot: 4
+      item:
+        material: GOLDEN_SWORD
+        amount: 1
+        durability: 0
+        displayName: §eKill players
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '5'
+    - slot: 5
+      item:
+        material: BEACON
+        amount: 1
+        durability: 0
+        displayName: §eReach locations
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '6'
+    - slot: 6
+      item:
+        material: PAPER
+        amount: 1
+        durability: 0
+        displayName: §eSay password
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '7'
+    - slot: 7
+      item:
+        material: BOOK
+        amount: 1
+        durability: 0
+        displayName: §5Custom objectives
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '8'
+    - slot: 8
+      item:
+        material: FLINT_AND_STEEL
+        amount: 1
+        durability: 0
+        displayName: §7Actions
+        lore:
+        - §7(Optional)
+        enchants: []
+      task: '9'
+    - slot: 9
+      item:
+        material: TRIPWIRE_HOOK
+        amount: 1
+        durability: 0
+        displayName: §7Conditions
+        lore:
+        - §7(Optional)
+        enchants: []
+      task: '10'
+    - slot: 10
+      item:
+        material: CLOCK
+        amount: 1
+        durability: 0
+        displayName: §7Delay
+        lore:
+        - §7(Optional)
+        enchants: []
+      task: '11'
+    - slot: 11
+      item:
+        material: ITEM_FRAME
+        amount: 1
+        durability: 0
+        displayName: §7Delay message
+        lore:
+        - §7(Optional)
+        enchants: []
+      task: '12'
+    - slot: 12
+      item:
+        material: FISHING_ROD
+        amount: 1
+        durability: 0
+        displayName: §7Start message
+        lore:
+        - §7(Optional)
+        enchants: []
+      task: '13'
+    - slot: 13
+      item:
+        material: ENDER_EYE
+        amount: 1
+        durability: 0
+        displayName: §7Complete message
+        lore:
+        - §7(Optional)
+        enchants: []
+      task: '14'
+    - slot: 14
+      item:
+        material: SADDLE
+        amount: 1
+        durability: 0
+        displayName: §7Set details list override
+        lore:
+        - §7(Optional)
+        enchants: []
+      task: '15'
+    - slot: 16
+      item:
+        material: BARRIER
+        amount: 1
+        durability: 0
+        displayName: §cDelete stage
+        lore: null
+        enchants: []
+      task: '16'
+    - slot: 17
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §aDone
+        lore: null
+        enchants: []
+      task: '17'

@@ -1,0 +1,11 @@
+# Blacklist Items
+# Blacklist items will not drop when a player dies
+# For material names see: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# For short values see: http://minecraft.gamepedia.com/Data_values
+blacklist-items:
+# A diamond sword
+  DIAMOND_SWORD:
+    short-value: none
+# Orange wool
+  WOOL:
+    short-value: 1

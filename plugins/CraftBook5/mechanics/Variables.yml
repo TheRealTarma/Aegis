@@ -1,0 +1,23 @@
+# CraftBook Variables Configuration
+# -- Generated for version: 5.0.0-beta-01
+# 
+# More information about this mechanic is available at...
+# https://craftbook.enginehub.org/en/5.0.0/mechanics/variables/
+#
+# NOTE! Make sure to enable this in the config.yml file if you wish to use it.
+
+
+# Whether to default to global or the player's namespace when no namespace is provided
+default-to-global: false
+
+# Allows variables to work when used in console commands
+enable-in-console: false
+
+# Allows variables to work when used in player commands
+enable-in-player-commands: false
+
+# Allows variables to work when used in chat
+enable-in-player-chat: false
+
+# The maximum length of a value in a variable
+max-variable-length: 256

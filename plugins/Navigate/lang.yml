@@ -1,0 +1,61 @@
+compass-help-title: '&{ffdd35}<Navigate * Compass Options>'
+compass-enabled: '&{35bcff}Do you want a compass? '
+compass-landmarks-priority: '&{35bcff}Should landmarks be shown over other symbols? '
+compass-show-distances: '&{35bcff}Should compass show distance from landmarks? '
+compass-location: '&{35bcff}Where do you want the compass? '
+current-choice-formatting: '&a'
+other-choice-formatting: '&7'
+'true': 'Yes'
+'false': 'No'
+action-bar: Action Bar
+boss-bar: Boss Bar
+click-here: Click Here
+compass-help:
+- ' '
+- '&{ffdd35}Type &{35bcff}/compass help &{ffdd35}to see advanced options'
+- '&{ffdd35}Add navigation points to your compass with &{35bcff}/landmarks'
+compass-advanced-help:
+- '&{ffdd35}You can click the choices to change options!'
+- '&{35bcff}/compass toggle &fToggle on or off the compass feature.'
+- '&{35bcff}/compass landmarksPriority 1/2 &fLandmarks overlap other symbols?'
+- '&{35bcff}/compass showDistances 1/2 &fShow distances from landmarks?'
+- '&{35bcff}/compass location 1/2 &f1 = bossbar; 2 = compass;'
+changes-saved: '&aChanges to your compass were saved!'
+
+invalid-number: '&cInvalid number: '
+
+landmarks-help:
+- '&{ffdd35}<Navigate * Landmarks Options>'
+- '&{35bcff}/landmarks create &fCreate a landmark at your current location.'
+- '&{35bcff}/landmarks delete (id) &fDelete a landmark with its numeric id.'
+- '&{35bcff}/landmarks list &fView a list of and modify your landmarks.'
+- ' '
+- '&{35bcff}/landmarks color (id) &fOpen the color selector.'
+- '&{35bcff}/landmarks priority (id) (priority) &fSet the priority of a landmark.
+  Higher priority will overlap lower.'
+- '&{35bcff}/navigate x z &fCreate a temporary landmark to a target location.'
+landmark-prompt: '&bPlease select &9one character &bto represent this landmark on
+  the compass. It could be a symbol like *, ^, or $. It can also be a letter or number.'
+landmark-created: '&aLandmark created! Look on the compass.'
+landmark-deleted: '&aLandmark deleted!'
+landmarks-player-only: '&cOnly players can have landmarks.'
+landmarks-list-usage: '&cUse /landmarks list to view all your landmarks.'
+landmarks-invalid-id: '&cInvalid ID: '
+landmarks-priority-set: '&aNew priority is '
+landmarks-total: '&{35bcff}Total Landmarks: '
+landmarks-create-timeout: '&cSorry, the create command timed out. Please try again.'
+priority: '&{35bcff}Priority: '
+id: '&{35bcff}ID: '
+delete: '&c[Delete]'
+
+navigation-help:
+- '&{ffdd35}Use &{35bcff}/navigate x z &{ffdd35}to add a temporary landmark.'
+- '&{ffdd35}It''ll be deleted when you reach it or use /navigate cancel'
+navigating-nowhere: '&7You aren''t currently navigating anywhere.'
+navigation-cancelled: '&aNavigation cancelled.'
+navigation-one-place:
+- '&{ffdd35}You can only navigate to one place at a time!'
+- '&{ffdd35}Use &{35bcff}/navigate cancel &{ffdd35}to end your current navigation.'
+navigation-color: '&a'
+navigation-character: '*'
+navigating: '&{ffdd35}Navigating! You should see a &agreen * &{ffdd35}on your compass.'

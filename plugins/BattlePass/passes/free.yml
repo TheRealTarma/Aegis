@@ -1,0 +1,143 @@
+name: 'Free'
+default-points-required: 10
+dont-give-premium-free-rewards: false
+
+items:
+  doesnt-have-pass-item:
+    material: 'gold_nugget'
+    customModelData: 7007
+    name: '{#F33A6A}&lTier: {#ffb3c7}%tier%'
+    lore:
+      - ''
+      - '{#F33A6A}Only premium rewards are claimable!'
+  locked-tier-item:
+    material: 'gold_nugget'
+    customModelData: 7007
+    name: '{#F33A6A}&lTier: {#ffb3c7}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '{#F33A6A}Locked!'
+  unlocked-tier-item:
+    material: 'gold_nugget'
+    customModelData: 7003
+    name: '{#7CFC00}&lTier: {#c5ff8c}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '&eClaim &8[Left Click]'
+  claimed-tier-item:
+    material: 'gold_nugget'
+    customModelData: 7004
+    name: '{#7CFC00}&lTier: {#c5ff8c}%tier%'
+    lore:
+      - ''
+      - '%lore_addon%'
+      - ''
+      - '{#7CFC00}Claimed!'
+
+tier-up-actions:
+  - '[message] {:bp: &7You reached Tier %tier%!}'
+
+tiers: 
+  '1': 
+    rewards: ['1'] 
+    required-points: 1
+  '5': 
+    rewards: ['1'] 
+    required-points: 1
+  '9': 
+    rewards: ['1'] 
+    required-points: 10
+  '10': 
+    rewards: ['1'] 
+    required-points: 10
+  '14': 
+    rewards: ['1']
+    required-points: 10
+  '18': 
+    rewards: ['1'] 
+    required-points: 10
+  '19': 
+    rewards: ['1'] 
+    required-points: 10
+  '23': 
+    rewards: ['1'] 
+    required-points: 10
+  '27': 
+    rewards: ['1'] 
+    required-points: 10
+  '28': 
+    rewards: ['1'] 
+    required-points: 10
+  '32': 
+    rewards: ['1'] 
+    required-points: 10
+  '36': 
+    rewards: ['1'] 
+    required-points: 10
+  '37': 
+    rewards: ['1'] 
+    required-points: 10
+  '41': 
+    rewards: ['1'] 
+    required-points: 10
+  '45': 
+    rewards: ['1'] 
+    required-points: 10
+  '46': 
+    rewards: ['1'] 
+    required-points: 10
+  '50': 
+    rewards: ['1'] 
+    required-points: 10
+  '54': 
+    rewards: ['1'] 
+    required-points: 10
+  '55': 
+    rewards: ['1'] 
+    required-points: 10
+  '59': 
+    rewards: ['1'] 
+    required-points: 10
+  '63': 
+    rewards: ['1'] 
+    required-points: 10
+  '64': 
+    rewards: ['1'] 
+    required-points: 10
+  '68': 
+    rewards: ['1'] 
+    required-points: 10
+  '72': 
+    rewards: ['1'] 
+    required-points: 10
+  '73': 
+    rewards: ['1'] 
+    required-points: 10
+  '77': 
+    rewards: ['1'] 
+    required-points: 10
+  '81': 
+    rewards: ['1'] 
+    required-points: 10
+  '82': 
+    rewards: ['1'] 
+    required-points: 10
+  '86': 
+    rewards: ['1'] 
+    required-points: 10
+  '90': 
+    rewards: ['1'] 
+    required-points: 10
+  '91': 
+    rewards: ['1'] 
+    required-points: 10
+  '95': 
+    rewards: ['1'] 
+    required-points: 10
+  '99': 
+    rewards: ['1'] 
+    required-points: 10

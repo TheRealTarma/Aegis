@@ -1,0 +1,66 @@
+
+# Attribute ID
+attack:
+
+    name: Attack
+    
+    # Maximum amount of points players 
+    # may spend in this attribute.
+    max-points: 99
+    
+    # Buffs given every 1 attribute point spent
+    # in this specific attribute.
+    buff:
+        attack_damage: .1
+
+defense:
+
+    name: Defense
+    
+    # Maximum amount of points players 
+    # may spend in this attribute.
+    max-points: 99
+    
+    # Buffs given every 1 attribute point spent
+    # in this specific attribute.
+    buff:
+        armor_toughness: .1
+
+constitution:
+
+    name: Constitution
+    
+    # Maximum amount of points players 
+    # may spend in this attribute.
+    max-points: 99
+    
+    # Buffs given every 1 attribute point spent
+    # in this specific attribute.
+    buff:
+        max_health: .2
+
+magic:
+
+    name: Magic
+    
+    # Maximum amount of points players 
+    # may spend in this attribute.
+    max-points: 99
+    
+    # Buffs given every 1 attribute point spent
+    # in this specific attribute.
+    buff:
+        max_mana: 1
+
+ranged:
+
+    name: Ranged
+    
+    # Maximum amount of points players 
+    # may spend in this attribute.
+    max-points: 99
+    
+    # Buffs given every 1 attribute point spent
+    # in this specific attribute.
+    buff:
+        projectile_damage: 1

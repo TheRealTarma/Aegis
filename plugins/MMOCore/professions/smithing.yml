@@ -1,0 +1,47 @@
+
+# Display options
+name: Smithing
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 0
+    per-level: 0
+
+max-level: 99
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levelsskills
+
+exp-sources:
+- 'repairitem{}'
+- 'craftitem{type=BLAST_FURNACE;amount=1}'
+- 'craftitem{type=SMOKER;amount=1}'
+- 'smeltitem{type=IRON_INGOT;amount=2-3}'
+- 'smeltitem{type=COPPER_INGOT;amount=1-2}'
+- 'smeltitem{type=GOLD_INGOT;amount=3-4}'
+
+
+# Experience given by repairing 100
+# durability points from a specific material.
+
+# Warning, diamonds/iron ingots/<any material
+# which repairs a specific type of tool> do
+# not repair the same amount of durability!
+repair-exp:
+
+    # Swords
+    DIAMOND_SWORD: 1.923 # Max durability: 1561
+    GOLDEN_SWORD: 62.5 # Max durability: 32
+    IRON_SWORD: 8 # Md: 250
+    STONE_SWORD: 7.634 # Md: 131
+    WOODEN_SWORD: 13.56 # Md: 59
+    
+    # Picks
+    DIAMOND_PICKAXE: 1.923
+    GOLDEN_PICKAXE: 62.5
+    IRON_PICKAXE: 8
+    STONE_PICKAXE: 7.634
+    WOODEN_PICKAXE: 13.56
+    
+    # Add as many as you want: bows, shields..

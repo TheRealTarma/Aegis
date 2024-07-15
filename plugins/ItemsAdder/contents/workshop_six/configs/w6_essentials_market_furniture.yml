@@ -1,0 +1,607 @@
+info:
+  namespace: "workshop_six"
+items:
+  bulletin_board:
+    display_name: "Bulletin Board"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/bulletin_board
+    behaviours:
+      furniture:
+        fixed_rotation: true    
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 2
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  bulletin_board_small:
+    display_name: "Small Bulletin Board"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/bulletin_board_small
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox: 
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  bulletin_board_wall:
+    display_name: "Hanging Bulletin Board"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/bulletin_board_wall
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  chalk_sign:
+    display_name: "Chalk Sign"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/chalk_sign
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  chalk_sign_hanging:
+    display_name: "Hanging Chalk Sign"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/chalk_sign_hanging
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  chest:
+    display_name: "Chest"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/chest
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  chest_open:
+    display_name: "Open Chest"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/chest_open
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  coins_1:
+    display_name: "Coins"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/coins_1
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  coins_2:
+    display_name: "Coins"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/coins_2
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  coins_3:
+    display_name: "Coins"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/coins_3
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  crate_bread:
+    display_name: "Crate Bread"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/crate_bread
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  crate_carrots:
+    display_name: "Crate Carrots"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/crate_carrots
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  crate_display_bread:
+    display_name: "Crate Display Bread"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/crate_display_bread
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  crate_display_carrots:
+    display_name: "Crate Display Carrots"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/crate_display_carrots
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  crate_display_empty:
+    display_name: "Crate Display Empty"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/crate_display_empty
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  crate_empty:
+    display_name: "Crate Empty"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/crate_empty
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  crate_stack:
+    display_name: "Crate Stack"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/crate_stack
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  papers_hanging_1:
+    display_name: "Hanging Papers"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/papers_hanging_1
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  papers_hanging_2:
+    display_name: "Hanging Papers"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/papers_hanging_2
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  papers_hanging_3:
+    display_name: "Hanging Papers"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/papers_hanging_3
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  sack:
+    display_name: "Sack"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/sack
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  shipping_crate:
+    display_name: "Shipping Crate"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/shipping_crate
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  shipping_crate_triple_stack:
+    display_name: "Shipping Crate Stack"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/shipping_crate_triple_stack
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 3
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  streamer_post:
+    display_name: "Streamer Post"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/streamer_post
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  streamers_hanging:
+    display_name: "Hanging Streamers"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/streamers_hanging
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        entity: item_frame
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  wagon:
+    display_name: "Wagon"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/wagon
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 3
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  wagon_full:
+    display_name: "Wagon Full"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/market_furniture/wagon_full
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 3
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  canopy_flat:
+    display_name: "Canopy Flat"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/market_furniture/canopy_flat
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  canopy_sloped:
+    display_name: "Canopy Sloped"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/market_furniture/canopy_sloped
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  shop_cart:
+    display_name: "Shop Cart"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/market_furniture/shop_cart
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 3
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+
+

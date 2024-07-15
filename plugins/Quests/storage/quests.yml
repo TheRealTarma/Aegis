@@ -1,0 +1,42 @@
+# For non-English characters, this file MUST stay encoded in UTF-8
+quests:
+  '000002':
+    name: Your Journey Begins
+    ask-message: Challenge objectives!
+    finish-message: Well done!
+    npc-giver-uuid: 3078dc49-9adc-4445-bbce-753a76c5c25f
+    stages:
+      ordered:
+        '1':
+          npc-uuids-to-talk-to:
+          - 9a154e4d-d661-456e-9a9e-ddc72b7aafe5
+          - 3078dc49-9adc-4445-bbce-753a76c5c25f
+          custom-objectives:
+            custom1:
+              name: Interactions Start Objective
+              count: 1
+              data:
+                Interactions Start Obj: Start conversation
+                Interactions Conversation Name: ANY
+            custom2:
+              name: Interactions End Objective
+              count: 1
+              data:
+                Interactions End Obj: End conversation
+                Interactions Conversation Name: ANY
+          chat-events:
+          - GiveRod
+          chat-event-triggers:
+          - hi
+    planner:
+      override: false
+    options:
+      allow-commands: true
+      allow-quitting: true
+      ignore-silk-touch: true
+      use-parties-plugin: true
+      share-progress-level: 1
+      same-quest-only: true
+      share-distance: 0.0
+      handle-offline-players: false
+      ignore-block-replace: true

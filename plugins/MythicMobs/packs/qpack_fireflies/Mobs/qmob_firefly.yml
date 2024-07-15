@@ -1,0 +1,21 @@
+qmob_firefly:
+  Type: VEX
+  Display: 'Firefly'  # change this if you want
+  Health: 1 # change this if you want
+  Damage: 0 # keep this 0
+  Options:
+    Despawn: true
+    Silent: true
+    PreventOtherDrops: true
+    FollowRange: 0.0
+  Drops: # put whatever you want here
+  DamageModifiers: # put whatever you want here
+  AITargetSelectors:
+  - clear
+  Skills:
+  ####### Misc
+  - velocity{m=MULTIPLY;x=0.1;y=0.1;z=0.1} @self ~onTimer:3 # slows down its flying
+  - velocity{m=add;x=0;y=0.2;z=0} @self ~onTimer:1 ?!inBlock{b=air} # tries to keep the mob outside of blocks
+  - model{mid=qmob_firefly;scale=<random.float.0.85to1.35>;save=true} @self ~onSpawn # random size 
+  - brightness{p=torso;b=2;s=2} @self ~onLoad
+  - skill{s=fireflytwinkle;delay=<random.0to20>} @self ~onTimer:30 0.8

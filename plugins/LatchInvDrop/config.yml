@@ -1,0 +1,72 @@
+world:
+  enabled: false
+  itemsDropOnDeath: true
+  slotsToSave:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+world_nether:
+  enabled: false
+  itemsDropOnDeath: true
+  slotsToSave:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+world_the_end:
+  enabled: false
+  itemsDropOnDeath: true
+  slotsToSave:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+Flat:
+  enabled: false
+  itemsDropOnDeath: true
+  slotsToSave:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40

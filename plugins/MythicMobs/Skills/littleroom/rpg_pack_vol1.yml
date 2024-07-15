@@ -1,0 +1,710 @@
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+
+### DEBUG ###
+
+
+debug:
+  Skills:
+  - effect:particles{particle=flame;amount=15;hS=.5;vS=.5}
+ 
+### SLIMECUBE ###
+  
+slime_attack_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=slime_attack} @self
+  
+slime_attack:
+  Cooldown: 1
+  Skills:
+  - state{s=walk} @self
+  - delay 10
+  - totem{md=2;oH=slime_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  
+slime_attack_damage:
+  Skills:
+  - damage{a=1}
+  - throw{v=1;vy1}
+
+rpg_slime_cube_DEATH:
+  Skills:
+  - delay 5
+  - skill{s=rpg_slime_death_random} @self
+  - effect:particles{particle=block;m=slime_block;amount=250;hS=.35;vS=.35;y=.5} @self
+  - partvisibility{m=rpg_slime_cube;p=body;v=false} @self
+  - partvisibility{m=rpg_slime_cube;p=base;v=false} @self
+  - effect:particles{particle=block;m=slime_block;amount=1;repeat=15;repeatInterval=1} @modelpart{mid=rpg_slime_cube;p=bone}
+  - effect:particles{particle=block;m=slime_block;amount=1;repeat=15;repeatInterval=1} @modelpart{mid=rpg_slime_cube;p=skull}
+  - effect:particles{particle=block;m=slime_block;amount=1;repeat=15;repeatInterval=1} @modelpart{mid=rpg_slime_cube;p=ribs}
+  - effect:particles{particle=block;m=slime_block;amount=1;repeat=15;repeatInterval=1} @modelpart{mid=rpg_slime_cube;p=sword}
+  - delay 60
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.poof;v=1;sc=HOSTILE} @self
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_slime_cube;p=bone}
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_slime_cube;p=skull}
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_slime_cube;p=ribs}
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_slime_cube;p=sword}
+  - model{mid=rpg_slime_cube;r=true} @self 
+  
+### POISON SLIMECUBE ###
+
+poison_slime_attack_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=poison_slime_attack} @self
+  
+poison_slime_attack:
+  Cooldown: 1
+  Skills:
+  - state{s=walk} @self
+  - delay 10
+  - totem{md=2;oH=poison_slime_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  
+poison_slime_attack_damage:
+  Skills:
+  - damage{a=1}
+  - throw{v=1;vy1}
+
+rpg_poison_slime_cube_DEATH:
+  Skills:
+  - delay 5
+  - skill{s=rpg_slime_death_random} @self
+  - effect:particles{particle=block;m=purple_concrete;amount=250;hS=.35;vS=.35;y=.5} @self
+  - partvisibility{m=rpg_poison_slime_cube;p=body;v=false} @self
+  - partvisibility{m=rpg_poison_slime_cube;p=base;v=false} @self
+  - effect:particles{particle=block;m=purple_concrete;amount=1;repeat=15;repeatInterval=1} @modelpart{mid=rpg_poison_slime_cube;p=bone}
+  - effect:particles{particle=block;m=purple_concrete;amount=1;repeat=15;repeatInterval=1} @modelpart{mid=rpg_poison_slime_cube;p=skull}
+  - effect:particles{particle=block;m=purple_concrete;amount=1;repeat=15;repeatInterval=1} @modelpart{mid=rpg_poison_slime_cube;p=ribs}
+  - effect:particles{particle=block;m=purple_concrete;amount=1;repeat=15;repeatInterval=1} @modelpart{mid=rpg_poison_slime_cube;p=sword}
+  - delay 60
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.poof;v=1;sc=HOSTILE} @self
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_poison_slime_cube;p=bone}
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_poison_slime_cube;p=skull}
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_poison_slime_cube;p=ribs}
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_poison_slime_cube;p=sword}
+  - model{mid=rpg_poison_slime_cube;r=true} @self
+  
+  
+#### SKELETON ####
+
+
+rpg_skeleton_attack1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_skeleton_attack1} @self
+  
+rpg_skeleton_attack1:
+  Cooldown: 2
+  Skills:
+  - setspeed{speed=0;type=walking} @self
+  - state{s=attack1} @self
+  - delay 12
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_skeleton_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 18
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_skeleton_attack_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - damage{a=1}
+
+rpg_skeleton_attack2_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_skeleton_attack2} @self
+  
+rpg_skeleton_attack2:
+  Cooldown: 2
+  Skills:
+  - setspeed{speed=0;type=walking} @self
+  - state{s=attack2} @self
+  - delay 12
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_skeleton_attack2_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 18
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_skeleton_attack2_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - throw{v=3;vy1}
+  - damage{a=1}
+  
+rpg_skeleton_DEATH:
+  Skills:
+  - delay 50
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.poof;v=1;sc=HOSTILE} @self
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_skeleton;p=head}
+  - effect:particles{particle=poof;amount=25;hS=.65;vS=.15;y=.25} @modelpart{mid=rpg_skeleton;p=body}
+  - model{mid=rpg_skeleton;r=true} @self
+  
+### CROSSBOW ###
+
+rpg_skeleton_crossbow_MELEEsync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_skeleton_crossbow_MELEE} @self
+
+rpg_skeleton_crossbow_MELEE:
+  Conditions:
+  - offgcd true
+  Skills:
+  - gcd{ticks=20}
+  - setspeed{speed=0;type=walking} @self
+  - state{s=melee} @self
+  - delay 5
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_skeleton_crossbow_MELEE_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 15
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_skeleton_crossbow_MELEE_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - damage{a=1}
+  - throw{v=2;vy=1}
+  
+### SHOOT ###
+  
+  
+rpg_skeleton_crossbow_shoot:
+  Conditions:
+  - incombat true
+  - offgcd true
+  - score{o=loaded;v=1} true
+  Skills:
+  - gcd{ticks=60}
+  - setspeed{speed=0;type=walking} @self
+  - state{s=shoot} @self
+  - delay 30
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.crossbow_shoot;v=1;sc=HOSTILE} @self
+  - settargetscore{o=loaded;v=0} @self
+  - effect:particles{particle=firework;amount=1} @forward{f=.5;y=.5}
+  - projectile{bulletType=ARROW;onTick=rpg_skeleton_crossbow_shoot_tick;onHit=rpg_skeleton_crossbow_shoot_hit;v=20;i=1;hR=.5;vR=.5;hnp=false}
+  - changepart{m=rpg_skeleton_crossbow;pid=right_hand;nm=rpg_skeleton_crossbow;npid=right_hand} @self
+  - delay 20
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_skeleton_crossbow_shoot_tick:
+  Skills:
+  - skill{s=rpg_skeleton_crossbow_shoot_tick_sound} @pir{r=2}
+  - effect:particles{particle=poof;amount=1}
+  
+rpg_skeleton_crossbow_shoot_tick_sound:
+  Cooldown: 1
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.arrow_flyby;v=1;sc=HOSTILE} @self
+  
+  
+rpg_skeleton_crossbow_shoot_hit:
+  Skills:
+  - effect:particles{particle=crit;amount=15;y=1}
+  - damage{a=1;pi=true}
+  
+rpg_skeleton_crossbow_reload:
+  Conditions:
+  - offgcd true
+  - score{o=loaded;v=0} true
+  Skills:
+  - gcd{ticks=60}
+  - setspeed{speed=0;type=walking} @self
+  - state{s=reload} @self
+  - delay 25
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.crossbow_draw;v=1;sc=HOSTILE} @self
+  - delay 10
+  - changepart{m=rpg_skeleton_crossbow;pid=right_hand;nm=rpg_pack_parts;npid=right_hand_loaded} @self
+  - settargetscore{o=loaded;v=1} @self
+  - delay 15
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_skeleton_crossbow_DEATH:
+  Skills:
+  - delay 50
+  - effect:particles{particle=poof;amount=5;hS=.15;vS=.15} @modelpart{mid=rpg_skeleton_crossbow;p=head}
+  - effect:particles{particle=poof;amount=25;hS=.65;vS=.15;y=.25} @modelpart{mid=rpg_skeleton_crossbow;p=body}
+  - model{mid=rpg_skeleton_crossbow;r=true} @self
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.poof;v=1;sc=HOSTILE} @self
+  
+  
+#### SAND GOLEM ####
+
+
+rpg_sand_golem_attack1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_skeleton_attack1} @self
+  
+rpg_sand_golem_attack1:
+  Cooldown: 2
+  Skills:
+  - setspeed{speed=0;type=walking} @self
+  - state{s=attack1} @self
+  - delay 12
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_sand_golem_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 18
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_sand_golem_attack_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - damage{a=1}
+
+rpg_sand_golem_attack2_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_sand_golem_attack2} @self
+  
+rpg_sand_golem_attack2:
+  Cooldown: 2
+  Skills:
+  - setspeed{speed=0;type=walking} @self
+  - state{s=attack2} @self
+  - delay 12
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_sand_golem_attack2_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 18
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_sand_golem_attack2_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - throw{v=3;vy1}
+  - damage{a=1}
+  
+rpg_sand_golem_DEATH:
+  Skills:
+  - skill{s=rpg_sand_golem_DEATHfx} @self
+  - delay 20
+  - effect:particles{particle=block;material=sand;amount=15;hS=.15;vS=0;repeat=20;repeatInterval=1} @self
+  - delay 40
+  - model{mid=rpg_sand_golem;r=true} @self
+  
+rpg_sand_golem_DEATHfx:
+  Skills:
+  - delay 25
+  - partvisibility{m=rpg_sand_golem;p=left_foot;v=false} @self
+  - partvisibility{m=rpg_sand_golem;p=right_foot;v=false} @self
+  - delay 5
+  - partvisibility{m=rpg_sand_golem;p=right_leg;v=false} @self
+  - partvisibility{m=rpg_sand_golem;p=left_leg;v=false} @self
+  - delay 10
+  - partvisibility{m=rpg_sand_golem;p=torso;v=false} @self
+  - delay 5
+  - partvisibility{m=rpg_sand_golem;p=left_arm;v=false} @self
+  - partvisibility{m=rpg_sand_golem;p=right_arm;v=false} @self  
+  
+  
+#### STONE GOLEM ####
+
+
+rpg_stone_golem_attack1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_skeleton_attack1} @self
+  
+rpg_stone_golem_attack1:
+  Cooldown: 2
+  Skills:
+  - setspeed{speed=0;type=walking} @self
+  - state{s=attack1} @self
+  - delay 12
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_stone_golem_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 18
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_stone_golem_attack_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - damage{a=1}
+
+rpg_stone_golem_attack2_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_stone_golem_attack2} @self
+  
+rpg_stone_golem_attack2:
+  Cooldown: 2
+  Skills:
+  - setspeed{speed=0;type=walking} @self
+  - state{s=attack2} @self
+  - delay 12
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_stone_golem_attack2_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 18
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_stone_golem_attack2_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - throw{v=3;vy1}
+  - damage{a=1}
+  
+rpg_stone_golem_DEATH:
+  Skills:
+  - skill{s=rpg_stone_golem_DEATHfx} @self
+  - delay 20
+  - effect:particles{particle=block;material=stone;amount=15;hS=.15;vS=0;repeat=20;repeatInterval=1} @self
+  - delay 40
+  - model{mid=rpg_stone_golem;r=true} @self
+  
+rpg_stone_golem_DEATHfx:
+  Skills:
+  - delay 25
+  - partvisibility{m=rpg_stone_golem;p=left_foot;v=false} @self
+  - partvisibility{m=rpg_stone_golem;p=right_foot;v=false} @self
+  - delay 5
+  - partvisibility{m=rpg_stone_golem;p=right_leg;v=false} @self
+  - partvisibility{m=rpg_stone_golem;p=left_leg;v=false} @self
+  - delay 10
+  - partvisibility{m=rpg_stone_golem;p=torso;v=false} @self
+  - delay 5
+  - partvisibility{m=rpg_stone_golem;p=left_arm;v=false} @self
+  - partvisibility{m=rpg_stone_golem;p=right_arm;v=false} @self
+  
+  
+#### MUSHROOM ####
+
+
+rpg_mushroom_attack1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_mushroom_attack1} @self
+  
+rpg_mushroom_attack1:
+  Cooldown: 2
+  Skills:
+  - setspeed{speed=0;type=walking} @self
+  - state{s=attack1} @self
+  - delay 10
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_mushroom_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 20
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_mushroom_attack_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - damage{a=1}
+  
+rpg_mushroom_DEATH:
+  Skills:
+  - delay 40
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.poof;v=1;sc=HOSTILE} @self
+  - effect:particles{particle=poof;amount=50;hS=.25;vS=.25} @modelpart{mid=rpg_mushroom;p=base2}
+  - model{mid=rpg_mushroom;r=true} @self 
+  
+#### MUSHROOM  RED ####
+
+
+rpg_mushroom_red_attack1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_mushroom_red_attack1} @self
+  
+rpg_mushroom_red_attack1:
+  Cooldown: 2
+  Skills:
+  - setspeed{speed=0;type=walking} @self
+  - state{s=attack1} @self
+  - delay 10
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_mushroom_red_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 20
+  - setspeed{speed=1;type=walking} @self
+  
+rpg_mushroom_red_attack_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - damage{a=1}
+  
+rpg_mushroom_red_DEATH:
+  Skills:
+  - delay 40
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.poof;v=1;sc=HOSTILE} @self
+  - effect:particles{particle=poof;amount=50;hS=.25;vS=.25} @modelpart{mid=rpg_mushroom_red;p=base2}
+  - model{mid=rpg_mushroom_red;r=true} @self
+  
+  
+#### RAT ####
+
+
+rpg_rat_attack1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_rat_attack1} @self
+  
+rpg_rat_attack1:
+  Cooldown: 2
+  Skills:
+  #- setspeed{speed=0;type=walking} @self
+  - state{s=attack} @self
+  - delay 15
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_rat_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 15
+  #- setspeed{speed=1;type=walking} @self
+  
+rpg_rat_attack_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - damage{a=1}
+  
+rpg_rat_DEATH:
+  Skills:
+  - delay 40
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.poof;v=1;sc=HOSTILE} @self
+  - effect:particles{particle=poof;amount=50;hS=.5;vS=.25} @modelpart{mid=rpg_rat;p=body}
+  - model{mid=rpg_rat;r=true} @self 
+  
+  
+#### RAT UNDEAD ####
+
+
+rpg_rat_undead_attack1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_rat_undead_attack1} @self
+  
+rpg_rat_undead_attack1:
+  Cooldown: 2
+  Skills:
+  #- setspeed{speed=0;type=walking} @self
+  - state{s=attack} @self
+  - delay 15
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_rat_undead_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 15
+  #- setspeed{speed=1;type=walking} @self
+  
+rpg_rat_undead_attack_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - potion{type=POISON;duration=60;level=1}
+  - damage{a=1}
+  
+rpg_rat_undead_DEATH:
+  Skills:
+  - delay 40
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.poof;v=1;sc=HOSTILE} @self
+  - effect:particles{particle=poof;amount=50;hS=.5;vS=.25} @modelpart{mid=rpg_rat_undead;p=body}
+  - model{mid=rpg_rat_undead;r=true} @self 
+  
+#### BAT ####
+
+
+rpg_bat_attack1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_bat_attack1} @self
+  
+rpg_bat_attack1:
+  Cooldown: 2
+  Skills:
+  #- setspeed{speed=0;type=walking} @self
+  - state{s=attack} @self
+  - delay 5
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_bat_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 25
+  #- setspeed{speed=1;type=walking} @self
+  
+rpg_bat_attack_damage:
+  Skills:
+  - skill{s=rpg_impact_random} @self
+  - damage{a=1}
+  
+rpg_bat_DEATH:
+  Skills:
+  - delay 50
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.poof;v=1;sc=HOSTILE} @self
+  - effect:particles{particle=poof;amount=25;hS=.25;vS=.25} @modelpart{mid=rpg_bat;p=body}
+  - model{mid=rpg_bat;r=true} @self 
+  
+#### ZOMBIE ####
+
+
+rpg_zombie_attack1_sync:
+  Skills:
+  - CancelEvent
+  - skill{s=rpg_zombie_attack1} @self
+  
+rpg_zombie_attack1:
+  Cooldown: 2
+  Skills:
+  - setspeed{speed=0;type=walking} @self
+  - state{s=attack} @self
+  - delay 17
+  - skill{s=rpg_swing_random} @self
+  - totem{md=2;oH=rpg_zombie_attack_damage;hs=1;vs=1;i=1} @forward{f=1}
+  - delay 13
+  - setspeed{speed=0.5;type=walking} @self
+  
+rpg_zombie_attack_damage:
+  Skills:
+  - skill{s=rpg_zombie_bite_random} @self
+  - damage{a=1}
+  - pull{velocity=5}
+  
+rpg_zombie_DEATH:
+  Skills:
+  - delay 10
+  - summon{t=rpg_zombie_head} @modelpart{m=rpg_zombie;p=head}
+  - partvisibility{m=rpg_zombie;p=head;v=false} @self
+  - partvisibility{m=rpg_zombie;p=jaw;v=false} @self
+  - delay 30
+  - effect:particles{particle=poof;amount=25;hS=.5;vS=.25} @modelpart{mid=rpg_zombie;p=body}
+  - model{mid=rpg_zombie;r=true} @self 
+  
+rpg_zombie_head_spawn:
+  Skills:
+  - skill{s=rpg_zombie_impact_random} @self
+  - delay 30
+  - defaultstate{m=rpg_zombie_head;t=idle;s=idle_rest} @self
+  - state{s=idle;r=true} @self
+  - delay 480
+  - effect:particles{particle=block;material=slime_block;amount=50;hS=.25;vS=.25} @self
+  - skill{s=rpg_zombie_impact_random} @self
+  - remove @self
+  
+  
+rpg_zombie_head_kick:
+  Cooldown: 1
+  TargetConditions:
+  - ismoving true
+  Conditions:
+  - playerwithin{d=1} true
+  Skills:
+  - skill{s=rpg_zombie_impact_random} @self
+  - effect:spin{duration=10;velocity=25} @self
+  - state{s=idle} @self
+  - sudoskill{s=rpg_zombie_head_kick_player;cat=true} 
+  
+rpg_zombie_head_kick_player:
+  Skills:
+  - throw{v=5;vy=.25} @mir{r=1;t=rpg_zombie_head}
+  
+rpg_zombie_head_death:
+  Skills:
+  - skill{s=rpg_zombie_impact_random} @self
+  - effect:particles{particle=block;material=slime_block;amount=50;hS=.25;vS=.25} @self
+  
+  
+  
+#### SOUNDS ####
+
+rpg_slime_death_random:
+  Skills:
+  - randomskill{skills=rpg_slime_death_random1,rpg_slime_death_random2} @self
+  
+rpg_slime_death_random1:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.slime_death1;v=.5;sc=HOSTILE} @self
+
+rpg_slime_death_random2:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.slime_death2;v=.5;sc=HOSTILE} @self
+
+
+rpg_slime_step_random:
+  Skills:
+  - randomskill{skills=rpg_slime_step1,rpg_slime_step2} @self
+  
+rpg_slime_step1:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.slime_step1;v=.25;sc=HOSTILE} @self
+
+rpg_slime_step2:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.slime_step2;v=.25;sc=HOSTILE} @self
+  
+  
+rpg_zombie_impact_random:
+  Skills:
+  - randomskill{skills=rpg_zombie_impact_random1,rpg_zombie_impact_random2} @self
+  
+rpg_zombie_impact_random1:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.zombie_impact1;v=.5;sc=HOSTILE} @self
+
+rpg_zombie_impact_random2:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.zombie_impact2;v=.5;sc=HOSTILE} @self
+  
+  
+rpg_zombie_bite_random:
+  Skills:
+  - randomskill{skills=rpg_zombie_bite_random1,rpg_zombie_bite_random2} @self
+  
+rpg_zombie_bite_random1:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.bite1;v=.5;sc=HOSTILE} @self
+
+rpg_zombie_bite_random2:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.bite2;v=.5;sc=HOSTILE} @self
+  
+  
+rpg_zombie_groan_random:
+  Skills:
+  - randomskill{skills=rpg_zombie_groan_random1,rpg_zombie_groan_random2,rpg_zombie_groan_random3} @self
+  
+rpg_zombie_groan_random1:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.groan1;v=.5;sc=HOSTILE} @self
+
+rpg_zombie_groan_random2:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.groan2;v=.5;sc=HOSTILE} @self
+
+rpg_zombie_groan_random3:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.groan3;v=.5;sc=HOSTILE} @self
+  
+  
+rpg_impact_random:
+  Skills:
+  - randomskill{skills=rpg_impact_random1,rpg_impact_random2,rpg_impact_random3,rpg_impact_random4} @self
+  
+rpg_impact_random1:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.impact1;v=.5;sc=HOSTILE} @self
+
+rpg_impact_random2:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.impact2;v=.5;sc=HOSTILE} @self
+
+rpg_impact_random3:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.impact3;v=.5;sc=HOSTILE} @self
+
+rpg_impact_random4:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.impact4;v=.5;sc=HOSTILE} @self
+  
+  
+rpg_swing_random:
+  Skills:
+  - randomskill{skills=rpg_swing_random1,rpg_swing_random2,rpg_swing_random3,rpg_swing_random4} @self
+  
+rpg_swing_random1:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.swing1;v=.5;sc=HOSTILE} @self
+
+rpg_swing_random2:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.swing2;v=.5;sc=HOSTILE} @self
+
+rpg_swing_random3:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.swing3;v=.5;sc=HOSTILE} @self
+
+rpg_swing_random4:
+  Skills:
+  - sound{s=littleroom_rpgpackvol1:littleroom.rpgpackvol1.swing4;v=.5;sc=HOSTILE} @self
+  
+  

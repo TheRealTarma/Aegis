@@ -1,0 +1,26 @@
+{
+  "id": "8Ehxvp",
+  "properties": {
+    "permissions": {
+      "permissions": []
+    },
+    "commands": {
+      "args": 0,
+      "aliases": [
+        "balls"
+      ]
+    },
+    "rebuildSubs": false
+  },
+  "inventory": {
+    "name": "balls",
+    "rows": 2,
+    "allowed": {
+      "dragging": false,
+      "placing": false,
+      "clicking": false,
+      "placeholders": true
+    },
+    "items": []
+  }
+}

@@ -1,0 +1,224 @@
+LEATHER_COIF:
+  base:
+    material: LEATHER_HELMET
+    name: Leather Coif
+    armor: 1.0
+    max-durability: 55.0
+    profession-defense: 1.0
+    additional-experience-defense: 5.0
+    additional-experience-constitution: 1.0
+LEATHER_TUNIC:
+  base:
+    material: LEATHER_CHESTPLATE
+    armor: 3.0
+    max-durability: 80.0
+    profession-defense: 1.0
+    additional-experience-defense: 5.0
+    additional-experience-constitution: 1.0
+LEATHER_PANTS:
+  base:
+    material: LEATHER_LEGGINGS
+    armor: 2.0
+    max-durability: 75.0
+    profession-defense: 1.0
+    additional-experience-defense: 5.0
+    additional-experience-constitution: 1.0
+LEATHER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    armor: 1.0
+    max-durability: 65.0
+    profession-defense: 1.0
+    additional-experience-defense: 5.0
+    additional-experience-constitution: 1.0
+IRON_MED_HELMET:
+  base:
+    material: IRON_HELMET
+    name: Iron Med Helm
+    armor: 2.0
+    max-durability: 165.0
+    profession-defense: 11.0
+    additional-experience-defense: 10.0
+    additional-experience-constitution: 2.0
+IRON_FULL_HELMET:
+  base:
+    material: PAPER
+    name: Iron Full Helm
+    armor: 2.5
+    max-durability: 165.0
+    profession-defense: 11.0
+    additional-experience-defense: 10.0
+    additional-experience-constitution: 2.0
+    custom-model-data: 10502.0
+IRON_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    armor: 6.0
+    max-durability: 240.0
+    profession-defense: 11.0
+    additional-experience-defense: 10.0
+    additional-experience-constitution: 2.0
+    name: Iron Chestplate
+    custom-model-data: 10003.0
+IRON_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    armor: 5.0
+    max-durability: 225.0
+    profession-defense: 11.0
+    additional-experience-defense: 10.0
+    additional-experience-constitution: 2.0
+    name: Iron Leggings
+    custom-model-data: 10002.0
+IRON_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    armor: 2.0
+    max-durability: 195.0
+    profession-defense: 11.0
+    additional-experience-defense: 10.0
+    additional-experience-constitution: 2.0
+    name: Iron Boots
+    custom-model-data: 10023.0
+CHAINMAIL_HELMET:
+  base:
+    material: CHAINMAIL_HELMET
+    max-durability: 165.0
+    armor: 2.0
+    profession-defense: 11.0
+    additional-experience-defense: 10.0
+    additional-experience-constitution: 2.0
+CHAINMAIL_CHESTPLATE:
+  base:
+    material: CHAINMAIL_CHESTPLATE
+    max-durability: 240.0
+    armor: 5.0
+    profession-defense: 11.0
+    additional-experience-defense: 10.0
+    additional-experience-constitution: 2.0
+CHAINMAIL_LEGGINGS:
+  base:
+    material: CHAINMAIL_LEGGINGS
+    max-durability: 225.0
+    armor: 4.0
+    profession-defense: 11.0
+    additional-experience-defense: 10.0
+    additional-experience-constitution: 2.0
+CHAINMAIL_BOOTS:
+  base:
+    material: CHAINMAIL_BOOTS
+    max-durability: 195.0
+    armor: 1.0
+    profession-defense: 11.0
+    additional-experience-defense: 10.0
+    additional-experience-constitution: 2.0
+GOLDEN_MED_HELMET:
+  base:
+    material: GOLDEN_HELMET
+    name: Golden Med Helm
+    max-durability: 77.0
+    armor: 2.0
+GOLDEN_CHESTPLATE:
+  base:
+    material: GOLDEN_CHESTPLATE
+    max-durability: 112.0
+    armor: 5.0
+GOLDEN_LEGGINGS:
+  base:
+    material: GOLDEN_LEGGINGS
+    max-durability: 105.0
+    armor: 3.0
+GOLDEN_BOOTS:
+  base:
+    material: GOLDEN_BOOTS
+    max-durability: 91.0
+    armor: 1.0
+DIAMOND_MED_HELMET:
+  base:
+    material: DIAMOND_HELMET
+    name: Diamond Med Helm
+    max-durability: 363.0
+    armor: 3.0
+    armor-toughness: 2.0
+    profession-defense: 51.0
+    additional-experience-defense: 50.0
+    additional-experience-constitution: 10.0
+DIAMOND_FULL_HELMET:
+  base:
+    material: PAPER
+    name: Diamond Full Helm
+    armor: 3.5
+    armor-toughness: 2.5
+    max-durability: 383.0
+    profession-defense: 51.0
+    additional-experience-defense: 50.0
+    additional-experience-constitution: 10.0
+    custom-model-data: 10519.0
+DIAMOND_CHESTPLATE:
+  base:
+    material: DIAMOND_CHESTPLATE
+    max-durability: 528.0
+    armor: 8.0
+    armor-toughness: 2.0
+    profession-defense: 51.0
+    additional-experience-defense: 50.0
+    additional-experience-constitution: 10.0
+DIAMOND_LEGGINGS:
+  base:
+    material: DIAMOND_LEGGINGS
+    max-durability: 495.0
+    armor: 6.0
+    armor-toughness: 2.0
+    profession-defense: 51.0
+    additional-experience-defense: 50.0
+    additional-experience-constitution: 10.0
+DIAMOND_BOOTS:
+  base:
+    material: DIAMOND_BOOTS
+    max-durability: 429.0
+    armor: 3.0
+    armor-toughness: 2.0
+    profession-defense: 51.0
+    additional-experience-defense: 50.0
+    additional-experience-constitution: 10.0
+NETHERITE_MED_HELMET:
+  base:
+    material: NETHERITE_HELMET
+    name: Netherite Med Helm
+    max-durability: 407.0
+    armor: 3.0
+    armor-toughness: 3.0
+    knockback-resistance: 0.1
+    profession-defense: 61.0
+    additional-experience-defense: 60.0
+    additional-experience-constitution: 12.0
+NETHERITE_CHESTPLATE:
+  base:
+    material: NETHERITE_CHESTPLATE
+    max-durability: 592.0
+    armor: 8.0
+    armor-toughness: 3.0
+    knockback-resistance: 0.1
+    profession-defense: 61.0
+    additional-experience-defense: 60.0
+    additional-experience-constitution: 12.0
+NETHERITE_LEGGINGS:
+  base:
+    material: NETHERITE_LEGGINGS
+    max-durability: 555.0
+    armor: 6.0
+    armor-toughness: 3.0
+    knockback-resistance: 0.1
+    profession-defense: 61.0
+    additional-experience-defense: 60.0
+    additional-experience-constitution: 12.0
+NETHERITE_BOOTS:
+  base:
+    material: NETHERITE_BOOTS
+    max-durability: 481
+    armor: 3.0
+    armor-toughness: 3.0
+    knockback-resistance: 0.1
+    profession-defense: 61.0
+    additional-experience-defense: 60.0
+    additional-experience-constitution: 12.0

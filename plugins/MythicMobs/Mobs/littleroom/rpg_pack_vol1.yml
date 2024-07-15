@@ -1,0 +1,372 @@
+
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+
+rpg_slime_cube:
+  Type: IRON_GOLEM
+  Display: 'rpg_slime_cube' 
+  Health: 20
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=slime_attack_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - skill{s=rpg_slime_cube_DEATH} @self ~onDeath
+  - bodyclamp{mh=360} @self ~onSpawn
+  - bodyclamp{mh=360} @self ~onLoad
+  - model{mid=rpg_slime_cube;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_slime_cube;d=true;i=true;step=1} @self ~onLoad  
+  
+rpg_poison_slime_cube:
+  Type: IRON_GOLEM
+  Display: 'rpg_poison_slime_cube' 
+  Health: 20
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=slime_attack_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - skill{s=rpg_poison_slime_cube_DEATH} @self ~onDeath
+  - bodyclamp{mh=360} @self ~onSpawn
+  - bodyclamp{mh=360} @self ~onLoad
+  - model{mid=rpg_poison_slime_cube;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_poison_slime_cube;d=true;i=true;step=1} @self ~onLoad  
+
+rpg_skeleton:
+  Type: IRON_GOLEM
+  Display: 'rpg_skeleton' 
+  Health: 20
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_skeleton_DEATH} @self ~onDeath
+  - randomskill{skills=rpg_skeleton_attack1_sync,rpg_skeleton_attack2_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_skeleton;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_skeleton;d=true;i=true;step=1} @self ~onLoad  
+  
+
+rpg_skeleton_crossbow:
+  Type: IRON_GOLEM
+  Display: 'rpg_skeleton_crossbow' 
+  Health: 10
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_skeleton_crossbow_shoot} @target ~onTimer:20
+  - skill{s=rpg_skeleton_crossbow_reload} @target ~onTimer:21
+  - skill{s=rpg_skeleton_crossbow_MELEEsync;sync=true} @self ~onAttack
+  - skill{s=rpg_skeleton_crossbow_DEATH} @self ~onDeath
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_skeleton_crossbow;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_skeleton_crossbow;d=true;i=true;step=1} @self ~onLoad  
+  - bodyclamp{mh=0} @self ~onSpawn
+  - bodyclamp{mh=0} @self ~onLoad
+  
+rpg_sand_golem:
+  Type: IRON_GOLEM
+  Display: 'rpg_sand_golem' 
+  Health: 125
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_sand_golem_DEATH} @self ~onDeath
+  - randomskill{skills=rpg_sand_golem_attack1_sync,rpg_sand_golem_attack2_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_sand_golem;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_sand_golem;d=true;i=true;step=1} @self ~onLoad  
+  
+rpg_stone_golem:
+  Type: IRON_GOLEM
+  Display: 'rpg_stone_golem' 
+  Health: 125
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_stone_golem_DEATH} @self ~onDeath
+  - randomskill{skills=rpg_stone_golem_attack1_sync,rpg_stone_golem_attack2_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_stone_golem;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_stone_golem;d=true;i=true;step=1} @self ~onLoad  
+  
+  
+rpg_mushroom:
+  Type: IRON_GOLEM
+  Display: 'rpg_mushroom' 
+  Health: 10
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_mushroom_DEATH} @self ~onDeath
+  - skill{s=rpg_mushroom_attack1_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_mushroom;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_mushroom;d=true;i=true;step=1} @self ~onLoad  
+  
+rpg_mushroom_red:
+  Type: IRON_GOLEM
+  Display: 'rpg_mushroom_red' 
+  Health: 10
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_mushroom_red_DEATH} @self ~onDeath
+  - skill{s=rpg_mushroom_red_attack1_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_mushroom_red;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_mushroom_red;d=true;i=true;step=1} @self ~onLoad  
+    
+  
+rpg_rat:
+  Type: IRON_GOLEM
+  Display: 'rpg_rat' 
+  Health: 20
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_rat_DEATH} @self ~onDeath
+  - skill{s=rpg_rat_attack1_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_rat;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_rat;d=true;i=true;step=1} @self ~onLoad  
+    
+  
+rpg_rat_undead:
+  Type: IRON_GOLEM
+  Display: 'rpg_rat_undead' 
+  Health: 20
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - effect:particles{particle=mycelium;amount=25;hS=.25;vS=.25;speed=0} @self ~onTimer:5
+  - effect:particles{particle=falling_honey;amount=5;hS=.25;vS=.25;speed=0} @self ~onTimer:5
+  - skill{s=rpg_rat_undead_DEATH} @self ~onDeath
+  - skill{s=rpg_rat_undead_attack1_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_rat_undead;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_rat_undead;d=true;i=true;step=1} @self ~onLoad   
+  
+  
+rpg_bat:
+  Type: IRON_GOLEM
+  Display: 'rpg_bat' 
+  Health: 5
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    #MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_bat_DEATH} @self ~onDeath
+  - skill{s=rpg_bat_attack1_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_bat;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_bat;d=true;i=true;step=1} @self ~onLoad  
+  
+  
+rpg_zombie:
+  Type: IRON_GOLEM
+  Display: 'rpg_zombie' 
+  Health: 25
+  Modules:
+    ThreatTable: true
+  AITargetSelectors:
+  - players
+  Options:
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: true
+    Silent: true
+    FollowRange: 32
+    MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_zombie_groan_random} @self ~onTimer:120 .25
+  - skill{s=rpg_zombie_DEATH} @self ~onDeath
+  - skill{s=rpg_zombie_attack1_sync;sync=true} @self ~onAttack
+  - changepart{m=<caster.mythic_type>;pid=hp_bar;nm=<caster.mythic_type>;npid=hp_bar} @self ~onDeath
+  - skill{s=LR_hpbar_show} @self ~onEnterCombat
+  - skill{s=LR_hpbar_show} @self ~onDamaged
+  - effect:particles{particle=crit;amount=15;hS=.35;vS=.35;y=.5;speed=.5} @self ~onDamaged
+  - model{mid=rpg_zombie;d=true;i=true;step=1} @self ~onSpawn
+  - model{mid=rpg_zombie;d=true;i=true;step=1} @self ~onLoad    
+  
+rpg_zombie_head:
+  Type: PIG
+  Display: 'rpg_zombie_head' 
+  Health: 1
+  AIGoalSelectors:
+  - clear
+  AITargetSelectors:
+  - clear
+  Options:
+    Interactable: false
+    PreventOtherDrops: true
+    Despawn: true
+    Persistent: false
+    #KnockbackResistance: 1
+    Collidable: false
+    Silent: true
+    FollowRange: 32
+    MovementSpeed: .1
+  Skills:
+  - skill{s=rpg_zombie_groan_random} @self ~onTimer:120 .25
+  - skill{s=rpg_zombie_head_spawn} @self ~onSpawn
+  - skill{s=rpg_zombie_head_death} @self ~onDeath
+  - skill{s=rpg_zombie_head_kick} @pir{r=1;sort=NEAREST} ~onTimer:5
+  - model{mid=rpg_zombie_head} @self ~onSpawn
+  - model{mid=rpg_zombie_head} @self ~onLoad  

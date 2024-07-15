@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 68.108.31.138
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1718517728712
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1718520935290
+  login: 1718516638495
+money: '90.02'
+last-account-name: anni3rection
+lastlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 102.36669854317482
+  y: 69.0
+  z: 202.41578113091174
+  yaw: -98.07159423828125
+  pitch: 16.649789810180664
+logoutlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 771.6999999880791
+  y: 97.0
+  z: -81.53225613311719
+  yaw: 31.8560791015625
+  pitch: 33.44987869262695

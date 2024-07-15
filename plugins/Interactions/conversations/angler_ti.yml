@@ -1,0 +1,54 @@
+starts_with:
+- NPC named Angler
+name: "&a&lAngler"
+block_movement: true
+slow_effect: true
+save_conversation_progress: true
+requires_permission: false
+conversation:
+    conversation1:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Greetings, traveler! I'm the resident Survivalist here on Tutorial Island. Life out here in the ocean is challenging, and it's my job to ensure the locals know how to survive and keep our chef stocked with a steady supply of fish. %next%"
+                time: 8
+            dialogue2:
+                text:
+                - "&7I see you don't have a fishing rod yet. Here, take my old one. Go ahead and cast it out into the sea. When you have a fish on the line, the bobber will dip, and you'll need to right-click it. Once the slider appears on your screen, right-click again when the arrow is in the green part of the meter to reel the fish in. %next%"
+                time: 8
+                actions:
+                - console_command: 
+            dialogue3:
+                text:
+                - "&7For each fish you catch, you'll gain XP based on its quality and size. (Not yet implemented) %next%"
+                time: 8
+            dialogue4:
+                text:
+                - "&7Excellent catch! I think you're ready for the next step. %next%"
+                time: 8
+                start_conversation: conversation2
+    conversation2:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Next, let's talk about woodcutting. You need wood to cook, after all. Here is a stone axe to get you started. You'll gain XP for each log chopped. Higher tier axes become available at higher levels, and the better the axe, the better the wood you can chop. High-tier axes can even knock down a tree in one chop. %next%"
+                time: 8
+            dialogue2:
+                text:
+                - "&7Go ahead and get me four logs from that hedgerow over there. %next%"
+                time: 8
+            dialogue3:
+                text:
+                - "&7Great job! You can hold onto that axe; it should serve you well. %next%"
+                time: 8
+                start_conversation: conversation3
+    conversation3:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Now, let's cover cooking. Basic recipes don't provide much XP since they have no level requirement, but higher-tier specialty foods give you significant XP. Increasing your cooking skill grants access to higher-tier foods that provide stronger benefits. For now, here's a basic recipe and the ingredients. Go ahead and right-click them on the cooking pot nearby."
+                time: 8
+            dialogue8:
+                text:
+                - "&7That's all I have to teach you! Head over to the Blacksmith at the quarry for your next lesson. Good luck, traveler!"
+                time: 8

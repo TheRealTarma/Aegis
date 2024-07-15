@@ -1,0 +1,13 @@
+#Always set attack xp percent to -100%
+OAK_BOW:
+  base:
+    material: BOW
+    arrow-velocity: 0.5
+    projectile-damage:
+      base: 1.0
+      scale: 1.0
+      spread: 1.0
+      max-spread: 1.0
+      min: 1.0
+      max: 6.0
+    critical-strike-chance: 10.0

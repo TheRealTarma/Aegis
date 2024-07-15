@@ -1,0 +1,819 @@
+info:
+  namespace: medievalquest
+items:
+  adventure_book:
+    display_name: '&fAdventure Book'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - adventure_book.png
+  airhorn:
+    display_name: '&fAirhorn'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - airhorn.png
+  alcohol:
+    display_name: '&fAlcohol'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - alcohol.png
+  backpack:
+    display_name: '&fBackpack'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - backpack.png
+  barrel:
+    display_name: '&fBarrel'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - barrel.png
+  bear_trap:
+    display_name: '&fBear Trap'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - bear_trap.png
+  bent_fork:
+    display_name: '&fBent Fork'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - bent_fork.png
+  brass_amulet:
+    display_name: '&fBrass Amulet'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - brass_amulet.png
+  brass_bell:
+    display_name: '&fBrass Bell'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - brass_bell.png
+  brass_compass:
+    display_name: '&fBrass Compass'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - brass_compass.png
+  brass_ingot:
+    display_name: '&fBrass Ingot'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - brass_ingot.png
+  brass_key:
+    display_name: '&fBrass Key'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - brass_key.png
+  brass_sundial:
+    display_name: '&fBrass Sundial'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - brass_sundial.png
+  broken_bow:
+    display_name: '&fBroken Bow'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - broken_bow.png
+  broken_gem:
+    display_name: '&fBroken Gem'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - broken_gem.png
+  broken_staff:
+    display_name: '&fBroken Staff'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - broken_staff.png
+  broken_sword:
+    display_name: '&fBroken Sword'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - broken_sword.png
+  caltrops:
+    display_name: '&fCaltrops'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - caltrops.png
+  candle:
+    display_name: '&fCandle'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - candle.png
+  candle_on:
+    display_name: '&fCandle On'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - candle_on.png
+  chain:
+    display_name: '&fChain'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - chain.png
+  chalk:
+    display_name: '&fChalk'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - chalk.png
+  chisel:
+    display_name: '&fChisel'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - chisel.png
+  clarinet:
+    display_name: '&fClarinet'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - clarinet.png
+  copper_coin:
+    display_name: '&fCopper Coin'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - copper_coin.png
+  copper_coins:
+    display_name: '&fCopper Coins'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - copper_coins.png
+  copper_ingot:
+    display_name: '&fCopper Ingot'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - copper_ingot.png
+  copper_key:
+    display_name: '&fCopper Key'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - copper_key.png
+  copper_medal:
+    display_name: '&fCopper Medal'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - copper_medal.png
+  copper_mug:
+    display_name: '&fCopper Mug'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - copper_mug.png
+  copper_trophy:
+    display_name: '&fCopper Trophy'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - copper_trophy.png
+  crate:
+    display_name: '&fCrate'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - crate.png
+  cursed_ring:
+    display_name: '&fCursed Ring'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - cursed_ring.png
+  damaged_helmet:
+    display_name: '&fDamaged Helmet'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - damaged_helmet.png
+  empty_bottle:
+    display_name: '&fEmpty Bottle'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - empty_bottle.png
+  empty_flask:
+    display_name: '&fEmpty Flask'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - empty_flask.png
+  empty_flask_1:
+    display_name: '&fEmpty Flask 1'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - empty_flask_1.png
+  empty_quiver:
+    display_name: '&fEmpty Quiver'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - empty_quiver.png
+  empty_sack:
+    display_name: '&fEmpty Sack'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - empty_sack.png
+  feather:
+    display_name: '&fFeather'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - feather.png
+  feather_and_ink:
+    display_name: '&fFeather And Ink'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - feather_and_ink.png
+  flask_of_sand:
+    display_name: '&fFlask Of Sand'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - flask_of_sand.png
+  flint_stone:
+    display_name: '&fFlint Stone'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - flint_stone.png
+  flute:
+    display_name: '&fFlute'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - flute.png
+  gem:
+    display_name: '&fGem'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - gem.png
+  glass_hour:
+    display_name: '&fGlass Hour'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - glass_hour.png
+  golden_coin:
+    display_name: '&fGolden Coin'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - golden_coin.png
+  golden_coins:
+    display_name: '&fGolden Coins'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - golden_coins.png
+  golden_key:
+    display_name: '&fGolden Key'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - golden_key.png
+  golden_medal:
+    display_name: '&fGolden Medal'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - golden_medal.png
+  golden_ring:
+    display_name: '&fGolden Ring'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - golden_ring.png
+  golden_trophy:
+    display_name: '&fGolden Trophy'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - golden_trophy.png
+  gold_ingot:
+    display_name: '&fGold Ingot'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - gold_ingot.png
+  hair:
+    display_name: '&fHair'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - hair.png
+  hammer_head:
+    display_name: '&fHammer Head'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - hammer_head.png
+  ink_well:
+    display_name: '&fInk Well'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - ink_well.png
+  iron_buckle:
+    display_name: '&fIron Buckle'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_buckle.png
+  iron_coin:
+    display_name: '&fIron Coin'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_coin.png
+  iron_coins:
+    display_name: '&fIron Coins'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_coins.png
+  iron_hook:
+    display_name: '&fIron Hook'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_hook.png
+  iron_ingot:
+    display_name: '&fIron Ingot'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_ingot.png
+  iron_key:
+    display_name: '&fIron Key'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_key.png
+  iron_medal:
+    display_name: '&fIron Medal'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_medal.png
+  iron_shackle:
+    display_name: '&fIron Shackle'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_shackle.png
+  iron_tongs:
+    display_name: '&fIron Tongs'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_tongs.png
+  iron_trophy:
+    display_name: '&fIron Trophy'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - iron_trophy.png
+  leather_strap:
+    display_name: '&fLeather Strap'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - leather_strap.png
+  lucky_horseshoe:
+    display_name: '&fLucky Horseshoe'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - lucky_horseshoe.png
+  magic_crystal:
+    display_name: '&fMagic Crystal'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - magic_crystal.png
+  map:
+    display_name: '&fMap'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - map.png
+  oar:
+    display_name: '&fOar'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - oar.png
+  planks:
+    display_name: '&fPlanks'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - planks.png
+  pottery_1:
+    display_name: '&fPottery 1'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - pottery_1.png
+  pottery_2:
+    display_name: '&fPottery 2'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - pottery_2.png
+  pottery_brown:
+    display_name: '&fPottery Brown'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - pottery_brown.png
+  pouch:
+    display_name: '&fPouch'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - pouch.png
+  pumice_stone:
+    display_name: '&fPumice Stone'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - pumice_stone.png
+  quest_scroll:
+    display_name: '&fQuest Scroll'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - quest_scroll.png
+  quill_pen:
+    display_name: '&fQuill Pen'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - quill_pen.png
+  rabbit_foot:
+    display_name: '&fRabbit Foot'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - rabbit_foot.png
+  rope:
+    display_name: '&fRope'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - rope.png
+  runestone:
+    display_name: '&fRunestone'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - runestone.png
+  rune_shard:
+    display_name: '&fRune Shard'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - rune_shard.png
+  rusted_nail:
+    display_name: '&fRusted Nail'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - rusted_nail.png
+  sack_of_grain:
+    display_name: '&fSack Of Grain'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - sack_of_grain.png
+  scarrab:
+    display_name: '&fScarrab'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - scarrab.png
+  scroll:
+    display_name: '&fScroll'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - scroll.png
+  sealed_letter:
+    display_name: '&fSealed Letter'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - sealed_letter.png
+  shovel_head:
+    display_name: '&fShovel Head'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - shovel_head.png
+  slate_tile:
+    display_name: '&fSlate Tile'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - slate_tile.png
+  spear_head:
+    display_name: '&fSpear Head'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - spear_head.png
+  spike:
+    display_name: '&fSpike'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - spike.png
+  tattered_banner:
+    display_name: '&fTattered Banner'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - tattered_banner.png
+  vellum_manuscript:
+    display_name: '&fVellum Manuscript'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - vellum_manuscript.png
+  waterskin:
+    display_name: '&fWaterskin'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - waterskin.png
+  wheat:
+    display_name: '&fWheat'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - wheat.png
+  whetstone:
+    display_name: '&fWhetstone'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - whetstone.png
+  wicker_basket:
+    display_name: '&fWicker Basket'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - wicker_basket.png
+  wooden_cart_wheel:
+    display_name: '&fWooden Cart Wheel'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - wooden_cart_wheel.png
+  wooden_chest:
+    display_name: '&fWooden Chest'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - wooden_chest.png
+  wooden_mug:
+    display_name: '&fWooden Mug'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - wooden_mug.png
+  wooden_shield:
+    display_name: '&fWooden Shield'
+    permission: medievalquest
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - wooden_shield.png

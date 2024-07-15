@@ -1,0 +1,57 @@
+menu-title: ':offset_-16::bp_week:'
+menu-rows: 6
+
+quest-slots:
+  slots: '10...16, 37...43'
+
+menu:
+  '45':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f33a59}Back'
+      lore: []
+    actions:
+      - '[menu](page = 1) {quest-overview}' # If the page is 1, take them to the portal page
+      - '[menu](page ! 1) {previous-page}' # If their page is not 1, take them to the Previous
+  '46':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f33a59}Back'
+      lore: []
+    actions:
+      - '[menu](page = 1) {quest-overview}' # If the page is 1, take them to the portal page
+      - '[menu](page ! 1) {previous-page}' # If their page is not 1, take them to the Previous
+  '47':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f33a59}Back'
+      lore: []
+    actions:
+      - '[menu](page = 1) {quest-overview}' # If the page is 1, take them to the portal page
+      - '[menu](page ! 1) {previous-page}' # If their page is not 1, take them to the Previous
+  '53':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f3db22}&lInformation'
+      lore:
+        - '{#71797E}New weekly quests release'
+        - '{#71797E}every 7 days, which you can'
+        - '{#71797E}complete to earn experience.'
+        - ''
+        - '{#71797E}Premium pass holders get'
+        - '{#71797E}access to more quests and'
+        - '{#71797E}a 3.5x experience boost!'
+    actions: []
+#  '41':
+#    item:
+#      material: arrow:0
+#      name: '&eNext'
+#      lore:
+#        - ''
+#        - '{#71797E}&o(( Click to go to the Next ))'
+#    actions:
+#      - '[menu] {next-page}'

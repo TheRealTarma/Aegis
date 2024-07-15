@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "littleroom_rpgpackvol1:rpg_skeleton_crossbow_bolt",
+		"particle": "littleroom_rpgpackvol1:rpg_skeleton_crossbow_bolt"
+	},
+	"elements": [
+		{
+			"from": [8, 8, 1],
+			"to": [8, 11, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.5, 10]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 3], "texture": "#0"},
+				"east": {"uv": [13, 3, 0, 6], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 3], "texture": "#0"},
+				"west": {"uv": [0, 3, 13, 6], "texture": "#0"},
+				"up": {"uv": [0, 13, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 13], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 9.5, 11],
+			"to": [9, 9.5, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9.5, 10]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 0], "texture": "#0"},
+				"south": {"uv": [0, 0, 2, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 3, 0], "texture": "#0"},
+				"up": {"uv": [2, 9, 0, 6], "texture": "#0"},
+				"down": {"uv": [4, 6, 2, 9], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 122, 0],
+			"translation": [0, -0.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 122, 0],
+			"translation": [0, -0.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [87, -23, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [87, -23, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [-31, -47, -39],
+			"translation": [-0.75, -1.5, 0]
+		},
+		"head": {
+			"translation": [0, -2.5, 0.25],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}

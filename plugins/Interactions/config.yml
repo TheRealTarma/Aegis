@@ -1,0 +1,144 @@
+# Set to false if you don't want OP players to receive notifications
+# of plugin updates in chat when joining the server.
+update_notification: true
+
+# This option defines the time (in seconds) to automatically save player data.
+data_auto_save_time: 600
+
+# If players will be able to use the chat or write commands
+# while in a conversation or not.
+allow_chat_while_in_conversation: false
+allow_commands_while_in_conversation: true
+
+# If players will be able to use their inventory while in
+# a conversation.
+allow_inventory_interact_while_in_conversation: true
+
+# When is set to false, mobs will not target and attack players
+# inside a conversation.
+allow_mob_damage: false
+
+# This option defines how players need to click on a Citizens NPC
+# to start a conversation.
+# RIGHT_CLICK = Just right clicking the NPC.
+# SHIFT_RIGHT_CLICK = Right clicking the NPC while sneaking.
+# ALL_RIGHT_CLICK = Both will work.
+# SWAP_HAND_CLICK = Pressing the swap hand key (F) by looking at the NPC. This
+# option only works on 1.9+.
+conversation_start_click_type: RIGHT_CLICK
+
+# This option defines which messages do you want to block for
+# players in a conversation.
+# NONE = No messages are blocked
+# CHAT = Only player chat messages are blocked
+# ALL = All messages in chat are blocked, including the ones from other
+# plugins, announcements, join/leave messages, etc... (Requires ProtocolLib)
+hide_chat_while_in_conversation_type: NONE
+
+# When this option is enabled and hide_chat_while_in_conversation_type
+# is set to ALL, all blocked/hidden messages will be sent again to the
+# player when the conversation ends.
+send_back_hidden_chat: true
+
+# If allow_commands_while_in_conversation option is set to false
+# these commands will be allowed.
+commands_whitelist:
+    - "/login"
+    - "/help"
+
+# Set it to true if you want players to be able to click on the
+# options in the chat to continue with the dialogue.
+clickable_options: true
+
+# When this option is set to true, players will need to use 'W' and
+# 'S' keys to choose an option and SNEAK/JUMP to use it. You can find
+# a gif example on the main page (Interactions Wiki).
+# INFO: Selectable options will be only enabled if the conversation
+# has the block_movement option enabled.
+selectable_options: false
+
+# This option will allow the plugin to use ProtocolLib to cancel
+# movement when block_movement option is enabled in the conversation.
+# So the player movement will be prevented completely
+# while in a conversation. I suggest you that you enable this option
+# if you also have the selectable_options option enabled.
+# INFO: The player will see himself mounted on an entity but other
+# players will not!
+use_protocollib: false
+
+# Here you can define the action the player need to use to select
+# an option while selectable_options and use_protocollib options
+# are enabled.
+# It could be SNEAK or JUMP.
+protocollib_selectable_options_action: SNEAK
+
+# Set this option to false if you want to disable the empty messages
+# in conversations. (messages used to separate dialogues and options)
+use_empty_spaces: true
+
+# Enables or disables the Action Bar feature.
+action_bar: false
+
+# When enabled, players will be able to skip dialogues clicking again
+# on the NPC.
+skip_dialogue_on_npc_click: false
+
+# BETA!
+# New system that allow dialogues to be written instead of showing
+# instantly, which make the conversation more realistic.
+write_dialogues:
+    # Whether this system should be enabled or not
+    enabled: false
+
+    # 1 Mode available for now.
+    # CHARACTER = Writes characters 1 by 1.
+    # WORD = Writes words 1 by 1
+    mode: CHARACTER
+
+    # The delay between each written character.
+    delay: 1
+
+# Enables or disables the Boss Bar feature.
+# Only works on 1.9+
+boss_bar:
+    # If is set to true, players will see a boss bar while in a conversation
+    # Set it to false if you don't want a boss bar.
+    enabled: true
+
+    # Color of the boss bar. Use colors from the following link:
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
+    color: BLUE
+
+    # Style of the boss bar. Use styles from the following link:
+    # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
+    style: SEGMENTED_10
+
+    # If this option is set to true, the boss bar status will change
+    # when the dialogue progresses.
+    change_progress_with_time: false
+
+# Default properties for new conversations
+default_values:
+    conversation_entities:
+        name: "&a&lExample NPC"
+        block_movement: false
+        slow_effect: true
+        save_conversation_progress: false
+        start_conversation_radius: 0
+        end_conversation_radius: 5
+        requires_permission: false
+        cooldown: 0
+    conversations:
+        random_dialogue: false
+        interrupt_actions: []
+    dialogues:
+        text:
+            - "&7Example text line."
+        time: 4
+        show_name: true
+        save_dialogue_to_player: false
+        actions: []
+        last_actions: []
+    options:
+       text: "&7Example option text."
+       actions: []

@@ -1,0 +1,113 @@
+DUAL_LONGSWORD:
+  base:
+    material: WOODEN_SWORD
+    max-durability: 8400.0
+    name: §f§l§oDual Lon§8§l§ogsword
+    lore:
+    - §eShall light save you!
+    - §8And darkness consume you...
+    tier: EPIC
+    required-level: 45.0
+    required-class:
+    - Paladin
+    critical-strike-chance: 10.0
+    critical-strike-power:
+      base: 15.0
+      scale: 0.1
+      spread: 0.1
+      max-spread: 0.2
+    attack-damage:
+      base: 24.0
+      scale: 0.1
+      spread: 0.1
+      max-spread: 0.2
+    attack-speed: 1.5
+    weapon-damage: 10.0
+    stamina-cost: 2.0
+    parry-rating: 30.0
+    parry-cooldown-reduction: 10.0
+    armor: 2.0
+    gem-sockets:
+    - White
+    - Black
+    perm-effects:
+      SPEED: 1.0
+      SLOW: 1.0
+    item-particles: {}
+    ability:
+      ability1:
+        type: HOLY_MISSILE
+        mode: SHIFT_RIGHT_CLICK
+        duration: 4.0
+        cooldown: 8.0
+        damage: 25.0
+      ability2:
+        type: CURSED_BEAM
+        mode: SHIFT_LEFT_CLICK
+        duration: 4.0
+        cooldown: 8.0
+        damage: 25.0
+
+COPPER_LONGSWORD:
+  base:
+    material: PAPER
+    custom-model-data: 10790.0
+    name: Copper Longsword
+    attack-damage: 6.5
+    attack-speed: 1.1
+    weapon-damage: 1.0
+    max-durability: 191.0
+IRON_LONGSWORD:
+  base:
+    material: PAPER
+    custom-model-data: 4000.0
+    name: Iron Longsword
+    attack-damage: 6.5
+    attack-speed: 1.1
+    weapon-damage: 1.0
+    max-durability: 250.0
+STEEL_LONGSWORD:
+  base:
+    material: PAPER
+    name: Steel Longsword
+    attack-damage: 7.0
+    attack-speed: 1.1
+    weapon-damage: 1.0
+    max-durability: 576.0
+    custom-model-data: 10791.0
+MITHRIL_LONGSWORD:
+  base:
+    material: PAPER
+    custom-model-data: 10500.0
+    name: Mithril Longsword
+    attack-damage: 7.5
+    attack-speed: 1.1
+    weapon-damage: 1.0
+    max-durability: 1234.0
+ADAMANT_LONGSWORD:
+  base:
+    material: PAPER
+    custom-model-data: 10789.0
+    name: Adamant Longsword
+    attack-damage: 8.0
+    attack-speed: 1.1
+    weapon-damage: 1.0
+    max-durability: 1561.0
+DIAMOND_LONGSWORD:
+  base:
+    material: PAPER
+    custom-model-data: 10518.0
+    name: Diamond Longsword
+    attack-damage: 8.5
+    attack-speed: 1.1
+    weapon-damage: 1.0
+    max-durability: 1796.0
+NETHERITE_LONGSWORD:
+  base:
+    material: PAPER
+    custom-model-data: 10788.0
+    name: Netherite Longsword
+    attack-damage: 9.0
+    attack-speed: 1.1
+    weapon-damage: 1.0
+    max-durability: 2031.0

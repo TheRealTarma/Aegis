@@ -1,0 +1,100 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: '- Create Item -'
+    rows: 2
+    inventory:
+    - slot: 0
+      item:
+        material: CHEST
+        amount: 1
+        durability: 0
+        displayName: §eLoad item in hand
+        lore: null
+        enchants: []
+      task: '0'
+    - slot: 1
+      item:
+        material: NAME_TAG
+        amount: 1
+        durability: 0
+        displayName: §eSet name
+        lore: null
+        enchants: []
+      task: '1'
+    - slot: 2
+      item:
+        material: STICK
+        amount: 1
+        durability: 0
+        displayName: §eSet amount
+        lore: null
+        enchants: []
+      task: '2'
+    - slot: 3
+      item:
+        material: ANVIL
+        amount: 1
+        durability: 0
+        displayName: §eSet durability
+        lore: null
+        enchants: []
+      task: '3'
+    - slot: 4
+      item:
+        material: ENCHANTED_BOOK
+        amount: 1
+        durability: 0
+        displayName: §eAdd enchantments
+        lore: null
+        enchants: []
+      task: '4'
+    - slot: 5
+      item:
+        material: SADDLE
+        amount: 1
+        durability: 0
+        displayName: §eSet display name
+        lore: null
+        enchants: []
+      task: '5'
+    - slot: 6
+      item:
+        material: CARROT
+        amount: 1
+        durability: 0
+        displayName: §eSet lore
+        lore: null
+        enchants: []
+      task: '6'
+    - slot: 7
+      item:
+        material: GLASS_BOTTLE
+        amount: 1
+        durability: 0
+        displayName: §7Clear extra data
+        lore: null
+        enchants: []
+      task: '7'
+    - slot: 16
+      item:
+        material: BARRIER
+        amount: 1
+        durability: 0
+        displayName: §cCancel
+        lore: null
+        enchants: []
+      task: '8'
+    - slot: 17
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §aDone
+        lore: null
+        enchants: []
+      task: '9'

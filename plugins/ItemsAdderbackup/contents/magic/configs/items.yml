@@ -1,0 +1,39 @@
+info:
+    namespace: magic
+items:
+    wet_papyrus:
+        display_name: Wet Papyrus
+        permission: magic.wet_papyrus
+        resource:
+          material: PAPER
+          generate: true
+          textures:
+            - "wet_papyrus"
+    papyrus:
+        display_name: Papyrus
+        permission: magic.papyrus
+        resource:
+          material: PAPER
+          generate: true
+          textures:
+            - "papyrus"
+    wand:
+        display_name: Wand
+        permission: magic.wand
+        resource:
+          material: STICK
+          generate: true
+          textures:
+            - "papyrus"
+#    iron_scythe:
+#        permission: tarmatools.iron_scythe
+#        display_name: Iron Scythe
+#        lore:
+#          - "§7Harvest"
+#        resource:
+#            material: IRON_HOE
+#            generate: true
+#            textures:
+#                - iron_scythe
+#        durability:
+#            max_custom_durability: 750

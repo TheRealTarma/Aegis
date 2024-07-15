@@ -1,0 +1,339 @@
+info:
+  namespace: jeqo
+items:
+  alert:
+    display_name: ' '
+    permission: icon.alert
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/alert
+  arrow_down:
+    display_name: ' '
+    permission: icon.arrow_down
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/arrow_down
+  arrow_down2:
+    display_name: ' '
+    permission: icon.arrow_down2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/arrow_down2
+  arrow_left:
+    display_name: ' '
+    permission: icon.arrow_left
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/arrow_left
+  arrow_left2:
+    display_name: ' '
+    permission: icon.arrow_left2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/arrow_left2
+  arrow_right:
+    display_name: ' '
+    permission: icon.arrow_right
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/arrow_right
+  arrow_right2:
+    display_name: ' '
+    permission: icon.arrow_right2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/arrow_right2
+  arrow_up:
+    display_name: ' '
+    permission: icon.arrow_up
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/arrow_up
+  arrow_up2:
+    display_name: ' '
+    permission: icon.arrow_up2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/arrow_up2
+  back:
+    display_name: ' '
+    permission: icon.back
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/back
+  blocked:
+    display_name: ' '
+    permission: icon.blocked
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/blocked
+  blocked_thin:
+    display_name: ' '
+    permission: icon.blocked_thin
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/blocked_thin
+  boxed_arrow_down:
+    display_name: ' '
+    permission: icon.boxed_arrow_down
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/boxed_arrow_down
+  boxed_arrow_left:
+    display_name: ' '
+    permission: icon.boxed_arrow_left
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/boxed_arrow_left
+  boxed_arrow_right:
+    display_name: ' '
+    permission: icon.boxed_arrow_right
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/boxed_arrow_right
+  boxed_arrow_up:
+    display_name: ' '
+    permission: icon.boxed_arrow_up
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/boxed_arrow_up
+  bronze_trophy:
+    display_name: ' '
+    permission: icon.bronze_trophy
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/bronze_trophy
+  check:
+    display_name: ' '
+    permission: icon.check
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/check
+  crafting:
+    display_name: ' '
+    permission: icon.crafting
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/crafting
+  cross:
+    display_name: ' '
+    permission: icon.cross
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/cross
+  curved_arrow_left:
+    display_name: ' '
+    permission: icon.curved_arrow_left
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/curved_arrow_left
+  curved_arrow_left2:
+    display_name: ' '
+    permission: icon.curved_arrow_left2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/curved_arrow_left2
+  curved_arrow_right:
+    display_name: ' '
+    permission: icon.curved_arrow_right
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/curved_arrow_right
+  curved_arrow_right2:
+    display_name: ' '
+    permission: icon.curved_arrow_right2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/curved_arrow_right2
+  discord:
+    display_name: ' '
+    permission: icon.discord
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/discord
+  filler:
+    display_name: ' '
+    permission: icon.filler
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/filler
+  gold_trophy:
+    display_name: ' '
+    permission: icon.gold_trophy
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/gold_trophy
+  gray_boxed_arrow_down:
+    display_name: ' '
+    permission: icon.gray_boxed_arrow_down
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/gray_boxed_arrow_down
+  gray_boxed_arrow_left:
+    display_name: ' '
+    permission: icon.gray_boxed_arrow_left
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/gray_boxed_arrow_left
+  gray_boxed_arrow_right:
+    display_name: ' '
+    permission: icon.gray_boxed_arrow_right
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/gray_boxed_arrow_right
+  gray_boxed_arrow_up:
+    display_name: ' '
+    permission: icon.gray_boxed_arrow_up
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/gray_boxed_arrow_up
+  home:
+    display_name: ' '
+    permission: icon.home
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/home
+  info:
+    display_name: ' '
+    permission: icon.info
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/info
+  lock:
+    display_name: ' '
+    permission: icon.lock
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/lock
+  repair:
+    display_name: ' '
+    permission: icon.repair
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/repair
+  scroll_bottom:
+    display_name: ' '
+    permission: icon.scroll_bottom
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/scroll_bottom
+  scroll_bottom2:
+    display_name: ' '
+    permission: icon.scroll_bottom2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/scroll_bottom2
+  scroll_middle:
+    display_name: ' '
+    permission: icon.scroll_middle
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/scroll_middle
+  scroll_middle2:
+    display_name: ' '
+    permission: icon.scroll_middle2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/scroll_middle2
+  scroll_middle3:
+    display_name: ' '
+    permission: icon.scroll_middle3
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/scroll_middle3
+  scroll_middle4:
+    display_name: ' '
+    permission: icon.scroll_middle4
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/scroll_middle4
+  scroll_top:
+    display_name: ' '
+    permission: icon.scroll_top
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/scroll_top
+  scroll_top2:
+    display_name: ' '
+    permission: icon.scroll_top2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/scroll_top2
+  search:
+    display_name: ' '
+    permission: icon.search
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/search
+  silver_trophy:
+    display_name: ' '
+    permission: icon.silver_trophy
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/silver_trophy
+  speech:
+    display_name: ' '
+    permission: icon.speech
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/speech
+  speech_blocked:
+    display_name: ' '
+    permission: icon.speech_blocked
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/speech_blocked
+  unlock:
+    display_name: ' '
+    permission: icon.unlock
+    resource:
+      material: PAPER
+      generate: false
+      model_path: icons/unlock

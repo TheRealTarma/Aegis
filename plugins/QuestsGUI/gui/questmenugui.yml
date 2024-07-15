@@ -1,0 +1,46 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: '- Quest Editor -'
+    rows: 1
+    inventory:
+    - slot: 0
+      item:
+        material: NETHER_STAR
+        amount: 1
+        durability: 0
+        displayName: §eCreate new quest
+        lore: null
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: ANVIL
+        amount: 1
+        durability: 0
+        displayName: §eEdit a quest
+        lore: null
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: LAVA_BUCKET
+        amount: 1
+        durability: 0
+        displayName: §eDelete a quest
+        lore: null
+        enchants: []
+      task: '3'
+    - slot: 8
+      item:
+        material: BARRIER
+        amount: 1
+        durability: 0
+        displayName: §cExit
+        lore: null
+        enchants: []
+      task: '4'

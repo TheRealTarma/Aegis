@@ -1,0 +1,38 @@
+[
+  {
+    "gameId": "facd875b-79c3-4589-957d-4b54e070e115",
+    "datetime": 1718717400000,
+    "gameNumber": {
+      "year": 2024,
+      "number": 4
+    },
+    "drawResult": "5 7 14 15 25 29 + 2"
+  },
+  {
+    "gameId": "e19f8000-b4ea-4f5b-9fa3-bf44bd99133f",
+    "datetime": 1717507800000,
+    "gameNumber": {
+      "year": 2024,
+      "number": 3
+    },
+    "drawResult": "3 4 18 21 37 39 + 19"
+  },
+  {
+    "gameId": "527857bd-d11d-4dee-9062-94e9bd9c674a",
+    "datetime": 1715261400000,
+    "gameNumber": {
+      "year": 2024,
+      "number": 2
+    },
+    "drawResult": "5 6 8 16 26 30 + 25"
+  },
+  {
+    "gameId": "adf06bc4-046d-4a0e-a5ca-b265747ff83b",
+    "datetime": 1715028935054,
+    "gameNumber": {
+      "year": 2024,
+      "number": 1
+    },
+    "drawResult": "6 12 20 21 26 32 + 9"
+  }
+]

@@ -1,0 +1,249 @@
+# The prefix for the plugin
+prefix: '&8[&eAuctionHouse&8]'
+# The primary language of the plugin
+language: en_us
+settings:
+  # How core listing mechanics should function for auction house.
+  usage mode: BIN_AND_AUCTION
+  timers:
+    # How many ticks before the page updates all items (0 to disable)
+    main auction auto refresh: 20
+    # How many ticks before the page updates all items (0 to disable)
+    sql pull rate: 12000
+  purchasing:
+    # Should the lister be allowed to bid on their own item (... but why)
+    allow owner to bid on own item: false
+    # Should the lister be allowed to buy their own item (... but why)
+    allow owner to buy own item: false
+  delays:
+    # How many milliseconds must pass before the user can click the refresh button again. (0 to disable)
+    main auction refresh: 3000
+    # How many milliseconds must pass between each expired item claim (0 to disable)
+    expired item claim: 100
+    # How many milliseconds must pass before the user can click the collect all button again (0 to disable)
+    expired collect all: 1
+  mysql:
+    # The password of the database
+    password: password123
+    # The port of the MySQL Database
+    port: 3306
+    # The host URL/IP of the MySQL Database
+    host: database.com
+    # The name of the database
+    name: dbname
+    # Do not touch this if you don't know what your doing
+    params: ?useUnicode=yes&characterEncoding=UTF-8&useServerPrepStmts=false&rewriteBatchedStatements=true&useSSL=true
+    # Should Auction House use MySQL to store data?
+    enabled: false
+    # The username of the database
+    username: username
+  confirmation:
+    # Ask for confirmation before accepting current bid?
+    accept bid: false
+    # Ask for confirmation before buying an item?
+    buy item: false
+    # Ask for confirmation before canceling a listing?
+    cancel listing: false
+    # Ask for confirmation before listing an item?
+    listing: false
+    # Ask for confirmation before bidding on an item?
+    place bid: false
+  # If true players can list auctions that use the buyout feature
+  allow buyout on auctions: true
+  pricing:
+    # The maximum price a listing can be set at
+    maximum starting price: 1000000000
+    # The maximum price for a bin (non biddable) listing
+    maximum bin price: 1000000000
+    # The minimum price a listing can be set at
+    minimum starting price: 1
+    # The minimum price for a bin (non biddable) listing
+    minimum bin price: 1
+  formatting:
+    # The default date format to be used
+    date format: MMMM/dd/yyyy - hh:mm a
+    # The default combined date/time format to be used
+    datetime format: MMMM/dd/yyyy - hh:mm:ss a
+    # The default currency formatting (#,###.##)
+    number format: '%,.2f'
+    # The default time format to be used
+    time format: hh:mm:ss a
+gui:
+  player selector:
+    background:
+      # The background item for this menu
+      item: BLACK_STAINED_GLASS_PANE
+  collection bin:
+    # How many rows should the gui have
+    rows: 6
+    # Additional Decoration Items, format is MATERIAL_NAME:slot so ex. DIAMOND:1
+    decoration:
+      - ''
+    # Slot numbers where collection items will be placed
+    fill slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+  main:
+    # How many rows should the gui have
+    rows: 6
+    # Additional Decoration Items, format is MATERIAL_NAME:slot so ex. DIAMOND:1
+    decoration:
+      - ''
+    items:
+      search:
+        # The material type/texture url for this item
+        item: DARK_OAK_SIGN
+        # What slot should this item be placed in?
+        slot: 52
+      collection bin:
+        # The material type/texture url for this item
+        item: ENDER_CHEST
+        # What slot should this item be placed in?
+        slot: 46
+      profile:
+        # What slot should this item be placed in?
+        slot: 53
+      refresh:
+        # The material type/texture url for this item
+        item: END_CRYSTAL
+        # What slot should this item be placed in?
+        slot: 49
+      active listings:
+        # The material type/texture url for this item
+        item: DIAMOND
+        # What slot should this item be placed in?
+        slot: 45
+    # Slot numbers where auction items will be placed
+    fill slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+  profile settings:
+    # How many rows should the gui have
+    rows: 6
+    # Additional Decoration Items, format is MATERIAL_NAME:slot so ex. DIAMOND:1
+    decoration:
+      - ''
+    items:
+      show listing info:
+        # The material type/texture url for this item
+        item off: RED_STAINED_GLASS_PANE
+        # What slot should this item be placed in?
+        slot: 12
+        # The material type/texture url for this item
+        item on: LIME_STAINED_GLASS_PANE
+      show alert on sale:
+        # The material type/texture url for this item
+        item off: RED_STAINED_GLASS_PANE
+        # What slot should this item be placed in?
+        slot: 16
+        # The material type/texture url for this item
+        item on: LIME_STAINED_GLASS_PANE
+      show alert on auction win:
+        # The material type/texture url for this item
+        item off: RED_STAINED_GLASS_PANE
+        # What slot should this item be placed in?
+        slot: 28
+        # The material type/texture url for this item
+        item on: LIME_STAINED_GLASS_PANE
+      language:
+        # The material type/texture url for this item
+        item: https://textures.minecraft.net/texture/fc1e73023352cbc77b896fe7ea242b43143e013bec5bf314d41e5f26548fb2d2
+        # What slot should this item be placed in?
+        slot: 10
+      show alert on outbid:
+        # The material type/texture url for this item
+        item off: RED_STAINED_GLASS_PANE
+        # What slot should this item be placed in?
+        slot: 14
+        # The material type/texture url for this item
+        item on: LIME_STAINED_GLASS_PANE
+  ban:
+    background:
+      # The background item for this menu
+      item: BLACK_STAINED_GLASS_PANE

@@ -1,0 +1,98 @@
+WOODEN_SWORD:
+  base:
+    material: WOODEN_SWORD
+    attack-damage: 4.0
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 1.0
+    max-durability: 59.0
+STONE_SWORD:
+  base:
+    material: STONE_SWORD
+    attack-damage: 5.0
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 1.0
+    max-durability: 131.0
+    crafting:
+      shaped:
+        '1':
+          input:
+          - v AIR 0 1..|v cobblestone - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v cobblestone - 1.0..|v AIR 0 1..
+          - v AIR 0 1..|v stick - 1.0..|v AIR 0 1..
+COPPER_SWORD:
+  base:
+    material: STONE_SWORD
+    attack-damage: 5.5
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 6.0
+    name: Copper Sword
+    max-durability: 191.0
+    custom-model-data: 10000.0
+IRON_SWORD:
+  base:
+    material: IRON_SWORD
+    attack-damage: 6.0
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 11.0
+    max-durability: 250.0
+STEEL_SWORD:
+  base:
+    material: IRON_SWORD
+    attack-damage: 6.3
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 21.0
+    name: Steel Sword
+    max-durability: 576.0
+    custom-model-data: 10003.0
+MITHRIL_SWORD:
+  base:
+    material: IRON_SWORD
+    attack-damage: 6.6
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 31.0
+    name: Mithril Sword
+    max-durability: 1234.0
+    custom-model-data: 10001.0
+ADAMANT_SWORD:
+  base:
+    material: IRON_SWORD
+    attack-damage: 6.9
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 41.0
+    name: Adamant Sword
+    max-durability: 1561.0
+    custom-model-data: 10000.0
+GOLDEN_SWORD:
+  base:
+    material: GOLDEN_SWORD
+    attack-damage: 4.0
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 1.0
+    name: Golden Sword
+    max-durability: 59.0
+DIAMOND_SWORD:
+  base:
+    material: DIAMOND_SWORD
+    attack-damage: 7.0
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 51.0
+    name: Diamond Sword
+    max-durability: 1796.0
+NETHERITE_SWORD:
+  base:
+    material: NETHERITE_SWORD
+    attack-damage: 8.0
+    attack-speed: 1.6
+    weapon-damage: 1.0
+    profession-attack: 61.0
+    name: Netherite Sword
+    max-durability: 2031.0

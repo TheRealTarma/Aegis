@@ -1,0 +1,479 @@
+FAILED_FOOD:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 1.0
+    name: Repulsive Dish
+    effects:
+      POISON:
+        duration: 5
+        amplifier: 1
+      CONFUSION:
+        duration: 10
+        amplifier: 1
+    lore:
+    - I would send that back
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+GLAZED_HAM:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 2.0
+    name: Glazed Ham
+    lore:
+    - Glazed and Confused
+    effects:
+      ABSORPTION:
+        duration: 60
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 15.0
+    restore-saturation: 15.0
+BEEF_KEBAB:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 3.0
+    name: Beef Kebab
+    lore:
+    - Kebab to the Bone
+    effects:
+      ABSORPTION:
+        duration: 10
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 10.0
+    restore-saturation: 12.0
+CHICKEN_KEBAB:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 4.0
+    name: Chicken Kebab
+    lore:
+    - Kebab to the Bone
+    effects:
+      ABSORPTION:
+        duration: 10
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 8.0
+    restore-saturation: 9.0
+FRUIT_SALAD:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 5.0
+    name: Fruit Salad
+    lore:
+    - Yummy Yummy!
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 6.0
+    restore-saturation: 4.0
+COD_SUSHI:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 6.0
+    name: Cod Sushi
+    lore:
+    - Are you happy sashimi?
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 7.0
+    restore-saturation: 8.0
+SALMON_SUSHI:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 7.0
+    name: Salmon Sushi
+    lore:
+    - Are you happy sashimi?
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 7.0
+    restore-saturation: 8.0
+APPLE_TURNOVER:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 8.0
+    name: Apple Turnover
+    lore:
+    - Are you happy sashimi?
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 5.0
+    restore-saturation: 10.0
+PORKCHOP_APPLESAUCE:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 9.0
+    name: Porkchops with Applesauce
+    lore:
+    - Danger Duo!
+    effects:
+      ABSORPTION:
+        duration: 10
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 10.0
+    restore-saturation: 12.0
+CANDY_APPLE:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 10.0
+    name: Candy Apple
+    lore:
+    - Danger Duo!
+    effects:
+      ABSORPTION:
+        duration: 40
+        amplifier: 2
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 5.0
+    restore-saturation: 3.0
+BROWNIE:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 11.0
+    name: Brownie
+    lore:
+    - Extra Special!
+    effects:
+      ABSORPTION:
+        duration: 80
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 6.0
+    restore-saturation: 4.0
+COD_SANDWICH:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 12.0
+    name: Cod Sandwich
+    lore:
+    - There is a Cod!
+    effects:
+      ABSORPTION:
+        duration: 80
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 12.0
+    restore-saturation: 10.0
+SALMON_SANDWICH:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 13.0
+    name: Salmon Sandwich
+    lore:
+    - Salmons at the door!
+    effects:
+      ABSORPTION:
+        duration: 80
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 12.0
+    restore-saturation: 10.0
+BEEF_SANDWICH:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 14.0
+    name: Burger
+    lore:
+    - That is a juicy burger!
+    effects:
+      ABSORPTION:
+        duration: 40
+        amplifier: 2
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 14.0
+    restore-saturation: 10.0
+CHICKEN_SANDWICH:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 15.0
+    name: Chicken Sandwich
+    lore:
+    - I love you chicken!
+    effects:
+      ABSORPTION:
+        duration: 60
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 10.0
+    restore-saturation: 8.0
+EGG_BASKET:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 16.0
+    name: Eggies in a Basket
+    lore:
+    - Nothing but net!
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 6.0
+    restore-saturation: 4.0
+HAM_SANDWICH:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 17.0
+    name: Ham Sandwich
+    lore:
+    - What a ham!
+    effects:
+      ABSORPTION:
+        duration: 40
+        amplifier: 2
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 10.0
+    restore-saturation: 10.0
+DONUT:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 18.0
+    name: Donut
+    lore:
+    - Oooo!
+    effects:
+      ABSORPTION:
+        duration: 80
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 5.0
+    restore-saturation: 5.0
+PANCAKES:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 19.0
+    name: Pancakes
+    lore:
+    - Stack em High!
+    effects:
+      ABSORPTION:
+        duration: 80
+        amplifier: 2
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 5.0
+    restore-saturation: 10.0
+CHOCOLATE_BAR:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 20.0
+    name: Chocolate Bar
+    lore:
+    - 80 percent!
+    effects:
+      ABSORPTION:
+        duration: 120
+        amplifier: 2
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 5.0
+    restore-saturation: 3.0
+CHOCOLATE_MILK:
+  base:
+    material: MILK_BUCKET
+    custom-model-data: 1.0
+    name: Chocolate Milk
+    lore:
+    - From chocolate cows!
+    effects:
+      ABSORPTION:
+        duration: 120
+        amplifier: 2
+      SPEED:
+        duration: 240
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 3.0
+    restore-saturation: 1.0
+FISH_CHIPS:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 21.0
+    name: Fish and Chips
+    lore:
+    - Oi mate!
+    effects:
+      ABSORPTION:
+        duration: 60
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 10.0
+    restore-saturation: 11.0
+MILK_STEAK:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 22.0
+    name: Milk Steak
+    lore:
+    - Boiled over hard!
+    effects:
+      ABSORPTION:
+        duration: 240
+        amplifier: 3
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 10.0
+    restore-saturation: 11.0
+STEAK_EGGS:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 23.0
+    name: Steak and Eggs
+    lore:
+    - Classic Combo!
+    effects:
+      ABSORPTION:
+        duration: 80
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 12.0
+    restore-saturation: 11.0
+LOLLIPOP:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 24.0
+    name: Lollipop
+    lore:
+    - Oh lolli lolli!
+    effects:
+      ABSORPTION:
+        duration: 120
+        amplifier: 2
+      SPEED:
+        duration: 120
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 4.0
+    restore-saturation: 3.0
+COTTON_CANDY:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 25.0
+    name: Cotton Candy
+    lore:
+    - Candy Floss!
+    effects:
+      ABSORPTION:
+        duration: 120
+        amplifier: 1
+      SPEED:
+        duration: 120
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 2.0
+    restore-saturation: 1.0
+BACON_EGGS:
+  base:
+    material: COOKED_BEEF
+    custom-model-data: 26.0
+    name: Bacon and Eggs
+    lore:
+    - Now thats Breakfast!
+    effects:
+      ABSORPTION:
+        duration: 80
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 8.0
+    restore-saturation: 8.0
+BERRY_MILK:
+  base:
+    material: MILK_BUCKET
+    custom-model-data: 2.0
+    name: Berry Milk
+    lore:
+    - Fruity Milk!
+    effects:
+      ABSORPTION:
+        duration: 240
+        amplifier: 1
+      SPEED:
+        duration: 120
+        amplifier: 1
+    displayed-type: Recipe
+    item-particles: {}
+    vanilla-eating: true
+    hide-potion-effects: true
+    restore-food: 3.0
+    restore-saturation: 4.0
+COOKING_POT:
+  base:
+    material: PIG_SPAWN_EGG
+    custom-model-data: 1.0
+    name: Cooking Pot
+    commands:
+      cmd0:
+        format: mm mobs spawn cooking_pot
+        delay: 0.0
+        op: true

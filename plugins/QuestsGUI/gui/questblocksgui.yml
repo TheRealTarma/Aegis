@@ -1,0 +1,59 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: Blocks
+    rows: 1
+    inventory:
+    - slot: 0
+      item:
+        material: DIAMOND_PICKAXE
+        amount: 1
+        durability: 0
+        displayName: §eBreak blocks
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: STONE_PICKAXE
+        amount: 1
+        durability: 0
+        displayName: §eDamage blocks
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: COBBLESTONE
+        amount: 1
+        durability: 0
+        displayName: §ePlace blocks
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '3'
+    - slot: 3
+      item:
+        material: OAK_TRAPDOOR
+        amount: 1
+        durability: 0
+        displayName: §eUse blocks
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '4'
+    - slot: 8
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §aDone
+        lore: null
+        enchants: []
+      task: '5'

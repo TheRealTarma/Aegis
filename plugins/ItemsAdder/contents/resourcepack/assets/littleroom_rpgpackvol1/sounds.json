@@ -1,0 +1,117 @@
+{
+   "littleroom.rpgpackvol1.slime_step1":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/slime_step1"
+		 ]
+	},
+   "littleroom.rpgpackvol1.slime_step2":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/slime_step2"
+		 ]
+	},
+   "littleroom.rpgpackvol1.arrow_flyby":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/arrow_flyby"
+		 ]
+	},
+   "littleroom.rpgpackvol1.bite1":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/bite1"
+		 ]
+	},
+   "littleroom.rpgpackvol1.bite2":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/bite2"
+		 ]
+	},
+   "littleroom.rpgpackvol1.crossbow_draw":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/crossbow_draw"
+		 ]
+	},
+   "littleroom.rpgpackvol1.crossbow_shoot":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/crossbow_shoot"
+		 ]
+	},
+   "littleroom.rpgpackvol1.groan1":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/groan1"
+		 ]
+	},
+   "littleroom.rpgpackvol1.groan2":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/groan2"
+		 ]
+	},
+   "littleroom.rpgpackvol1.groan3":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/groan3"
+		 ]
+	},
+   "littleroom.rpgpackvol1.impact1":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/impact1"
+		 ]
+	},
+   "littleroom.rpgpackvol1.impact2":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/impact2"
+		 ]
+	},
+   "littleroom.rpgpackvol1.impact3":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/impact3"
+		 ]
+	},
+   "littleroom.rpgpackvol1.impact4":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/impact4"
+		 ]
+	},
+   "littleroom.rpgpackvol1.slime_death1":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/slime_death1"
+		 ]
+	},
+   "littleroom.rpgpackvol1.slime_death2":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/slime_death2"
+		 ]
+	},
+   "littleroom.rpgpackvol1.swing1":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/swing1"
+		 ]
+	},
+   "littleroom.rpgpackvol1.swing2":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/swing2"
+		 ]
+	},
+   "littleroom.rpgpackvol1.swing3":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/swing3"
+		 ]
+	},
+   "littleroom.rpgpackvol1.swing4":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/swing4"
+		 ]
+	},
+   "littleroom.rpgpackvol1.zombie_impact1":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/zombie_impact1"
+		 ]
+	},
+   "littleroom.rpgpackvol1.zombie_impact2":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/zombie_impact2"
+		 ]
+	},
+   "littleroom.rpgpackvol1.poof":{
+		 "sounds": [
+			"littleroom/rpgpackvol1/poof"
+		 ]
+	}
+}

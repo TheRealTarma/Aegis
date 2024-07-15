@@ -1,0 +1,718 @@
+info:
+  namespace: "workshop_six"
+items:
+  book_open:
+    display_name: "Book"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/book_open
+    behaviours:
+      furniture:
+        fixed_rotation: false
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  book_stack_horizontal_1:
+    display_name: "Books"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/book_stack_horizontal_1
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  book_stack_horizontal_2:
+    display_name: "Books"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/book_stack_horizontal_2
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  book_stack_vertical_1:
+    display_name: "Books"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/book_stack_vertical_1
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  book_stack_vertical_2:
+    display_name: "Books"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/book_stack_vertical_2
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  candle_dish:
+    display_name: "Candle Dish"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/candle_dish
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  chair:
+    display_name: "Chair"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/chair
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.5
+  
+  coffee_table:
+    display_name: "Coffee Table"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/coffee_table
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  desk:
+    display_name: "Desk"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/desk
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  dresser_low:
+    display_name: "Low Dresser"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/dresser_low
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          length_offset: 0
+          width_offset: -0.5
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  dresser_tall:
+    display_name: "Tall Dresser"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/dresser_tall
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  end_table:
+    display_name: "End Table"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/end_table
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  fireplace:
+    display_name: "Fireplace"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/fireplace
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 3
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  scroll_open:
+    display_name: "Scroll"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/scroll_open
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  scroll_stack:
+    display_name: "Scroll Stack"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/scroll_stack
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  stool:
+    display_name: "Stool"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/stool
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.5
+  
+  table_long:
+    display_name: "Long Table"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/table_long
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 3
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  table_small:
+    display_name: "Small Table"
+    permission: admin
+    resource:
+      material: "CHARCOAL"
+      generate: false
+      model_path: essentials/interior_furniture/table_small
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  arm_chair:
+    display_name: "Arm Chair"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/arm_chair
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.5
+  
+  bed_bunk:
+    display_name: "Bunk Bed"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/bed_bunk
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  bed_double:
+    display_name: "Double Bed"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/bed_double
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  bed_single:
+    display_name: "Bed"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/bed_single
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  chair_cushion:
+    display_name: "Chair"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/chair_cushion
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.5
+  
+  coffee_table_cloth:
+    display_name: "Coffee Table"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/coffee_table_cloth
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  lamp:
+    display_name: "Lamp"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/lamp
+    behaviours:
+      furniture:
+        light_level: 13
+        fixed_rotation: true
+        solid: false
+        entity: item_frame
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  lamp_hanging:
+    display_name: "Hanging Lamp"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/lamp_hanging
+    behaviours:
+      furniture:
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: true
+          floor: false
+  
+  lamp_tall:
+    display_name: "Tall Lamp"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/lamp_tall
+    behaviours:
+      furniture:
+        light_level: 13
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 2
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  pot_1:
+    display_name: "Pot"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/pot_1
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  pot_2:
+    display_name: "Pot"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/pot_2
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  pot_3:
+    display_name: "Pot"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/pot_3
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  
+  sofa:
+    display_name: "Sofa"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/sofa
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 3
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.5
+  
+  stool_cushion:
+    display_name: "Stool"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/stool_cushion
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 0.5
+  
+  table_small_cloth:
+    display_name: "Small Table"
+    permission: admin
+    resource:
+      material: "LEATHER_BOOTS"
+      generate: false
+      model_path: essentials/interior_furniture/table_small_cloth
+    behaviours:
+      furniture:
+        fixed_rotation: true
+        solid: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true

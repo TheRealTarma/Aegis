@@ -1,0 +1,9 @@
+info:
+  namespace: "servergui"
+font_images:
+  welcome_menu:
+    path: "font/gui/welcome_menu.png"
+    y_position: 47
+  welcome_accepted:
+    path: "font/gui/welcome_accepted.png"
+    y_position: 47

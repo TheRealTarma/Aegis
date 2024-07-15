@@ -1,0 +1,16 @@
+anim-join-warp_pipe:
+  Cooldown: 1
+  Skills:
+  - state{mid=warp_pipe;s=join;li=3;lo=3} @self
+  - delay 71
+  - remove @self
+anim-leave-flyaway:
+  Cooldown: 1
+  Skills:
+  - delay 30
+  - remove @self
+anim-death-spike:
+  Cooldown: 1
+  Skills:
+  - delay 85
+  - remove @self

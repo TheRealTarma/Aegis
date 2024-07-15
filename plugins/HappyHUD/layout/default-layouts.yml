@@ -1,0 +1,20 @@
+sword-layout:
+  elements:
+    sword:
+      asset: 'sword'
+      align: center
+      position:
+        x: 50
+        y: 0
+      offset:
+        x: 0
+        y: 42
+    air:
+      asset: 'vanilla-air'
+      align: right
+      position:
+        x: 50.0
+        y: 0.0
+      offset:
+        x: -36
+        y: 43

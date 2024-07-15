@@ -1,0 +1,389 @@
+info:
+  namespace: elitecreatures
+items:
+  blacksmith_decoration_v1_weaponshelf:
+    display_name: Weapon Shelf
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/weaponshelf
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 3
+          height: 3
+          length_offset: 0
+          width_offset: -0.5
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  blacksmith_decoration_v1_anvil:
+    display_name: Anvil
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/anvil
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+    events:
+      placed_itemframe:
+        interact:
+          execute_commands:
+            the_first_command:
+              command: mi stations open anvil {player}
+              as_console: true
+  blacksmith_decoration_v1_bed:
+    display_name: Bed
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/bed
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 3
+          width: 2
+          height: 1
+          length_offset: 1
+          width_offset: -0.5
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 1
+        opposite_direction: true
+        sit_all_solid_blocks: true
+  blacksmith_decoration_v1_carpet:
+    display_name: Carpet
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/carpet
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: false
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  blacksmith_decoration_v1_chair_double:
+    display_name: Chair Double
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/chair_double
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          length_offset: 0
+          width_offset: -0.5
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 1
+        opposite_direction: true
+        sit_all_solid_blocks: true
+  blacksmith_decoration_v1_chair_single:
+    display_name: Chair Single
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/chair_single
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+      furniture_sit:
+        sit_height: 1
+        opposite_direction: true
+        sit_all_solid_blocks: true
+  blacksmith_decoration_v1_cupboard:
+    display_name: Cupboard
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/cupboard
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 2
+          height: 3
+          length_offset: 0
+          width_offset: 0.5
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  blacksmith_decoration_v1_flag_red_white:
+    display_name: Flag Red White
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/flag_red_white
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: false
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  blacksmith_decoration_v1_flag_red_white_hang:
+    display_name: Flag Red White Hang
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/flag_red_white_hang
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+  blacksmith_decoration_v1_furnace:
+    display_name: Furnace
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/furnace
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 3
+          width: 3
+          height: 3
+          length_offset: 1.0
+          width_offset: -0.5
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+    events:
+      placed_itemframe:
+        interact:
+          execute_commands:
+            the_first_command:
+              command: mi stations open forge {player}
+              as_console: true
+  blacksmith_decoration_v1_grindstone:
+    display_name: Grindstone
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/grindstone
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  blacksmith_decoration_v1_shopsign:
+    display_name: Shopsign
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/shopsign
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 3
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  blacksmith_decoration_v1_table_big:
+    display_name: Table Big
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/table_big
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 2
+          height: 1
+          length_offset: 0
+          width_offset: 0.5
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  blacksmith_decoration_v1_table_mini:
+    display_name: Table Mini
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/table_mini
+    behaviours:
+      furniture:
+        solid: true
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 2
+          width: 2
+          height: 1
+          length_offset: 0.5
+          width_offset: 0.5
+          height_offset: 0
+        placeable_on:
+          walls: false
+          ceiling: false
+          floor: true
+  blacksmith_decoration_v1_toolrack:
+    display_name: Toolrack
+    resource:
+      material: PAPER
+      generate: false
+      model_path: blacksmith_decoration_v1/toolrack
+    behaviours:
+      furniture:
+        solid: false
+        fixed_rotation: true
+        entity: item_frame
+        hitbox:
+          length: 1
+          width: 1
+          height: 1
+          length_offset: 0
+          width_offset: 0
+          height_offset: 0
+        placeable_on:
+          walls: true
+          ceiling: false
+          floor: false
+
+recipes:
+  crafting_table:
+    blacksmith_decoration_v1_furnace:
+      enabled: true
+      pattern:
+        - XCX
+        - BAB
+        - BBB
+      ingredients:
+        A: BLAST_FURNACE
+        B: COBBLED_DEEPSLATE
+        C: COBBLED_DEEPSLATE_WALL
+      result:
+        item: elitecreatures:blacksmith_decoration_v1_furnace
+        amount: 1
+
+    blacksmith_decoration_v1_anvil:
+      enabled: true
+      pattern:
+        - AAA
+        - XCX
+        - BBB
+      ingredients:
+        A: IRON_BLOCK
+        B: COBBLED_DEEPSLATE
+        C: COBBLED_DEEPSLATE_WALL
+      result:
+        item: elitecreatures:blacksmith_decoration_v1_anvil
+        amount: 1

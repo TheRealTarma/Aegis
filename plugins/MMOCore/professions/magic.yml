@@ -1,0 +1,30 @@
+
+# Display options
+name: Magic
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 0.5
+    per-level: 0
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levelsskills
+
+exp-table: magic_exp_table
+
+max-level: 99
+
+# Remove the 'enchant' parameter from the line config
+# to make the profession get EXP with ANY enchant.
+
+# Specifying enchants like that lets you create different
+# enchanting professions, like DESTRUCTION for offense enchants
+# (Smite, Bane of Arth., Sharpness, Power, Fire Aspect, Flame)
+# and ALTERATION for strategic enchants for example.
+#
+# Use enchantitem{} to have it apply for any enchant.
+#
+# Use enchantitem{enchant="sharpness,power"} for multiple enchants
+exp-sources:
+- 'resource{type=MANA;amount=10-20}'

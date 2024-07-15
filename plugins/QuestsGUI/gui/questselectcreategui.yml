@@ -1,0 +1,19 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.TextGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: Enter quest name
+    rows: 1
+    inventory:
+    - slot: 0
+      item:
+        material: BOOK
+        amount: 1
+        durability: 0
+        displayName: ''
+        lore: null
+        enchants: []
+      task: null

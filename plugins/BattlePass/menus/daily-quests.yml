@@ -1,0 +1,53 @@
+menu-title: ':offset_-16::bp_daily_quests:'
+menu-rows: 2
+
+quest-slots:
+  slots: '1...7'
+
+menu:
+  '9':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f33a59}Back'
+      lore: []
+    actions:
+      - '[menu](page = 1) {quest-overview}' # If the page is 1, take them to the portal page
+  '10':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f33a59}Back'
+      lore: []
+    actions:
+      - '[menu](page = 1) {quest-overview}' # If the page is 1, take them to the portal page
+  '11':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f33a59}Back'
+      lore: []
+    actions:
+      - '[menu](page = 1) {quest-overview}' # If the page is 1, take them to the portal page
+  '17':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f3db22}&lInformation'
+      lore:
+        - ''
+        - '{#71797E}Need more EXP? Complete'
+        - '{#71797E}new daily quests which'
+        - '{#71797E}release every 24 hours!'
+        - ''
+        - '{#f3db22}New Quests In: {#fffb80}%battlepass_time_to_daily_reset%'
+    actions: []
+#  '41':
+#    item:
+#      material: arrow:0
+#      name: '&eNext Page'
+#      lore:
+#        - ''
+#        - '&7&o(( Click to go to the next page ))'
+#    actions:
+#      - '[menu] {next-page}' # Take the user to the next page

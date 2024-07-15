@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 75.71.202.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1719803692351
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1720666887483
+  login: 1720666753537
+money: '0.0'
+last-account-name: TheSandersLad
+logoutlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: -1.6461656071424977
+  y: 67.0
+  z: 125.08185744550003
+  yaw: 166.61480712890625
+  pitch: 8.10014820098877
+lastlocation:
+  world: 3c0711c8-e82e-4f32-a6ba-28dccdedb101
+  world-name: Palette
+  x: -61.74048492202673
+  y: -45.46170343202865
+  z: 29.221743783728865
+  yaw: 41.231964111328125
+  pitch: 18.450258255004883

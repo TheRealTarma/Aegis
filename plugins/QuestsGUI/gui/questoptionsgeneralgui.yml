@@ -1,0 +1,55 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: §2General
+    rows: 1
+    inventory:
+    - slot: 0
+      item:
+        material: COMMAND_BLOCK
+        amount: 1
+        durability: 0
+        displayName: §eAllow commands during quest
+        lore: null
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: LAVA_BUCKET
+        amount: 1
+        durability: 0
+        displayName: §eAllow quitting during quest
+        lore: null
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: DIAMOND_PICKAXE
+        amount: 1
+        durability: 0
+        displayName: §eIgnore blocks broken with Silk Touch
+        lore: null
+        enchants: []
+      task: '3'
+    - slot: 3
+      item:
+        material: OAK_LEAVES
+        amount: 1
+        durability: 0
+        displayName: §eIgnore blocks replaced once broken
+        lore: null
+        enchants: []
+      task: '4'
+    - slot: 8
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §eDone
+        lore: null
+        enchants: []
+      task: '5'

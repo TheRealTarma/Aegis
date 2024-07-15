@@ -1,0 +1,4 @@
+animations:
+  death-spike:
+    mm-id: death-spike
+    permission: "animcore.death.spike"

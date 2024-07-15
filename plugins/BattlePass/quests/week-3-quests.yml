@@ -1,0 +1,155 @@
+quests:
+  '0':
+    name: Week 3 - Worn out
+    type: item-break
+    variable: stone_pickaxe:0
+    required-progress: 1
+    points: 30
+    item:
+      material: stone_pickaxe:0
+      name: '&eWorn out'
+      lore:
+      - '&7Break &e1 stone pickaxe'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '1':
+    name: Week 3 - Swimmer
+    type: swim
+    variable: none
+    required-progress: 1000
+    points: 30
+    item:
+      material: water_bucket:0
+      amount: 1
+      name: '&eSwimmer'
+      lore:
+      - '&7Swim &e1000 blocks'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '2':
+    name: Week 3 - Smithing XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: smithing # The block the player must break.
+    required-progress: 1500 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: anvil:0
+      amount: 1
+      name: '&eSmithing XP'
+      lore:
+      - '&7Gain &e1500 Smithing XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '3':
+    name: Week 3 - Explorer
+    type: move
+    variable: none
+    required-progress: 5000
+    points: 30
+    item:
+      material: leather_boots:0
+      amount: 1
+      name: '&eExplorer'
+      lore:
+      - '&7Walk &e1000 meters'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '4':
+    name: Week 3 - Constitution XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: constitution # The block the player must break.
+    required-progress: 1500 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: potion:0
+      amount: 1
+      name: '&eConstitution XP'
+      lore:
+      - '&7Gain &e1500 Constitution XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '5':
+    name: Week 3 - Active
+    type: login
+    variable: none
+    required-progress: 10
+    points: 30
+    item:
+      material: clock:0
+      name: '&eActive'
+      lore:
+      - '&7Login &e10 times'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '6':
+    name: Week 3 - Fisherman
+    type: fish
+    variable: none
+    required-progress: 25
+    points: 30
+    item:
+      material: fishing_rod:0
+      name: '&eFisherman'
+      lore:
+      - '&7Fish &e10 items'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '7':
+    name: Week 3 - World Traveler
+    type: move
+    variable: none
+    required-progress: 6000
+    points: 30
+    exclusive: premium
+    item:
+      material: stone_sword:0
+      name: '&eWorld Traveler'
+      lore:
+      - '&7Travel&e6000 Blocks'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '8':
+    name: Week 3 - Smithing XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: smithing # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: anvil:0
+      amount: 1
+      name: '&eSmithing XP'
+      lore:
+      - '&7Gain &e1200 Smithing XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '9':
+    name: Week 3 - Attack XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: attack # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: golden_sword:0
+      amount: 1
+      name: '&eAttack XP'
+      lore:
+      - '&7Gain &e1200 Attack XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '10':
+    name: Week 3 - Farming XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: farming # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: golden_hoe:0
+      amount: 1
+      name: '&eFarming XP'
+      lore:
+      - '&7Gain &e1200 Farming XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'

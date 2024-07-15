@@ -1,0 +1,36 @@
+name: "&a&lSkippy"
+starts_with:
+- NPC named Skippy
+block_movement: true
+slow_effect: true
+save_conversation_progress: true
+requires_permission: false
+conversation:
+    conversation1:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Heeeyyy, buddy! Hic You wanna skip that snooozy tutorial? Just, uh, come with me, Skippy. I'll... I'll get you to the fun stuff, nooo problemo! Who needs all that... uh, boring stuff anyway? Let's just, like, dive right in and have a blast! %next%"
+                time: 6
+        options:
+            option1:
+                text: "&eI would like to skip the tutorial!"
+                start_conversation: conversation2
+            option2:
+                text: "&eNevermind!"
+                start_conversation: conversation3
+    conversation2:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Alright *hic* Hold Still!"
+                time: 3
+                actions: 
+                - 'console_command: screeneffect fullscreen black 10 100 30 freeze %player%'
+                - 'console_command: warp spawn %player%'
+    conversation3:
+        dialogue:
+            dialogue1:
+                text:
+                - "&7Whatever"
+                time: 3

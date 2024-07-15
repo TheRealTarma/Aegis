@@ -1,0 +1,119 @@
+menu-title: ':offset_-16::bp_quest_overview:'
+menu-rows: 2
+
+week-slots:
+  slots: '1...7' # ... is used to signify all of the ones in between. It functions the same as 11, 12, 13, 14, 15, 16, 17, 18
+
+menu:
+  '9':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f33a59}Back'
+      lore: []
+    actions:
+      - '[menu](page = 1) {portal}'
+  '10':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f33a59}Back'
+      lore: []
+    actions:
+      - '[menu](page = 1) {portal}'
+  '11':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#f33a59}Back'
+      lore: []
+    actions:
+      - '[menu](page = 1) {portal}'
+  '15':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#40E0D0}&lDaily Quests'
+      lore:
+        - ''
+        - '{#71797E}Need more EXP? Complete'
+        - '{#71797E}new daily quests which'
+        - '{#71797E}release every 24 hours!'
+        - ''
+        - '{#40E0D0}New Quests In: {#c4fff9}%battlepass_time_to_daily_reset%'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {daily-quests}'
+  '16':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#40E0D0}&lDaily Quests'
+      lore:
+        - ''
+        - '{#71797E}Need more EXP? Complete'
+        - '{#71797E}new daily quests which'
+        - '{#71797E}release every 24 hours!'
+        - ''
+        - '{#40E0D0}New Quests In: {#c4fff9}%battlepass_time_to_daily_reset%'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {daily-quests}'
+  '17':
+    item:
+      material: 'gold_nugget'
+      customModelData: 7000
+      name: '{#40E0D0}&lDaily Quests'
+      lore:
+        - ''
+        - '{#71797E}Need more EXP? Complete'
+        - '{#71797E}new daily quests which'
+        - '{#71797E}release every 24 hours!'
+        - ''
+        - '{#40E0D0}New Quests In: {#c4fff9}%battlepass_time_to_daily_reset%'
+        - ''
+        - '&eView &8[Left Click]'
+    actions:
+      - '[menu] {daily-quests}'
+#  '32':
+#    item:
+#      material: arrow:0
+#      name: '&eNext Page &7(Click)'
+#      lore:
+#        - ''
+#        - '{#71797E}&o(( Click to go to the next page ))'
+#    actions:
+#      - '[menu] {next-page}'
+
+static-items:
+  week-item:
+    material: 'gold_nugget'
+    customModelData: 7005
+    name: '{#7CFC00}&lWeek: {#c5ff8c}%week%'
+    lore:
+      - ''
+      - '{#71797E}Each week new quests release, which'
+      - '{#71797E}you can complete to earn experience.'
+      - ''
+      - '&fQuests Completed: &7%battlepass_completed_quests_week-%week%%/14'
+      - ''
+      - '&eView &8[Left Click]'
+  locked-week-item:
+    material: 'gold_nugget'
+    customModelData: 7006
+    name: '{#F33A6A}&lWeek: {#ffb3c7}%week%'
+    lore:
+      - ''
+      - '&8Status: {#F33A6A}%status%'
+  requires-previous-completion-item: # Only used if you have require previous completion set to true in your settings.yml.
+    material: 'gold_nugget'
+    customModelData: 7006
+    name: '{#F33A6A}&lWeek: {#ffb3c7}%week%'
+    lore:
+      - ''
+      - '{#71797E}This week will unlock once you'
+      - '{#71797E}complete the previous week.'
+      - ''
+      - '&8Status: &c%status%'

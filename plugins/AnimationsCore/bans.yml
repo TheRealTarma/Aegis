@@ -1,0 +1,5 @@
+animations:
+  death-spike:
+    duration: 20
+    mm-id: "death-spike"
+    permission: "animcore.ban.death-spike"

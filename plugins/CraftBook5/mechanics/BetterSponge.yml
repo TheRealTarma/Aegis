@@ -1,0 +1,23 @@
+# CraftBook BetterSponge Configuration
+# -- Generated for version: 5.0.0-beta-01
+# 
+# More information about this mechanic is available at...
+# https://craftbook.enginehub.org/en/5.0.0/mechanics/better_sponge/
+#
+# NOTE! Make sure to enable this in the config.yml file if you wish to use it.
+
+
+# The maximum radius of the sponge.
+radius: 5
+
+# Whether the active range should be spherical or cuboid.
+sphere-range: true
+
+# Whether wet sponges also activate the mechanic.
+include-wet-sponges: false
+
+# Whether to require redstone to suck up water or not.
+require-redstone: false
+
+# Whether to remove blocks that spread water such as kelp. These will not be returned when the sponge is de-activated.
+destructive: true

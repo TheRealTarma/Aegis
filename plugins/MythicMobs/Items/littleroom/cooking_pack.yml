@@ -1,0 +1,264 @@
+
+#########################################################
+## Developed by Little Room, patreon.com/littleroomdev ##
+#########################################################
+
+
+cooking_pot:
+  Id: PIG_SPAWN_EGG
+  Display: '&fCooking Pot'
+  Model: 1
+  NBT:
+    MYTHIC_EGG: cooking_pot
+
+failed_food:
+  Id: cooked_beef
+  Display: '&fRepulsive Dish'
+  Model: 1
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6I would send that back'
+  
+glazed_ham:
+  Id: cooked_beef
+  Display: '&fGlazed Ham'
+  Model: 2
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Glazed and Confused'
+  
+beef_kebab:
+  Id: cooked_beef
+  Display: '&fBeef Kebab'
+  Model: 3
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Kebab to the Bone'
+  
+chicken_kebab:
+  Id: cooked_beef
+  Display: '&fChicken Kebab'
+  Model: 4
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Glazed and Confused'
+  
+fruit_salad:
+  Id: cooked_beef
+  Display: '&fFruit Salad'
+  Model: 5
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Yummy Yummy'
+  
+cod_sushi:
+  Id: cooked_beef
+  Display: '&fCod Sushi'
+  Model: 6
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Are you happy sashimi?'
+  
+salmon_sushi:
+  Id: cooked_beef
+  Display: '&fSalmon Sushi'
+  Model: 7
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Careful with the wasabi!'
+  
+apple_turnover:
+  Id: cooked_beef
+  Display: '&fApple Turnover'
+  Model: 8
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Get turnt!'
+  
+porkchop_applesauce:
+  Id: cooked_beef
+  Display: '&fPorkchops with Applesauce'
+  Model: 9
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Danger Duo!'
+  
+candy_apple:
+  Id: cooked_beef
+  Display: '&fCandy Apple'
+  Model: 10
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Caramelized!'
+  
+brownie:
+  Id: cooked_beef
+  Display: '&fBrownie'
+  Model: 11
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Extra Special!'
+  
+cod_sandwich:
+  Id: cooked_beef
+  Display: '&fCod Sandwich'
+  Model: 12
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6There is a Cod!'
+  
+salmon_sandwich:
+  Id: cooked_beef
+  Display: '&fSalmon Sandwich'
+  Model: 13
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Salmons at the door!'
+  
+beef_sandwich:
+  Id: cooked_beef
+  Display: '&fBurger'
+  Model: 14
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6That is a juicy burger!'
+  
+chicken_sandwich:
+  Id: cooked_beef
+  Display: '&fChicken Sandwich'
+  Model: 15
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6I love you Chicken!'
+  
+egg_basket:
+  Id: cooked_beef
+  Display: '&fEggies in a Basket'
+  Model: 16
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Nothing but net!'
+  
+ham_sandwich:
+  Id: cooked_beef
+  Display: '&fHam Sandwich'
+  Model: 17
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6What a ham!'
+  
+donut:
+  Id: cooked_beef
+  Display: '&fDonut'
+  Model: 18
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Oooo!'
+  
+pancakes:
+  Id: cooked_beef
+  Display: '&fPancakes'
+  Model: 19
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Stack em High!'
+  
+chocolate_bar:
+  Id: cooked_beef
+  Display: '&fChocolate Bar'
+  Model: 20
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&680 percent!'
+  
+chocolate_milk:
+  Id: milk_bucket
+  Display: '&fChocolate Milk'
+  Model: 1
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6From chocolate cows!'
+  
+fish_chips:
+  Id: cooked_beef
+  Display: '&fFish n Chips'
+  Model: 21
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Oi mate!'
+  
+milk_steak:
+  Id: cooked_beef
+  Display: '&fMilk Steak'
+  Model: 22
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Boiled over hard!'
+  
+steak_eggs:
+  Id: cooked_beef
+  Display: '&fSteak and Eggs'
+  Model: 23
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Classic Combo!'
+  
+lollipop:
+  Id: cooked_beef
+  Display: '&fLollipop'
+  Model: 24
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Oh lolli lolli!'
+  
+cotton_candy:
+  Id: cooked_beef
+  Display: '&fCotton Candy'
+  Model: 25
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Candy Floss!'
+  
+bacon_eggs:
+  Id: cooked_beef
+  Display: '&fBacon and Eggs'
+  Model: 26
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Now thats Breakfast!'
+  
+berry_milk:
+  Id: milk_bucket
+  Display: '&fBerry Milk'
+  Model: 2
+  Hide:
+  - ATTRIBUTES
+  Lore:
+  - '&6Refreshing!'

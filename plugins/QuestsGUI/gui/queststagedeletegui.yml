@@ -1,0 +1,28 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: Are you sure?
+    rows: 1
+    inventory:
+    - slot: 0
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §aYes
+        lore: null
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: BARRIER
+        amount: 1
+        durability: 0
+        displayName: §cNo
+        lore: null
+        enchants: []
+      task: '2'

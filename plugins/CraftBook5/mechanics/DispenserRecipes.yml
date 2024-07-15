@@ -1,0 +1,26 @@
+# CraftBook DispenserRecipes Configuration
+# -- Generated for version: 5.0.0-beta-01
+# 
+# More information about this mechanic is available at...
+# https://craftbook.enginehub.org/en/5.0.0/mechanics/dispenser_recipes/
+#
+# NOTE! Make sure to enable this in the config.yml file if you wish to use it.
+
+
+# Enables Cannon Dispenser Recipe.
+cannon-enable: true
+
+# Enables Fan Dispenser Recipe.
+fan-enable: true
+
+# Enables Vacuum Dispenser Recipe.
+vacuum-enable: true
+
+# Enables Fire Arrows Dispenser Recipe.
+fire-arrows-enable: true
+
+# Enables Snow Shooter Dispenser Recipe.
+snow-shooter-enable: true
+
+# Enables XP Shooter Dispenser Recipe.
+xp-shooter-enable: true

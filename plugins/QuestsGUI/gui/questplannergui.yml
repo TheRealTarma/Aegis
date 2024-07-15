@@ -1,0 +1,64 @@
+# QuestsGUI file must stay in UTF-8 encoding
+
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: Planner | Fishing Tutorial
+    rows: 1
+    inventory:
+    - slot: 0
+      item:
+        material: FISHING_ROD
+        amount: 1
+        durability: 0
+        displayName: §eSet start date
+        lore: null
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: ENDER_EYE
+        amount: 1
+        durability: 0
+        displayName: §eSet end date
+        lore: null
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: REPEATER
+        amount: 1
+        durability: 0
+        displayName: §7Set repeat cycle
+        lore: null
+        enchants: []
+      task: '3'
+    - slot: 3
+      item:
+        material: CLOCK
+        amount: 1
+        durability: 0
+        displayName: §eSet player cooldown
+        lore: null
+        enchants: []
+      task: '4'
+    - slot: 4
+      item:
+        material: BONE
+        amount: 1
+        durability: 0
+        displayName: §eIgnore cooldown after repeat
+        lore: null
+        enchants: []
+      task: '5'
+    - slot: 8
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §eDone
+        lore: null
+        enchants: []
+      task: '6'

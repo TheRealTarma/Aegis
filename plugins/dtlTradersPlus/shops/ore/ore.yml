@@ -1,0 +1,63 @@
+ore:
+  title: Ore
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: true
+  trade-shop-enabled: false
+  logging-enabled: true
+  close-after-purchase: false
+  confirmation-window-enabled: false
+  pages:
+    page-0:
+      size: 54
+      page-name: Page 83678
+      page-permission: ''
+      buy-items:
+        item-0:
+          id: 1
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3700
+            type: IRON_INGOT
+          display-name: ''
+          show-description: true
+          description:
+          - '%de_material_stock_copper_ingot%'
+        item-1:
+          id: 2
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3700
+            type: COPPER_INGOT
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: '{"text":"","extra":[{"text":"%de_material_inflation%","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"bold":false}]}'
+          display-name: '%de_material_inflation%'
+          show-description: true
+          description:
+          - '%de_material_inflation%'
+        item-2:
+          id: 3
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3700
+            type: GOLD_INGOT
+          display-name: ''
+          show-description: true
+          description: []
+        item-3:
+          id: 4
+          type: static
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3700
+            type: NETHERITE_INGOT
+          display-name: ''
+          show-description: true
+          description: []

@@ -1,0 +1,96 @@
+# ________  _________  ________  _____ ______   ___  ________   ________
+# |\   ____\|\___   ___\\   __  \|\   _ \  _   \|\  \|\   ___  \|\   __  \
+# \ \  \___|\|___ \  \_\ \  \|\  \ \  \\\__\ \  \ \  \ \  \\ \  \ \  \|\  \
+# \ \_____  \   \ \  \ \ \   __  \ \  \\|__| \  \ \  \ \  \\ \  \ \   __  \
+#  \|____|\  \   \ \  \ \ \  \ \  \ \  \    \ \  \ \  \ \  \\ \  \ \  \ \  \
+#    ____\_\  \   \ \__\ \ \__\ \__\ \__\    \ \__\ \__\ \__\\ \__\ \__\ \__\
+#   |\_________\   \|__|  \|__|\|__|\|__|     \|__|\|__|\|__| \|__|\|__|\|__|
+#   \|_________|
+# VERSION 11.0.0 BY IRONPHIL24K
+
+
+bossbar: true
+bossbar-color: GREEN
+
+
+# Enable or not the upgrade system
+# This will prevent players from using
+# /staminagui
+enable_upgrade_system: false
+
+# Upgrade value for sprint_drain_rate
+# (-0.1 every upgrade)
+upgrade_value: 0.1
+upgrade_cost: 1000
+
+# minimum sprint drain when upgrading
+# Can't go below 0.1
+minimum_sprint_drain_rate: 0.1
+
+
+# give infinte stamina for 10sec
+# when eating a glow berries
+glow-berries-effect: false
+GlowBerriesItem: GLOW_BERRIES
+
+
+# enable or not fly drain
+# (creative mode fly or spectator...)
+flight_drain: false
+creativemode_drain: false
+
+
+# Max Endurance
+endurance: 400
+
+# Regen rate stat
+regen_rate: 6
+
+# sprint drain default stat
+sprint_drain_rate: 0.3
+
+
+# apply or not slowness when the stamina reach 0
+Fatigue: true
+FatigueDuration: 5 # in seconds
+potion_effect_fatigue: SLOW
+ExhaustionParticle: true
+
+
+# -2 stamina everytime
+# the player jump
+JumpDrain: true
+JumpDrainRate: 2
+
+
+# Jump cancel can produce
+# glitch and movement error
+jumpCancel: false
+
+
+# Combat drain rate
+# Every swing
+EnduranceCombat: false
+# -2 every hit
+swingDrainRate: 2
+# Time in seconds
+# for mining fatigue (VisualEffect)
+CombatFatigue: true
+MiningFatigue: 3
+# When player received damage
+# drain stamina
+DrainStamina_onPlayerAttacked: false
+
+
+# Custom PlaceHolder setting
+PlaceHolderSymbols: I
+PlaceHolderLength: 10
+Color1: §a
+Color2: §c
+refill_amount: 10
+
+
+
+
+
+

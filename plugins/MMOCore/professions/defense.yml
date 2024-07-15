@@ -1,0 +1,20 @@
+
+# Display options
+name: Defense
+
+# Experience given to the main level
+# when leveling up this profession
+experience:
+    base: 1
+    per-level: 0
+
+# Must match an existing exp curve filename from the 'expcurves' folder
+exp-curve: levelsskills
+
+exp-table: defense_exp_table
+
+max-level: 99
+
+exp-sources:
+- 'damagetaken{type=ENTITY_ATTACK;amount=60-100}'
+- 'damagetaken{type=ENTITY_SWEEP_ATTACK;amount=60-100}'

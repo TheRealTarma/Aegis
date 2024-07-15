@@ -1,0 +1,158 @@
+quests:
+  '0':
+    name: Week 4 - Farming XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: farming # The block the player must break.
+    required-progress: 1500 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: wooden_hoe:0
+      amount: 1
+      name: '&eFarming XP'
+      lore:
+      - '&7Gain &e1500 Farming XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '1':
+    name: Week 4 - Alchemy XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: alchemy # The block the player must break.
+    required-progress: 1500 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: brewing_stand:0
+      amount: 1
+      name: '&eAlchemy XP'
+      lore:
+      - '&7Gain &e1500 Alchemy XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '2':
+    name: Week 4 - Social Butterfly
+    type: chat
+    variable: none
+    required-progress: 500
+    points: 30
+    item:
+      material: book:0
+      amount: 1
+      name: '&eSocial Butterfly'
+      lore:
+      - '&7Talk in chat &e500 times'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '3':
+    name: Week 4 - Social # The name given to the quest.
+    type: chat # The type of quest
+    variable: none # The block the player must break.
+    required-progress: 300 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: paper:0
+      amount: 1
+      name: '&eSocial'
+      lore:
+      - '&7Talk in chat &e300 times'
+      - ''
+      - '&7Progress &e%progress_bar%'
+  '4':
+    name: Week 4 - Grinder
+    type: kill-mob
+    variable: zombie
+    required-progress: 45
+    points: 30
+    item:
+      material: gold_sword:0
+      name: '&eGrinder'
+      lore:
+      - '&7Kill &e10 zombies'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '5':
+    name: Week 4 - Miner # The name given to the quest.
+    type: block-break # The type of quest
+    variable: coal_ore:0 # The block the player must break.
+    required-progress: 10 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    item: # The item that will be displayed in menus.
+      material: diamond_pickaxe:0
+      amount: 1
+      name: '&eMiner'
+      lore:
+      - '&7Mine &e10 coal'
+      - ''
+      - '&7Progress &e%progress_bar%'
+  '6':
+    name: Week 4 - Healer
+    type: regenerate
+    variable: none
+    required-progress: 50
+    points: 30
+    item:
+      material: apple:0
+      amount: 1
+      name: '&eHealer'
+      lore:
+      - '&7Regenerate &e50 health points'
+      - ''
+      - '&7Progress &e%total_progress%&7/&e%required_progress%'
+  '7':
+    name: Week 4 - Enchanting XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: enchanting # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: enchanted_book:0
+      amount: 1
+      name: '&eEnchanting XP'
+      lore:
+      - '&7Gain &e1200 Enchanting XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '8':
+    name: Week 4 - Mining XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: mining # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: golden_pickaxe:0
+      amount: 1
+      name: '&eMining XP'
+      lore:
+      - '&7Gain &e1200 Mining XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '9':
+    name: Week 4 - Fishing XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: fishing # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: fishing_rod:0
+      amount: 1
+      name: '&eFishing XP'
+      lore:
+      - '&7Gain &e1200 Fishing XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
+  '10':
+    name: Week 4 - Woodcutting XP # The name given to the quest.
+    type: mmocore_gain_exp # The type of quest
+    variable: woodcutting # The block the player must break.
+    required-progress: 1200 # The amount of times the player should break the coal ore block.
+    points: 30 # The amount of points that will be rewarded
+    exclusive: premium
+    item: # The item that will be displayed in menus.
+      material: golden_axe:0
+      amount: 1
+      name: '&eWoodcutting XP'
+      lore:
+      - '&7Gain &e1200 Woodcutting XP'
+      - ''
+      - '%progress_bar% &7(&a%percentage_progress%&7)'
