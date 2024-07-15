@@ -87,12 +87,12 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -4.1711197
+        bodyYaw: -144.27371
         world: world
         x: '-10.8491'
         y: '69.0'
         z: '215.9822'
-        yaw: '-4.1711'
+        yaw: '-144.2737'
         pitch: '0.0'
       spawned: true
       skintrait:
@@ -442,12 +442,12 @@ npc:
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       location:
-        bodyYaw: 180.00027
+        bodyYaw: 90.044495
         world: world
-        x: '43.5'
+        x: '37.368'
         y: '67.0'
-        z: '98.2404'
-        yaw: '-179.9997'
+        z: '61.5007'
+        yaw: '90.0445'
         pitch: '-1.1996'
       skintrait:
         fetchDefaultSkin: true
@@ -1150,13 +1150,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -126.25511
+        bodyYaw: 89.825806
         world: world
         x: '19.3565'
         y: '68.0'
         z: '146.6821'
-        yaw: '-126.2551'
-        pitch: '-32.8311'
+        yaw: '109.8258'
+        pitch: '5.5096'
       spawned: true
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
@@ -1222,12 +1222,12 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 90.47072
+        bodyYaw: 76.99829
         world: world
-        x: '55.1882'
+        x: '55.1569'
         y: '67.0'
-        z: '117.7885'
-        yaw: '110.4707'
+        z: '117.8159'
+        yaw: '96.9983'
         pitch: '0.0'
       spawned: true
       owner:
