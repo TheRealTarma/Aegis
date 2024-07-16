@@ -38,6 +38,7 @@ logs/
 banned_ips.json
 ops.json
 server-icon.png
+plugins/DiscordSRV/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows
 plugins/ItemsAdder/contents/Blockus-for-ItemsAdder/
