@@ -8,7 +8,7 @@ experience: 1.0
 class: HUMAN
 waypoints: []
 friends: []
-last-login: 1720854060195
+last-login: 1721159137242
 skill-tree-points:
   magic: 0
   trading: 0
@@ -226,7 +226,7 @@ profession:
     exp: 0.0
     level: 0
   constitution:
-    exp: 229.8119733256192
+    exp: 255.99913009850746
     level: 2
   fishing:
     exp: 0.0
@@ -244,7 +244,7 @@ profession:
     exp: 0.0
     level: 0
   defense:
-    exp: 3959.670611504227
+    exp: 4126.268129481162
     level: 31
   ranged:
     exp: 0.0

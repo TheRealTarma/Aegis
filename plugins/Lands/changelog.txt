@@ -1,17 +1,28 @@
-+ Added: Multi locale support for inbox messages
-+ Changed: Allow placement of landblock in non solid blocks
-- Fixed: Error when forcefully deleting land while area being rented
-- Fixed: War start broadcast didn't get sent
-- Fixed: Land enter title
++ Added: Broadcast message when upkeep for upkeep colleciton
+- Fixed: Insufficient funds upkeep reminder
 
+--> Language file (en-US.yml): 
++ Message: help.command.wars.list
++ Message: lands.command.upkeep.broadcast
 
 --> GUI file (en-US.yml): 
-+ Item: gui.player-management.items.default
-+ Item: gui.player-management.items.default.members_online
-+ Item: gui.list_members_online.items.default
-+ Item: gui.list_members_online.items.default.entry_area
-+ Item: gui.list_members_online.items.default.entry_area_all
-+ Item: gui.list_members_online.items.default.entry_nation
-+ Item: gui.list_members_online.items.default.refresh_toggle
-+ Item: gui.list_nation_lands.items.default
-+ Item: gui.list_nation_lands.items.default.members_online
++ Item: common.items.default.child_failure_noaccess_owner
++ Item: common.items.default.war_attackers
++ Item: common.items.default.war_defenders
++ Item: common.items.default.war_points
++ Item: gui.list_area_settings.items.default
++ Item: gui.list_area_settings.items.default.entry_block_spreading
++ Item: gui.war.items.default
++ Item: gui.war.items.default.war_points_declaration
++ Item: gui.war.items.default.flags
++ Item: gui.list_wars.items.default
++ Item: gui.list_wars.items.default.entry_object
++ Item: gui.war.items.default.war_attackers
++ Item: gui.war.items.default.war_defenders
++ Item: gui.war.items.default.war_points
++ Item: gui.war_info.items.default
++ Item: gui.war_info.items.default.war_attackers
++ Item: gui.war_info.items.default.war_defenders
++ Item: gui.war_info.items.default.war_points
+--> Flags (roles.yml and config.yml)
++ block_spreading

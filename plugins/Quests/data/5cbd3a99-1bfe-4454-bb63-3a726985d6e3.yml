@@ -7,10 +7,10 @@ questData:
   '000002':
     has-talked-to:
     - false
-    - false
+    - true
     custom-objective-counts:
-    - 1
-    - 2
+    - 5
+    - 6
 completed-Quests:
 - '000002'
 lastKnownName: Tarma_

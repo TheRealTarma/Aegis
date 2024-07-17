@@ -90,6 +90,11 @@ quests:
     :D. &8(&e%progress%&7/&8%required_progress%&8)'
   askyblock_createisland-completed: '&eQuests >> &7You completed the ASkyblock island
     quest!'
+  steps:
+    completed-info: '&7Already completed'
+    base-message-step-completed: '&8[&eQuests&8] &7You completed one step of the quest
+      &e%quest_name%'
+    boss-bar-message-step-completed: '&7&e%quest_name% Step Completed'
 
 quest-select:
   cancel: '&cClick LMB to cancel quest'
@@ -110,6 +115,10 @@ daily-quests:
     &8(&e%progress%&7/&8%required_progress%&8)'
   askyblock_createisland-completed: '&8[&eQuests&8] &7You completed the ASkyblock
     island daily quest!'
+  steps:
+    base-message-step-completed: '&8[&eQuests&8] &7You completed one step of the daily
+      quest &e%quest_name%'
+    boss-bar-message-step-completed: '&7&e%quest_name% Step Completed'
 boosters:
   points: Points
   progress: Progress
@@ -133,4 +142,25 @@ boosters:
     week: weekly quests
     n-week: week %num%
     tier: tier %tier%
-last-config-update: 4.5.3
+last-config-update: 4.5.8
+leaderboard-command:
+  tier-leaderboard:
+  - '&7&m=====&r&7[ &2Tier Leaderboard &7]&m====='
+  - '&7>> &b1. &r&a%battlepass_top_tier_name_1% &7- &2%battlepass_top_tier_value_1%'
+  - '&7>> &b2. &r&a%battlepass_top_tier_name_2% &7- &2%battlepass_top_tier_value_2%'
+  - '&7>> &b3. &r&a%battlepass_top_tier_name_3% &7- &2%battlepass_top_tier_value_3%'
+  - '&7>> &b4. &r&a%battlepass_top_tier_name_4% &7- &2%battlepass_top_tier_value_4%'
+  - '&7>> &b5. &r&a%battlepass_top_tier_name_5% &7- &2%battlepass_top_tier_value_5%'
+  - '&7>> ...'
+  - '&7>> &aYour score: &2%battlepass_top_tier_value_me% &7(&2&b%battlepass_top_tier_place_me%&r&7)'
+  - '&7>> &aNext refresh: &2%battlepass_top_time%'
+  quests-leaderboard:
+  - '&7&m=====&r&7[ &2Completed Quests Leaderboard &7]&m====='
+  - '&7>> &b1. &r&a%battlepass_top_quests_name_1% &7- &2%battlepass_top_quests_value_1%'
+  - '&7>> &b2. &r&a%battlepass_top_quests_name_2% &7- &2%battlepass_top_quests_value_2%'
+  - '&7>> &b3. &r&a%battlepass_top_quests_name_3% &7- &2%battlepass_top_quests_value_3%'
+  - '&7>> &b4. &r&a%battlepass_top_quests_name_4% &7- &2%battlepass_top_quests_value_4%'
+  - '&7>> &b5. &r&a%battlepass_top_quests_name_5% &7- &2%battlepass_top_quests_value_5%'
+  - '&7>> ...'
+  - '&7>> &aYour score: &2%battlepass_top_quests_value_me% &7(&2&b%battlepass_top_quests_place_me%&r&7)'
+  - '&7>> &aNext refresh: &2%battlepass_top_time%'

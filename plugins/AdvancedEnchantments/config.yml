@@ -880,6 +880,7 @@ settings:
   respect-player-placed-blocks: true
   exp-effect-ignore-silktouch: false
   grindstones-remove-custom-enchants: true
+  ignored-metadata-block-drops: []
 version: 1.0
 language: en-us
 armor-items:

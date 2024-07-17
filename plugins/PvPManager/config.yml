@@ -21,25 +21,27 @@ Auto Respawn: true
 # Ignore No Damage Hits -> Ignore hits from snowballs, eggs, fishing rod and others
 # World Exclusions -> List of worlds where PvPManager will have no effect
 General:
-  # Changes messages language, options are - EN | BG | DE | ES | FI | FR | HR | IT | JA | PL | pt_BR | RU | TR | zh_TW | ZH
+  # Changes messages language, options are - EN | BG | DE | ES | FI | FR | HR | IT | JA | KO | PL | pt_BR | RU | TR | zh_TW | ZH
   Locale: EN
   Default PvP: true
   Extra Protection: true
   PvP Blood: true
   Player Drop Mode: ALWAYS
+  # If true all deaths while combat tagged are considered PvP deaths since the player is fighting someone
+  Deaths While Tagged Count PvP: true
   Ignore No Damage Hits: true
   Auto Soup:
-     # How much health does soup heal, use 0 to disable
+    # How much health does soup heal, use 0 to disable
     Health: 0
-     # Should empty bowls just be deleted
+    # Should empty bowls just be deleted
     Bowl Disappear: false
   # Removes empty potion bottles and milk buckets after they are consumed
   Recycling:
     Potion Bottle: false
     Milk Bucket: false
   World Exclusions:
-  - 'example'
-    
+    - 'example'
+
 # Here you can choose which methods to use to stop 'border hopping' while players are tagged
 # Border hopping is when a player gets in PvP and tries to run into a safe zone to escape
 # The pushback feature currently supports regions from WorldGuard, Griefprevention, Towny and Lands
@@ -72,7 +74,7 @@ Anti Border Hopping:
   Reset Combat Tag: true
   # Name of regions where vulnerable will have no effect
   WorldGuard Exclusions:
-  - 'example'
+    - 'example'
 
 # What should be disabled when a player(except operators) enters PvP
 # Fly -> Disable any kind of fly mode
@@ -159,9 +161,9 @@ Tagged In Combat:
       Enabled: false
       # List of materials to block interaction, adding DOOR means all materials that end with DOOR like IRON_DOOR and so on
       List:
-      - 'DOOR'
-      - 'BUTTON'
-      - 'BED'
+        - 'DOOR'
+        - 'BUTTON'
+        - 'BED'
     Elytra: false
     Riptide: true
     Eat: false
@@ -171,24 +173,24 @@ Tagged In Combat:
       Enabled: true
       Whitelist: true
       Command List:
-      - 'tell'
-      - 'tag'
+        - 'tell'
+        - 'tag'
   Commands On Tag:
-  - '!CONSOLE examplecommand'
-  - '!PLAYER examplecommand'
+    - '!CONSOLE examplecommand'
+    - '!PLAYER examplecommand'
   Commands On Untag:
-  - '!CONSOLE examplecommand'
-  - '!PLAYER examplecommand'
+    - '!CONSOLE examplecommand'
+    - '!PLAYER examplecommand'
   WorldGuard Exclusions:
-  - 'example'
+    - 'example'
   Punishments:
     Punish On Kick:
       Enabled: true
       # If Match Kick Reason is enabled, the punishment will be applied only if the kick reason matches the list below
       Match Kick Reason: false
       Kick Reasons:
-      - 'Kicked for spamming'
-      - 'disconnect.spam'
+        - 'Kicked for spamming'
+        - 'disconnect.spam'
     Money Penalty: 0.0
     Log To File: true
     Kill on Logout: true
@@ -200,13 +202,13 @@ Tagged In Combat:
       Targetable By Mobs: true
       Spawn On All Logouts: false
       WorldGuard Exclusions:
-      - 'example'
+        - 'example'
     Drops On Death:
       Inventory: true
       Experience: true
       Armor: true
     Commands On PvPLog:
-    - 'announce &6[&8PvPManager&6]&c %p tried to escape combat!'
+      - 'announce &6[&8PvPManager&6]&c %p tried to escape combat!'
 
 # Should new players on your server be protected from PvP (If they want to PvP they can use /newbie disable)
 Newbie Protection:
@@ -221,8 +223,8 @@ Newbie Protection:
   # Protect newbies from all types of damage including PvE
   Protect From Everything: false
   Command Blacklist:
-  - 'examplecommand'
-    
+    - 'examplecommand'
+
 # Here you can set a cooldown, in seconds, to any item such as golden apples and enchanted golden apples
 # You can add other material types from here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
 # If the item is not edible the cooldown will only be activated for right clicks
@@ -250,15 +252,15 @@ Kill Abuse:
   Time Limit: 30
   # Possible variables are <player> and <victim>
   Commands on Abuse:
-  - 'kick <player> &cKill Abuse Is Not Allowed!'
+    - 'kick <player> &cKill Abuse Is Not Allowed!'
   Respawn Protection: 3
   Teleport Protection: 0
   WorldGuard Exclusions:
-  - 'example'
+    - 'example'
   Command Cooldown After Death:
     Time: 3
     Commands:
-    - 'back'
+      - 'back'
 
 # Section with settings triggered when a player kills another player
 # Money Reward - Money won as reward, use less or equal to 1 for percentage like 0.05 for 5%, 1 for 100% (0 to disable)
@@ -276,9 +278,9 @@ Player Kills:
     Lightning: false
   # Commands to execute on kill (<player> is the killer, <victim> is the victim, <item> is the item material in hand)
   Commands On Kill:
-  - 'examplecommand <player> killed <victim> with <item>'
+    - 'examplecommand <player> killed <victim> with <item>'
   WorldGuard Exclusions:
-  - 'exampleregion'
+    - 'exampleregion'
   Extra Drops: []
 
 # Section for PvP Toggle command - /pvp
@@ -304,23 +306,23 @@ PvP Toggle:
     Enabled: false
     Time: 30
     Commands On Cooldown Start:
-    - '!CONSOLE examplecommand <player>'
+      - '!CONSOLE examplecommand <player>'
   NameTags:
     Enabled: false
     Prefix On: '&1'
     Prefix Off: '&2'
-  # This setting runs every hour and applies a money fee to every player with PvP disabled, it's a very simplified system 
+  # This setting runs every hour and applies a money fee to every player with PvP disabled, it's a very simplified system
   # so it doesn't track how long PvP has been off for that player. Leave as 0 to disable
   PvP Disabled Money Fee: 0
   Commands PvP On:
-  - 'examplecommand %p turned pvp on'
+    - 'examplecommand %p turned pvp on'
   Commands PvP Off:
-  - 'examplecommand %p turned pvp off'
+    - 'examplecommand %p turned pvp off'
   WorldGuard Overrides: true
   WorldGuard Overrides Region List:
-  - 'example'
-    
-# Section for the /pvpgrant command that gives temporary protection    
+    - 'example'
+
+# Section for the /pvpgrant command that gives temporary protection
 PvP Grant:
   # Block players from picking up items while they have protection
   Block Pick Items: false
@@ -360,7 +362,7 @@ Plugin Hooks:
     # This requires a custom version of ajQueue made by me, prevents combat loggers from getting punished if in queue
     # List of destination servers that won't cause the player to be punished on combat log
     Servers:
-    - 'lobby'
+      - 'lobby'
 
 Database:
   # Database type, supported databases: SQLite or MySQL
@@ -380,21 +382,21 @@ Update Check:
 # Potions considered harmful, players will be tagged by them and protected from them
 # See list here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
 Harmful Potions:
-- 'SLOWNESS'
-- 'MINING_FATIGUE'
-- 'NAUSEA'
-- 'BLINDNESS'
-- 'HUNGER'
-- 'WEAKNESS'
-- 'POISON'
-- 'WITHER'
-- 'GLOWING'
-- 'LEVITATION'
-- 'UNLUCK'
-- 'BAD_OMEN'
+  - 'SLOWNESS'
+  - 'MINING_FATIGUE'
+  - 'NAUSEA'
+  - 'BLINDNESS'
+  - 'HUNGER'
+  - 'WEAKNESS'
+  - 'POISON'
+  - 'WITHER'
+  - 'GLOWING'
+  - 'LEVITATION'
+  - 'UNLUCK'
+  - 'BAD_OMEN'
 
 Debug Mode: false
 
 # Informs PvPManager if the config is updated, do not touch it unless you want to reset the config
-Config Version: 107
+Config Version: 108
 Database Version: 1

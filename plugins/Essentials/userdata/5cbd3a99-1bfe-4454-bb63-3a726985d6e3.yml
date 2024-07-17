@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 68.104.132.213
+ip-address: 155.186.253.181
 afk: false
 socialspy: false
 npc: false
@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: true
 timestamps:
-  lastteleport: 1720853796316
+  lastteleport: 1721092658512
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1720854060193
-  login: 1720853689277
+  logout: 1721159137239
+  login: 1721159327258
   kits:
     color: 1715038242007
     tools: 1718507958774
@@ -27,19 +27,19 @@ last-account-name: Tarma_
 logoutlocation:
   world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
   world-name: world
-  x: 7.10520282840752
-  y: 70.3677948587991
-  z: 67.98349986035501
-  yaw: -4.17767333984375
-  pitch: 13.551648139953613
+  x: -39.76518274709437
+  y: 91.6135182636338
+  z: 172.35407233250092
+  yaw: 173.69320678710938
+  pitch: 22.94971466064453
 lastlocation:
   world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
   world-name: world
-  x: -1870.1141193349843
-  y: 73.0
-  z: -12.39000636011457
-  yaw: 106.86842346191406
-  pitch: 8.992203712463379
+  x: 20.40075322142493
+  y: 95.87103079345881
+  z: 82.99568473665873
+  yaw: 3.4510464668273926
+  pitch: 25.050046920776367
 homes:
   home:
     world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12

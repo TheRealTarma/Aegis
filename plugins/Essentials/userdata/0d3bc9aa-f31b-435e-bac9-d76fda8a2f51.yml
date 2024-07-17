@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1720750172425
+  lastteleport: 1721017237228
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1720750200836
-  login: 1720749423880
-money: '449297.15'
+  logout: 1721018358875
+  login: 1721017834015
+money: '449135.15'
 last-account-name: zero99x
 logoutlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 56.82452195039385
+  y: 68.1875
+  z: 111.41101160744412
+  yaw: 72.24609375
+  pitch: 23.700119018554688
+lastlocation:
   world: 50fe244b-06b7-44d4-bc84-22d12fa3c391
   world-name: Flat
-  x: -73.14530732295657
-  y: -60.0
-  z: 4.263139885153077
-  yaw: 148.80172729492188
-  pitch: 20.54990005493164
-lastlocation:
-  world: 3c0711c8-e82e-4f32-a6ba-28dccdedb101
-  world-name: Palette
-  x: 2.725832490737771
-  y: -60.0
-  z: -1.2776849693450485
-  yaw: 168.9020538330078
-  pitch: 15.599993705749512
+  x: -68.07167719863257
+  y: -57.006578357854394
+  z: 17.70516404126912
+  yaw: -178.94725036621094
+  pitch: 8.699930191040039
 mail:
 - legacy: false
   read: true

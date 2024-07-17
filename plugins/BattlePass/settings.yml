@@ -176,4 +176,14 @@ quest-select:
 boosters-strategy: SUM_DIFFERENT
 menu-show-id: true
 menu-auto-add-booster-lore: true
-last-config-update: 4.5.3
+last-config-update: 4.5.8
+leaderboards:
+  # Create leaderboard cache and update it every X minutes.
+  # Recommended for servers with large amount of players - if disabled on these server, plugin can crash when opening leaderboard
+  # Disable only on low memory servers
+  use-cache: true
+  # Refresh leaderboard cache every X minutes
+  # Use placeholder %battlepass_top_time% to get time to refresh
+  cache-refresh-minutes: 10
+  # Name of player if plugin couldn't find that player in server's cache
+  not-found-name: Error

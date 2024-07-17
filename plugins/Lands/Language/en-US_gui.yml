@@ -247,6 +247,45 @@ common:
         - '&cCan''t disable this, if you''re viewing entries'
         - '&cfor all areas. &7Enable "&6&lView only area&7"'
         - '&7to change this.'
+      child_failure_noaccess_owner:
+        name: '&4&lNot allowed'
+        lore:
+        - '&7Only the owner of {object}&7 can do that.'
+      war_attackers:
+        lore:
+        - '&8✖ &7View all attacking lands.'
+        - '   &7Players: {players}'
+        - ''
+        - '&6&lProgress'
+        - ' &8• &7Captures: {cap}'
+        - ' &8• &7Kills: {kills}'
+        - '   &3= {points} / {towin} &7points to win'
+        - '   {bar}'
+        name: '&c&lAttacker {object}'
+      war_defenders:
+        lore:
+        - '&8✖ &7View all defending lands.'
+        - '   &7Players: {players}'
+        - ''
+        - '&6&lProgress'
+        - ' &8• &7Captures: {cap}'
+        - ' &8• &7Kills: {kills}'
+        - '   &3= {points} / {towin} &7points to win'
+        - '   {bar}'
+        name: '&a&lDefender {object}'
+      war_points:
+        lore:
+        - '&7A team needs&3 {points} &7points to win.'
+        - ' &8• &7Kill: &3{p_kill} point(s)'
+        - ' &8• &7Capture: &3{p_cap} point(s)'
+        - '    &8• &7To capture an enemy area, place'
+        - '      &7a capture flag inside it. You'
+        - '      &7can see the crafting recipe'
+        - '      &7for it in this menu.'
+        - ''
+        - ' &8• &7If no team reaches {points} points, the war'
+        - '   &7will timeout in&5 {time}&7.'
+        name: '&6&lPoint Distribution'
   size: 45
   entries: 10-36
   auto-correct: true
@@ -1199,6 +1238,15 @@ gui:
           - '   &7Unlocked: {unlocked}'
           name: '&6&lWater and Lava Flow: {enabled}'
           material: WATER_BUCKET
+        entry_block_spreading:
+          material: BUDDING_AMETHYST
+          name: '&6&lBlock Spreading from Land: {enabled}'
+          lore:
+          - '&8✖ &7Allow blocks to spread into this area'
+          - '   &7from other areas of this land?'
+          - '    &8• &7This affects blocks such as amethyst blocks.'
+          - '    &8• &7Blocks from the wilderness can never spread'
+          - '      &7into this area.'
   list_role_settings:
     title: '&8Flags'
     items:
@@ -2003,39 +2051,11 @@ gui:
           - '&cThe enemy {enemy} &chas no claims'
           - '&cto teleport to.'
           name: '&4&lNo Claims'
-        attackers:
-          lore:
-          - '&8✖ &7View all attacking lands.'
-          - '&7Players: {players}'
-          - ''
-          - '&6&lProgress'
-          - ' &8• &7Captures: {cap}'
-          - ' &8• &7Kills: {kills}'
-          - '   &3= {points} / {towin} &7points to win'
-          - '   {bar}'
-          name: '&c&lAttacker {object}'
-          material: IRON_SWORD
-          slots: 11
         child_failure_attacker:
           lore:
           - '&7Attackers aren''t allowed to'
           - '&7surrender in wars at all.'
           name: '&4&lCan''t surrender'
-        points:
-          lore:
-          - '&7A team needs&3 {points} &7points to win.'
-          - ' &8• &7Kill: &3{p_kill} point(s)'
-          - ' &8• &7Capture: &3{p_cap} point(s)'
-          - '    &8• &7To capture an enemy area, place'
-          - '      &7a capture flag inside it. You'
-          - '      &7can see the crafting recipe'
-          - '      &7for it in this menu.'
-          - ''
-          - '&6&lEnemies can do this in your Land:'
-          - '{settings}'
-          name: '&6&lPoint Distribution'
-          material: IRON_INGOT
-          slots: 14
         child_failure_cost:
           lore:
           - '&cYou &8({object}&8) &chave'
@@ -2048,34 +2068,11 @@ gui:
           name: '&6&lSpawn'
           material: ENDER_PEARL
           slots: 9
-        defenders:
-          lore:
-          - '&8✖ &7View all defending lands.'
-          - '&7Players: {players}'
-          - ''
-          - '&6&lProgress'
-          - ' &8• &7Captures: {cap}'
-          - ' &8• &7Kills: {kills}'
-          - '   &3= {points} / {towin} &7points to win'
-          - '   {bar}'
-          name: '&a&lDefender {object}'
-          material: SHIELD
-          slots: 12
         declaration_start:
           lore:
           - '&7The war will start in&5 {time}&7.'
           - '&7Until then each team has time to prepare.'
           name: '&6&lStart'
-          material: CLOCK
-          slots: 15
-        war_end:
-          lore:
-          - '&7The war will end, if one team reaches'
-          - '&7a total amount of&3 {points} &7points'
-          - '&7or a team surrenders.'
-          - ' &8• &7If no team reaches {points} points:'
-          - '   &7The war will timeout in&5 {end}&7.'
-          name: '&6&lEnd'
           material: CLOCK
           slots: 15
         tribute_attacker:
@@ -2095,6 +2092,37 @@ gui:
           name: '&6&lTribute:&c {tribute}'
           material: GOLD_INGOT
           slots: 29
+        war_points_declaration:
+          material: IRON_INGOT
+          slots: 13
+          lore:
+          - '&7A team needs&3 {points} &7points to win.'
+          - ' &8• &7Kill: &3{p_kill} point(s)'
+          - ' &8• &7Capture: &3{p_cap} point(s)'
+          - '    &8• &7To capture an enemy area, place'
+          - '      &7a capture flag inside it. You'
+          - '      &7can see the crafting recipe'
+          - '      &7for it in this menu.'
+          - ''
+          - ' &8• &7The war will start in:&5 {time}'
+          name: '&6&lPoint Distribution'
+        flags:
+          material: IRON_PICKAXE
+          slots: 14
+          name: '&6&lActive Flags'
+          lore:
+          - '&7Involved players can do the following'
+          - '&7things in affected lands:'
+          - '{settings}'
+        war_attackers:
+          material: IRON_SWORD
+          slots: 11
+        war_defenders:
+          material: SHIELD
+          slots: 12
+        war_points:
+          material: IRON_INGOT
+          slots: 13
   admin_main:
     title: '&8Admin Main Menu'
     items:
@@ -3389,6 +3417,33 @@ gui:
           material: INHERIT
           name: '&e&l{player}'
     title: '&8Online Members'
+  list_wars:
+    items:
+      default:
+        entry_object:
+          material: IRON_SWORD
+          name: '{attacker}&7 vs. {defender}'
+          lore:
+          - ' &8• &7Progress:&3 {points} / {points_towin} &7points'
+          - '   {points_bar}'
+          - ''
+          - ' &8• &7Timeout: &5{timeout}'
+          - ' &8• &7Attacker: {attacker}'
+          - ' &8• &7Defender: {defender}'
+    title: '&8Ongoing Wars'
+  war_info:
+    items:
+      default:
+        war_attackers:
+          material: IRON_SWORD
+          slots: 21
+        war_defenders:
+          material: SHIELD
+          slots: 23
+        war_points:
+          material: IRON_INGOT
+          slots: 25
+    title: '&8War Info'
 skull:
   area:
     sub: OAK_FENCE
