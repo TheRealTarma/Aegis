@@ -6,6 +6,9 @@ enabled: true
 chance: 2
 
 # This does not remove default mob spawns. This only spawns additional mobs to biomes
+# To use MythicMobs, you need to append a line on the biome you want with the following format:
+# mythicmob:<type>:hostile, the ":hostile" suffix is optional. If the mob is cataloged as "hostile", that means
+# that it will spawn on low-light blocks.
 seasons:
   SPRING:
     ALL: # For all biomes
@@ -16,6 +19,7 @@ seasons:
       - COW
       - PIG
       - HORSE
+#      - mythicmob:SkeletalKnight:hostile
 #   FORESTS: # You can also configure per-biome mobs this way. It's a custom biome's name. If you set it for biomes,
 #    - ''   # then it will not pick mobs from ALL
   SUMMER:

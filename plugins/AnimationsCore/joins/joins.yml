@@ -1,0 +1,5 @@
+animations:
+  warp_pipe:
+    mm-id: join-warp_pipe
+    duration: 60
+    permission: "animcore.join.warp_pipe"

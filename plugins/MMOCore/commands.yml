@@ -24,6 +24,7 @@ skills:
   main: skills
   aliases:
   - s
+  - spells
   description: Spend skill points to unlock new skills
 friends:
   main: friends

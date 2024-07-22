@@ -33,7 +33,7 @@ NicknameSynchronizationFormat: "%displayname%"
 # GroupRoleSynchronizationCycleTime: amount of minutes between repeatedly triggering synchronization for all online players
 # GroupRoleSynchronizationCycleCompletely: whether synchronizations running on a timer should synchronize every member in the bots Discord servers
 #
-GroupRoleSynchronizationGroupsAndRolesToSync: {"trusted": "000000000000000000", "vip": "000000000000000000"}
+GroupRoleSynchronizationGroupsAndRolesToSync: {"level-10": "1247670311835537510", "level-20": "1247670310749081654", "administrator": "1070897968753938483"}
 GroupRoleSynchronizationMinecraftIsAuthoritative: true
 GroupRoleSynchronizationOneWay: false
 GroupRoleSynchronizationEnableDenyPermission: false

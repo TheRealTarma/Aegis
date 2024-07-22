@@ -261,7 +261,7 @@ land:
     # NOTE: This includes also one chunk claim, which will be claimed automatically on land creation.
     # NOTE: PLAYERS WITH THE lands.free.lands.<number> PERMISSION MIGHT BYPASS THAT.
     #   More info: https://github.com/Angeschossen/Lands/wiki/Permissions#numbered-permissions
-    costs: 0.0
+    costs: 100.0
     mainblock:
       # Toggle the placement of new mainblocks.
       # This doesn't remove existing ones. However, existing ones can manually be deleted.
@@ -639,7 +639,7 @@ camp:
   costs_8: 0
   # After how much time should camps be deleted?
   # 0 = never
-  expire_time: 1d
+  expire_time: 3d
   # Configure the default radius of chunks to claim.
   # You can override this executing /lands player <player> give camp <radius> [silent]
   # 0 = only the chunk in which the camp item is placed.
@@ -975,7 +975,7 @@ database:
     master: false
 
   # Use SQLite for the database. Doesn't require a database server.
-  sqlite-v2: false
+  sqlite-v2: true
 
   ##########################################################
   # Deprecated SQL schema. Use mysql-v2 (above) instead. #

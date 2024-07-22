@@ -1,6 +1,10 @@
 # Seasonal items shop
 enabled: true
 
+# Set this to false if you want to disable shops on worlds
+# without seasons.
+allowOnAllWorlds: true
+
 name: "&b&lSeasons Shop"
 size: 27
 

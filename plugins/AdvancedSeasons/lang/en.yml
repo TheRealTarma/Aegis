@@ -29,6 +29,7 @@ seasons:
   WINTER: 'Winter'
 
 messages:
+  notAllowedWorld: "&cSeasons are not allowed on world &e%world%&c"
   notEnoughMoney: '%prefix% &cYou do not have enough EXP to purchase this item!'
   purchasedItem: '%prefix% &aYou have purchased %item name% for %price%!'
   biomeInfo:

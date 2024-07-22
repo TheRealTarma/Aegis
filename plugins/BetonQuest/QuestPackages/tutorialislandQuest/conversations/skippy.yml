@@ -1,0 +1,21 @@
+conversations:
+  Skippy:
+    quester: "Skippy"
+    first: "firstGreeting"
+    NPC_options:
+      firstGreeting:
+        text: "Heeeyyy, buddy! Hic You wanna skip that snooozy tutorial? Just, uh, come with me, Skippy. I'll... I'll get you to the fun stuff, nooo problemo! Who needs all that... uh, boring stuff anyway? Let's just, like, dive right in and have a blast!"
+        pointer: "firstgreetingpromptyes,firstgreetingpromptno"
+      skippingtutorial:
+        text: "Alright *hic* Hold Still!"
+        events: "fancyspawntele"
+      notskippingtutorial:
+        text: "Whatever."
+
+    player_options:
+      firstgreetingpromptyes:
+        text: "I would like to skip the tutorial!"
+        pointer: "skippingtutorial"
+      firstgreetingpromptno:
+        text: "Nevermind!"
+        pointer: "notskippingtutorial"

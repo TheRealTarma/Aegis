@@ -56,7 +56,7 @@ recipes:
         # Ingredients needed for the recipe
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
-        - vanilla{type=CHARCOAL,amount=1}
+        - vanilla{type=COAL,amount=1}
         - vanilla{type=RAW_COPPER,amount=1}
 
         triggers:
@@ -86,7 +86,7 @@ recipes:
         # Ingredients needed for the recipe
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
-        - vanilla{type=CHARCOAL,amount=1}
+        - vanilla{type=COAL,amount=1}
         - vanilla{type=RAW_IRON,amount=1}
 
         triggers:

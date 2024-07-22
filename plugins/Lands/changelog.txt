@@ -26,3 +26,8 @@
 + Item: gui.war_info.items.default.war_points
 --> Flags (roles.yml and config.yml)
 + block_spreading
+--> Flags (roles.yml and config.yml)
++ seasons
++ seasonblocks
++ seasonmobs
++ temperature

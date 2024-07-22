@@ -429,7 +429,7 @@ Announcer:
     # Set to blank if you don't want a hover text
     Hover: ''
     # This is in seconds
-    Frequency: 900
+    Frequency: 1800
     # Send this message one more time one minute before scheduled draw
     OneMinuteBefore: true
   # This section is only available on Minecraft 1.9+
@@ -655,4 +655,4 @@ PlaceholderAPI:
   HideResultsWhileGameIsLocked: true
 
 Options:
-  Updater: true
+  Updater: false

@@ -1,0 +1,17 @@
+conditions: 
+  hasRecievedRod: tag recievedRod
+  hasRodInInv: "item fishingrod:1"
+  hasCodInInv: "item cod:1"
+  hasWoodInInv: "item oaklog:1"
+  hasfoodininv: "mmoitem COOKINGPACK GLAZED_HAM 1"
+  hasskillmasterdone: "tag skillmasterdone"
+  hassurvivalistdone: "tag survivalistdone"
+  hasblacksmithdone: "tag blacksmithdone"
+  hascombatdone: "tag combatdone"
+  hasPickaxeininv: "item stonepick:1"
+  hasCoalininv: "item coal:3"
+  hasCopperininv: "item copper:3"
+  hasCopperIngininv: "mmoitem MATERIAL COPPER_INGOT 3"
+  hasSticksininv: "item sticks:2"
+  hasCopperPickaxe: "mmoitem TOOL COPPER_PICKAXE 1"
+  haskilledrats: "tag killedrats"

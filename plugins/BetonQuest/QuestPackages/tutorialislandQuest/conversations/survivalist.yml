@@ -1,0 +1,58 @@
+conversations:
+  Survivalist:
+    quester: "Survivalist"
+    first: "done,cooking3,woodcuttingcomplete,codininv,rodininv,firstGreeting"
+    NPC_options:
+      firstGreeting:
+        text: "Hello, I am the resident Survivalist here on Tutorial Island. Being so far out in the ocean means that its up to me to ensure that the locals know how to survive out there, as well as ensure the chef is kept stocked with a steady supply of fish."
+        pointer: "continue1"
+      greeting1:
+        text: "Speaking of which, I see you don't yet have a rod! Here! Take a my old one."
+        events: "giveusedrod,addhasRecievedRodTag"
+        pointer: "continue2"
+      fishingobj:
+        text: "Looks good on you! Go ahead and cast it out into the Sea! You'll know when you have a fish on the line, as the bobber will dip and you will need to right click it. Once the slider appears on your screen, right click again when the arrow is in the green part of the meter to reel the fish in."
+        events: "startFishingObj"
+      rodininv:
+        text: "I don't have anymore extras! Now go on and get fishing!"
+        conditions: "hasRodInInv"
+      codininv:
+        text: "Very nice catch! I think you're ready for the next step!"
+        pointer: "continue3"
+        conditions: "hasCodInInv"
+      woodcutting:
+        text: "Next, let's talk about woodcutting, I mean you do need to cook somehow! Here is a stone axe to get you started. You will gain XP per log chopped. Higher tier axes, are available at higher levels. The higher the tier of axe you have, the higher the tier of wood you can chop. High tier axes have the ability to knock a tree over in one chop."
+        events: "givestoneaxe"
+      woodcuttingcomplete:
+        text: "Excellent job! You can hold onto that axe, it should serve you well."
+        pointer: "continue4"
+        conditions: "hasWoodInInv"
+      cooking:
+        text: "Now let's cover an equally important skill, cooking. (WIP) Basic recipes do not provide you much XP as they have no level requirement for crafting them, however the higher tier specialty foods give you a significant amount of XP. "
+        pointer: "continue5"
+      cooking2:
+        text: "Increasing your cooking skill will give you access to higher tier foods that provide you stronger benefits. You will have access to this basic recipe for now. Here are the ingredients. Go ahead and right click them on the cooking pot nearby. "
+        events: "giveingredients"
+      cooking3:
+        text: "Looks tasty! That's all I have to teach you! Head over to the Blacksmith at the quarry for your next lesson, Goodluck traveler."
+        conditions: "hasfoodininv"
+        events: "addsurvivalistdone"
+      done:
+        text: "Head over to the Blacksmith at the quarry for your next lesson, Goodluck traveler."
+        conditions: "hassurvivalistdone"
+    player_options:
+      continue1:
+        text: "Continue"
+        pointer: "greeting1"
+      continue2:
+        text: "Continue"
+        pointer: "fishingobj"
+      continue3:
+        text: "Continue"
+        pointer: "woodcutting"
+      continue4:
+        text: "Continue"
+        pointer: "cooking"
+      continue5:
+        text: "Continue"
+        pointer: "cooking2"

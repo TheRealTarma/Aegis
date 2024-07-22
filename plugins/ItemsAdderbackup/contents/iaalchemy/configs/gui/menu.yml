@@ -1,8 +1,0 @@
-info:
-  namespace: iaalchemy
-font_images:
-  alchemy_category:
-    enabled: true
-    path: gui/alchemy_category
-    suggest_in_command: false
-    y_position: 47

@@ -1,0 +1,20 @@
+metadata:
+  version: 1.0
+  serverVersion: 'git-Paper-496 (MC: 1.20.4)'
+  bukkitVersion: 1.20.4-R0.1-SNAPSHOT
+  creationDate: '2024-07-17 01:57:12'
+  saveDate: '2024-07-17 01:57:12'
+  author:
+    name: Tarma_
+    uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
+properties:
+  durationTicks: 20.0
+  usePumpkinHelmet: false
+  useWanderingTraderEggHelmet: false
+  endActions:
+    playerCommands: [
+      ]
+    consoleCommands: [
+      ]
+timelineRows: {
+  }

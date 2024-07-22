@@ -1,5 +1,5 @@
 # GUI display name
-name: 'Selected Skill: &6{skill}'
+name: 'Selected Spell: &6{skill}'
 
 # Number of slots in your inventory. Must be
 # between 9 and 54 and must be a multiple of 9.
@@ -51,7 +51,7 @@ items:
     function: slot
     item: GRAY_DYE
 
-    name: '&aSkill Slot {slot}'
+    name: '&aSpell Slot {slot}'
     no-skill: '&cNone'
 
     #If this is filled, the item shown in the GUI when a slot is filled will be the item specified here.
@@ -59,7 +59,7 @@ items:
     #filled-item:
     #filled-custom-model-data:
     lore:
-      - '&7Current Skill: &6{skill}'
+      - '&7Current Spell: &6{skill}'
       - ''
       - '{slot-lore}'
       - ''

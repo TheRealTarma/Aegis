@@ -10,7 +10,7 @@ resource-pack:
       enabled: false
     self-host:
       enabled: true
-      server-ip: 51.81.53.220
+      server-ip: 135.148.39.136
       pack-port: 4585
     external-host:
       enabled: false
@@ -28,10 +28,10 @@ resource-pack:
   expert_users:
     allow_other_plugins_resourcepacks: false
   protect-player:
-    black-screen: true
+    black-screen: false
     hide-hud: true
-    cancel-movement: true
-    lock-player: true
+    cancel-movement: false
+    lock-player: false
   command:
     usage-cooldown-seconds: 60
   custom-font:
@@ -101,7 +101,7 @@ blocks:
   disable-REAL: false
   disable-REAL_NOTE: false
   disable-REAL_TRANSPARENT: false
-  disable-REAL_WIRE: false
+  disable-REAL_WIRE: true
   disable-FIRE: false
   convert-vanilla-blocks:
     enabled: false

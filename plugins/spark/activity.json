@@ -1,0 +1,80 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Tarma_",
+      "uniqueId": "5cbd3a99-1bfe-4454-bb63-3a726985d6e3"
+    },
+    "time": 1721422683460,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/otXVEWbZfA"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Tarma_",
+      "uniqueId": "5cbd3a99-1bfe-4454-bb63-3a726985d6e3"
+    },
+    "time": 1721353119804,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3p0c34tIXs"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Tarma_",
+      "uniqueId": "5cbd3a99-1bfe-4454-bb63-3a726985d6e3"
+    },
+    "time": 1721349406900,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rIiHg6hVRB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Tarma_",
+      "uniqueId": "5cbd3a99-1bfe-4454-bb63-3a726985d6e3"
+    },
+    "time": 1721349404592,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1x5IWsgWm1"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Tarma_",
+      "uniqueId": "5cbd3a99-1bfe-4454-bb63-3a726985d6e3"
+    },
+    "time": 1721345911585,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/A4BXueJp5t"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Tarma_",
+      "uniqueId": "5cbd3a99-1bfe-4454-bb63-3a726985d6e3"
+    },
+    "time": 1721345909714,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Suyd7BF8Pw"
+    }
+  }
+]

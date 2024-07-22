@@ -1,0 +1,78 @@
+#Simple Linear Conversation
+#conversations:
+#   NPCNAME:
+#     quester: "NPCNAME"
+#     first: "firstGreeting"
+#     NPC_options:
+#       firstGreeting:
+#         text: ""
+#         pointer: "playerresponse1"
+#       npcresponse1:
+#         text: ""
+#         pointer: "playerresponse2"
+#       npcresponse2:
+#         text: ""
+#         pointer: "playerresponse3"
+#       npcresponse3:
+#         text: ""
+#         pointer: "playerresponse4"
+#       npcresponse4:
+#         text: ""
+#         pointer: "playerresponse5"
+#       npcresponse5:
+#         text: ""
+#         pointer: "playerresponse6"
+#       npcresponse6:
+#         text: ""
+#         pointer: "playerresponse7"
+#       npcresponse7:
+#         text: ""
+#         pointer: "playerresponse8"
+#       npcresponse8:
+#         text: ""
+
+#     player_options:
+#       playerresponse1:
+#         text: "Continue"
+#         pointer: "npcresponse1"
+#       playerresponse2:
+#         text: "Continue"
+#         pointer: "npcresponse2"
+#       playerresponse3:
+#         text: "Continue"
+#         pointer: "npcresponse3"
+#       playerresponse4:
+#         text: "Continue"
+#         pointer: "npcresponse4"
+#       playerresponse5:
+#         text: "Continue"
+#         pointer: "npcresponse5"
+#       playerresponse6:
+#         text: "Continue"
+#         pointer: "npcresponse6"
+#       playerresponse7:
+#         text: "Continue"
+#         pointer: "npcresponse7"
+#       playerresponse8:
+#         text: "Continue"
+#         pointer: "npcresponse8"
+
+# 4 Answer Question
+#     NPC_options:
+#       npcresponse1:
+#         text: ""
+#         pointer: "playerresponse1,playerresponse2,playerresponse3,playerresponse4"
+
+#     player_options:
+#       playerresponse1:
+#         text: "Continue"
+#         pointer: ""
+#       playerresponse2:
+#         text: "Continue"
+#         pointer: ""
+#       playerresponse3:
+#         text: "Continue"
+#         pointer: ""
+#       playerresponse4:
+#         text: "Continue"
+#         pointer: ""

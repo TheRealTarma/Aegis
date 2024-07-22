@@ -3,12 +3,12 @@ skill-points: 0
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 18
-experience: 1.0
+level: 3
+experience: 2.0
 class: HUMAN
 waypoints: []
 friends: []
-last-login: 1721159137242
+last-login: 1721616947232
 skill-tree-points:
   magic: 0
   trading: 0
@@ -163,19 +163,19 @@ unlocked-items: []
 times-claimed:
   profession_attack:
     attack_exp_table:
-      attribute_point: 21
+      attribute_point: 4
   class_HUMAN:
     class_exp_table:
-      level_up: 19
+      level_up: 7
       skill_point: 6
       attribute_point: 17
       skill_tree_point: 1
   profession_defense:
     defense_exp_table:
-      attribute_point: 30
+      attribute_point: 16
   profession_constitution:
     constitution_exp_table:
-      attribute_point: 20
+      attribute_point: 2
   profession_magic:
     magic_exp_table:
       attribute_point: 60
@@ -216,8 +216,8 @@ attribute:
   magic: 0
   constitution: 0
   ranged: 0
-  defense: 4
-  attack: 19
+  defense: 0
+  attack: 0
 profession:
   magic:
     exp: 0.0
@@ -226,8 +226,8 @@ profession:
     exp: 0.0
     level: 0
   constitution:
-    exp: 255.99913009850746
-    level: 2
+    exp: 37.94214329582587
+    level: 3
   fishing:
     exp: 0.0
     level: 0
@@ -244,14 +244,14 @@ profession:
     exp: 0.0
     level: 0
   defense:
-    exp: 4126.268129481162
-    level: 31
+    exp: 1380.0435106582727
+    level: 7
   ranged:
     exp: 0.0
     level: 0
   attack:
-    exp: 2549.7298741340637
-    level: 22
+    exp: 249.22560513019562
+    level: 0
   farming:
     exp: 0.0
     level: 0

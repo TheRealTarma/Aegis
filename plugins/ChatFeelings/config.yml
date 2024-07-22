@@ -42,7 +42,7 @@ Other:
     Cleanup-After-Days: 185
     Erase-If-Banned: true
   Updates:
-    Check: true
+    Check: false
   Metrics: true
   Debug: false
   Reduce-Console-Msgs: false

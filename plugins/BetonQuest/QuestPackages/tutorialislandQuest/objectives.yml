@@ -1,0 +1,4 @@
+objectives: 
+  fishingObj: "pickup cod amount:1  events:caughtAllFish"
+  woodcuttingObj: "pickup oaklog amount:6 events:gotallwood"
+  ratkillObj: "mmobkill rpg_rat amount:3 notify:1 events:fancybacktele,addhaskilledrats"

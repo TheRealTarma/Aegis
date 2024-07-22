@@ -1,3 +1,5 @@
+# Maximum combined length of day and night cannot exceed 20 minutes
+
 time:
   # In Vanilla: entire day in normal minecraft is 20 minutes
   spring:
@@ -17,7 +19,7 @@ time:
 # Seasons Progression
 progression:
   # Should season progression be paused? Set to true to pause
-  paused: true
+  paused: false
 
 calendar:
   # How many days should one season last

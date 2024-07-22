@@ -1,0 +1,45 @@
+conversations:
+  Blacksmith:
+    quester: "Blacksmith"
+    first: "alldone,pickaxecrafted,anvilredirect,ingotssmithed,miningcompletedsmithingstart,alreadyhavestonepick,firstGreeting"
+    NPC_options:
+      firstGreeting:
+        text: "Greetings, traveler! I'm the Blacksmith, and I'm here to teach you about Mining and Smithing—two essential skills that fuel the rest of the skill trees with materials and tools."
+        pointer: "continue1"
+      mining:
+        text: "To gain &amining XP&r:mc_iron_pickaxe:, you'll need to delve deep into the crust and mine ores. The higher the tier of ore, the more XP you’ll earn, but you'll also need a higher-tier tool to mine it. Remember, coal is the lifeblood of blacksmiths everywhere, so be sure to collect plenty of it!"
+        pointer: "continue2"
+      stonepickaxe:
+        text: "Here, take this Stone Pickaxe and head over to the quarry to mine 3 &6Copper ore&r and 3 &7Coal&r."
+        events: "givestonepickaxe,minereset"
+      alreadyhavestonepick:
+        text: "I already gave you a pickaxe! Go collect the materials I requested!"
+        conditions: "hasPickaxeininv"
+      miningcompletedsmithingstart:
+        text: "Excellent job! Now, let’s turn those resources into ingots at the forge. The forge rewards you XP for smelting ingots, Right-click on the forge and smith 3 &6copper ingots&r."
+        conditions: "hasCoalininv,hasCopperininv"
+      ingotssmithed:
+        text: "Great work! Now that you have the ingots, take these sticks and head over to the anvil. The anvil can craft tools, armor, and much more. Each of these reward XP based on how many resources are consumed in the craft and of what type! Go ahead and craft yourself a &6copper pickaxe&r."
+        conditions: "hasCopperIngininv"
+        events: "givesticks"
+      anvilredirect:
+        text: "Head over to the Anvil and craft a copper pickaxe"
+        conditions: "hasSticksininv"
+      pickaxecrafted:
+        text: "You're learning quickly! I think that's all I have to teach you for now. Head over to the Combat Instructor for a crash course. Good luck, traveler!"
+        conditions: "hasCopperPickaxe"
+        events: "addblacksmithdone"
+      alldone:
+        text: "That's all I have to teach you for now. Head over to the Combat Instructor for a crash course. Good luck, traveler!"
+        conditions: hasblacksmithdone
+
+    player_options:
+      continue1:
+        text: "&7&nContinue"
+        pointer: "mining"
+      continue2:
+        text: "&7&nContinue"
+        pointer: "stonepickaxe"
+      continue5:
+        text: "&7&nContinue"
+        pointer: "pickaxecrafted"

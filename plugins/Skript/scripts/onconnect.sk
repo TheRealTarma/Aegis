@@ -5,3 +5,8 @@ on resource pack response:
 on first join:
     execute console command "/warp Tutorial %player%"
 
+on first join:
+	execute console command "/lp user %player% promote levels"
+
+on first join:
+		execute console command "/rg addmem tutorial_island %player%"

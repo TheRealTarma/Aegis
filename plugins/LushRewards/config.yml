@@ -58,4 +58,4 @@ enable-performance-mode: false
 # Debug Modes: none, daily, playtime, all
 debug-mode: none
 # Updater: Disable to turn off update notifications and update command
-enable-updater: true
+enable-updater: false

@@ -1,0 +1,63 @@
+conversations:
+  Mayor:
+    quester: "Mayor"
+    first: "firstGreeting"
+    NPC_options:
+      firstGreeting:
+        text: "Traveler! I have heard so much about you! I am the Mayor of Tutorial Island, before you part ways on your quest, I wanted to explain to you how you too can own a thriving community and join the elite, such as myself."
+        pointer: "playerresponse1"
+      npcresponse1:
+        text: "Lands are essential for players as they provide control over specific areas in the world. Do /lands to view the menu. You can use lands to make claims, ensuring that your hard-earned resources and buildings are safe from others. It's your domain, your sanctuary. "
+        pointer: "playerresponse2"
+      npcresponse2:
+        text: "You can do /lands create <name> to create your first land with for 100 :taro:. With your claimed land, you can grant access to other players, allowing friends or allies to build and interact within your territory. This fosters collaboration and strengthens your community."
+        pointer: "playerresponse3"
+      npcresponse3:
+        text: "Additionally, you can rent out areas of your claim to earn money. Set up rental spaces for other players to use, generating a steady income stream while providing them with a place to stay or work. Renters do not have to be a member of your land in order to gain access to that plot so no need to worry about any pesky spies."
+        pointer: "playerresponse4"
+      npcresponse4:
+        text: "If you wish to expand your community further, you can sell portions of your claim to gain residents. These residents can contribute to your land, creating a bustling and thriving area."
+        pointer: "playerresponse5"
+      npcresponse5:
+        text: "The more residents you have, the more area you can claim for your land. This expansion allows for greater development and more grand projects. However, be aware that a larger population also means higher upkeep costs. Balancing your growth with your resources is key to maintaining a prosperous land."
+        pointer: "playerresponse6"
+      npcresponse6:
+        text: "As a landowner, you have the power to collect taxes from those residing or renting within your territory. These taxes can fund public projects or further enhance your land's infrastructure."
+        pointer: "playerresponse7"
+      npcresponse7:
+        text: "Additionally, you can engage in wars with other lands to acquire resources and materials (WIP). You can also join forces with other lands to create powerful Nations, supporting one another in times of need and working together to achieve common goals."
+        pointer: "playerresponse8"
+      npcresponse8:
+        text: "If all seems a bit much, you can do /lands createcamp <name> and venture off on your own and test things out. Camps are a temporary, free, 1 chunk base of operations to protect your blocks, they cannot be expanded, are limited to one player and last 3 days before naturally expiring. This is mainly a way to get things going so that you can start your own land or find your place within an existing one! "
+        pointer: "playerresponse9"
+      npcresponse9:  
+        text: "That’s all I have to teach you for now, speak to the Magician at the tip of the island He will get you to the main land.  Go forth and build your legacy, traveler. Good luck! "
+
+    player_options:
+      playerresponse1:
+        text: "Continue"
+        pointer: "npcresponse1"
+      playerresponse2:
+        text: "Continue"
+        pointer: "npcresponse2"
+      playerresponse3:
+        text: "Continue"
+        pointer: "npcresponse3"
+      playerresponse4:
+        text: "Continue"
+        pointer: "npcresponse4"
+      playerresponse5:
+        text: "Continue"
+        pointer: "npcresponse5"
+      playerresponse6:
+        text: "Continue"
+        pointer: "npcresponse6"
+      playerresponse7:
+        text: "Continue"
+        pointer: "npcresponse7"
+      playerresponse8:
+        text: "Continue"
+        pointer: "npcresponse8"
+      playerresponse9:
+        text: "Continue"
+        pointer: "npcresponse9"

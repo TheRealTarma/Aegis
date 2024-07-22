@@ -1,0 +1,37 @@
+conversations:
+  Magician:
+    quester: "Magician"
+    first: "firstGreeting"
+    NPC_options:
+      firstGreeting:
+        text: "Greetings, traveler! Isn't the weather wonderful today? Speaking of which, there's one last thing I need to explain before you continue your journey. You may have noticed that the weather here is a bit... unusual. Our world is in a turbulent time, where someone or something is constantly altering the weather patterns."
+        pointer: "playerresponse1"
+      npcresponse1:
+        text: "I've studied it and think I've got it down to a science. There are four seasons: Spring, Summer, Fall, and Winter. Each season lasts for about one real-time month, making a full year last 4 real time months."
+        pointer: "playerresponse2"
+      npcresponse2:
+        text: "Each season brings different daylight cycles, crop growth rates, and mob spawns as well as new content to the aegis world. So, be sure to gather resources accordingly to prepare for months in which the may become scarce!"
+        pointer: "playerresponse3"
+      npcresponse3:
+        text: "So traveler, are you ready to enter the world of Aegis?"
+        pointer: "playerresponse4,playerresponse5"
+      npcresponse4:
+        text: "Good luck out there!"
+        events: "fancyspawntele"
+
+
+    player_options:
+      playerresponse1:
+        text: "Continue"
+        pointer: "npcresponse1"
+      playerresponse2:
+        text: "Continue"
+        pointer: "npcresponse2"
+      playerresponse3:
+        text: "Continue"
+        pointer: "npcresponse3"
+      playerresponse4:
+        text: "Yes!"
+        pointer: "npcresponse4"
+      playerresponse5:
+        text: "I'm Not Ready"

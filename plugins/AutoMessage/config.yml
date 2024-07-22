@@ -1,0 +1,20 @@
+timer: 1000
+Random: false
+UseTellRawMessages: false
+Messages:
+- '&7[&6Aegis&7] &bAegis restart times are at 4 AM EST'
+- '&7[&6Aegis&7] &bSherpas are the moderators of the server, if you need help ask
+  one!'
+- '&7[&6Aegis&7] &bThe &2Wilderness is a PVP Area,&b you will lose your items!'
+- '&7[&6Aegis&7] &bAsking to be a Sherpa is a great way &lnot&b not be one.'
+- '&7[&6Aegis&7] &bAegis is in &4Alpha!&b If you encounter a bug please let us know
+  Via &4DM&b or in the &4Feedback Forum&b on Discord for a &6reward.'
+- '&7[&6Aegis&7] &bAegis is 100% Vanilla minecraft, no mods here!'
+- '&7[&6Aegis&7] &bAegis has &4custom items and ores &bwith a rpg feel'
+TellRawMessages:
+- '{"text":"[Get more info on TellRaws here: minecraft.tools/en/tellraw.php ]","color":"dark_purple"}'
+- '{"text":"[This is a test message!] ","color":"aqua"}'
+- '["",{"text":"Click me to open URL!","color":"red","bold":true,"underlined":false,"clickEvent":{"action":"open_url","value":"https://www.google.com"}}]'
+- '{"text":"Hover over me for help text!","color":"yellow","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"I
+  am a hint!","color":"yellow","bold":true}]}}}'
+- '{"text":"Click me to run help command!","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/help"}}'

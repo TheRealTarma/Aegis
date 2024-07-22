@@ -1,0 +1,4 @@
+animations:
+  option1:
+    duration: 60
+    mm-id: "12345"

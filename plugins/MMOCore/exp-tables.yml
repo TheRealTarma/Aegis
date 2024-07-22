@@ -48,6 +48,7 @@ class_exp_table:
     period: 1
     triggers:
       - 'command{format="iaplaytotemanimation animatedtitles:lvl_up %player%"}'
+      - 'command{format="lp user %player% promote levels"}'
 
 attack_exp_table:
   attribute_point:

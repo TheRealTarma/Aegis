@@ -1,0 +1,45 @@
+enabled: true
+american-date-format: false
+calendar-is-real-life-days: true
+sync-time-with-real-world: false
+time-sync-offset: 0
+time-sync-timezone: 'system'
+time:
+  format: '$hours$:$minutes$'
+  12-hour-clock:
+    enabled: false
+    add-am-pm: false
+week-days:
+- Monday
+- Tuesday
+- Wednesday
+- Thursday
+- Friday
+- Saturday
+- Sunday
+synced-worlds:
+- none
+worlds-without-events:
+- none
+winter-start: Decembary 1
+spring-start: Aprimay 1
+summer-start: Jugust 1
+fall-start: Septober 1
+months:
+  Aprimay:
+    days: 31
+    day-length-in-min: 9
+    night-length-in-min: 11
+  Jugust:
+    days: 31
+    day-length-in-min: 13
+    night-length-in-min: 7
+  Septober:
+    days: 31
+    day-length-in-min: 10
+    night-length-in-min: 10
+  Decembary:
+    days: 31
+    day-length-in-min: 7
+    night-length-in-min: 13
+

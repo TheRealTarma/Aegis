@@ -1,0 +1,81 @@
+conversations:
+  Combat_Instructor:
+    quester: "Combat Instructor"
+    first: "message12,message11,firstGreeting"
+    NPC_options:
+      firstGreeting:
+        text: "Hello, traveler. I’m the Combat Instructor here on Tutorial Island"
+        pointer: "response1"
+      message1:
+        text: "&cAttack XP&r:mc_iron_sword: is gained by doing damage with a weapon. The more you hit, the more XP you earn. As your Attack level increases, so does your &cattack damage bonus&r."
+        pointer: "response2"
+      message2:
+        text: "&9Defense XP&r:mc_empty_shield: is earned by taking damage while wearing armor. The higher your Defense level, the greater your &9armor toughness bonus&r."
+        pointer: "response3"
+      message3:
+        text: "&4Constitution XP&r:mc_heart: is gained whenever you take damage. The higher your Constitution level, the more your base &4maximum health increases&r."
+        pointer: "response4"
+      message4:
+        text: "&aRanged XP&r:mc_bow: is gained by dealing damage with projectiles. As your Ranged level goes up, so does your &aprojectile damage&r."
+        pointer: "response5"
+      message5:
+        text: "&dMagic XP&r:mc_potion: is earned by using Mana for spells. The higher your Magic level, the more &dmax Mana&r you have."
+        pointer: "response6"
+      message6:
+        text: "To access you Spell Book:mc_book:, do &e/s&r in chat. Once you have done so, go ahead and equip the burn spell. In order to cast spells, hit F and press the corresponding number that appears on screen while looking at your target."
+        pointer: "response7"
+      message7:
+        text: "As your level increases in any of these skills, you gain access to higher-tier weapons, armors, and spells. This means more powerful equipment and abilities."
+        pointer: "response8"
+      message8:
+        text: "Your combat level is determined by averaging your combat skills together. Ranged and Magic only count for half in this to prevent accidentally boosting your level too high. Do &e/profile&r to review your stats and skill levels!"
+        pointer: "response9"
+      message9:
+        text: "Here, take these training weapons and armor and help me with this rat infestation I've been having by killing 3 Rats using any of the forms of combat we've discussed."
+        events: "givegear"
+        pointer: "response10"
+      message10:
+        text: "I can't, I'm a pacifist."
+        events: "fancyrattele"
+      message11:
+        text: "Excellent job! There's one last stop to make! The Mayor would like to see you off before you go!"
+        conditions: "haskilledrats"
+        events: "addcombatdone"
+      message12:
+        text: "Thanks for helping me with those rats! The Mayor would like to see you off before you go! Head there now!"
+        conditions: "hascombatdone"
+    player_options:
+      response1:
+        text: "&7&nContinue"
+        pointer: "message1"
+      response2:
+        text: "&7&nContinue"
+        pointer: "message2"
+      response3:
+        text: "&7&nContinue"
+        pointer: "message3"
+      response4:
+        text: "&7&nContinue"
+        pointer: "message4"
+      response5:
+        text: "&7&nContinue"
+        pointer: "message5"
+      response6:
+        text: "&7&nContinue"
+        pointer: "message6"
+      response7:
+        text: "&7&nContinue"
+        pointer: "message7"
+      response8:
+        text: "&7&nContinue"
+        pointer: "message8"
+      response9:
+        text: "&7&nContinue"
+        pointer: "message9"
+      response10:
+        text: "Rat Infestation? Why wouldn't you just kill all of the Rats yourself?"
+        pointer: "message10"
+      response11:
+        text: "&7&nContinue"
+        pointer: "message11"
+

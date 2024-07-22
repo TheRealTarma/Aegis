@@ -8,7 +8,7 @@ experience: 0.0
 class: HUMAN
 waypoints: []
 friends: []
-last-login: 1717879922035
+last-login: 1721615985628
 skill-tree-reallocation-points: 0
 health: 20.0
 mana: 20.0
@@ -18,7 +18,9 @@ unlocked-items: []
 skill-tree-points:
   global: 0
 attribute:
+  magic: 0
   constitution: 0
+  ranged: 0
   defense: 0
   attack: 0
 profession: {}

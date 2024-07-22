@@ -2,9 +2,9 @@
   "player": "0d3bc9aa-f31b-435e-bac9-d76fda8a2f51",
   "preferences": {},
   "stats": {
-    "TOTAL_ROUNDS_PARTICIPATED": 1,
     "TOTAL_BETS_PLACED": 10,
-    "ACCOUNT_BALANCE": 0
+    "ACCOUNT_BALANCE": 0,
+    "TOTAL_ROUNDS_PARTICIPATED": 1
   },
   "multipleDrawPlayerBets": []
 }

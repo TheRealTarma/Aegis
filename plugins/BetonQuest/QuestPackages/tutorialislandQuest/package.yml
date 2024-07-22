@@ -1,0 +1,17 @@
+npcs:
+  '9': "Skill_Master"
+  '22': "Skippy"
+  '23': "Survivalist"
+  '25': "Blacksmith"
+  '26': "Combat_Instructor"
+  '27': "Mayor"
+  '28': "Magician"
+
+items:
+  cod: "COD"
+  fishingrod: "FISHING_ROD"
+  oaklog: "OAK_LOG"
+  stonepick: "STONE_PICKAXE"
+  coal: "COAL"
+  copper: "RAW_COPPER"
+  sticks: "STICK"
