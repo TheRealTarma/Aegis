@@ -1,0 +1,19 @@
+{
+  "main": {
+    "username": "JoeMC2014",
+    "minutesPlayed": 2
+  },
+  "daily-rewards": {
+    "startDate": "2024-07-23",
+    "lastJoinDate": "2024-07-23",
+    "collectedDays": [],
+    "dayNum": 1,
+    "streak": 0,
+    "highestStreak": 0
+  },
+  "global-playtime-rewards": {
+    "lastCollectedPlaytime": 0,
+    "startDate": "2024-07-23",
+    "previousDayEndPlaytime": 0
+  }
+}

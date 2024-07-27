@@ -1,5 +1,8 @@
 357abb5d-5248-4de1-a132-16ef7fa58ce5:
   join: portal_join
+  leave: defaultLeaveAnimation
+  death: defaultDeathAnimation
+  respawn: defaultRespawnAnimation
 5cbd3a99-1bfe-4454-bb63-3a726985d6e3:
   join: portal_join
   leave: portal_leave
@@ -16,6 +19,41 @@
   death: defaultDeathAnimation
   respawn: defaultRespawnAnimation
 3cf55331-53d7-463b-9011-ecabd6ddac2b:
+  join: defaultJoinAnimation
+  leave: defaultLeaveAnimation
+  death: defaultDeathAnimation
+  respawn: defaultRespawnAnimation
+8585b6f6-22c7-4bbe-852b-e2deb0e14f5d:
+  join: defaultJoinAnimation
+  leave: defaultLeaveAnimation
+  death: defaultDeathAnimation
+  respawn: defaultRespawnAnimation
+7b0f7b5c-6f94-4d24-9700-dc26dca78928:
+  join: defaultJoinAnimation
+  leave: defaultLeaveAnimation
+  death: defaultDeathAnimation
+  respawn: defaultRespawnAnimation
+b9f5e9f2-e870-482b-a779-fefe1e19de73:
+  join: defaultJoinAnimation
+  leave: defaultLeaveAnimation
+  death: defaultDeathAnimation
+  respawn: defaultRespawnAnimation
+581ea950-d297-4d72-9a81-ea45ba441360:
+  join: defaultJoinAnimation
+  leave: defaultLeaveAnimation
+  death: defaultDeathAnimation
+  respawn: defaultRespawnAnimation
+337b2e38-ee37-489e-8195-23bd8d568912:
+  join: defaultJoinAnimation
+  leave: defaultLeaveAnimation
+  death: defaultDeathAnimation
+  respawn: defaultRespawnAnimation
+6f5241c9-ab99-4b10-9b2f-64cbeeb78de2:
+  join: defaultJoinAnimation
+  leave: defaultLeaveAnimation
+  death: defaultDeathAnimation
+  respawn: defaultRespawnAnimation
+55901115-f108-4d66-95ee-ec8eff2eebd3:
   join: defaultJoinAnimation
   leave: defaultLeaveAnimation
   death: defaultDeathAnimation

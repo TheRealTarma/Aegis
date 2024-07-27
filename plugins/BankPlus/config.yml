@@ -1,7 +1,7 @@
 # Configuration File of BankPlus
 
 # Check for new updates of the plugin.
-Update-Checker: true
+Update-Checker: false
 
 General-Settings:
   # Choose if automatically update your
@@ -70,7 +70,7 @@ General-Settings:
 
   # The amount that a player will receive
   # when joining for the first time
-  Join-Start-Amount: "500"
+  Join-Start-Amount: "150"
 
   # Enable or not the guis module.
   #

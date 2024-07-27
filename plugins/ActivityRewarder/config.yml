@@ -4,7 +4,7 @@
 modules:
   daily-rewards: true
   daily-playtime-goals: false
-  global-playtime-goals: false
+  global-playtime-goals: true
 
 # If false then playtime will include afk/idle time
 playtime-ignore-afk: true

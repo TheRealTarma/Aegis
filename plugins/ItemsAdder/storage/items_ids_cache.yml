@@ -886,6 +886,281 @@ APPLE:
   customcrops:grape: 10031
   customcrops:grape_silver_star: 10032
   customcrops:grape_golden_star: 10033
+  potion_3d:potion_3d_eagle_orange_red: 10034
+  potion_3d:potion_3d_eagle_lime_green: 10035
+  potion_3d:potion_3d_eagle_royal_blue: 10036
+  potion_3d:potion_3d_eagle_deep_pink: 10037
+  potion_3d:potion_3d_eagle_bright_orange: 10038
+  potion_3d:potion_3d_eagle_aquamarine: 10039
+  potion_3d:potion_3d_eagle_purple: 10040
+  potion_3d:potion_3d_eagle_dodger_blue: 10041
+  potion_3d:potion_3d_eagle_magenta: 10042
+  potion_3d:potion_3d_eagle_medium_slate_blue: 10043
+  potion_3d:potion_3d_eagle_spring_green: 10044
+  potion_3d:potion_3d_eagle_dark_orange: 10045
+  potion_3d:potion_3d_eagle_blue_violet: 10046
+  potion_3d:potion_3d_eagle_medium_aquamarine: 10047
+  potion_3d:potion_3d_eagle_sky_blue: 10048
+  potion_3d:potion_3d_eagle_orchid: 10049
+  potion_3d:potion_3d_eagle_cornflower_blue: 10050
+  potion_3d:potion_3d_eagle_hot_pink: 10051
+  potion_3d:potion_3d_eagle_gold: 10052
+  potion_3d:potion_3d_eagle_turquoise: 10053
+  potion_3d:potion_3d_eagle_tomato: 10054
+  potion_3d:potion_3d_eagle_pale_green: 10055
+  potion_3d:potion_3d_eagle_fuchsia: 10056
+  potion_3d:potion_3d_eagle_peach_puff: 10057
+  potion_3d:potion_3d_eagle_green_yellow: 10058
+  potion_3d:potion_3d_ender_orange_red: 10059
+  potion_3d:potion_3d_ender_lime_green: 10060
+  potion_3d:potion_3d_ender_royal_blue: 10061
+  potion_3d:potion_3d_ender_deep_pink: 10062
+  potion_3d:potion_3d_ender_bright_orange: 10063
+  potion_3d:potion_3d_ender_aquamarine: 10064
+  potion_3d:potion_3d_ender_purple: 10065
+  potion_3d:potion_3d_ender_dodger_blue: 10066
+  potion_3d:potion_3d_ender_magenta: 10067
+  potion_3d:potion_3d_ender_medium_slate_blue: 10068
+  potion_3d:potion_3d_ender_spring_green: 10069
+  potion_3d:potion_3d_ender_dark_orange: 10070
+  potion_3d:potion_3d_ender_blue_violet: 10071
+  potion_3d:potion_3d_ender_medium_aquamarine: 10072
+  potion_3d:potion_3d_ender_sky_blue: 10073
+  potion_3d:potion_3d_ender_orchid: 10074
+  potion_3d:potion_3d_ender_cornflower_blue: 10075
+  potion_3d:potion_3d_ender_hot_pink: 10076
+  potion_3d:potion_3d_ender_gold: 10077
+  potion_3d:potion_3d_ender_turquoise: 10078
+  potion_3d:potion_3d_ender_tomato: 10079
+  potion_3d:potion_3d_ender_pale_green: 10080
+  potion_3d:potion_3d_ender_fuchsia: 10081
+  potion_3d:potion_3d_ender_peach_puff: 10082
+  potion_3d:potion_3d_ender_green_yellow: 10083
+  potion_3d:potion_3d_extra_large_orange_red: 10084
+  potion_3d:potion_3d_extra_large_lime_green: 10085
+  potion_3d:potion_3d_extra_large_royal_blue: 10086
+  potion_3d:potion_3d_extra_large_deep_pink: 10087
+  potion_3d:potion_3d_extra_large_bright_orange: 10088
+  potion_3d:potion_3d_extra_large_aquamarine: 10089
+  potion_3d:potion_3d_extra_large_purple: 10090
+  potion_3d:potion_3d_extra_large_dodger_blue: 10091
+  potion_3d:potion_3d_extra_large_magenta: 10092
+  potion_3d:potion_3d_extra_large_medium_slate_blue: 10093
+  potion_3d:potion_3d_extra_large_spring_green: 10094
+  potion_3d:potion_3d_extra_large_dark_orange: 10095
+  potion_3d:potion_3d_extra_large_blue_violet: 10096
+  potion_3d:potion_3d_extra_large_medium_aquamarine: 10097
+  potion_3d:potion_3d_extra_large_sky_blue: 10098
+  potion_3d:potion_3d_extra_large_orchid: 10099
+  potion_3d:potion_3d_extra_large_cornflower_blue: 10100
+  potion_3d:potion_3d_extra_large_hot_pink: 10101
+  potion_3d:potion_3d_extra_large_gold: 10102
+  potion_3d:potion_3d_extra_large_turquoise: 10103
+  potion_3d:potion_3d_extra_large_tomato: 10104
+  potion_3d:potion_3d_extra_large_pale_green: 10105
+  potion_3d:potion_3d_extra_large_fuchsia: 10106
+  potion_3d:potion_3d_extra_large_peach_puff: 10107
+  potion_3d:potion_3d_extra_large_green_yellow: 10108
+  potion_3d:potion_3d_fire_orange_red: 10109
+  potion_3d:potion_3d_fire_lime_green: 10110
+  potion_3d:potion_3d_fire_royal_blue: 10111
+  potion_3d:potion_3d_fire_deep_pink: 10112
+  potion_3d:potion_3d_fire_bright_orange: 10113
+  potion_3d:potion_3d_fire_aquamarine: 10114
+  potion_3d:potion_3d_fire_purple: 10115
+  potion_3d:potion_3d_fire_dodger_blue: 10116
+  potion_3d:potion_3d_fire_magenta: 10117
+  potion_3d:potion_3d_fire_medium_slate_blue: 10118
+  potion_3d:potion_3d_fire_spring_green: 10119
+  potion_3d:potion_3d_fire_dark_orange: 10120
+  potion_3d:potion_3d_fire_blue_violet: 10121
+  potion_3d:potion_3d_fire_medium_aquamarine: 10122
+  potion_3d:potion_3d_fire_sky_blue: 10123
+  potion_3d:potion_3d_fire_orchid: 10124
+  potion_3d:potion_3d_fire_cornflower_blue: 10125
+  potion_3d:potion_3d_fire_hot_pink: 10126
+  potion_3d:potion_3d_fire_gold: 10127
+  potion_3d:potion_3d_fire_turquoise: 10128
+  potion_3d:potion_3d_fire_tomato: 10129
+  potion_3d:potion_3d_fire_pale_green: 10130
+  potion_3d:potion_3d_fire_fuchsia: 10131
+  potion_3d:potion_3d_fire_peach_puff: 10132
+  potion_3d:potion_3d_fire_green_yellow: 10133
+  potion_3d:potion_3d_ghost_orange_red: 10134
+  potion_3d:potion_3d_ghost_lime_green: 10135
+  potion_3d:potion_3d_ghost_royal_blue: 10136
+  potion_3d:potion_3d_ghost_deep_pink: 10137
+  potion_3d:potion_3d_ghost_bright_orange: 10138
+  potion_3d:potion_3d_ghost_aquamarine: 10139
+  potion_3d:potion_3d_ghost_purple: 10140
+  potion_3d:potion_3d_ghost_dodger_blue: 10141
+  potion_3d:potion_3d_ghost_magenta: 10142
+  potion_3d:potion_3d_ghost_medium_slate_blue: 10143
+  potion_3d:potion_3d_ghost_spring_green: 10144
+  potion_3d:potion_3d_ghost_dark_orange: 10145
+  potion_3d:potion_3d_ghost_blue_violet: 10146
+  potion_3d:potion_3d_ghost_medium_aquamarine: 10147
+  potion_3d:potion_3d_ghost_sky_blue: 10148
+  potion_3d:potion_3d_ghost_orchid: 10149
+  potion_3d:potion_3d_ghost_cornflower_blue: 10150
+  potion_3d:potion_3d_ghost_hot_pink: 10151
+  potion_3d:potion_3d_ghost_gold: 10152
+  potion_3d:potion_3d_ghost_turquoise: 10153
+  potion_3d:potion_3d_ghost_tomato: 10154
+  potion_3d:potion_3d_ghost_pale_green: 10155
+  potion_3d:potion_3d_ghost_fuchsia: 10156
+  potion_3d:potion_3d_ghost_peach_puff: 10157
+  potion_3d:potion_3d_ghost_green_yellow: 10158
+  potion_3d:potion_3d_golden_orange_red: 10159
+  potion_3d:potion_3d_golden_lime_green: 10160
+  potion_3d:potion_3d_golden_royal_blue: 10161
+  potion_3d:potion_3d_golden_deep_pink: 10162
+  potion_3d:potion_3d_golden_bright_orange: 10163
+  potion_3d:potion_3d_golden_aquamarine: 10164
+  potion_3d:potion_3d_golden_purple: 10165
+  potion_3d:potion_3d_golden_dodger_blue: 10166
+  potion_3d:potion_3d_golden_magenta: 10167
+  potion_3d:potion_3d_golden_medium_slate_blue: 10168
+  potion_3d:potion_3d_golden_spring_green: 10169
+  potion_3d:potion_3d_golden_dark_orange: 10170
+  potion_3d:potion_3d_golden_blue_violet: 10171
+  potion_3d:potion_3d_golden_medium_aquamarine: 10172
+  potion_3d:potion_3d_golden_sky_blue: 10173
+  potion_3d:potion_3d_golden_orchid: 10174
+  potion_3d:potion_3d_golden_cornflower_blue: 10175
+  potion_3d:potion_3d_golden_hot_pink: 10176
+  potion_3d:potion_3d_golden_gold: 10177
+  potion_3d:potion_3d_golden_turquoise: 10178
+  potion_3d:potion_3d_golden_tomato: 10179
+  potion_3d:potion_3d_golden_pale_green: 10180
+  potion_3d:potion_3d_golden_fuchsia: 10181
+  potion_3d:potion_3d_golden_peach_puff: 10182
+  potion_3d:potion_3d_golden_green_yellow: 10183
+  potion_3d:potion_3d_large_orange_red: 10184
+  potion_3d:potion_3d_large_lime_green: 10185
+  potion_3d:potion_3d_large_royal_blue: 10186
+  potion_3d:potion_3d_large_deep_pink: 10187
+  potion_3d:potion_3d_large_bright_orange: 10188
+  potion_3d:potion_3d_large_aquamarine: 10189
+  potion_3d:potion_3d_large_purple: 10190
+  potion_3d:potion_3d_large_dodger_blue: 10191
+  potion_3d:potion_3d_large_magenta: 10192
+  potion_3d:potion_3d_large_medium_slate_blue: 10193
+  potion_3d:potion_3d_large_spring_green: 10194
+  potion_3d:potion_3d_large_dark_orange: 10195
+  potion_3d:potion_3d_large_blue_violet: 10196
+  potion_3d:potion_3d_large_medium_aquamarine: 10197
+  potion_3d:potion_3d_large_sky_blue: 10198
+  potion_3d:potion_3d_large_orchid: 10199
+  potion_3d:potion_3d_large_cornflower_blue: 10200
+  potion_3d:potion_3d_large_hot_pink: 10201
+  potion_3d:potion_3d_large_gold: 10202
+  potion_3d:potion_3d_large_turquoise: 10203
+  potion_3d:potion_3d_large_tomato: 10204
+  potion_3d:potion_3d_large_pale_green: 10205
+  potion_3d:potion_3d_large_fuchsia: 10206
+  potion_3d:potion_3d_large_peach_puff: 10207
+  potion_3d:potion_3d_large_green_yellow: 10208
+  potion_3d:potion_3d_premium_orange_red: 10209
+  potion_3d:potion_3d_premium_lime_green: 10210
+  potion_3d:potion_3d_premium_royal_blue: 10211
+  potion_3d:potion_3d_premium_deep_pink: 10212
+  potion_3d:potion_3d_premium_bright_orange: 10213
+  potion_3d:potion_3d_premium_aquamarine: 10214
+  potion_3d:potion_3d_premium_purple: 10215
+  potion_3d:potion_3d_premium_dodger_blue: 10216
+  potion_3d:potion_3d_premium_magenta: 10217
+  potion_3d:potion_3d_premium_medium_slate_blue: 10218
+  potion_3d:potion_3d_premium_spring_green: 10219
+  potion_3d:potion_3d_premium_dark_orange: 10220
+  potion_3d:potion_3d_premium_blue_violet: 10221
+  potion_3d:potion_3d_premium_medium_aquamarine: 10222
+  potion_3d:potion_3d_premium_sky_blue: 10223
+  potion_3d:potion_3d_premium_orchid: 10224
+  potion_3d:potion_3d_premium_cornflower_blue: 10225
+  potion_3d:potion_3d_premium_hot_pink: 10226
+  potion_3d:potion_3d_premium_gold: 10227
+  potion_3d:potion_3d_premium_turquoise: 10228
+  potion_3d:potion_3d_premium_tomato: 10229
+  potion_3d:potion_3d_premium_pale_green: 10230
+  potion_3d:potion_3d_premium_fuchsia: 10231
+  potion_3d:potion_3d_premium_peach_puff: 10232
+  potion_3d:potion_3d_premium_green_yellow: 10233
+  potion_3d:potion_3d_prisoner_orange_red: 10234
+  potion_3d:potion_3d_prisoner_lime_green: 10235
+  potion_3d:potion_3d_prisoner_royal_blue: 10236
+  potion_3d:potion_3d_prisoner_deep_pink: 10237
+  potion_3d:potion_3d_prisoner_bright_orange: 10238
+  potion_3d:potion_3d_prisoner_aquamarine: 10239
+  potion_3d:potion_3d_prisoner_purple: 10240
+  potion_3d:potion_3d_prisoner_dodger_blue: 10241
+  potion_3d:potion_3d_prisoner_magenta: 10242
+  potion_3d:potion_3d_prisoner_medium_slate_blue: 10243
+  potion_3d:potion_3d_prisoner_spring_green: 10244
+  potion_3d:potion_3d_prisoner_dark_orange: 10245
+  potion_3d:potion_3d_prisoner_blue_violet: 10246
+  potion_3d:potion_3d_prisoner_medium_aquamarine: 10247
+  potion_3d:potion_3d_prisoner_sky_blue: 10248
+  potion_3d:potion_3d_prisoner_orchid: 10249
+  potion_3d:potion_3d_prisoner_cornflower_blue: 10250
+  potion_3d:potion_3d_prisoner_hot_pink: 10251
+  potion_3d:potion_3d_prisoner_gold: 10252
+  potion_3d:potion_3d_prisoner_turquoise: 10253
+  potion_3d:potion_3d_prisoner_tomato: 10254
+  potion_3d:potion_3d_prisoner_pale_green: 10255
+  potion_3d:potion_3d_prisoner_fuchsia: 10256
+  potion_3d:potion_3d_prisoner_peach_puff: 10257
+  potion_3d:potion_3d_prisoner_green_yellow: 10258
+  potion_3d:potion_3d_royal_orange_red: 10259
+  potion_3d:potion_3d_royal_lime_green: 10260
+  potion_3d:potion_3d_royal_royal_blue: 10261
+  potion_3d:potion_3d_royal_deep_pink: 10262
+  potion_3d:potion_3d_royal_bright_orange: 10263
+  potion_3d:potion_3d_royal_aquamarine: 10264
+  potion_3d:potion_3d_royal_purple: 10265
+  potion_3d:potion_3d_royal_dodger_blue: 10266
+  potion_3d:potion_3d_royal_magenta: 10267
+  potion_3d:potion_3d_royal_medium_slate_blue: 10268
+  potion_3d:potion_3d_royal_spring_green: 10269
+  potion_3d:potion_3d_royal_dark_orange: 10270
+  potion_3d:potion_3d_royal_blue_violet: 10271
+  potion_3d:potion_3d_royal_medium_aquamarine: 10272
+  potion_3d:potion_3d_royal_sky_blue: 10273
+  potion_3d:potion_3d_royal_orchid: 10274
+  potion_3d:potion_3d_royal_cornflower_blue: 10275
+  potion_3d:potion_3d_royal_hot_pink: 10276
+  potion_3d:potion_3d_royal_gold: 10277
+  potion_3d:potion_3d_royal_turquoise: 10278
+  potion_3d:potion_3d_royal_tomato: 10279
+  potion_3d:potion_3d_royal_pale_green: 10280
+  potion_3d:potion_3d_royal_fuchsia: 10281
+  potion_3d:potion_3d_royal_peach_puff: 10282
+  potion_3d:potion_3d_royal_green_yellow: 10283
+  potion_3d:potion_3d_small_orange_red: 10284
+  potion_3d:potion_3d_small_lime_green: 10285
+  potion_3d:potion_3d_small_royal_blue: 10286
+  potion_3d:potion_3d_small_deep_pink: 10287
+  potion_3d:potion_3d_small_bright_orange: 10288
+  potion_3d:potion_3d_small_aquamarine: 10289
+  potion_3d:potion_3d_small_purple: 10290
+  potion_3d:potion_3d_small_dodger_blue: 10291
+  potion_3d:potion_3d_small_magenta: 10292
+  potion_3d:potion_3d_small_medium_slate_blue: 10293
+  potion_3d:potion_3d_small_spring_green: 10294
+  potion_3d:potion_3d_small_dark_orange: 10295
+  potion_3d:potion_3d_small_blue_violet: 10296
+  potion_3d:potion_3d_small_medium_aquamarine: 10297
+  potion_3d:potion_3d_small_sky_blue: 10298
+  potion_3d:potion_3d_small_orchid: 10299
+  potion_3d:potion_3d_small_cornflower_blue: 10300
+  potion_3d:potion_3d_small_hot_pink: 10301
+  potion_3d:potion_3d_small_gold: 10302
+  potion_3d:potion_3d_small_turquoise: 10303
+  potion_3d:potion_3d_small_tomato: 10304
+  potion_3d:potion_3d_small_pale_green: 10305
+  potion_3d:potion_3d_small_fuchsia: 10306
+  potion_3d:potion_3d_small_peach_puff: 10307
+  potion_3d:potion_3d_small_green_yellow: 10308
 COD:
   customfishing:rainbow_fish: 50100
   customfishing:radioactive_fish: 50000
@@ -1014,14 +1289,22 @@ IRON_INGOT:
   tarmarpg:mithril_ingot: 10000
   tarmarpg:steel_ingot: 10001
   tarmarpg:adamantite_ingot: 10002
+  element_spellbook:element_spellbook_dark: 985600
+  element_spellbook:element_spellbook_earth: 985601
+  element_spellbook:element_spellbook_fire: 985602
+  element_spellbook:element_spellbook_light: 985603
+  element_spellbook:element_spellbook_water: 985604
+  element_spellbook:element_spellbook_wind: 985605
 LEATHER_HELMET:
   my_items:my_armor_helmet: 10000
 LEATHER_CHESTPLATE:
   my_items:my_armor_chestplate: 10000
   tarmarpg:iron_chestplate: 10003
+  tarmarpg:copper_chestplate: 10001
 LEATHER_LEGGINGS:
   my_items:my_armor_leggings: 10000
   tarmarpg:iron_leggings: 10002
+  tarmarpg:copper_leggings: 10001
 LEATHER_BOOTS:
   my_items:my_armor_boots: 10000
   workshop_six:arm_chair: 10001
@@ -1046,6 +1329,7 @@ LEATHER_BOOTS:
   workshop_six:crystal: 10020
   workshop_six:ore: 10021
   tarmarpg:iron_boots: 10023
+  tarmarpg:copper_boots: 10022
 RAW_IRON:
   tarmarpg:raw_mithril: 10000
   tarmarpg:raw_adamantite: 10001
@@ -1197,3 +1481,20 @@ STONE:
   blockus:marble: 10002
 IRON_CHESTPLATE:
   tarmarpg:iron_chestplate: 10000
+SHIELD:
+  tarmarpg:iron_round_shield: 10000
+  tarmarpg:wooden_round_shield: 10001
+  tarmarpg:copper_round_shield: 10002
+  tarmarpg:steel_round_shield: 10003
+  tarmarpg:mithril_round_shield: 10004
+  tarmarpg:adamant_round_shield: 10005
+  tarmarpg:diamond_round_shield: 10006
+  tarmarpg:netherite_round_shield: 10007
+  tarmarpg:wooden_tower_shield: 10008
+  tarmarpg:iron_tower_shield: 10009
+  tarmarpg:copper_tower_shield: 10010
+  tarmarpg:steel_tower_shield: 10011
+  tarmarpg:mithril_tower_shield: 10012
+  tarmarpg:adamant_tower_shield: 10013
+  tarmarpg:diamond_tower_shield: 10014
+  tarmarpg:netherite_tower_shield: 10015

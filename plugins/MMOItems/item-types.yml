@@ -387,6 +387,38 @@ LONGSWORD:
     
     on-attack: slashing_attack_effect
 
+SCIMITAR:
+    display: STONE_SWORD
+    name: 'Scimitar'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#Unidentified Scimitar'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+    on-attack: slashing_attack_effect
+
+SABER:
+    display: STONE_SWORD
+    name: 'Saber'
+    parent: 'SWORD'
+    unident-item:
+        name: '&f#prefix#Unidentified Saber'
+        lore:
+        - '&7This item is unidentified. I must'
+        - '&7find a way to identify it!'
+        - '{tier}'
+        - '{tier}&8Item Info:'
+        - '{range}&8- &7Lvl Range: &e#range#'
+        - '{tier}&8- &7Item Tier: #prefix##tier#'
+    
+    on-attack: piercing_attack_effect
+
 KATANA:
     display: IRON_SWORD
     name: 'Katana'

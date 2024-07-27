@@ -16,4 +16,4 @@ exp-table: attack_exp_table
 max-level: 99
 
 exp-sources:
-- 'damagedealt{type=WEAPON;amount=10}'
+- 'damagedealt{type=WEAPON;amount=8}'

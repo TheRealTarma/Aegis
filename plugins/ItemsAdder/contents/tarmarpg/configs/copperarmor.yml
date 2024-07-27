@@ -1,0 +1,52 @@
+info:
+  namespace: tarmarpg
+armors_rendering:
+  copper_knight_2:
+    color: "#d60000"
+    layer_1: armor_textures/copper_armors/copper_knight_armor_2_layer_1
+    layer_2: armor_textures/copper_armors/copper_knight_armor_2_layer_2
+    use_color: false
+
+items:
+  copper_chestplate:
+    display_name: Copper Chestplate
+    permission: tarmarpg.copper_chestplate
+    mmoitem:
+      type: ARMOR
+      id: COPPER_CHESTPLATE
+    resource:
+      generate: true
+      textures:
+      - armor_sprites/copper/copper_knight_chestplate_2
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: copper_knight_2
+  copper_leggings:
+    display_name: Copper leggings
+    permission: tarmarpg.copper_leggings
+    mmoitem:
+      type: ARMOR
+      id: COPPER_LEGGINGS
+    resource:
+      generate: true
+      textures:
+      - armor_sprites/copper/copper_knight_leggins_2
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: copper_knight_2
+  copper_boots:
+    display_name: Copper boots
+    permission: tarmarpg.copper_boots
+    mmoitem:
+      type: ARMOR
+      id: COPPER_BOOTS
+    resource:
+      generate: true
+      textures:
+      - armor_sprites/copper/copper_knight_boots_2
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: copper_knight_2

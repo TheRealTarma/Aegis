@@ -3,12 +3,13 @@ skill-points: 0
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 3
+level: 27
 experience: 2.0
 class: HUMAN
 waypoints: []
-friends: []
-last-login: 1721616947232
+friends:
+- 0d3bc9aa-f31b-435e-bac9-d76fda8a2f51
+last-login: 1722013519815
 skill-tree-points:
   magic: 0
   trading: 0
@@ -163,16 +164,16 @@ unlocked-items: []
 times-claimed:
   profession_attack:
     attack_exp_table:
-      attribute_point: 4
+      attribute_point: 33
   class_HUMAN:
     class_exp_table:
-      level_up: 7
+      level_up: 27
       skill_point: 6
       attribute_point: 17
       skill_tree_point: 1
   profession_defense:
     defense_exp_table:
-      attribute_point: 16
+      attribute_point: 27
   profession_constitution:
     constitution_exp_table:
       attribute_point: 2
@@ -226,8 +227,8 @@ profession:
     exp: 0.0
     level: 0
   constitution:
-    exp: 37.94214329582587
-    level: 3
+    exp: 0.0
+    level: 0
   fishing:
     exp: 0.0
     level: 0
@@ -238,24 +239,24 @@ profession:
     exp: 0.0
     level: 0
   smithing:
-    exp: 0.0
+    exp: 34.0
     level: 0
   woodcutting:
-    exp: 0.0
+    exp: 6.448323784356887
     level: 0
   defense:
-    exp: 1380.0435106582727
-    level: 7
+    exp: 0.0
+    level: 21
   ranged:
     exp: 0.0
     level: 0
   attack:
-    exp: 249.22560513019562
-    level: 0
+    exp: 373.19078669357305
+    level: 12
   farming:
-    exp: 0.0
+    exp: 184.74409592244814
     level: 0
   agility:
     exp: 0.0
-    level: 0
+    level: 12
 quest: {}

@@ -8,7 +8,6 @@
 # The corresponding tool. It's CASE_SENSITIVE!
 ####################Pick Axes#########################
 TOOL?WOODEN_PICKAXE:
-    parent: AIR
     can-mine:
     - vanilla{type=COAL_ORE}
     - vanilla{type=DEEPSLATE_COAL_ORE}
@@ -55,13 +54,17 @@ TOOL?NETHERITE_PICKAXE:
 
 #################AXES################
 
-TOOL?WOODEN_AXE:
-    parent: AIR
+AIR:
+    default: true
     can-mine:
     - vanilla{type=OAK_LOG}
     - vanilla{type=BIRCH_LOG}
     - vanilla{type=OAK_WOOD}
     - vanilla{type=BIRCH_WOOD}
+    - vanilla{type=CHERRY_SAPLING}
+
+TOOL?WOODEN_AXE:
+    parent: AIR
 TOOL?STONE_AXE:
     parent: TOOL?WOODEN_AXE
 TOOL?COPPER_AXE:
@@ -101,29 +104,3 @@ TOOL?DIAMOND_AXE:
     - vanilla{type=MANGROVE_WOOD}
 TOOL?NETHERITE_AXE:
     parent: TOOL?DIAMOND_AXE
-##########################AIR###########################
-AIR:
-    parent: AIR
-    can-mine:
-        - vanilla{type=OAK_SAPLING}
-        - vanilla{type=BIRCH_SAPLING}
-        - vanilla{type=SPRUCE_SAPLING}
-        - vanilla{type=JUNGLE_SAPLING}
-        - vanilla{type=ACACIA_SAPLING}
-        - vanilla{type=DARK_OAK_SAPLING}
-        - vanilla{type=CHERRY_SAPLING}
-OAK_SAPLING:
-    parent: AIR
-BIRCH_SAPLING:
-    parent: AIR
-SPRUCE_SAPLING:
-    parent: AIR
-JUNGLE_SAPLING:
-    parent: AIR
-ACACIA_SAPLING:
-    parent: AIR
-DARK_OAK_SAPLING:
-    parent: AIR
-CHERRY_SAPLING:
-    parent: AIR
-

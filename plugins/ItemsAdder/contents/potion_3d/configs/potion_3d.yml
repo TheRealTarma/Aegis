@@ -1,0 +1,1931 @@
+info:
+  namespace: potion_3d
+items:
+  potion_3d_eagle_orange_red:
+    display_name: Eagle Potion <#FF4500>(Orange Red)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_orange_red
+  potion_3d_eagle_lime_green:
+    display_name: Eagle Potion <#33FF57>(Lime Green)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_lime_green
+  potion_3d_eagle_royal_blue:
+    display_name: Eagle Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_royal_blue
+  potion_3d_eagle_deep_pink:
+    display_name: Eagle Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_deep_pink
+  potion_3d_eagle_bright_orange:
+    display_name: Eagle Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_bright_orange
+  potion_3d_eagle_aquamarine:
+    display_name: Eagle Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_aquamarine
+  potion_3d_eagle_purple:
+    display_name: Eagle Potion <#B733FF>(Purple)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_purple
+  potion_3d_eagle_dodger_blue:
+    display_name: Eagle Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_dodger_blue
+  potion_3d_eagle_magenta:
+    display_name: Eagle Potion <#FF33F6>(Magenta)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_magenta
+  potion_3d_eagle_medium_slate_blue:
+    display_name: Eagle Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_medium_slate_blue
+  potion_3d_eagle_spring_green:
+    display_name: Eagle Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_spring_green
+  potion_3d_eagle_dark_orange:
+    display_name: Eagle Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_dark_orange
+  potion_3d_eagle_blue_violet:
+    display_name: Eagle Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_blue_violet
+  potion_3d_eagle_medium_aquamarine:
+    display_name: Eagle Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_medium_aquamarine
+  potion_3d_eagle_sky_blue:
+    display_name: Eagle Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_sky_blue
+  potion_3d_eagle_orchid:
+    display_name: Eagle Potion <#DA70D6>(Orchid)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_orchid
+  potion_3d_eagle_cornflower_blue:
+    display_name: Eagle Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_cornflower_blue
+  potion_3d_eagle_hot_pink:
+    display_name: Eagle Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_hot_pink
+  potion_3d_eagle_gold:
+    display_name: Eagle Potion <#FFD700>(Gold)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_gold
+  potion_3d_eagle_turquoise:
+    display_name: Eagle Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_turquoise
+  potion_3d_eagle_tomato:
+    display_name: Eagle Potion <#FF6347>(Tomato)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_tomato
+  potion_3d_eagle_pale_green:
+    display_name: Eagle Potion <#98FB98>(Pale Green)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_pale_green
+  potion_3d_eagle_fuchsia:
+    display_name: Eagle Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_fuchsia
+  potion_3d_eagle_peach_puff:
+    display_name: Eagle Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_peach_puff
+  potion_3d_eagle_green_yellow:
+    display_name: Eagle Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.eagle
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/eagle_green_yellow
+  potion_3d_ender_orange_red:
+    display_name: Ender Potion <#FF4500>(Orange Red)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_orange_red
+  potion_3d_ender_lime_green:
+    display_name: Ender Potion <#33FF57>(Lime Green)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_lime_green
+  potion_3d_ender_royal_blue:
+    display_name: Ender Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_royal_blue
+    mmoitem:
+      type: CONSUMABLE
+      id: RECALL_POTION
+  potion_3d_ender_deep_pink:
+    display_name: Ender Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_deep_pink
+  potion_3d_ender_bright_orange:
+    display_name: Ender Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_bright_orange
+  potion_3d_ender_aquamarine:
+    display_name: Ender Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_aquamarine
+  potion_3d_ender_purple:
+    display_name: Ender Potion <#B733FF>(Purple)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_purple
+  potion_3d_ender_dodger_blue:
+    display_name: Ender Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_dodger_blue
+  potion_3d_ender_magenta:
+    display_name: Ender Potion <#FF33F6>(Magenta)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_magenta
+  potion_3d_ender_medium_slate_blue:
+    display_name: Ender Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_medium_slate_blue
+  potion_3d_ender_spring_green:
+    display_name: Ender Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_spring_green
+  potion_3d_ender_dark_orange:
+    display_name: Ender Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_dark_orange
+  potion_3d_ender_blue_violet:
+    display_name: Ender Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_blue_violet
+  potion_3d_ender_medium_aquamarine:
+    display_name: Ender Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_medium_aquamarine
+  potion_3d_ender_sky_blue:
+    display_name: Ender Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_sky_blue
+  potion_3d_ender_orchid:
+    display_name: Ender Potion <#DA70D6>(Orchid)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_orchid
+  potion_3d_ender_cornflower_blue:
+    display_name: Ender Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_cornflower_blue
+  potion_3d_ender_hot_pink:
+    display_name: Ender Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_hot_pink
+  potion_3d_ender_gold:
+    display_name: Ender Potion <#FFD700>(Gold)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_gold
+  potion_3d_ender_turquoise:
+    display_name: Ender Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_turquoise
+  potion_3d_ender_tomato:
+    display_name: Ender Potion <#FF6347>(Tomato)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_tomato
+  potion_3d_ender_pale_green:
+    display_name: Ender Potion <#98FB98>(Pale Green)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_pale_green
+  potion_3d_ender_fuchsia:
+    display_name: Ender Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_fuchsia
+  potion_3d_ender_peach_puff:
+    display_name: Ender Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_peach_puff
+  potion_3d_ender_green_yellow:
+    display_name: Ender Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.ender
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ender_green_yellow
+  potion_3d_extra_large_orange_red:
+    display_name: Extra Large Potion <#FF4500>(Orange Red)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_orange_red
+  potion_3d_extra_large_lime_green:
+    display_name: Extra Large Potion <#33FF57>(Lime Green)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_lime_green
+  potion_3d_extra_large_royal_blue:
+    display_name: Extra Large Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_royal_blue
+  potion_3d_extra_large_deep_pink:
+    display_name: Extra Large Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_deep_pink
+  potion_3d_extra_large_bright_orange:
+    display_name: Extra Large Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_bright_orange
+  potion_3d_extra_large_aquamarine:
+    display_name: Extra Large Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_aquamarine
+  potion_3d_extra_large_purple:
+    display_name: Extra Large Potion <#B733FF>(Purple)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_purple
+  potion_3d_extra_large_dodger_blue:
+    display_name: Extra Large Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_dodger_blue
+  potion_3d_extra_large_magenta:
+    display_name: Extra Large Potion <#FF33F6>(Magenta)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_magenta
+  potion_3d_extra_large_medium_slate_blue:
+    display_name: Extra Large Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_medium_slate_blue
+  potion_3d_extra_large_spring_green:
+    display_name: Extra Large Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_spring_green
+  potion_3d_extra_large_dark_orange:
+    display_name: Extra Large Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_dark_orange
+  potion_3d_extra_large_blue_violet:
+    display_name: Extra Large Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_blue_violet
+  potion_3d_extra_large_medium_aquamarine:
+    display_name: Extra Large Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_medium_aquamarine
+  potion_3d_extra_large_sky_blue:
+    display_name: Extra Large Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_sky_blue
+  potion_3d_extra_large_orchid:
+    display_name: Extra Large Potion <#DA70D6>(Orchid)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_orchid
+  potion_3d_extra_large_cornflower_blue:
+    display_name: Extra Large Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_cornflower_blue
+  potion_3d_extra_large_hot_pink:
+    display_name: Extra Large Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_hot_pink
+  potion_3d_extra_large_gold:
+    display_name: Extra Large Potion <#FFD700>(Gold)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_gold
+  potion_3d_extra_large_turquoise:
+    display_name: Extra Large Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_turquoise
+  potion_3d_extra_large_tomato:
+    display_name: Extra Large Potion <#FF6347>(Tomato)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_tomato
+  potion_3d_extra_large_pale_green:
+    display_name: Extra Large Potion <#98FB98>(Pale Green)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_pale_green
+  potion_3d_extra_large_fuchsia:
+    display_name: Extra Large Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_fuchsia
+  potion_3d_extra_large_peach_puff:
+    display_name: Extra Large Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_peach_puff
+  potion_3d_extra_large_green_yellow:
+    display_name: Extra Large Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.extra_large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/extra_large_green_yellow
+  potion_3d_fire_orange_red:
+    display_name: Fire Potion <#FF4500>(Orange Red)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_orange_red
+  potion_3d_fire_lime_green:
+    display_name: Fire Potion <#33FF57>(Lime Green)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_lime_green
+  potion_3d_fire_royal_blue:
+    display_name: Fire Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_royal_blue
+  potion_3d_fire_deep_pink:
+    display_name: Fire Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_deep_pink
+  potion_3d_fire_bright_orange:
+    display_name: Fire Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_bright_orange
+  potion_3d_fire_aquamarine:
+    display_name: Fire Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_aquamarine
+  potion_3d_fire_purple:
+    display_name: Fire Potion <#B733FF>(Purple)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_purple
+  potion_3d_fire_dodger_blue:
+    display_name: Fire Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_dodger_blue
+  potion_3d_fire_magenta:
+    display_name: Fire Potion <#FF33F6>(Magenta)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_magenta
+  potion_3d_fire_medium_slate_blue:
+    display_name: Fire Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_medium_slate_blue
+  potion_3d_fire_spring_green:
+    display_name: Fire Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_spring_green
+  potion_3d_fire_dark_orange:
+    display_name: Fire Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_dark_orange
+  potion_3d_fire_blue_violet:
+    display_name: Fire Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_blue_violet
+  potion_3d_fire_medium_aquamarine:
+    display_name: Fire Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_medium_aquamarine
+  potion_3d_fire_sky_blue:
+    display_name: Fire Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_sky_blue
+  potion_3d_fire_orchid:
+    display_name: Fire Potion <#DA70D6>(Orchid)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_orchid
+  potion_3d_fire_cornflower_blue:
+    display_name: Fire Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_cornflower_blue
+  potion_3d_fire_hot_pink:
+    display_name: Fire Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_hot_pink
+  potion_3d_fire_gold:
+    display_name: Fire Potion <#FFD700>(Gold)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_gold
+  potion_3d_fire_turquoise:
+    display_name: Fire Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_turquoise
+  potion_3d_fire_tomato:
+    display_name: Fire Potion <#FF6347>(Tomato)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_tomato
+  potion_3d_fire_pale_green:
+    display_name: Fire Potion <#98FB98>(Pale Green)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_pale_green
+  potion_3d_fire_fuchsia:
+    display_name: Fire Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_fuchsia
+  potion_3d_fire_peach_puff:
+    display_name: Fire Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_peach_puff
+  potion_3d_fire_green_yellow:
+    display_name: Fire Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.fire
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/fire_green_yellow
+  potion_3d_ghost_orange_red:
+    display_name: Ghost Potion <#FF4500>(Orange Red)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_orange_red
+  potion_3d_ghost_lime_green:
+    display_name: Ghost Potion <#33FF57>(Lime Green)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_lime_green
+  potion_3d_ghost_royal_blue:
+    display_name: Ghost Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_royal_blue
+  potion_3d_ghost_deep_pink:
+    display_name: Ghost Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_deep_pink
+  potion_3d_ghost_bright_orange:
+    display_name: Ghost Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_bright_orange
+  potion_3d_ghost_aquamarine:
+    display_name: Ghost Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_aquamarine
+  potion_3d_ghost_purple:
+    display_name: Ghost Potion <#B733FF>(Purple)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_purple
+  potion_3d_ghost_dodger_blue:
+    display_name: Ghost Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_dodger_blue
+  potion_3d_ghost_magenta:
+    display_name: Ghost Potion <#FF33F6>(Magenta)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_magenta
+  potion_3d_ghost_medium_slate_blue:
+    display_name: Ghost Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_medium_slate_blue
+  potion_3d_ghost_spring_green:
+    display_name: Ghost Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_spring_green
+  potion_3d_ghost_dark_orange:
+    display_name: Ghost Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_dark_orange
+  potion_3d_ghost_blue_violet:
+    display_name: Ghost Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_blue_violet
+  potion_3d_ghost_medium_aquamarine:
+    display_name: Ghost Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_medium_aquamarine
+  potion_3d_ghost_sky_blue:
+    display_name: Ghost Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_sky_blue
+  potion_3d_ghost_orchid:
+    display_name: Ghost Potion <#DA70D6>(Orchid)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_orchid
+  potion_3d_ghost_cornflower_blue:
+    display_name: Ghost Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_cornflower_blue
+  potion_3d_ghost_hot_pink:
+    display_name: Ghost Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_hot_pink
+  potion_3d_ghost_gold:
+    display_name: Ghost Potion <#FFD700>(Gold)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_gold
+  potion_3d_ghost_turquoise:
+    display_name: Ghost Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_turquoise
+  potion_3d_ghost_tomato:
+    display_name: Ghost Potion <#FF6347>(Tomato)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_tomato
+  potion_3d_ghost_pale_green:
+    display_name: Ghost Potion <#98FB98>(Pale Green)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_pale_green
+  potion_3d_ghost_fuchsia:
+    display_name: Ghost Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_fuchsia
+  potion_3d_ghost_peach_puff:
+    display_name: Ghost Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_peach_puff
+  potion_3d_ghost_green_yellow:
+    display_name: Ghost Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.ghost
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/ghost_green_yellow
+  potion_3d_golden_orange_red:
+    display_name: Golden Potion <#FF4500>(Orange Red)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_orange_red
+  potion_3d_golden_lime_green:
+    display_name: Golden Potion <#33FF57>(Lime Green)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_lime_green
+  potion_3d_golden_royal_blue:
+    display_name: Golden Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_royal_blue
+  potion_3d_golden_deep_pink:
+    display_name: Golden Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_deep_pink
+  potion_3d_golden_bright_orange:
+    display_name: Golden Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_bright_orange
+  potion_3d_golden_aquamarine:
+    display_name: Golden Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_aquamarine
+  potion_3d_golden_purple:
+    display_name: Golden Potion <#B733FF>(Purple)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_purple
+  potion_3d_golden_dodger_blue:
+    display_name: Golden Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_dodger_blue
+  potion_3d_golden_magenta:
+    display_name: Golden Potion <#FF33F6>(Magenta)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_magenta
+  potion_3d_golden_medium_slate_blue:
+    display_name: Golden Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_medium_slate_blue
+  potion_3d_golden_spring_green:
+    display_name: Golden Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_spring_green
+  potion_3d_golden_dark_orange:
+    display_name: Golden Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_dark_orange
+  potion_3d_golden_blue_violet:
+    display_name: Golden Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_blue_violet
+  potion_3d_golden_medium_aquamarine:
+    display_name: Golden Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_medium_aquamarine
+  potion_3d_golden_sky_blue:
+    display_name: Golden Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_sky_blue
+  potion_3d_golden_orchid:
+    display_name: Golden Potion <#DA70D6>(Orchid)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_orchid
+  potion_3d_golden_cornflower_blue:
+    display_name: Golden Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_cornflower_blue
+  potion_3d_golden_hot_pink:
+    display_name: Golden Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_hot_pink
+  potion_3d_golden_gold:
+    display_name: Golden Potion <#FFD700>(Gold)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_gold
+  potion_3d_golden_turquoise:
+    display_name: Golden Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_turquoise
+  potion_3d_golden_tomato:
+    display_name: Golden Potion <#FF6347>(Tomato)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_tomato
+  potion_3d_golden_pale_green:
+    display_name: Golden Potion <#98FB98>(Pale Green)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_pale_green
+  potion_3d_golden_fuchsia:
+    display_name: Golden Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_fuchsia
+  potion_3d_golden_peach_puff:
+    display_name: Golden Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_peach_puff
+  potion_3d_golden_green_yellow:
+    display_name: Golden Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.golden
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/golden_green_yellow
+  potion_3d_large_orange_red:
+    display_name: Large Potion <#FF4500>(Orange Red)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_orange_red
+  potion_3d_large_lime_green:
+    display_name: Large Potion <#33FF57>(Lime Green)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_lime_green
+  potion_3d_large_royal_blue:
+    display_name: Large Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_royal_blue
+  potion_3d_large_deep_pink:
+    display_name: Large Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_deep_pink
+  potion_3d_large_bright_orange:
+    display_name: Large Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_bright_orange
+  potion_3d_large_aquamarine:
+    display_name: Large Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_aquamarine
+  potion_3d_large_purple:
+    display_name: Large Potion <#B733FF>(Purple)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_purple
+  potion_3d_large_dodger_blue:
+    display_name: Large Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_dodger_blue
+  potion_3d_large_magenta:
+    display_name: Large Potion <#FF33F6>(Magenta)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_magenta
+  potion_3d_large_medium_slate_blue:
+    display_name: Large Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_medium_slate_blue
+  potion_3d_large_spring_green:
+    display_name: Large Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_spring_green
+  potion_3d_large_dark_orange:
+    display_name: Large Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_dark_orange
+  potion_3d_large_blue_violet:
+    display_name: Large Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_blue_violet
+  potion_3d_large_medium_aquamarine:
+    display_name: Large Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_medium_aquamarine
+  potion_3d_large_sky_blue:
+    display_name: Large Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_sky_blue
+  potion_3d_large_orchid:
+    display_name: Large Potion <#DA70D6>(Orchid)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_orchid
+  potion_3d_large_cornflower_blue:
+    display_name: Large Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_cornflower_blue
+  potion_3d_large_hot_pink:
+    display_name: Large Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_hot_pink
+  potion_3d_large_gold:
+    display_name: Large Potion <#FFD700>(Gold)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_gold
+  potion_3d_large_turquoise:
+    display_name: Large Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_turquoise
+  potion_3d_large_tomato:
+    display_name: Large Potion <#FF6347>(Tomato)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_tomato
+  potion_3d_large_pale_green:
+    display_name: Large Potion <#98FB98>(Pale Green)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_pale_green
+  potion_3d_large_fuchsia:
+    display_name: Large Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_fuchsia
+  potion_3d_large_peach_puff:
+    display_name: Large Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_peach_puff
+  potion_3d_large_green_yellow:
+    display_name: Large Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.large
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/large_green_yellow
+  potion_3d_premium_orange_red:
+    display_name: Premium Potion <#FF4500>(Orange Red)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_orange_red
+  potion_3d_premium_lime_green:
+    display_name: Premium Potion <#33FF57>(Lime Green)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_lime_green
+  potion_3d_premium_royal_blue:
+    display_name: Premium Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_royal_blue
+  potion_3d_premium_deep_pink:
+    display_name: Premium Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_deep_pink
+  potion_3d_premium_bright_orange:
+    display_name: Premium Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_bright_orange
+  potion_3d_premium_aquamarine:
+    display_name: Premium Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_aquamarine
+  potion_3d_premium_purple:
+    display_name: Premium Potion <#B733FF>(Purple)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_purple
+  potion_3d_premium_dodger_blue:
+    display_name: Premium Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_dodger_blue
+  potion_3d_premium_magenta:
+    display_name: Premium Potion <#FF33F6>(Magenta)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_magenta
+  potion_3d_premium_medium_slate_blue:
+    display_name: Premium Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_medium_slate_blue
+  potion_3d_premium_spring_green:
+    display_name: Premium Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_spring_green
+  potion_3d_premium_dark_orange:
+    display_name: Premium Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_dark_orange
+  potion_3d_premium_blue_violet:
+    display_name: Premium Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_blue_violet
+  potion_3d_premium_medium_aquamarine:
+    display_name: Premium Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_medium_aquamarine
+  potion_3d_premium_sky_blue:
+    display_name: Premium Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_sky_blue
+  potion_3d_premium_orchid:
+    display_name: Premium Potion <#DA70D6>(Orchid)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_orchid
+  potion_3d_premium_cornflower_blue:
+    display_name: Premium Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_cornflower_blue
+  potion_3d_premium_hot_pink:
+    display_name: Premium Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_hot_pink
+  potion_3d_premium_gold:
+    display_name: Premium Potion <#FFD700>(Gold)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_gold
+  potion_3d_premium_turquoise:
+    display_name: Premium Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_turquoise
+  potion_3d_premium_tomato:
+    display_name: Premium Potion <#FF6347>(Tomato)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_tomato
+  potion_3d_premium_pale_green:
+    display_name: Premium Potion <#98FB98>(Pale Green)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_pale_green
+  potion_3d_premium_fuchsia:
+    display_name: Premium Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_fuchsia
+  potion_3d_premium_peach_puff:
+    display_name: Premium Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_peach_puff
+  potion_3d_premium_green_yellow:
+    display_name: Premium Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.premium
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/premium_green_yellow
+  potion_3d_prisoner_orange_red:
+    display_name: Prisoner Potion <#FF4500>(Orange Red)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_orange_red
+  potion_3d_prisoner_lime_green:
+    display_name: Prisoner Potion <#33FF57>(Lime Green)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_lime_green
+  potion_3d_prisoner_royal_blue:
+    display_name: Prisoner Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_royal_blue
+  potion_3d_prisoner_deep_pink:
+    display_name: Prisoner Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_deep_pink
+  potion_3d_prisoner_bright_orange:
+    display_name: Prisoner Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_bright_orange
+  potion_3d_prisoner_aquamarine:
+    display_name: Prisoner Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_aquamarine
+  potion_3d_prisoner_purple:
+    display_name: Prisoner Potion <#B733FF>(Purple)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_purple
+  potion_3d_prisoner_dodger_blue:
+    display_name: Prisoner Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_dodger_blue
+  potion_3d_prisoner_magenta:
+    display_name: Prisoner Potion <#FF33F6>(Magenta)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_magenta
+  potion_3d_prisoner_medium_slate_blue:
+    display_name: Prisoner Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_medium_slate_blue
+  potion_3d_prisoner_spring_green:
+    display_name: Prisoner Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_spring_green
+  potion_3d_prisoner_dark_orange:
+    display_name: Prisoner Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_dark_orange
+  potion_3d_prisoner_blue_violet:
+    display_name: Prisoner Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_blue_violet
+  potion_3d_prisoner_medium_aquamarine:
+    display_name: Prisoner Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_medium_aquamarine
+  potion_3d_prisoner_sky_blue:
+    display_name: Prisoner Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_sky_blue
+  potion_3d_prisoner_orchid:
+    display_name: Prisoner Potion <#DA70D6>(Orchid)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_orchid
+  potion_3d_prisoner_cornflower_blue:
+    display_name: Prisoner Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_cornflower_blue
+  potion_3d_prisoner_hot_pink:
+    display_name: Prisoner Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_hot_pink
+  potion_3d_prisoner_gold:
+    display_name: Prisoner Potion <#FFD700>(Gold)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_gold
+  potion_3d_prisoner_turquoise:
+    display_name: Prisoner Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_turquoise
+  potion_3d_prisoner_tomato:
+    display_name: Prisoner Potion <#FF6347>(Tomato)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_tomato
+  potion_3d_prisoner_pale_green:
+    display_name: Prisoner Potion <#98FB98>(Pale Green)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_pale_green
+  potion_3d_prisoner_fuchsia:
+    display_name: Prisoner Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_fuchsia
+  potion_3d_prisoner_peach_puff:
+    display_name: Prisoner Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_peach_puff
+  potion_3d_prisoner_green_yellow:
+    display_name: Prisoner Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.prisoner
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/prisoner_green_yellow
+  potion_3d_royal_orange_red:
+    display_name: Royal Potion <#FF4500>(Orange Red)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_orange_red
+  potion_3d_royal_lime_green:
+    display_name: Royal Potion <#33FF57>(Lime Green)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_lime_green
+  potion_3d_royal_royal_blue:
+    display_name: Royal Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_royal_blue
+  potion_3d_royal_deep_pink:
+    display_name: Royal Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_deep_pink
+  potion_3d_royal_bright_orange:
+    display_name: Royal Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_bright_orange
+  potion_3d_royal_aquamarine:
+    display_name: Royal Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_aquamarine
+  potion_3d_royal_purple:
+    display_name: Royal Potion <#B733FF>(Purple)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_purple
+  potion_3d_royal_dodger_blue:
+    display_name: Royal Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_dodger_blue
+  potion_3d_royal_magenta:
+    display_name: Royal Potion <#FF33F6>(Magenta)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_magenta
+  potion_3d_royal_medium_slate_blue:
+    display_name: Royal Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_medium_slate_blue
+  potion_3d_royal_spring_green:
+    display_name: Royal Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_spring_green
+  potion_3d_royal_dark_orange:
+    display_name: Royal Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_dark_orange
+  potion_3d_royal_blue_violet:
+    display_name: Royal Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_blue_violet
+  potion_3d_royal_medium_aquamarine:
+    display_name: Royal Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_medium_aquamarine
+  potion_3d_royal_sky_blue:
+    display_name: Royal Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_sky_blue
+  potion_3d_royal_orchid:
+    display_name: Royal Potion <#DA70D6>(Orchid)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_orchid
+  potion_3d_royal_cornflower_blue:
+    display_name: Royal Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_cornflower_blue
+  potion_3d_royal_hot_pink:
+    display_name: Royal Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_hot_pink
+  potion_3d_royal_gold:
+    display_name: Royal Potion <#FFD700>(Gold)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_gold
+  potion_3d_royal_turquoise:
+    display_name: Royal Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_turquoise
+  potion_3d_royal_tomato:
+    display_name: Royal Potion <#FF6347>(Tomato)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_tomato
+  potion_3d_royal_pale_green:
+    display_name: Royal Potion <#98FB98>(Pale Green)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_pale_green
+  potion_3d_royal_fuchsia:
+    display_name: Royal Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_fuchsia
+  potion_3d_royal_peach_puff:
+    display_name: Royal Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_peach_puff
+  potion_3d_royal_green_yellow:
+    display_name: Royal Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.royal
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/royal_green_yellow
+  potion_3d_small_orange_red:
+    display_name: Small Potion <#FF4500>(Orange Red)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_orange_red
+  potion_3d_small_lime_green:
+    display_name: Small Potion <#33FF57>(Lime Green)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_lime_green
+  potion_3d_small_royal_blue:
+    display_name: Small Potion <#3357FF>(Royal Blue)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_royal_blue
+  potion_3d_small_deep_pink:
+    display_name: Small Potion <#FF33A1>(Deep Pink)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_deep_pink
+  potion_3d_small_bright_orange:
+    display_name: Small Potion <#FFB733>(Bright Orange)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_bright_orange
+  potion_3d_small_aquamarine:
+    display_name: Small Potion <#33FFB7>(Aquamarine)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_aquamarine
+  potion_3d_small_purple:
+    display_name: Small Potion <#B733FF>(Purple)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_purple
+  potion_3d_small_dodger_blue:
+    display_name: Small Potion <#1E90FF>(Dodger Blue)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_dodger_blue
+  potion_3d_small_magenta:
+    display_name: Small Potion <#FF33F6>(Magenta)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_magenta
+  potion_3d_small_medium_slate_blue:
+    display_name: Small Potion <#5733FF>(Medium Slate Blue)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_medium_slate_blue
+  potion_3d_small_spring_green:
+    display_name: Small Potion <#00FF7F>(Spring Green)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_spring_green
+  potion_3d_small_dark_orange:
+    display_name: Small Potion <#FF8C33>(Dark Orange)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_dark_orange
+  potion_3d_small_blue_violet:
+    display_name: Small Potion <#8C33FF>(Blue Violet)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_blue_violet
+  potion_3d_small_medium_aquamarine:
+    display_name: Small Potion <#33FFCC>(Medium Aquamarine)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_medium_aquamarine
+  potion_3d_small_sky_blue:
+    display_name: Small Potion <#33A1FF>(Sky Blue)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_sky_blue
+  potion_3d_small_orchid:
+    display_name: Small Potion <#DA70D6>(Orchid)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_orchid
+  potion_3d_small_cornflower_blue:
+    display_name: Small Potion <#3373FF>(Cornflower Blue)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_cornflower_blue
+  potion_3d_small_hot_pink:
+    display_name: Small Potion <#FF69B4>(Hot Pink)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_hot_pink
+  potion_3d_small_gold:
+    display_name: Small Potion <#FFD700>(Gold)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_gold
+  potion_3d_small_turquoise:
+    display_name: Small Potion <#40E0D0>(Turquoise)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_turquoise
+  potion_3d_small_tomato:
+    display_name: Small Potion <#FF6347>(Tomato)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_tomato
+  potion_3d_small_pale_green:
+    display_name: Small Potion <#98FB98>(Pale Green)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_pale_green
+  potion_3d_small_fuchsia:
+    display_name: Small Potion <#FF00FF>(Fuchsia)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_fuchsia
+  potion_3d_small_peach_puff:
+    display_name: Small Potion <#FFDAB9>(Peach Puff)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_peach_puff
+  potion_3d_small_green_yellow:
+    display_name: Small Potion <#ADFF2F>(Green Yellow)
+    permission: potion_3d.small
+    resource:
+      material: APPLE
+      generate: false
+      model_path: potion/small_green_yellow

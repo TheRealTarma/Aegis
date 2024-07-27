@@ -1,6 +1,203 @@
+WOODEN_SQUARE_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 302.0
+    name: Wooden Square Shield
+    profession-defense: 5.0
+    block-power: 23.0
+    block-rating: 4.0
+    attack-speed: -0.2
+    custom-model-data: 10008.0
+    lore:
+    - '§eDefense Level: §c5'
+COPPER_SQUARE_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 302.0
+    name: Copper Square Shield
+    profession-defense: 11.0
+    block-power: 23.0
+    block-rating: 4.0
+    attack-speed: -0.2
+    custom-model-data: 10010.0
+    lore:
+    - '§eDefense Level: §c11'
 IRON_SQUARE_SHIELD:
   base:
     material: SHIELD
     max-durability: 336.0
     name: Iron Square Shield
-    profession-defense: 11.0
+    profession-defense: 16.0
+    block-power: 25.0
+    block-rating: 5.0
+    attack-speed: -0.2
+    custom-model-data: 10009.0
+    lore:
+    - '§eDefense Level: §c16'
+STEEL_SQUARE_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 369.8
+    name: Steel Square Shield
+    profession-defense: 26.0
+    block-power: 27.0
+    block-rating: 6.0
+    attack-speed: -0.2
+    custom-model-data: 10011.0
+    lore:
+    - '§eDefense Level: §c26'
+MITHRIL_SQUARE_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 406.0
+    name: Mithril Square Shield
+    profession-defense: 36.0
+    block-power: 29.0
+    block-rating: 7.0
+    attack-speed: -0.2
+    custom-model-data: 10012.0
+    lore:
+    - '§eDefense Level: §c36'
+ADAMANT_SQUARE_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 447.0
+    name: Adamant Square Shield
+    profession-defense: 46.0
+    block-power: 31.0
+    block-rating: 8.0
+    attack-speed: -0.2
+    custom-model-data: 10013.0
+    lore:
+    - '§eDefense Level: §c46'
+DIAMOND_SQUARE_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 491.0
+    name: Diamond Square Shield
+    profession-defense: 56.0
+    block-power: 33.0
+    block-rating: 9.0
+    attack-speed: -0.2
+    custom-model-data: 10014.0
+    lore:
+    - '§eDefense Level: §c56'
+NETHERITE_SQUARE_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 541.0
+    name: Netherite Square Shield
+    profession-defense: 66.0
+    block-power: 35.0
+    block-rating: 10.0
+    attack-speed: -0.2
+    custom-model-data: 10015.0
+    lore:
+    - '§eDefense Level: §c66'
+
+# round shields#
+
+WOODEN_ROUND_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 303.0
+    name: Wooden Round Shield
+    profession-defense: 3.0
+    block-power: 17.0
+    block-rating: 2.0
+    attack-speed: -0.1
+    handworn: true
+    custom-model-data: 10001.0
+    lore:
+    - '§eDefense Level: §c3'
+COPPER_ROUND_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 319.0
+    name: Copper Round Shield
+    profession-defense: 9.0
+    block-power: 18.0
+    block-rating: 2.5
+    attack-speed: -0.1
+    handworn: true
+    custom-model-data: 10002.0
+    lore:
+    - '§eDefense Level: §c9'
+IRON_ROUND_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 336.0
+    name: Iron Round Shield
+    profession-defense: 14.0
+    block-power: 19.0
+    block-rating: 3.0
+    attack-speed: -0.1
+    handworn: true
+    custom-model-data: 10000.0
+    lore:
+    - '§eDefense Level: §c14'
+STEEL_ROUND_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 352.0
+    name: Steel Round Shield
+    profession-defense: 24.0
+    block-power: 20.0
+    block-rating: 3.5
+    attack-speed: -0.1
+    handworn: true
+    custom-model-data: 10003.0
+    lore:
+    - '§eDefense Level: §c24'
+MITHRIL_ROUND_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 370.0
+    name: Mithril Round Shield
+    profession-defense: 34.0
+    block-power: 21.0
+    block-rating: 4.0
+    attack-speed: -0.1
+    handworn: true
+    custom-model-data: 10004.0
+    lore:
+    - '§eDefense Level: §c34'
+ADAMANT_ROUND_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 388.0
+    name: Adamant Round Shield
+    profession-defense: 44.0
+    block-power: 22.0
+    block-rating: 4.5
+    attack-speed: -0.1
+    handworn: true
+    custom-model-data: 10005.0
+    lore:
+    - '§eDefense Level: §c44'
+DIAMOND_ROUND_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 408.0
+    name: Diamond Round Shield
+    profession-defense: 54.0
+    block-power: 23.0
+    block-rating: 5.0
+    attack-speed: -0.1
+    handworn: true
+    custom-model-data: 10006.0
+    lore:
+    - '§eDefense Level: §c54'
+NETHERITE_ROUND_SHIELD:
+  base:
+    material: SHIELD
+    max-durability: 428.0
+    name: Netherite Round Shield
+    profession-defense: 64.0
+    block-power: 24.0
+    block-rating: 5.5
+    attack-speed: -0.1
+    handworn: true
+    custom-model-data: 10007.0
+    lore:
+    - '§eDefense Level: §c64'

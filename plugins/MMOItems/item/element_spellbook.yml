@@ -1,0 +1,138 @@
+ELEMENT_SPELLBOOK_DARK:
+  base:
+    material: IRON_INGOT
+    name: '&dElement Spellbook Dark'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    ability:
+      ability1:
+        type: DARK_MAGICRING
+        mode: RIGHT_CLICK
+        damage: 15.0
+        cooldown: 5
+    custom-model-data: 985600.0
+    inedible: true
+    unstackable: true
+    lore:
+    - 'Cast a magic circle, then release a wave of magic within a 15-block radius.'
+    - ' Enemies within this radius will be inflicted with SLOW, WITHER, and BLINDNESS status effects, '
+    - '  and will take damage 3 times.'
+    - 'SLOW 1.5s, WITHER 3s, BLINDNESS 5s'
+ELEMENT_SPELLBOOK_EARTH:
+  base:
+    material: IRON_INGOT
+    name: '&dElement Spellbook Earth'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    ability:
+      ability1:
+        type: EARTH_MAGICRING
+        mode: RIGHT_CLICK
+        damage: 15.0
+        cooldown: 5
+    custom-model-data: 985601.0
+    inedible: true
+    unstackable: true
+    lore:
+    - 'Cast a magic circle, then release a wave of magic within a 15-block radius.'
+    - ' Enemies within this radius will be inflicted with SLOW status,'
+    - '  then they will take magic damage and be lifted into the air.'
+    - 'SLOW 4s'
+ELEMENT_SPELLBOOK_FIRE:
+  base:
+    material: IRON_INGOT
+    name: '&dElement Spellbook Fire'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    ability:
+      ability1:
+        type: FIRE_MAGICRING
+        mode: RIGHT_CLICK
+        damage: 15.0
+        cooldown: 5
+    custom-model-data: 985602.0
+    inedible: true
+    unstackable: true
+    lore:
+    - 'Cast a magic circle, then release a wave of magic within a 15-block radius.'
+    - ' Enemies within this radius will be inflicted with SLOW status,'
+    - '  then they will take damage and be set on fire.'
+    - 'SLOW 5s'
+ELEMENT_SPELLBOOK_LIGHT:
+  base:
+    material: IRON_INGOT
+    name: '&dElement Spellbook Light'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    ability:
+      ability1:
+        type: LIGHT_MAGICRING
+        mode: RIGHT_CLICK
+        heal: 15.0
+        cooldown: 5
+    custom-model-data: 985603.0
+    inedible: true
+    unstackable: true
+    lore:
+    - 'Cast a magic circle, then release a wave of magic within a 15-block radius,'
+    - ' healing all entities within this radius'
+ELEMENT_SPELLBOOK_WATER:
+  base:
+    material: IRON_INGOT
+    name: '&dElement Spellbook water'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    ability:
+      ability1:
+        type: WATER_MAGICRING
+        mode: RIGHT_CLICK
+        damage: 15.0
+        cooldown: 5
+    custom-model-data: 985604.0
+    inedible: true
+    unstackable: true
+    lore:
+    - 'Cast a magic circle, then release a wave of magic within a 15-block radius.'
+    - ' It will then deal damage to enemies and trap them in ice for 5 seconds.'
+ELEMENT_SPELLBOOK_WIND:
+  base:
+    material: IRON_INGOT
+    name: '&dElement Spellbook wind'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    ability:
+      ability1:
+        type: WIND_MAGICRING
+        mode: RIGHT_CLICK
+        damage: 15.0
+        cooldown: 5
+    custom-model-data: 985605.0
+    inedible: true
+    unstackable: true
+    lore:
+    - 'Cast a magic circle, then release a wave of magic within a 15-block radius.'
+    - ' It will then deal damage to enemies and knock them back.'

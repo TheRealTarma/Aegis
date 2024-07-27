@@ -186,8 +186,8 @@ general:
   inbox:
     general:
       created: '&7Land {0} &7created.'
-      post: '{0}:&7 {1}'
       renamed: '&7{0} changed the name from {1} to {2}.'
+      post: '{0}:&7 {1}'
     member:
       join: '&7Player {0} joined.'
       leave: '&7Player {0} left.'
@@ -196,11 +196,18 @@ general:
     economy:
       upkeep:
         alert:
-          normal: '&cYou need to pay&4 {0}&c in upkeep in {1}, but {2} has insufficient
-            funds.'
-          unclaim: '&cYou need to pay&4 {0}&c in upkeep in {1}, but {2} has insufficient
-            funds. &7This will lead to some of the latest claims being unclaimed.
-            Make sure to deposit some money to prevent this from happening.'
+          land:
+            normal: '&cYou need to pay&4 {0}&c in upkeep in {1}, but {2} has insufficient
+              funds.'
+            delete: '&cYou need to pay&4 {0}&c in upkeep in {1}, but {2} has insufficient
+              funds. &7This will lead to at least some of the latest claims being
+              unclaimed. Make sure to deposit some money to prevent this from happening.'
+          nation:
+            normal: '&cYou need to pay&4 {0}&c in upkeep in {1}, but {2} has insufficient
+              funds.'
+            delete: '&cYou need to pay&4 {0}&c in upkeep in {1}, but {2} has insufficient
+              funds. &7This will lead to the nation being deleted. Make sure to deposit
+              some money to prevent this from happening.'
         warning: '&cCouldn''t pay upkeep cost: {0}'
         unclaim: '&cCouldn''t pay the complete upkeep cost of {0}. The last {1} claimed
           chunk(s) were unclaimed.'
@@ -352,9 +359,9 @@ help:
       merge: '[T]&e{parent} {subcmd} {args} &8- &7Merge land into your current[H]&7Click
         to copy.[/H][SC]{fullcmd}[/SC][/T]'
       storage: '[T]&e{parent} {subcmd} &8- &7Open the land storage[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
-      leave: '[T]&e{parent} {subcmd} {args} &8- &7Leave a land or area.[H]&7If you
-        don''t specify a land, you''ll leave the area at your current position. &7Click
-        to copy.[/H][SC]{fullcmd}[/SC][/T]'
+      leave: '[T]&e{parent} {subcmd} {args} &8- &7Leave a land or area at position[H]&7If
+        you want to leave the area at your current position, append "here" to this
+        command. Click to copy.[/H][SC]{fullcmd}[/SC][/T]'
       unclaim:
         main: '[T]&e{parent} {subcmd} &8- &7Unclaim chunk[H]&7This also supports &e/lands
           selection&7. &7Click to execute.[/H][C]{fullcmd}[/C][/T]'
@@ -544,22 +551,21 @@ help:
             set: '[T]&e{parent} {subcmd} {args} &8- &7Set time[H]&7Click to copy.[/H][SC]{fullcmd}[/SC][/T]'
     
     wars:
-      declare: '[T]&e{parent} {subcmd} {args} - &7Declare war[H]&7Click to copy.[/H][SC]{fullcmd}[/SC][/T]'
-      info:
-        main: '[T]&e{parent} {subcmd} {args} &8- &7Info about war[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
-        captureflag: '[T]&e{parent} {subcmd} &8- &7View captureflag recipe[H]&7Click
-          to execute.[/H][C]{fullcmd}[/C][/T]'
       menu: '[T]&e{parent} {subcmd} {args} &8- &7Open war menu[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
       deny: '[T]&e{parent} {subcmd} &8- &7Deny mutual war declaration[H]&7Click to
         execute.[/H][C]{fullcmd}[/C][/T]'
       spawn: '[T]&e{parent} {subcmd} &8- &7Teleport to enemy[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
-      
+      declare: '[T]&e{parent} {subcmd} {args} - &7Declare war[H]&7Click to copy.[/H][SC]{fullcmd}[/SC][/T]'
+      list: '[T]&e{parent} {subcmd} - &7View active wars[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
+      info:
+        main: '[T]&e{parent} {subcmd} {args} &8- &7Info about war[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
+        captureflag: '[T]&e{parent} {subcmd} &8- &7View captureflag recipe[H]&7Click
+          to execute.[/H][C]{fullcmd}[/C][/T]'
       admin:
         main: '[T]&e{parent} {subcmd} {args} &8- &7Special war administration[H]&7Click
           to copy.[/H][SC]{fullcmd}[/SC][/T]'
         start: '[T]&e{parent} {subcmd} {args} &8- &7Start war[H]&7Click to copy.[/H][SC]{fullcmd}[/SC][/T]'
         end: '[T]&e{parent} {subcmd} {args} &8- &7End war[H]&7Click to copy.[/H][SC]{fullcmd}[/SC][/T]'
-      list: '[T]&e{parent} {subcmd} - &7View active wars[H]&7Click to execute.[/H][C]{fullcmd}[/C][/T]'
     
     nations:
       chat: '[T]&e{parent} {subcmd} {args} &8- &7Nation chat[H]&7Click to copy.[/H][SC]{fullcmd}[/SC][/T]'
@@ -724,7 +730,7 @@ lands:
         check your other plugins. &7This is not a Lands issue.'
       unsafe: |
         &7The teleportation has been cancelled, because the destination is not safe.
-          [T]&2✔ Teleport anyways: &e/{cmd} &8[CLICK][H]&7Warning: The teleportation destination is not safe and might be dangerous for you.[/H][C]{cmd}[/C][/T]
+          [T]&2✔ Teleport anyways: &e/{cmd} &8[CLICK][H]&7You have {time}&7 to confirm this teleportation. Warning: The teleportation destination is not safe and might be dangerous for you.[/H][C]{cmd}[/C][/T]
       corrected: '&7The original teleport destination was unsafe. &7Your final destination
         has been corrected to a safe location.'
     claimblock:
@@ -780,6 +786,7 @@ lands:
         visitor: '&cYou can''t delete the untrusted role&4 {role}&c. &7It is required
           for players that are not trusted.'
     chat-input:
+      general: '&7Please enter your input in the chat.'
       player: '#t#&6Enter the Name[newline]&7of the player in chat[newline]&7Enter
         "cancel" to abort.'
       object: '#t#&6Enter the Name[newline]&7of a land or nation in chat[newline]&7Enter
@@ -792,7 +799,6 @@ lands:
         Enter "cancel" to abort.'
       name: '#t#&6Enter the Name[newline]&7in chat[newline]&7Enter "cancel" to abort.'
       text: '#t#&6Enter the Text[newline]&7in chat[newline]&7Enter "cancel" to abort.'
-      general: '&7Please enter your input in the chat.'
     block-selection:
       rental:
         prompt: '#t#&6Select a Sign[newline]&7in the area&6 {area}'
@@ -828,6 +834,8 @@ lands:
           {time}&7.'
         sold: '&cYou can''t set a area, which has been sold, for rent. &7The area&6
           {area} &7has been bought by player&3 {player}&7.'
+        interval: '&cThe rent interval must be shorther than the max total rent time.
+          &7Provided values - interval:&5 {interval}&7, max total time:&5 {max-time}'
         success: |
           &7You set area&6 {area} &7for rent. The tenant will pay&c {cost} &7each&5 {time}&7.
             [T]&8✖ &7Remove offer: &e/{cmd} &8[CLICK][H]&7Click here to remove the rental offer.[/H][C]{cmd}[/C][/T]
@@ -845,8 +853,6 @@ lands:
            &8• &7Cost:&c {cost} &7each {time}
            &8• &8Max time: {max}
           &7&m━━━━━━━━━<━&r &5&lRent Area &7&m━>━━━━━━━━━
-        interval: '&cThe rent interval must be shorther than the max total rent time.
-          &7Provided values - interval:&5 {interval}&7, max total time:&5 {max-time}'
       rent:
         expire: '&cYou can''t add any more time to your rental of area&4 {area}&c.
           &7The land&2 {land} &7removed it for rental. It will expire in&5 {time}&7.'
@@ -956,6 +962,10 @@ lands:
         &7You need to choose a different one.'
       swear-word: '&cDetected a swear word. &7Please do not use mature language. Word:&c
         {word}'
+      action:
+        cooldown: '&cYou can''t do this now. &7You need to wait&5 {time}&7.'
+        spam: '&cYou currently have another command or action processing. &7Please
+          wait until it''s complete and do not spam commands. &8Action: {action}'
       wilderness: '&cThere''s no claimed land at your current position. &7Please go
         into your land first, in order to execute this action. &7You can use &e/view
         &7to visualize claims around you.'
@@ -991,9 +1001,9 @@ lands:
           it. Deposit: &e/{cmd}[T]&8[CLICK][H]&7Click here to deposit money into the
           bank of land {land}.[/H][SC]{cmd}[/SC][/T]'
         failure:
-          bank: '&cYou don''t have enough to pay the cost. &7You need&c {cost}&7.
-            Deposit money into your land bank: [T]&e/{cmd} &8[CLICK][H]&7Click here
-            to deposit {cost} into your land bank.[/H][C]{cmd}[/C][/T]'
+          bank: '&cYou don''t have enough money in the land bank to pay the cost.
+            &7Deposit&c {cost} &7into your land bank: [T]&e/{cmd} &8[CLICK][H]&7Click
+            here to deposit {cost} into your land bank.[/H][C]{cmd}[/C][/T]'
           personal: '&cYou don''t have enough to pay the cost. &7You need&c {cost}&7.
             Your balance: {balance}'
       input:
@@ -1016,10 +1026,6 @@ lands:
         world-disabled: '&cThis is deactivated in this world. &8World: {input}'
         time: '&cYour input&4 {input} &cdoesn''t represent time. &7Argument {pos}:
           {expected}. Correct example: 1h'
-      action:
-        cooldown: '&cYou can''t do this now. &7You need to wait&5 {time}&7.'
-        spam: '&cYou currently have another command or action processing. &7Please
-          wait until it''s complete and do not spam commands. &8Action: {action}'
     create:
       land-other: '&cYou''re not allowed to have your own land and be a member of
         another land. &7You need to leave land&2 {land} &7first.'
@@ -1101,6 +1107,22 @@ lands:
           from another region management plugin: {plugin}'
       war: '&cYou can''t claim while being engaged in a war against {object}&c.'
       already: '&cYou can''t claim this chunk. &7It already belongs to land&2 {land}&7.'
+      initial:
+        world: "&cFor land&4 {land} &cyou can only claim in the world, in which you\
+          \ initially created it &8(&4{world}&8)&c. &7You may want to create another\
+          \ land for the world you're currently in &8(&7{current}&8)&7. \n  [T]&7✖\
+          \ Create: &e/lands create &8<&ename&8> &8[&8CLICK&8][SC]lands create[/SC][H]&7Click\
+          \ to copy this command.[/H][/T]\n"
+        server: "&cFor land&4 {land} &cyou can only claim in the server, in which\
+          \ you initially created it &8(&4{server}&8)&c. &7You may want to create\
+          \ another land for the server you're currently in &8(&7{current}&8)&7. \n\
+          \  [T]&7✖ Create: &e/lands create &8<&ename&8> &8[&8CLICK&8][SC]lands create[/SC][H]&7Click\
+          \ to copy this command.[/H][/T]\n"
+      chunk-distance:
+        land: '&cThis is too near to land&4 {land}&c. &7The minimum distance around
+          lands, that aren''t part of a nation, is&3 {distance} chunk(s)&7.'
+        nation: '&cThis is too near to land&4 {land}&c. &7The minimum distance is&3
+          {distance} chunk(s)&7, because they''re part of a nation.'
       force-near:
         far-land: '&cYou can''t claim this chunk(s). &7Your claims need to be connected
           to your land&2 {land}&7.'
@@ -1125,22 +1147,6 @@ lands:
           region that is surrunded by your claim.'
         success: '&7You successfully claimed&3 {chunks} &7chunks for your land&2 {land}
           &7in order to fill the shape you stood in. You paid&c {cost}&7.'
-      initial:
-        world: "&cFor land&4 {land} &cyou can only claim in the world, in which you\
-          \ initially created it &8(&4{world}&8)&c. &7You may want to create another\
-          \ land for the world you're currently in &8(&7{current}&8)&7. \n  [T]&7✖\
-          \ Create: &e/lands create &8<&ename&8> &8[&8CLICK&8][SC]lands create[/SC][H]&7Click\
-          \ to copy this command.[/H][/T]\n"
-        server: "&cFor land&4 {land} &cyou can only claim in the server, in which\
-          \ you initially created it &8(&4{server}&8)&c. &7You may want to create\
-          \ another land for the server you're currently in &8(&7{current}&8)&7. \n\
-          \  [T]&7✖ Create: &e/lands create &8<&ename&8> &8[&8CLICK&8][SC]lands create[/SC][H]&7Click\
-          \ to copy this command.[/H][/T]\n"
-      chunk-distance:
-        land: '&cThis is too near to land&4 {land}&c. &7The minimum distance between
-          lands, that aren''t part of a nation, is&3 {distance} chunk(s)&7.'
-        nation: '&cThis is too near to land&4 {land}&c. &7The minimum distance is&3
-          {distance} chunk(s)&7, because either your or their land is part of a nation.'
     merge:
       confirm: |
         &7Please confirm that you want to merge land&2 {merge} &7into&2 {land}&7:
@@ -1452,9 +1458,10 @@ lands:
       none: "&cNo land found for land chat. \n  [T]&7✖ &7Disable chat mode: &e/{cmd}\
         \ &8[&8CLICK&8][H]&7Click here to deactivate the chat mode.[/H][C]{cmd}[/C][/T]\n"
       format:
-        minecraft: '[NoPrefix]&2{land} &8| {role} &7{player} &8»&f {message}'
-        discord: '[NoPrefix]&2{land} &8| &9Discord &7{player} &8»&f {message}'
-        spy: '[NoPrefix]&8[&cChatSpy&8] &2{land} &8| {role} &7{player} &8»&f {message}'
+        minecraft: '[NoPrefix]&2{land} &8| {role} &7{player_display} &8»&f {message}'
+        discord: '[NoPrefix]&2{land} &8| &9Discord &7{player_display} &8»&f {message}'
+        spy: '[NoPrefix]&8[&cChatSpy&8] &2{land} &8| {role} &7{player_display} &8»&f
+          {message}'
     view:
       disabled: '&7You successfully disabled the current visualization.'
       wilderness: '&7Enabled visualization of claims. &7Your current position is wilderness.'
@@ -1516,6 +1523,17 @@ lands:
           &8More info: /lands taxes
           &7&m━━━━━━━━━<━&r &4Tax Change &7&m━>━━━━━━━━━
     upkeep:
+      broadcast:
+        reminder: '&cUpkeep will be collected in&4 {time}&c. &7Make sure you have
+          enough money in the bank of your land or nation capital.'
+        collected: "[NoPrefix][I]&7&m━━━━━━━━━<━&r &cUpkeep Collected &7&m━>━━━━━━\
+          ━━━[/I]\n&8• &2Lands:&c {lands_upkeep} &7from&3 {lands} &7lands \n   &7Unclaimed\
+          \ a total of&3 {chunks} &7chunks. [I]&8[INFO&8][H]&7Chunks will be unclaimed,\
+          \ if a land can't afford to pay the upkeep for them.[/H][/I]\n&8• &9Nations:&c\
+          \ {nations_upkeep} &7from&3 {nations} &7nations\n   &7Deleted&3 {nations_deleted}\
+          \ &7nations. [I]&8[INFO&8][H]&7Nations will be deleted, if they can't afford\
+          \ to pay their upkeep.[/H][/I]\n[I]&7&m━━━━━━━━━<━&r &cUpkeep Collected\
+          \ &7&m━>━━━━━━━━━[/I]\n"
       none: '&7You currently don''t have to pay upkeep for any land.'
       header: '[NoPrefix]&7&m━━━━━━━━━<━&r &cUpcoming Upkeep &7&m━>━━━━━━━━━'
       entry: '[NoPrefix][T]{covered} {land}: {upkeep_form} &8[CLICK][C]{cmd}[/C][H]&7Click
@@ -1523,14 +1541,6 @@ lands:
       footer: |
         [NoPrefix]&7Your lands need to pay a total of {total} in &5{next} &7in order to keep up all claims or membership in their nation. &7Click above to deposit money into your land's banks.
         &7&m━━━━━━━━━<━&r &cUpcoming Upkeep &7&m━>━━━━━━━━━
-      broadcast: "[NoPrefix][I]&7&m━━━━━━━━━<━&r &cUpkeep Collected &7&m━>━━━━━━━━\
-        ━[/I]\n&8• &2Lands:&c {lands_upkeep} &7from&3 {lands} &7lands \n   &7Unclaimed\
-        \ a total of&3 {chunks} &7chunks. [I]&8[INFO&8][H]&7Chunks will be unclaimed,\
-        \ if a land can't afford to pay the upkeep for them.[/H][/I]\n&8• &9Nations:&c\
-        \ {nations_upkeep} &7from&3 {nations} &7nations\n   &7Deleted&3 {nations_deleted}\
-        \ &7nations. [I]&8[INFO&8][H]&7Nations will be deleted, if they can't afford\
-        \ to pay their upkeep.[/H][/I]\n[I]&7&m━━━━━━━━━<━&r &cUpkeep Collected &7&m━\
-        >━━━━━━━━━[/I]\n"
     relations:
       self: '&cYou can''t add&4 {object} &cas an ally or enemy to itself.'
       nation: '&cAll relations are managed by the nation&4 {nation}&c, which your
@@ -1720,8 +1730,8 @@ wars:
           attack others that are at least&5 {min} &7old.'
       online: '&cCan''t send this declaration. &7At least one player of {object} &7need
         to be online.'
-      broadcast: '&7The enemy {attacker} &7declared war against {defender}&7. Their
-        war will start in&5 {time}&7.'
+      broadcast: '&7{attacker} &7declared war against {defender}&7. Their war will
+        start in&5 {time}&7.'
       success:
         normal: '&7You &8({object}&8) &7successfully declared war against {enemy}&7.
           The war will start in&5 {time}&7.'
@@ -1922,6 +1932,11 @@ list:
       - '&7Members: {members} / {members_max}'
       - '&7Balance: {balance}'
       - '&7Upkeep and taxes in: {upkeep_next}'
+      main_camp:
+      - '&7Land&2 {land}'
+      - '&7Inbox:&r {inbox}'
+      - '&7Members: {members} / {members_max}'
+      - '&7Expires in:&5 {expiration}'
     rent:
     - '&6Rent {area}'
     - '&c{cost} &7each &5{time}'

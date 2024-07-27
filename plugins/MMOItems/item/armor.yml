@@ -7,6 +7,8 @@ LEATHER_COIF:
     profession-defense: 1.0
     additional-experience-defense: 5.0
     additional-experience-constitution: 1.0
+    lore:
+    - '§eDefense Level: §c1'
 LEATHER_TUNIC:
   base:
     material: LEATHER_CHESTPLATE
@@ -15,6 +17,8 @@ LEATHER_TUNIC:
     profession-defense: 1.0
     additional-experience-defense: 5.0
     additional-experience-constitution: 1.0
+    lore:
+    - '§eDefense Level: §c1'
 LEATHER_PANTS:
   base:
     material: LEATHER_LEGGINGS
@@ -23,6 +27,8 @@ LEATHER_PANTS:
     profession-defense: 1.0
     additional-experience-defense: 5.0
     additional-experience-constitution: 1.0
+    lore:
+    - '§eDefense Level: §c1'
 LEATHER_BOOTS:
   base:
     material: LEATHER_BOOTS
@@ -31,6 +37,56 @@ LEATHER_BOOTS:
     profession-defense: 1.0
     additional-experience-defense: 5.0
     additional-experience-constitution: 1.0
+    lore:
+    - '§eDefense Level: §c1'
+COPPER_FULL_HELM:
+  base:
+    material: PAPER
+    name: Copper Full Helm
+    armor: 1.5
+    max-durability: 105.0
+    profession-defense: 1.0
+    additional-experience-defense: 7.5
+    additional-experience-constitution: 1.5
+    custom-model-data: 10822.0
+    lore:
+    - '§eDefense Level: §c6'
+COPPER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: Copper Chestplate
+    armor: 3.5
+    max-durability: 140.0
+    profession-defense: 1.0
+    additional-experience-defense: 7.5
+    additional-experience-constitution: 1.5
+    custom-model-data: 10001.0
+    lore:
+    - '§eDefense Level: §c6'
+COPPER_LEGGINGS:
+  base:
+    material: LEATHER_LEGGINGS
+    name: Copper Leggings
+    armor: 2.5
+    max-durability: 135.0
+    profession-defense: 1.0
+    additional-experience-defense: 7.5
+    additional-experience-constitution: 1.5
+    custom-model-data: 10001.0
+    lore:
+    - '§eDefense Level: §c6'
+COPPER_BOOTS:
+  base:
+    material: LEATHER_BOOTS
+    name: Copper Boots
+    armor: 1.5
+    max-durability: 125.0
+    profession-defense: 1.0
+    additional-experience-defense: 7.5
+    additional-experience-constitution: 1.5
+    custom-model-data: 10022.0
+    lore:
+    - '§eDefense Level: §c6'
 IRON_MED_HELMET:
   base:
     material: IRON_HELMET
@@ -40,6 +96,8 @@ IRON_MED_HELMET:
     profession-defense: 11.0
     additional-experience-defense: 10.0
     additional-experience-constitution: 2.0
+    lore:
+    - '§eDefense Level: §c11'
 IRON_FULL_HELMET:
   base:
     material: PAPER
@@ -50,6 +108,8 @@ IRON_FULL_HELMET:
     additional-experience-defense: 10.0
     additional-experience-constitution: 2.0
     custom-model-data: 10502.0
+    lore:
+    - '§eDefense Level: §c11'
 IRON_CHESTPLATE:
   base:
     material: LEATHER_CHESTPLATE
@@ -60,6 +120,8 @@ IRON_CHESTPLATE:
     additional-experience-constitution: 2.0
     name: Iron Chestplate
     custom-model-data: 10003.0
+    lore:
+    - '§eDefense Level: §c11'
 IRON_LEGGINGS:
   base:
     material: LEATHER_LEGGINGS
@@ -70,6 +132,8 @@ IRON_LEGGINGS:
     additional-experience-constitution: 2.0
     name: Iron Leggings
     custom-model-data: 10002.0
+    lore:
+    - '§eDefense Level: §c11'
 IRON_BOOTS:
   base:
     material: LEATHER_BOOTS
@@ -80,6 +144,8 @@ IRON_BOOTS:
     additional-experience-constitution: 2.0
     name: Iron Boots
     custom-model-data: 10023.0
+    lore:
+    - '§eDefense Level: §c11'
 CHAINMAIL_HELMET:
   base:
     material: CHAINMAIL_HELMET
@@ -88,6 +154,8 @@ CHAINMAIL_HELMET:
     profession-defense: 11.0
     additional-experience-defense: 10.0
     additional-experience-constitution: 2.0
+    lore:
+    - '§eDefense Level: §c11'
 CHAINMAIL_CHESTPLATE:
   base:
     material: CHAINMAIL_CHESTPLATE
@@ -96,6 +164,8 @@ CHAINMAIL_CHESTPLATE:
     profession-defense: 11.0
     additional-experience-defense: 10.0
     additional-experience-constitution: 2.0
+    lore:
+    - '§eDefense Level: §c11'
 CHAINMAIL_LEGGINGS:
   base:
     material: CHAINMAIL_LEGGINGS
@@ -104,6 +174,8 @@ CHAINMAIL_LEGGINGS:
     profession-defense: 11.0
     additional-experience-defense: 10.0
     additional-experience-constitution: 2.0
+    lore:
+    - '§eDefense Level: §c11'
 CHAINMAIL_BOOTS:
   base:
     material: CHAINMAIL_BOOTS
@@ -112,6 +184,8 @@ CHAINMAIL_BOOTS:
     profession-defense: 11.0
     additional-experience-defense: 10.0
     additional-experience-constitution: 2.0
+    lore:
+    - '§eDefense Level: §c11'
 GOLDEN_MED_HELMET:
   base:
     material: GOLDEN_HELMET
@@ -143,6 +217,8 @@ DIAMOND_MED_HELMET:
     profession-defense: 51.0
     additional-experience-defense: 50.0
     additional-experience-constitution: 10.0
+    lore:
+    - '§eDefense Level: §c51'
 DIAMOND_FULL_HELMET:
   base:
     material: PAPER
@@ -154,6 +230,8 @@ DIAMOND_FULL_HELMET:
     additional-experience-defense: 50.0
     additional-experience-constitution: 10.0
     custom-model-data: 10519.0
+    lore:
+    - '§eDefense Level: §c51'
 DIAMOND_CHESTPLATE:
   base:
     material: DIAMOND_CHESTPLATE
@@ -163,6 +241,8 @@ DIAMOND_CHESTPLATE:
     profession-defense: 51.0
     additional-experience-defense: 50.0
     additional-experience-constitution: 10.0
+    lore:
+    - '§eDefense Level: §c51'
 DIAMOND_LEGGINGS:
   base:
     material: DIAMOND_LEGGINGS
@@ -172,6 +252,8 @@ DIAMOND_LEGGINGS:
     profession-defense: 51.0
     additional-experience-defense: 50.0
     additional-experience-constitution: 10.0
+    lore:
+    - '§eDefense Level: §c51'
 DIAMOND_BOOTS:
   base:
     material: DIAMOND_BOOTS
@@ -181,6 +263,8 @@ DIAMOND_BOOTS:
     profession-defense: 51.0
     additional-experience-defense: 50.0
     additional-experience-constitution: 10.0
+    lore:
+    - '§eDefense Level: §c51'
 NETHERITE_MED_HELMET:
   base:
     material: NETHERITE_HELMET
@@ -192,6 +276,8 @@ NETHERITE_MED_HELMET:
     profession-defense: 61.0
     additional-experience-defense: 60.0
     additional-experience-constitution: 12.0
+    lore:
+    - '§eDefense Level: §c61'
 NETHERITE_CHESTPLATE:
   base:
     material: NETHERITE_CHESTPLATE
@@ -202,6 +288,8 @@ NETHERITE_CHESTPLATE:
     profession-defense: 61.0
     additional-experience-defense: 60.0
     additional-experience-constitution: 12.0
+    lore:
+    - '§eDefense Level: §c61'
 NETHERITE_LEGGINGS:
   base:
     material: NETHERITE_LEGGINGS
@@ -212,6 +300,8 @@ NETHERITE_LEGGINGS:
     profession-defense: 61.0
     additional-experience-defense: 60.0
     additional-experience-constitution: 12.0
+    lore:
+    - '§eDefense Level: §c61'
 NETHERITE_BOOTS:
   base:
     material: NETHERITE_BOOTS
@@ -222,3 +312,5 @@ NETHERITE_BOOTS:
     profession-defense: 61.0
     additional-experience-defense: 60.0
     additional-experience-constitution: 12.0
+    lore:
+    - '§eDefense Level: §c61'

@@ -1,0 +1,181 @@
+##################################################################################################
+#  We are not responsible for any bugs that may occur as a result of file modifications.
+##################################################################################################
+
+# skill dark_magicring
+# Cast a magic circle, then release a wave of magic within a 15-block radius. 
+# Enemies within this radius will be inflicted with SLOW, WITHER, and BLINDNESS status effects, and will take damage 3 times.
+# SLOW 1.5s, WITHER 3s, BLINDNESS 5s
+
+element_spellbook_skill_dark_magicring:
+  Skills:
+  - sound{s=element_spellbook:element_spellbook.spllsbook;p=1;v=1} @self
+  - stun{d=25;g=true;f=true} @self
+  - potion{t=LEVITATION;d=25;l=-1;force=true;p=false;i=false} @self
+  - summon{t=element_spellbook_entity_dark_magicring;a=1} @self
+  - delay 25
+  - sound{s=entity.evoker.prepare_summon;p=1.8;v=1} @self
+  - projectile{oT=[
+      - effect:particles{particle=Witch;speed=1;Size=1;a=5;hS=0.7;vS=0.1}
+    ];v=40;i=1;hR=3;vR=3;sE=false;sB=false;hnp=true;mr=15;sfo=0;syo=0.2} @Ring{radius=15;points=35;yoffset=0.2}
+  - skill{s=element_spellbook_skill_magicring_hit;sync=true;delay=5} @EntitiesNearOrigin{r=15;targetArmorStands=false}
+
+element_spellbook_skill_magicring_hit:
+  Skills:
+  - potion{t=SLOW;d=30;l=4;force=true;p=false;i=false}
+  - summon{t=element_spellbook_entity_dark;a=1}
+  - damage{a=<modifier.damage>;delay=5}
+  - potion{t=WITHER;d=60;l=1}
+  - potion{t=BLINDNESS;d=100;l=1}
+  - delay 10
+  - summon{t=element_spellbook_entity_dark1;a=1}
+  - damage{a=<modifier.damage>;delay=5}
+  - potion{t=WITHER;d=60;l=1}
+  - potion{t=BLINDNESS;d=100;l=1}
+  - delay 10
+  - summon{t=element_spellbook_entity_dark2;a=1}
+  - damage{a=<modifier.damage>;delay=5}
+  - potion{t=WITHER;d=60;l=1}
+  - potion{t=BLINDNESS;d=100;l=1}
+
+# skill earth_magicring
+# Cast a magic circle, then release a wave of magic within a 15-block radius. 
+# Enemies within this radius will be inflicted with SLOW status, then they will take magic damage and be lifted into the air.
+# SLOW 4s
+element_spellbook_skill_earth_magicring:
+  Skills:
+  - sound{s=element_spellbook:element_spellbook.spllsbook;p=1;v=1} @self
+  - stun{d=25;g=true;f=true} @self
+  - potion{t=LEVITATION;d=25;l=-1;force=true;p=false;i=false} @self
+  - summon{t=element_spellbook_entity_earth_magicring;a=1} @self
+  - delay 25
+  - sound{s=entity.evoker.prepare_summon;p=1.8;v=1} @self
+  - projectile{oT=[
+      - effect:particles{p=block_crack;material=DIRT;speed=1;Size=1;a=4;hS=0.7;vS=0.1}
+    ];v=40;i=1;hR=3;vR=3;sE=false;sB=false;hnp=true;mr=15;sfo=0;syo=0.2} @Ring{radius=15;points=35;yoffset=0.2}
+  - skill{s=element_spellbook_skill_earth_magicring_hit;sync=true;delay=5} @EntitiesNearOrigin{r=15;targetArmorStands=false}
+
+element_spellbook_skill_earth_magicring_hit:
+  Skills:
+  - potion{t=SLOW;d=80;l=20;force=true;p=false;i=false}
+  - effect:particles{p=block_crack;material=DIRT;Size=1;a=30;hS=1;vS=0;repeat=1;repeatInterval=1}
+  - damage{a=<modifier.damage>;delay=1}
+  - throw{v=1;vy=12;delay=2}
+  - sudoskill{s=[
+      - sound{s=element_spellbook:element_spellbook.ston;p=0.85;v=3} @self
+      - sound{s=element_spellbook:element_spellbook.ston;p=0.5;v=1;delay=40} @self
+      - skill{s=[
+          - summon{t=element_spellbook_entity_earth_magicring_obj_1;a=1} @Ring{r=0.40;p=4;oy=-0.3}
+          - summon{t=element_spellbook_entity_earth_magicring_obj_1;a=1} @Ring{r=0.35;p=4;oy=0.10}
+          - summon{t=element_spellbook_entity_earth_magicring_obj_1;a=1} @Ring{r=0.30;p=4;oy=0.50}
+          - summon{t=element_spellbook_entity_earth_magicring_obj_1;a=1} @Ring{r=0.25;p=4;oy=0.90}
+          - summon{t=element_spellbook_entity_earth_magicring_obj_1;a=1} @Ring{r=0.20;p=4;oy=1.30}
+          - summon{t=element_spellbook_entity_earth_magicring_obj_1;a=1} @Ring{r=0.15;p=4;oy=1.70}
+          - summon{t=element_spellbook_entity_earth_magicring_obj_1;a=1} @Ring{r=0.10;p=4;oy=2.10}
+          - summon{t=element_spellbook_entity_earth_magicring_obj_1;a=1} @Ring{r=0.05;p=4;oy=2.50}
+        ];sync=true}
+    ];cat=true}
+
+# skill fire_magicring
+# Cast a magic circle, then release a wave of magic within a 15-block radius. 
+# Enemies within this radius will be inflicted with SLOW status, then they will take damage and be set on fire.
+# SLOW 5s
+element_spellbook_skill_fire_magicring:
+  Skills:
+  - sound{s=element_spellbook:element_spellbook.spllsbook;p=1;v=1} @self
+  - stun{d=25;g=true;f=true} @self
+  - potion{t=LEVITATION;d=25;l=-1;force=true;p=false;i=false} @self
+  - summon{t=element_spellbook_entity_fire_magicring;a=1} @self
+  - delay 25
+  - sound{s=entity.evoker.prepare_summon;p=1.8;v=1} @self
+  - projectile{oT=[
+      - effect:particles{particle=flame;speed=0.05;Size=1;a=1;hS=0.7;vS=0.1}
+    ];v=40;i=1;hR=3;vR=3;sE=false;sB=false;hnp=true;mr=15;sfo=0;syo=0.2} @Ring{radius=15;points=35;yoffset=0.2}
+  - skill{s=element_spellbook_skill_fire_magicring_hit;sync=true;delay=5} @EntitiesNearOrigin{r=15;targetArmorStands=false}
+
+element_spellbook_skill_fire_magicring_hit:
+  Skills:
+  - sound{s=block.fire.extinguish;p=2;v=1} 
+  - damage{a=<modifier.damage>}
+  - potion{t=SLOW;d=100;l=4}
+  - ignite{t=120}
+
+# skill light_magicring
+# Cast a magic circle, then release a wave of magic within a 15-block radius, 
+# healing all entities within this radius.
+element_spellbook_skill_light_magicring:
+  Skills:
+  - sound{s=element_spellbook:element_spellbook.spllsbook;p=1;v=1} @self
+  - stun{d=25;g=true;f=true} @self
+  - potion{t=LEVITATION;d=25;l=-1;force=true;p=false;i=false} @self
+  - summon{t=element_spellbook_entity_light_magicring;a=1} @self
+  - delay 25
+  - sound{s=entity.evoker.prepare_summon;p=1.8;v=1} @self
+  - projectile{oT=[
+      - effect:particles{particle=Wax_Off;speed=0.05;Size=1;a=2;hS=0.7;vS=0.1}
+    ];v=40;i=1;hR=3;vR=3;sE=false;sB=false;hnp=true;mr=15;sfo=0;syo=0.2} @Ring{radius=15;points=35;yoffset=0.2}
+  - skill{s=element_spellbook_skill_light_magicring_hit;sync=true;delay=5} @EntitiesNearOrigin{r=15;targetArmorStands=false}
+
+element_spellbook_skill_light_magicring_hit:
+  Skills:
+  - effect:particles{particle=Heart;speed=0;Size=1;a=7;hS=0.4;vS=0.3;y=1.5}
+  - sound{s=minecraft:entity.player.levelup;p=1;v=0.7}
+  - heal{a=<modifier.heal>}
+
+# skill water_magicring
+# Cast a magic circle, then release a wave of magic within a 15-block radius. 
+# It will then deal damage to enemies and trap them in ice for 5 seconds.
+element_spellbook_skill_water_magicring:
+  Skills:
+  - sound{s=element_spellbook:element_spellbook.spllsbook;p=1;v=1} @self
+  - stun{d=25;g=true;f=true} @self
+  - potion{t=LEVITATION;d=25;l=-1;force=true;p=false;i=false} @self
+  - summon{t=element_spellbook_entity_water_magicring;a=1} @self
+  - delay 25
+  - sound{s=entity.evoker.prepare_summon;p=1.8;v=1} @self
+  - projectile{oT=[
+      - effect:particles{particle=Rain;speed=0.05;Size=1;a=4;hS=0.7;vS=0.1}
+      - effect:particles{particle=Snowflake;speed=0.05;Size=1;a=1;hS=0.35;vS=0.1}
+    ];v=40;i=1;hR=3;vR=3;sE=false;sB=false;hnp=true;mr=15;sfo=0;syo=0.2} @Ring{radius=15;points=35;yoffset=0.2}
+  - skill{s=element_spellbook_skill_water_magicring_hit;sync=true;delay=5} @EntitiesNearOrigin{r=15;targetArmorStands=false}
+
+element_spellbook_skill_water_magicring_hit:
+  Skills:
+  - freeze{ticks=100}
+  # - prison{material=BARRIER;duration=100;breakable=true}
+  - delay 1
+  - sudoskill{s=[
+      - stun{d=100;ai=true;g=true;f=true} @self
+      - potion{t=LEVITATION;d=100;l=-1;force=true;p=false;i=false} @self
+      - potion{t=SLOW_FALLING;d=100;l=-1;force=true;p=false;i=false} @self
+      - sound{s=element_spellbook:element_spellbook.ice;p=1;v=1} @self
+      - summon{t=element_spellbook_entity_water_magicring_obj_1;a=1} @Cone{a=90;r=1;p=10;y=0.80;lockpitch=true}
+      - summon{t=element_spellbook_entity_water_magicring_obj_1;a=1} @Cone{a=90;r=1;p=35;y=0.35;lockpitch=true}
+      - summon{t=element_spellbook_entity_water_magicring_obj_1;a=1} @Cone{a=90;r=1;p=10;y=-0.5;lockpitch=true}
+    ];cat=true} 
+  - sound{s=element_spellbook:element_spellbook.ice;p=1.25;v=1;delay=100}
+  - damage{a=<modifier.damage>}
+
+# skill wind_magicring
+# Cast a magic circle, then release a wave of magic within a 15-block radius. 
+# It will then deal damage to enemies and knock them back.
+element_spellbook_skill_wind_magicring:
+  Skills:
+  - sound{s=element_spellbook:element_spellbook.spllsbook;p=1;v=1} @self
+  - stun{d=25;g=true;f=true} @self
+  - potion{t=LEVITATION;d=25;l=-1;force=true;p=false;i=false} @self
+  - summon{t=element_spellbook_entity_wind_magicring;a=1} @self
+  - delay 25
+  - sound{s=entity.evoker.prepare_summon;p=1.8;v=1} @self
+  - projectile{oT=[
+      - effect:particles{particle=Sweep_Attack;speed=0.05;Size=1;a=1;hS=0.7;vS=0.1}
+      - sound{s=entity.player.attack.sweep;p=1.3;v=0.3} 0.35
+    ];v=40;i=1;hR=3;vR=3;sE=false;sB=false;hnp=true;mr=15;sfo=0;syo=0.4} @Ring{radius=15;points=35;yoffset=0.4}
+  - skill{s=element_spellbook_skill_wind_magicring_hit;sync=true;delay=5} @EntitiesNearOrigin{r=15;targetArmorStands=false}
+
+element_spellbook_skill_wind_magicring_hit:
+  Skills:
+  - sound{s=entity.player.attack.sweep;p=1.3;v=0.3}
+  - damage{a=<modifier.damage>}
+  - delay 1
+  - throw{v=15;vy=2.5}

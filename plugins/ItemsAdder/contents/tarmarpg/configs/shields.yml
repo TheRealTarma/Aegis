@@ -1,0 +1,115 @@
+info:
+  namespace: tarmarpg
+items:
+  wooden_round_shield:
+    permission: tarmarpg.wooden_round_shield
+    display_name: Wooden Round Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/wooden_round_shield"
+  iron_round_shield:
+    permission: tarmarpg.iron_round_shield
+    display_name: Iron Round Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/iron_round_shield"
+  copper_round_shield:
+    permission: tarmarpg.copper_round_shield
+    display_name: Copper Round Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/copper_round_shield"
+  steel_round_shield:
+    permission: tarmarpg.steel_round_shield
+    display_name: Steel Round Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/steel_round_shield"
+  mithril_round_shield:
+    permission: tarmarpg.mithril_round_shield
+    display_name: Mithril Round Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/mithril_round_shield"
+  adamant_round_shield:
+    permission: tarmarpg.adamant_round_shield
+    display_name: Adamant Round Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/adamant_round_shield"
+  diamond_round_shield:
+    permission: tarmarpg.diamond_round_shield
+    display_name: Diamond Round Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/diamond_round_shield"
+  netherite_round_shield:
+    permission: tarmarpg.netherite_round_shield
+    display_name: Netherite Round Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/netherite_round_shield"
+  wooden_tower_shield:
+    permission: tarmarpg.wooden_tower_shield
+    display_name: Wooden Tower Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/wooden_tower_shield"
+  iron_tower_shield:
+    permission: tarmarpg.iron_tower_shield
+    display_name: Iron Tower Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/iron_tower_shield"
+  copper_tower_shield:
+    permission: tarmarpg.copper_tower_shield
+    display_name: Copper Tower Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/copper_tower_shield"
+  steel_tower_shield:
+    permission: tarmarpg.steel_tower_shield
+    display_name: Steel Tower Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/steel_tower_shield"
+  mithril_tower_shield:
+    permission: tarmarpg.mithril_tower_shield
+    display_name: Mithril Tower Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/mithril_tower_shield"
+  adamant_tower_shield:
+    permission: tarmarpg.adamant_tower_shield
+    display_name: Adamant Tower Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/adamant_tower_shield"
+  diamond_tower_shield:
+    permission: tarmarpg.diamond_tower_shield
+    display_name: Diamond Tower Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/diamond_tower_shield"
+  netherite_tower_shield:
+    permission: tarmarpg.netherite_tower_shield
+    display_name: Netherite Tower Shield
+    resource:
+      material: SHIELD
+      generate: false
+      model_path: "shields/netherite_tower_shield"

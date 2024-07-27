@@ -3,12 +3,12 @@ skill-points: 0
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 7
-experience: 2.0
+level: 9
+experience: 0.0
 class: HUMAN
 waypoints: []
 friends: []
-last-login: 1721535508316
+last-login: 1721947325655
 skill-tree-reallocation-points: 0
 health: 20.0
 mana: 20.0
@@ -20,24 +20,39 @@ skill-tree-points:
 times-claimed:
   class_HUMAN:
     class_exp_table:
-      level_up: 6
+      level_up: 8
+  profession_attack:
+    attack_exp_table:
+      attribute_point: 1
+  profession_defense:
+    defense_exp_table:
+      attribute_point: 3
 attribute:
   magic: 0
   constitution: 0
   ranged: 0
-  defense: 0
-  attack: 0
+  defense: 3
+  attack: 1
 profession:
+  smithing:
+    exp: 88.0
+    level: 0
+  woodcutting:
+    exp: 232.9586931266726
+    level: 0
   constitution:
-    exp: 30.0
+    exp: 362.46259262683117
     level: 0
   defense:
-    exp: 3.0
-    level: 0
+    exp: 344.80148092574836
+    level: 4
   attack:
-    exp: 0.0
-    level: 0
+    exp: 592.5281622657776
+    level: 2
   farming:
-    exp: 1.0854681532586001
+    exp: 28.278891701972444
     level: 0
+  mining:
+    exp: 794.9518852769033
+    level: 5
 quest: {}

@@ -1,0 +1,84 @@
+COPPER_SCIMITAR:
+  base:
+    material: PAPER
+    custom-model-data: 10813.0
+    name: Copper Scimitar
+    attack-damage: 6.0
+    attack-speed: 1.1
+    weapon-damage: 1.0
+    profession-attack: 10.0
+    max-durability: 191.0
+    lore:
+    - '§eAttack Level: §c10'
+IRON_SCIMITAR:
+  base:
+    material: PAPER
+    custom-model-data: 10807.0
+    name: Iron Scimitar
+    attack-damage: 6.5
+    attack-speed: 1.1
+    weapon-damage: 1.5
+    profession-attack: 15.0
+    max-durability: 250.0
+    lore:
+    - '§eAttack Level: §c15'
+STEEL_SCIMITAR:
+  base:
+    material: PAPER
+    name: Steel Scimitar
+    attack-damage: 7.0
+    attack-speed: 1.1
+    weapon-damage: 2.0
+    profession-attack: 25.0
+    max-durability: 576.0
+    custom-model-data: 10809.0
+    lore:
+    - '§eAttack Level: §c25'
+MITHRIL_SCIMITAR:
+  base:
+    material: PAPER
+    custom-model-data: 10811.0
+    name: Mithril Scimitar
+    attack-damage: 7.5
+    attack-speed: 1.1
+    weapon-damage: 2.5
+    profession-attack: 35.0
+    max-durability: 1234.0
+    lore:
+    - '§eAttack Level: §c35'
+ADAMANT_SCIMITAR:
+  base:
+    material: PAPER
+    custom-model-data: 10815.0
+    name: Adamant Scimitar
+    attack-damage: 8.0
+    attack-speed: 1.1
+    weapon-damage: 3.0
+    profession-attack: 45.0
+    max-durability: 1561.0
+    lore:
+    - '§eAttack Level: §c45'
+DIAMOND_SCIMITAR:
+  base:
+    material: PAPER
+    custom-model-data: 10817.0
+    name: Diamond Scimitar
+    attack-damage: 8.5
+    attack-speed: 1.1
+    weapon-damage: 3.5
+    profession-attack: 55.0
+    max-durability: 1796.0
+    lore:
+    - '§eAttack Level: §c55'
+NETHERITE_SCIMITAR:
+  base:
+    material: PAPER
+    custom-model-data: 10819.0
+    name: Netherite Scimitar
+    attack-damage: 9.0
+    attack-speed: 1.1
+    weapon-damage: 4.0
+    profession-attack: 65.0
+    max-durability: 2031.0
+    lore:
+    - '§eAttack Level: §c65'

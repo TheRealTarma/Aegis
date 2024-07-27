@@ -177,12 +177,12 @@ recipes:
 
         triggers:
         - exp{profession=smithing;amount=25.0}
-    copper-med-helm:
+    copper-full-helm:
     
         # The item which the recipe gives
         output:
             type: ARMOR
-            id: COPPER_MED_HELMET
+            id: COPPER_FULL_HELM
             amount: 1
         
         # Time it takes to craft the item
@@ -190,7 +190,7 @@ recipes:
         
         # Recipe options
         options:
-            output-item: true # Set to false to give no item
+            output-item: false # Set to false to give no item
             silent-craft: false # No sound when item is claimed
             hide-when-locked: false # Hide in the GUI when conditions are not met
         
@@ -205,6 +205,7 @@ recipes:
 
         triggers:
         - exp{profession=smithing;amount=62.5}
+        - 'command{format="iagive %player% tarmarpg:copper_full_helmet 1 silent",sender=OP}'
     copper-square-shield:
     
         # The item which the recipe gives
@@ -233,6 +234,35 @@ recipes:
 
         triggers:
         - exp{profession=smithing;amount=50.0}
+    copper-longsword:
+    
+        # The item which the recipe gives
+        output:
+            type: LONGSWORD
+            id: COPPER_LONGSWORD
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=7}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=COPPER_INGOT,amount=3,display="Copper Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=37.5}
     copper-boots:
     
         # The item which the recipe gives
@@ -246,7 +276,7 @@ recipes:
         
         # Recipe options
         options:
-            output-item: true # Set to false to give no item
+            output-item: false # Set to false to give no item
             silent-craft: false # No sound when item is claimed
             hide-when-locked: false # Hide in the GUI when conditions are not met
         
@@ -261,6 +291,7 @@ recipes:
 
         triggers:
         - exp{profession=smithing;amount=50.0}
+        - 'command{format="iagive %player% tarmarpg:copper_boots 1 silent",sender=OP}'
 
     copper-leggings:
     
@@ -268,6 +299,36 @@ recipes:
         output:
             type: ARMOR
             id: COPPER_LEGGINGS
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: false # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=9}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=COPPER_INGOT,amount=7,display="Copper Ingot"}
+
+        triggers:
+        - exp{profession=smithing;amount=87.5}
+        - 'command{format="iagive %player% tarmarpg:copper_leggings 1 silent",sender=OP}'
+
+    copper-scimitar:
+    
+        # The item which the recipe gives
+        output:
+            type: SCIMITAR
+            id: COPPER_SCIMITAR
             amount: 1
         
         # Time it takes to craft the item
@@ -286,11 +347,11 @@ recipes:
         # Ingredients needed for the recipe
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
-        - mmoitem{type=MATERIAL,id=COPPER_INGOT,amount=7,display="Copper Ingot"}
+        - mmoitem{type=MATERIAL,id=COPPER_INGOT,amount=4,display="Copper Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
 
         triggers:
-        - exp{profession=smithing;amount=87.5}
-
+        - exp{profession=smithing;amount=50}
 
     copper-chestplate:
     
@@ -305,7 +366,7 @@ recipes:
         
         # Recipe options
         options:
-            output-item: true # Set to false to give no item
+            output-item: false # Set to false to give no item
             silent-craft: false # No sound when item is claimed
             hide-when-locked: false # Hide in the GUI when conditions are not met
         
@@ -317,6 +378,67 @@ recipes:
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
         - mmoitem{type=MATERIAL,id=COPPER_INGOT,amount=8,display="Copper Ingot"}
+
+        triggers:
+        - exp{profession=smithing;amount=100.0}
+        - 'command{format="iagive %player% tarmarpg:copper_chestplate 1 silent",sender=OP}'
+
+    copper-saber:
+    
+        # The item which the recipe gives
+        output:
+            type: SABER
+            id: COPPER_SABER
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=11}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=COPPER_INGOT,amount=3,display="Copper Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=37.5}
+
+    copper-squareshield:
+    
+        # The item which the recipe gives
+        output:
+            type: SQUARE_SHIELD
+            id: COPPER_SQUARE_SHIELD
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=11}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=COPPER_INGOT,amount=8,display="Copper Ingot"}
+        - vanilla{type=LEATHER,amount=1,display="Leather"}
 
         triggers:
         - exp{profession=smithing;amount=100.0}
@@ -493,12 +615,42 @@ recipes:
 
         triggers:
         - exp{profession=smithing;amount=125.0}
-    iron-square-shield:
+
+    iron-squareshield:
     
         # The item which the recipe gives
         output:
-            type: SHIELD
+            type: SQUARE_SHIELD
             id: IRON_SQUARE_SHIELD
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=16}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRON_INGOT,amount=8,display="Iron Ingot"}
+        - vanilla{type=LEATHER,amount=1,display="Leather"}
+
+        triggers:
+        - exp{profession=smithing;amount=200.0}
+    iron-longsword:
+    
+        # The item which the recipe gives
+        output:
+            type: LONGSWORD
+            id: IRON_LONGSWORD
             amount: 1
         
         # Time it takes to craft the item
@@ -517,10 +669,11 @@ recipes:
         # Ingredients needed for the recipe
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
-        - mmoitem{type=MATERIAL,id=IRON_INGOT,amount=4,display="Iron Ingot"}
+        - mmoitem{type=MATERIAL,id=IRON_INGOT,amount=3,display="Iron Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
 
         triggers:
-        - exp{profession=smithing;amount=100.0}
+        - exp{profession=smithing;amount=75.0}
     iron-scythe:
     
         # The item which the recipe gives
@@ -609,6 +762,36 @@ recipes:
         - exp{profession=smithing;amount=175.0}
         - 'command{format="iagive %player% tarmarpg:iron_leggings 1 silent",sender=OP}'
 
+    iron-scimitar:
+    
+        # The item which the recipe gives
+        output:
+            type: SCIMITAR
+            id: IRON_SCIMITAR
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=19}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRON_INGOT,amount=4,display="Iron Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=200.0}
+
     iron-chestplate:
     
         # The item which the recipe gives
@@ -637,6 +820,37 @@ recipes:
         triggers:
         - exp{profession=smithing;amount=200.0}
         - 'command{format="iagive %player% tarmarpg:iron_chestplate 1 silent",sender=OP}'
+
+    iron-saber:
+    
+        # The item which the recipe gives
+        output:
+            type: SABER
+            id: IRON_SABER
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=21}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=IRON_INGOT,amount=3,display="Iron Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=75.0}
+
 ###################################STEEL#####################################
     steel-pickaxe:
     
@@ -808,12 +1022,43 @@ recipes:
         - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=5,display="STEEL Ingot"}
         triggers:
         - exp{profession=smithing;amount=187.5}
-    steel-square-shield:
+
+    steel-squareshield:
     
         # The item which the recipe gives
         output:
-            type: SHIELD
+            type: SQUARE_SHIELD
             id: STEEL_SQUARE_SHIELD
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=26}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=8,display="Steel Ingot"}
+        - vanilla{type=LEATHER,amount=1,display="Leather"}
+
+        triggers:
+        - exp{profession=smithing;amount=260.0}
+
+    steel-longsword:
+    
+        # The item which the recipe gives
+        output:
+            type: LONGSWORD
+            id: STEEL_LONGSWORD
             amount: 1
         
         # Time it takes to craft the item
@@ -832,9 +1077,11 @@ recipes:
         # Ingredients needed for the recipe
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="STEEL Ingot"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=3,display="Steel Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
         triggers:
-        - exp{profession=smithing;amount=150.0}
+        - exp{profession=smithing;amount=97.5}
     steel-boots:
     
         # The item which the recipe gives
@@ -893,6 +1140,36 @@ recipes:
         triggers:
         - exp{profession=smithing;amount=262.5}
 
+    steel-scimitar:
+    
+        # The item which the recipe gives
+        output:
+            type: SCIMITAR
+            id: STEEL_SCIMITAR
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=29}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="Steel Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=150.0}
+
     steel-chestplate:
     
         # The item which the recipe gives
@@ -920,6 +1197,38 @@ recipes:
         - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=8,display="STEEL Ingot"}
         triggers:
         - exp{profession=smithing;amount=300.0}
+
+    steel-saber:
+    
+        # The item which the recipe gives
+        output:
+            type: SABER
+            id: STEEL_SABER
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=31}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=3,display="Steel Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=97.5}
+
+
 
 ##################################MITHRIL#############################
 
@@ -1092,12 +1401,43 @@ recipes:
         - mmoitem{type=MATERIAL,id=MITHRIL_INGOT,amount=5,display="Mithril Ingot"}
         triggers:
         - exp{profession=smithing;amount=250.0}
-    mithril-square-shield:
+
+    mithril-squareshield:
     
         # The item which the recipe gives
         output:
-            type: SHIELD
+            type: SQUARE_SHIELD
             id: MITHRIL_SQUARE_SHIELD
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=36}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MITHRIL_INGOT,amount=8,display="Mithril Ingot"}
+        - vanilla{type=LEATHER,amount=1,display="Leather"}
+
+        triggers:
+        - exp{profession=smithing;amount=400.0}
+
+    mithril-longsword:
+    
+        # The item which the recipe gives
+        output:
+            type: LONGSWORD
+            id: MITHRIL_LONGSWORD
             amount: 1
         
         # Time it takes to craft the item
@@ -1116,7 +1456,8 @@ recipes:
         # Ingredients needed for the recipe
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
-        - mmoitem{type=MATERIAL,id=MITHRIL_INGOT,amount=4,display="Mithril Ingot"}
+        - mmoitem{type=MATERIAL,id=MITHRIL_INGOT,amount=3,display="Mithril Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
 
         triggers:
         - exp{profession=smithing;amount=150.0}
@@ -1177,6 +1518,35 @@ recipes:
         triggers:
         - exp{profession=smithing;amount=350.0}
 
+    mithril-scimitar:
+    
+        # The item which the recipe gives
+        output:
+            type: SCIMITAR
+            id: MITHRIL_SCIMITAR
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=39}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MITHRIL_INGOT,amount=4,display="Mithril Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=200.0}
 
     mithril-chestplate:
     
@@ -1205,6 +1575,37 @@ recipes:
         - mmoitem{type=MATERIAL,id=MITHRIL_INGOT,amount=8,display="Mithril Ingot"}
         triggers:
         - exp{profession=smithing;amount=400.0}
+
+    mithril-saber:
+    
+        # The item which the recipe gives
+        output:
+            type: SABER
+            id: MITHRIL_SABER
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=41}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=MITHRIL_INGOT,amount=3,display="Mithril Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=150.0}
+
 
 #################################Adamant#############################
     adamant-pickaxe:
@@ -1381,12 +1782,41 @@ recipes:
 
         triggers:
         - exp{profession=smithing;amount=312.5}
-    adamant-square-shield:
+    adamant-squareshield:
     
         # The item which the recipe gives
         output:
-            type: SHIELD
+            type: SQUARE_SHIELD
             id: ADAMANT_SQUARE_SHIELD
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=46}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=ADAMANTITE_INGOT,amount=8,display="Adamantite Ingot"}
+        - vanilla{type=LEATHER,amount=1,display="Leather"}
+
+        triggers:
+        - exp{profession=smithing;amount=500.0}
+    adamant-longsword:
+    
+        # The item which the recipe gives
+        output:
+            type: LONGSWORD
+            id: ADAMANT_LONGSWORD
             amount: 1
         
         # Time it takes to craft the item
@@ -1405,10 +1835,11 @@ recipes:
         # Ingredients needed for the recipe
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
-        - mmoitem{type=MATERIAL,id=ADAMANTITE_INGOT,amount=4,display="Adamantite ingot"}
+        - mmoitem{type=MATERIAL,id=ADAMANTITE_INGOT,amount=3,display="Adamantite Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
 
         triggers:
-        - exp{profession=smithing;amount=250.0}
+        - exp{profession=smithing;amount=187.5}
     adamant-boots:
     
         # The item which the recipe gives
@@ -1467,6 +1898,35 @@ recipes:
         triggers:
         - exp{profession=smithing;amount=437.5}
 
+    adamant-scimitar:
+    
+        # The item which the recipe gives
+        output:
+            type: SCIMITAR
+            id: ADAMANT_SCIMITAR
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=49}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=ADAMANTITE_INGOT,amount=4,display="Adamantite Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=250.0}
 
     adamant-chestplate:
     
@@ -1496,6 +1956,37 @@ recipes:
 
         triggers:
         - exp{profession=smithing;amount=500.0}
+
+    adamant-saber:
+    
+        # The item which the recipe gives
+        output:
+            type: SABER
+            id: ADAMANT_SABER
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=51}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - mmoitem{type=MATERIAL,id=ADAMANTITE_INGOT,amount=3,display="Adamantite Ingot"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=187.5}
+
 ####################Diamond######################
     diamond-pickaxe:
     
@@ -1669,12 +2160,41 @@ recipes:
 
         triggers:
         - exp{profession=smithing;amount=375.0}
-    diamond-square-shield:
+    diamond-squareshield:
     
         # The item which the recipe gives
         output:
-            type: SHIELD
+            type: SQUARE_SHIELD
             id: DIAMOND_SQUARE_SHIELD
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=56}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - vanilla{type=DIAMOND,amount=8,display="Diamond"}
+        - vanilla{type=LEATHER,amount=1,display="Leather"}
+
+        triggers:
+        - exp{profession=smithing;amount=600.0}
+    diamond-longsword:
+    
+        # The item which the recipe gives
+        output:
+            type: LONGSWORD
+            id: DIAMOND_LONGSWORD
             amount: 1
         
         # Time it takes to craft the item
@@ -1694,6 +2214,7 @@ recipes:
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
         - vanilla{type=DIAMOND,amount=3,display="Diamond"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
 
         triggers:
         - exp{profession=smithing;amount=225.0}
@@ -1783,6 +2304,35 @@ recipes:
         triggers:
         - exp{profession=smithing;amount=525.0}
 
+    diamond-scimitar:
+    
+        # The item which the recipe gives
+        output:
+            type: SCIMITAR
+            id: DIAMOND_SCIMITAR
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=59}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - vanilla{type=DIAMOND,amount=4,display="Diamond"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=300.0}
 
     diamond-chestplate:
     
@@ -1812,3 +2362,33 @@ recipes:
 
         triggers:
         - exp{profession=smithing;amount=600.0}
+
+    diamond-saber:
+    
+        # The item which the recipe gives
+        output:
+            type: SABER
+            id: DIAMOND_SABER
+            amount: 1
+        
+        # Time it takes to craft the item
+        crafting-time: 5
+        
+        # Recipe options
+        options:
+            output-item: true # Set to false to give no item
+            silent-craft: false # No sound when item is claimed
+            hide-when-locked: false # Hide in the GUI when conditions are not met
+        
+        # Conditions to unlock the recipe
+        conditions:
+        - profession{profession=smithing,level=61}
+        
+        # Ingredients needed for the recipe
+        # Available properties: type, id, amount, display, level (optional)
+        ingredients:
+        - vanilla{type=DIAMOND,amount=3,display="Diamond"}
+        - vanilla{type=STICK,amount=1,display="Wooden Stick"}
+
+        triggers:
+        - exp{profession=smithing;amount=225.0}

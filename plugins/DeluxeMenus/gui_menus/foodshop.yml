@@ -1,0 +1,144 @@
+#  A DeluxeMenus basic configuration guide for beginners
+#=========================================================
+#
+# This note will help you understand the basic functions and configuring of DeluxeMenus: commands, requirements, items and others, and from then on you can start to work with more advanced stuff. You can delete this note or any note below at any time. But if you are still here anyway, then let's move down below
+#
+
+# Open Command
+#
+# This setting is the command that will be used to open this menu. Supports normal String or a String List
+# NOTE: Use "open_command: []" to create a menu with no commands needed
+#
+# open_command: <command>
+# open_command:
+#   - <command1>
+#   - <command2>
+#
+open_command: foodshop
+
+# Size
+#
+# This allows you to set the size of the menu inventory. Range from 9-54.
+# If this option is not present in the menu configuration, it will default to 54.
+#
+size: 18
+
+# Menu title
+#
+# This is the title of the menu. You can change it with your custom name
+# Color codes and placeholders are supported
+#
+menu_title: 'Food Shop'
+
+# Open requirement
+#
+# This setting section allows you to define requirements the menu viewer must meet
+# to be allowed to open this menu in game.
+#
+# Any menu you want to restrict access to based on permission
+# should have a basic "has permission" requirement
+#
+# This setting and requirements can be explained more in depth by checking out
+# the requirements_menu.yml file in your menus folder.
+# For full reference, check https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/requirements
+#
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+
+# Item section. This is where you can start add items into menu, and add functions into each items that you did.
+# For depth explanation on the functions, you can check on the note given from config.yml
+# For full reference, check https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/item
+#
+items:
+  # Here you need to set the name ID of the item. This name however, does not display on the menu. Every item must have a unique name ID.
+  # In this example, we will call this item name ID: "teststone"
+ 'bread':
+    material: Bread
+    slot: 0
+    display_name: '&fBread'
+    lore:
+    - ''
+    - "&8• &7Buy for: &c$&f%math_{essentials_worth:bread}*1.5%"
+    - ''
+    - '&8Left click to buy'
+
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          placeholder: '%math_{essentials_worth:bread}*1.5%'
+          deny_commands:
+          - '[message] &6Shop &8> &7You need &c$%math_{essentials_worth:bread}*1.5% &fto buy &c1 x bread&f.'
+
+    left_click_commands:
+    - '[console] eco take %player_name% %math_{essentials_worth:bread}*1.5%'
+    - '[console] minecraft:give %player_name% bread 1' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+    - '[message] &6Shop &8> &fYou bought &a1 x Bread &ffor &a%math_{essentials_worth:bread}*1.5%&f.'
+ 'cookedbeef':
+    material: cooked_beef
+    slot: 1
+    display_name: '&fCooked Beef'
+    lore:
+    - ''
+    - "&8• &7Buy for: &c$&f2.52"
+    - ''
+    - '&8Left click to buy'
+
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          placeholder: '2.52'
+          deny_commands:
+          - '[message] &6Shop &8> &7You need &c$2.52 &fto buy &c1 x Cooked beef&f.'
+
+    left_click_commands:
+    - '[console] eco take %player_name% 2.52'
+    - '[console] minecraft:give %player_name% minecraft:cooked_beef 1' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+    - '[message] &6Shop &8> &fYou bought &a1 x Cooked beef &ffor &a2.52&f.'
+ 'fishandchips':
+    material: cooked_beef
+    model_data: 21
+    slot: 2
+    display_name: '&fFish and Chips'
+    lore:
+    - ''
+    - "&8• &7Buy for: &c$&f5.50"
+    - ''
+    - '&8Left click to buy'
+
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money
+          placeholder: '5.50'
+          deny_commands:
+          - '[message] &6Shop &8> &7You need &c$5.50 &fto buy &c1 x Fish and Chips&f.'
+
+    left_click_commands:
+    - '[console] eco take %player_name% 5.50'
+    - '[console] mi give COOKINGPACK FISH_CHIPS %player_name%' # By adding "minecraft:" we avoid accidentally using a command from a plugin like Essentials
+    - '[message] &6Shop &8> &fYou bought &a1 x Fish and Chips &ffor &a5.50&f.'
+ 'playerdata':
+    material: head-%player_name%
+    slot: 8
+    display_name: '&f%player_name%'
+    lore:
+    - '&8• &7LVL: %mmocore_level%'
+    # - "&8• &7Buy for: &c$&f%math_{essentials_worth:gold_ingot}*1.5%"
+    - "&8• &7Balance: $%vault_eco_balance_commas%"
+    - ''
+ 'close':
+    material: itemsadder-mcicons:icon_cancel
+    slot: 17
+    display_name: '&fClose Menu'
+    left_click_commands:
+    - '[close]'

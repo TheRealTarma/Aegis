@@ -3,12 +3,13 @@ skill-points: 0
 skill-reallocation-points: 0
 attribute-points: 0
 attribute-realloc-points: 0
-level: 7
+level: 11
 experience: 0.0
 class: HUMAN
 waypoints: []
-friends: []
-last-login: 1721617465078
+friends:
+- 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
+last-login: 1721966031352
 skill-tree-reallocation-points: 0
 health: 20.200000762939453
 mana: 20.0
@@ -20,10 +21,10 @@ skill-tree-points:
 times-claimed:
   profession_attack:
     attack_exp_table:
-      attribute_point: 9
+      attribute_point: 21
   class_HUMAN:
     class_exp_table:
-      level_up: 6
+      level_up: 10
   profession_defense:
     defense_exp_table:
       attribute_point: 7
@@ -35,13 +36,13 @@ attribute:
   constitution: 1
   ranged: 0
   defense: 2
-  attack: 9
+  attack: 21
 profession:
   magic:
     exp: 0.0
     level: 0
   constitution:
-    exp: 139.48496551116298
+    exp: 151.16812082942758
     level: 3
   slayer:
     exp: 0.0
@@ -62,16 +63,16 @@ profession:
     exp: 0.0
     level: 0
   defense:
-    exp: 43.46179081068112
+    exp: 112.85154768788735
     level: 8
   ranged:
     exp: 0.0
     level: 0
   attack:
-    exp: 752.6439372491836
-    level: 10
+    exp: 969.7392846536605
+    level: 22
   farming:
-    exp: 0.0
+    exp: 183.06318165741803
     level: 0
   agility:
     exp: 0.0

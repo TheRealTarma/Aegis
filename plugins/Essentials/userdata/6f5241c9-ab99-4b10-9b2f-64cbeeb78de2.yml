@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 108.68.90.239
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1722023208985
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1722022963544
+  login: 1722022968720
+money: '0.04'
+last-account-name: JiggleTwit
+lastlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 20.936638811393788
+  y: 72.0
+  z: -90.73909310162807
+  yaw: -169.38038635253906
+  pitch: 18.30790138244629
+logoutlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 145.22195419168358
+  y: 43.0
+  z: -1202.5002328568808
+  yaw: -89.62060546875
+  pitch: 14.530929565429688

@@ -1,0 +1,63 @@
+info:
+  namespace: element_spellbook
+items:
+  element_spellbook_dark:
+    display_name: element_spellbook_dark
+    permission: element_spellbook_dark.cosmetic
+    lore:
+    - '&felement_spellbook_dark'
+    resource:
+      material: IRON_INGOT
+      model_id: 985600
+      generate: false
+      model_path: spellbook_dark
+  element_spellbook_earth:
+    display_name: element_spellbook_earth
+    permission: element_spellbook_earth.cosmetic
+    lore:
+    - '&felement_spellbook_earth'
+    resource:
+      material: IRON_INGOT
+      model_id: 985601
+      generate: false
+      model_path: spellbook_earth
+  element_spellbook_fire:
+    display_name: element_spellbook_fire
+    permission: element_spellbook_fire.cosmetic
+    lore:
+    - '&felement_spellbook_fire'
+    resource:
+      material: IRON_INGOT
+      model_id: 985602
+      generate: false
+      model_path: spellbook_fire
+  element_spellbook_light:
+    display_name: element_spellbook_light
+    permission: element_spellbook_light.cosmetic
+    lore:
+    - '&felement_spellbook_light'
+    resource:
+      material: IRON_INGOT
+      model_id: 985603
+      generate: false
+      model_path: spellbook_light
+  element_spellbook_water:
+    display_name: element_spellbook_water
+    permission: element_spellbook_water.cosmetic
+    lore:
+    - '&felement_spellbook_water'
+    resource:
+      material: IRON_INGOT
+      model_id: 985604
+      generate: false
+      model_path: spellbook_water
+  element_spellbook_wind:
+    display_name: element_spellbook_wind
+    permission: element_spellbook_wind.cosmetic
+    lore:
+    - '&felement_spellbook_wind'
+    resource:
+      material: IRON_INGOT
+      model_id: 985605
+      generate: false
+      model_path: spellbook_wind

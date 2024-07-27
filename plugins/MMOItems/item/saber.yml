@@ -1,0 +1,84 @@
+COPPER_SABER:
+  base:
+    material: PAPER
+    custom-model-data: 10814.0
+    name: Copper Saber
+    attack-damage: 5.0
+    attack-speed: 2.1
+    weapon-damage: 1.0
+    profession-attack: 12.0
+    max-durability: 191.0
+    lore:
+    - '§eAttack Level: §c12'
+IRON_SABER:
+  base:
+    material: PAPER
+    custom-model-data: 10808.0
+    name: Iron Saber
+    attack-damage: 5.5
+    attack-speed: 2.1
+    weapon-damage: 1.5
+    profession-attack: 17.0
+    max-durability: 250.0
+    lore:
+    - '§eAttack Level: §c17'
+STEEL_SABER:
+  base:
+    material: PAPER
+    name: Steel Saber
+    attack-damage: 6.0
+    attack-speed: 2.1
+    weapon-damage: 2.0
+    profession-attack: 27.0
+    max-durability: 576.0
+    custom-model-data: 10810.0
+    lore:
+    - '§eAttack Level: §c27'
+MITHRIL_SABER:
+  base:
+    material: PAPER
+    custom-model-data: 10812.0
+    name: Mithril Saber
+    attack-damage: 6.5
+    attack-speed: 2.1
+    weapon-damage: 2.5
+    profession-attack: 37.0
+    max-durability: 1234.0
+    lore:
+    - '§eAttack Level: §c37'
+ADAMANT_SABER:
+  base:
+    material: PAPER
+    custom-model-data: 10816.0
+    name: Adamant Saber
+    attack-damage: 7.0
+    attack-speed: 2.1
+    weapon-damage: 3.0
+    profession-attack: 47.0
+    max-durability: 1561.0
+    lore:
+    - '§eAttack Level: §c47'
+DIAMOND_SABER:
+  base:
+    material: PAPER
+    custom-model-data: 10818.0
+    name: Diamond Saber
+    attack-damage: 7.5
+    attack-speed: 2.1
+    weapon-damage: 3.5
+    profession-attack: 57.0
+    max-durability: 1796.0
+    lore:
+    - '§eAttack Level: §c57'
+NETHERITE_SABER:
+  base:
+    material: PAPER
+    custom-model-data: 10820.0
+    name: Netherite Saber
+    attack-damage: 8.0
+    attack-speed: 2.1
+    weapon-damage: 4.0
+    profession-attack: 67.0
+    max-durability: 2031.0
+    lore:
+    - '§eAttack Level: §c67'

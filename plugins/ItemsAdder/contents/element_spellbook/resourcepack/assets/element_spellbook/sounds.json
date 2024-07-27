@@ -1,0 +1,24 @@
+{
+    "element_spellbook.ice": {
+        "sounds": [
+            "element_spellbook:ice"
+        ]
+    },
+    "element_spellbook.shadow": {
+        "sounds": [
+            "element_spellbook:shadow"
+        ]
+
+    },
+    "element_spellbook.spllsbook": {
+        "sounds": [
+            "element_spellbook:spllsbook"
+        ]
+
+    },
+    "element_spellbook.ston": {
+        "sounds": [
+            "element_spellbook:ston"
+        ]
+    }
+}

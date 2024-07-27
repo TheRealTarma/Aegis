@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 142.180.143.137
+ip-address: 108.56.159.35
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1721964243830
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1717983145807
-  login: 1717978261483
-money: '0.0'
+  logout: 1721965664797
+  login: 1721962165696
+money: '100.05'
 last-account-name: kageyy
 lastlocation:
-  world: 3c0711c8-e82e-4f32-a6ba-28dccdedb101
-  world-name: Palette
-  x: -17.256246886149274
-  y: -35.79257622564614
-  z: 6.111533172190896
-  yaw: -85.34405517578125
-  pitch: 12.449803352355957
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 780.3594232139817
+  y: 87.0
+  z: 613.6749381149251
+  yaw: 88.494140625
+  pitch: 12.30093765258789
 logoutlocation:
-  world: 3c0711c8-e82e-4f32-a6ba-28dccdedb101
-  world-name: Palette
-  x: -128.58168653031876
-  y: -60.0
-  z: 109.1904515421707
-  yaw: -51.417724609375
-  pitch: -4.352390766143799
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 780.590076065523
+  y: 87.0
+  z: 614.8886953249148
+  yaw: -58.331787109375
+  pitch: 24.450151443481445

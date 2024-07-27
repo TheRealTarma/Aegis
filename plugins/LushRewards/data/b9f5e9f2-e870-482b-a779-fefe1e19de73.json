@@ -1,0 +1,22 @@
+{
+  "main": {
+    "username": "FlippingMermaid",
+    "minutesPlayed": 121
+  },
+  "daily-rewards": {
+    "startDate": "2024-07-24",
+    "lastJoinDate": "2024-07-24",
+    "lastCollectedDate": "2024-07-24",
+    "collectedDays": [
+      1
+    ],
+    "dayNum": 1,
+    "streak": 1,
+    "highestStreak": 1
+  },
+  "global-playtime-rewards": {
+    "lastCollectedPlaytime": 0,
+    "startDate": "2024-07-24",
+    "previousDayEndPlaytime": 0
+  }
+}

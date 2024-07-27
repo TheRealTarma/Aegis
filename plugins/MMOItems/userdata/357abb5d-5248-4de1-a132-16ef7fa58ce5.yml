@@ -1,2 +1,15 @@
-crafting-queue: {}
+crafting-queue:
+  anvil:
+    recipe-ee1764f2-633e-418d-8dd8-1200d692a451:
+      recipe: copper-sword
+      start: 1721790663837
+      completion: 1721790668837
+    recipe-144aa2b9-f903-4633-bedd-41bec1b53cb5:
+      recipe: copper-sword
+      start: 1721790664003
+      completion: 1721790673837
+    recipe-302cebcc-d087-40d1-b28c-6ee0a1c287e1:
+      recipe: copper-sword
+      start: 1721790664187
+      completion: 1721790678837
 permissions-from-items: []

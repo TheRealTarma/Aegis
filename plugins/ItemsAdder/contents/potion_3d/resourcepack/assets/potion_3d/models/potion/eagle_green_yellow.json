@@ -1,0 +1,6 @@
+{
+    "parent": "potion_3d:eagle",
+    "textures": {
+        "1": "potion_3d:colors/green_yellow"
+    }
+}

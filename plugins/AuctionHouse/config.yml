@@ -43,7 +43,7 @@ auction setting:
     bin item: 86400
 
     # The default listing time for auction items before they expire
-    auction item: 604800
+    auction item: 172800
   default filters:
 
     # Valid Options: ALL, FOOD, ARMOR, BLOCKS, TOOLS, WEAPONS, POTIONS, SPAWNERS, ENCHANTS, MISC, SEARCH, SELF

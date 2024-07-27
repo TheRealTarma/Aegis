@@ -1,31 +1,5 @@
-+ Added: Broadcast message when upkeep for upkeep colleciton
-- Fixed: Insufficient funds upkeep reminder
-
---> Language file (en-US.yml): 
-+ Message: help.command.wars.list
-+ Message: lands.command.upkeep.broadcast
-
---> GUI file (en-US.yml): 
-+ Item: common.items.default.child_failure_noaccess_owner
-+ Item: common.items.default.war_attackers
-+ Item: common.items.default.war_defenders
-+ Item: common.items.default.war_points
-+ Item: gui.list_area_settings.items.default
-+ Item: gui.list_area_settings.items.default.entry_block_spreading
-+ Item: gui.war.items.default
-+ Item: gui.war.items.default.war_points_declaration
-+ Item: gui.war.items.default.flags
-+ Item: gui.list_wars.items.default
-+ Item: gui.list_wars.items.default.entry_object
-+ Item: gui.war.items.default.war_attackers
-+ Item: gui.war.items.default.war_defenders
-+ Item: gui.war.items.default.war_points
-+ Item: gui.war_info.items.default
-+ Item: gui.war_info.items.default.war_attackers
-+ Item: gui.war_info.items.default.war_defenders
-+ Item: gui.war_info.items.default.war_points
---> Flags (roles.yml and config.yml)
-+ block_spreading
+- Fixed: Placeholder parsing
+- Fixed: /lands relations input
 --> Flags (roles.yml and config.yml)
 + seasons
 + seasonblocks

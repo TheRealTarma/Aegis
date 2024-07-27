@@ -70,7 +70,7 @@ Items:
   WithdrawButton1:
     Material: "EMERALD"
     Amount: 1
-    Displayname: "&8&l[&a&lWITHDRAW&8&l] &f500$"
+    Displayname: "&8&l[&a&lWITHDRAW&8&l] &f1 Taro"
     Slot: 11
     # You can edit the custom
     # model data of an item.
@@ -79,8 +79,8 @@ Items:
     #CustomModelData: 10
     Lore:
       - ""
-      - "&7Withdraw &a500$ &7from your bank."
-      - "&8Taxes with 500$: &f%bankplus_calculate_withdraw_taxes_number_500%"
+      - "&7Withdraw &a1 Taro &7from your bank."
+      - "&8Taxes with 1 Taro: &f%bankplus_calculate_withdraw_taxes_number_1%"
       - ""
     Glowing: true
     Actions:
@@ -92,49 +92,49 @@ Items:
       # - [PLAYER] <chat> ( Force the player to chat, it can also be a command. )
       # - [CONSOLE] <command> ( Without "/"! | Execute a console command. )
       # - [MESSAGE] <message> ( Send a message to the player. )
-      - "[WITHDRAW] 500"
+      - "[WITHDRAW] 1"
 
   WithdrawButton2:
     Material: "EMERALD"
     Amount: 1
-    Displayname: "&8&l[&a&lWITHDRAW&8&l] &f25%"
+    Displayname: "&8&l[&a&lWITHDRAW&8&l] &f50 Taro's"
     Slot: 12
     Lore:
       - ""
-      - "&7Withdraw &a25% &7of the money from your bank."
-      - "&8Taxes with 25%: &f%bankplus_calculate_withdraw_taxes_percentage_25%"
+      - "&7Withdraw &a50 &7Taro's from your bank."
+      - "&8Taxes with 50 Taro's: &f%bankplus_calculate_withdraw_taxes_percentage_2%"
       - ""
     Glowing: true
     Actions:
-      - "[WITHDRAW] 25%"
+      - "[WITHDRAW] 50"
 
   WithdrawButton3:
     Material: "EMERALD"
     Amount: 1
-    Displayname: "&8&l[&a&lWITHDRAW&8&l] &f50%"
+    Displayname: "&8&l[&a&lWITHDRAW&8&l] &f100 Taro's"
     Slot: 21
     Lore:
       - ""
-      - "&7Withdraw &a50% &7of the money from your bank."
-      - "&8Taxes with 50%: &f%bankplus_calculate_withdraw_taxes_percentage_50%"
+      - "&7Withdraw &a100 Taro's &7from your bank."
+      - "&8Taxes with 100 Taro's: &f%bankplus_calculate_withdraw_taxes_percentage_2%"
       - ""
     Glowing: true
     Actions:
-      - "[WITHDRAW] 50%"
+      - "[WITHDRAW] 100"
 
   WithdrawButton4:
     Material: "EMERALD"
     Amount: 1
     Slot: 20
-    Displayname: "&8&l[&a&lWITHDRAW&8&l] &fALL"
+    Displayname: "&8&l[&a&lWITHDRAW&8&l] &f150 Taro's"
     Lore:
       - ""
-      - "&7Withdraw &aall &7your money from your bank."
-      - "&8Taxes with all money: &f%bankplus_calculate_withdraw_taxes_percentage_100%"
+      - "&7Withdraw &a150 Taro's &7from your bank."
+      - "&8Taxes with 150 Taro's: &f%bankplus_calculate_withdraw_taxes_percentage_2%"
       - ""
     Glowing: true
     Actions:
-      - "[WITHDRAW] 100%"
+      - "[WITHDRAW] 150"
 
   WithdrawButton5:
     Material: "EMERALD"
@@ -218,53 +218,53 @@ Items:
     Material: "EMERALD"
     Amount: 1
     Slot: 17
-    Displayname: "&8&l[&9&lDEPOSIT&8&l] &f500$"
+    Displayname: "&8&l[&9&lDEPOSIT&8&l] &f1 Taro's"
     Lore:
       - ""
-      - "&7Deposit &a500$ &7in your bank."
-      - "&8Taxes with 500$: &f%bankplus_calculate_deposit_taxes_number_500%"
+      - "&7Deposit &a1 Taro &7in your bank."
+      - "&8Taxes with 1 Taro: &f%bankplus_calculate_deposit_taxes_number_1%"
       - ""
     Glowing: true
     Actions:
-      - "[DEPOSIT] 500"
+      - "[DEPOSIT] 1"
 
   DepositButton2:
     Material: "EMERALD"
     Amount: 1
     Slot: 16
-    Displayname: "&8&l[&9&lDEPOSIT&8&l] &f25%"
+    Displayname: "&8&l[&9&lDEPOSIT&8&l] &f50 Taro's"
     Lore:
       - ""
-      - "&7Deposit &a25% &7of the money in your bank."
-      - "&8Taxes with 25%: &f%bankplus_calculate_deposit_taxes_percentage_25%"
+      - "&7Deposit &a50 Taro's &7in your bank."
+      - "&8Taxes with 50 Taro's: &f%bankplus_calculate_deposit_taxes_percentage_2%"
       - ""
     Glowing: true
     Actions:
-      - "[DEPOSIT] 25%"
+      - "[DEPOSIT] 50"
 
   DepositButton3:
     Material: "EMERALD"
     Amount: 1
     Slot: 25
-    Displayname: "&8&l[&9&lDEPOSIT&8&l] &f50%"
+    Displayname: "&8&l[&9&lDEPOSIT&8&l] &f100 Taro's"
     Lore:
       - ""
-      - "&7Deposit &a50% &7of the money in your bank."
-      - "&8Taxes with 50%: &f%bankplus_calculate_deposit_taxes_percentage_25%"
+      - "&7Deposit &a100 Taro's &7in your bank."
+      - "&8Taxes with 100: &f%bankplus_calculate_deposit_taxes_percentage_2%"
       - ""
     Glowing: true
     Actions:
-      - "[DEPOSIT] 50%"
+      - "[DEPOSIT] 100"
 
   DepositButton4:
     Material: "EMERALD"
     Amount: 1
     Slot: 26
-    Displayname: "&8&l[&9&lDEPOSIT&8&l] &fALL"
+    Displayname: "&8&l[&9&lDEPOSIT&8&l] &f150 Taro's"
     Lore:
       - ""
-      - "&7Deposit &aall &7your the in your bank."
-      - "&8Taxes with all money: &f%bankplus_calculate_deposit_taxes_percentage_100%"
+      - "&7Deposit &a150 Taro's &7in your bank."
+      - "&8Taxes with 150 money: &f%bankplus_calculate_deposit_taxes_percentage_2%"
       - ""
     Glowing: true
     Actions:

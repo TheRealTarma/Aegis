@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 98.219.5.116
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1721700570570
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1721876366787
+  login: 1721874799486
+money: '630.35'
+last-account-name: itsakaleigh
+lastlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: -13.863614870036718
+  y: 69.0
+  z: 212.70636588229092
+  yaw: -116.58214569091797
+  pitch: 12.74962043762207
+logoutlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 92.42933950179003
+  y: 70.5625
+  z: 206.23094240871555
+  yaw: -25.211183547973633
+  pitch: 10.649495124816895

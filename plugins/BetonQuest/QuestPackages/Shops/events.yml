@@ -1,0 +1,7 @@
+events:
+  openmageshopdelay: "folder openmageshop delay:2"
+  openmageshop: "opsudo dm open mageshop %player.name%"
+  openfishshopdelay: "folder openfishshop delay:2"
+  openfishshop: "sudo sellfish"
+  openfoodshopdelay: "folder openfoodshop delay:2"
+  openfoodshop: "opsudo dm open foodshop %player.name%"

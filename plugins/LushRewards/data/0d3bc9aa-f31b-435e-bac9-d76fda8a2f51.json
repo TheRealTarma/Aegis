@@ -1,16 +1,14 @@
 {
   "main": {
     "username": "zero99x",
-    "minutesPlayed": 5463
+    "minutesPlayed": 6309
   },
   "daily-rewards": {
     "startDate": "2024-06-12",
-    "lastJoinDate": "2024-07-22",
+    "lastJoinDate": "2024-07-26",
     "lastCollectedDate": "2024-07-21",
-    "collectedDays": [
-      1
-    ],
-    "dayNum": 2,
+    "collectedDays": [],
+    "dayNum": 1,
     "streak": 1,
     "highestStreak": 3
   },

@@ -1,0 +1,6 @@
+{
+    "parent": "potion_3d:golden",
+    "textures": {
+        "1": "potion_3d:colors/magenta"
+    }
+}

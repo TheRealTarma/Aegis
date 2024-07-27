@@ -1,0 +1,118 @@
+#  A DeluxeMenus basic configuration guide for beginners
+#=========================================================
+#
+# This note will help you understand the basic functions and configuring of DeluxeMenus: commands, requirements, items and others, and from then on you can start to work with more advanced stuff. You can delete this note or any note below at any time. But if you are still here anyway, then let's move down below
+#
+
+# Open Command
+#
+# This setting is the command that will be used to open this menu. Supports normal String or a String List
+# NOTE: Use "open_command: []" to create a menu with no commands needed
+#
+# open_command: <command>
+# open_command:
+#   - <command1>
+#   - <command2>
+#
+open_command: mageshop
+
+# Size
+#
+# This allows you to set the size of the menu inventory. Range from 9-54.
+# If this option is not present in the menu configuration, it will default to 54.
+#
+size: 18
+
+# Menu title
+#
+# This is the title of the menu. You can change it with your custom name
+# Color codes and placeholders are supported
+#
+menu_title: 'Mage Shop'
+
+# Open requirement
+#
+# This setting section allows you to define requirements the menu viewer must meet
+# to be allowed to open this menu in game.
+#
+# Any menu you want to restrict access to based on permission
+# should have a basic "has permission" requirement
+#
+# This setting and requirements can be explained more in depth by checking out
+# the requirements_menu.yml file in your menus folder.
+# For full reference, check https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/requirements
+#
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+
+# Item section. This is where you can start add items into menu, and add functions into each items that you did.
+# For depth explanation on the functions, you can check on the note given from config.yml
+# For full reference, check https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/item
+#
+items:
+  # Here you need to set the name ID of the item. This name however, does not display on the menu. Every item must have a unique name ID.
+  # In this example, we will call this item name ID: "teststone"
+  'Spawn Potion':
+    material: Potion
+    slot: 0
+    display_name: '&fSpawn Potion'
+    lore:
+    - ''
+    - "&8• &7Buy for: &a$&f16.00"
+    - ''
+    - '&8Left click to buy'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money # https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/requirements#has-item
+          amount: 16.00
+          strict: true
+          deny_commands:
+          - '[message] &6Shop &8> &fYou don''t have &c16.00:taro: &fto buy.'
+    left_click_commands:
+    - '[console] eco take %player_name% 16.00'
+    - '[console] mmoitems give CONSUMABLE SPAWN_POTION %player_name%' 
+    - '[message] &6Shop &8> &fYou bought &a1 x Spawn Potion &ffor &a16.00&f:taro:.'
+  'Recall Potion':
+    material: Potion
+    slot: 1
+    display_name: '&fRecall Potion'
+    lore:
+    - ''
+    - "&8• &7Buy for: &a$&f32.00"
+    - ''
+    - '&8Left click to buy'
+    - ''
+    left_click_requirement:
+      requirements:
+        anything_here:
+          type: has money # https://wiki.helpch.at/clips-plugins/deluxemenus/options-and-configurations/requirements#has-item
+          amount: 32.00
+          strict: true
+          deny_commands:
+          - '[message] &6Shop &8> &fYou don''t have &c32.00:taro: &fto buy.'
+    left_click_commands:
+    - '[console] eco take %player_name% 32.00'
+    - '[console] mmoitems give CONSUMABLE RECALL_POTION %player_name%' 
+    - '[message] &6Shop &8> &fYou bought &a1 x Recall Potion &ffor &a32.00&f:taro:.'
+  'playerdata':
+    material: head-%player_name%
+    slot: 8
+    display_name: '&f%player_name%'
+    lore:
+    - '&8• &7LVL: %mmocore_level%'
+    # - "&8• &7Buy for: &c$&f%math_{essentials_worth:gold_ingot}*1.5%"
+    - "&8• &7Balance: $%vault_eco_balance_commas%"
+    - ''
+  'close':
+    material: itemsadder-mcicons:icon_cancel
+    slot: 17
+    display_name: '&fClose Menu'
+    left_click_commands:
+    - '[close]'

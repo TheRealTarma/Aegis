@@ -1,15 +1,21 @@
 {
   "main": {
     "username": "OmegaZero",
-    "minutesPlayed": 129
+    "minutesPlayed": 717
   },
   "daily-rewards": {
     "startDate": "2024-05-12",
-    "lastJoinDate": "2024-07-22",
-    "collectedDays": [],
-    "dayNum": 1,
-    "streak": 1,
-    "highestStreak": 1
+    "lastJoinDate": "2024-07-26",
+    "lastCollectedDate": "2024-07-26",
+    "collectedDays": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "dayNum": 4,
+    "streak": 4,
+    "highestStreak": 4
   },
   "daily-playtime-rewards": {
     "lastCollectedPlaytime": "0",
@@ -17,7 +23,7 @@
     "previousDayEndPlaytime": 0
   },
   "global-playtime-rewards": {
-    "lastCollectedPlaytime": 0,
+    "lastCollectedPlaytime": 625,
     "startDate": "2024-05-12",
     "previousDayEndPlaytime": 0
   }

@@ -1,0 +1,40 @@
+conversations:
+  Tavern_Keeper:
+    quester: "Tavern Keeper"
+    first: "firstGreeting"
+    NPC_options:
+      firstGreeting:
+        text: "Welcome to the tavern, traveler! What can I do for you today? Whether it's a hearty meal, a warm drink, or a good story, you're in the right place. The ale's fresh, the stew's hot, and the tales are waiting"
+        pointer: "playerresponse1,playerresponse2,goodbye"
+      npcresponse1:
+        text: "Not at the moment, The night is still young, and opportunities often come when you least expect them. Just sit back and relax; I'm sure something interesting will find its way to you soon enough. Whether it's a job, a quest, or perhaps just a good conversation, there's always something brewing in a place like this!"
+        pointer: "playerresponse3"
+      npcresponse2:
+        text: "What can I help you with?"
+        pointer: "playerresponse1,playerresponse2,goodbye"
+      npcresponse3:
+        text: "We've got the finest ales in all the land here. Whether you fancy something dark and hearty, light and crisp, or perhaps a rare brew from distant lands, we've got just the thing to quench your thirst. So, what can I pour for you?"
+        pointer: "playerresponse1,playerresponse2,goodbye"
+      npcresponse4:
+        # text: "Hmph. I had ye pegged for a fisherman. I reckon ye'll appreciate this..."
+        text: "Bread, meat, we have *everything* you could ever want!"
+        events: "openfoodshopdelay"
+      npcgoodbye:
+        text: "Farewell, traveler! Safe journeys, and may your adventures be grand. The tavern will always have a place for you. Until next time, take care and travel well!!"
+
+    player_options:
+      playerresponse1:
+        text: "Do you have any quests for me?"
+        pointer: "npcresponse1"
+      playerresponse2:
+        text: "Show me your wares"
+        pointer: "npcresponse4"
+      playerresponse3:
+        text: "Continue"
+        pointer: "npcresponse3"
+      playerresponse4:
+        text: "Continue"
+        pointer: "npcresponse4"
+      goodbye:
+        text: "Goodbye"
+        pointer: "npcgoodbye"

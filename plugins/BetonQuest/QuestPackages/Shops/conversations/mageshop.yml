@@ -1,0 +1,40 @@
+
+conversations:
+  Ashen_Archwizard:
+    quester: "Ashen Archwizard"
+    first: "firstGreeting"
+    NPC_options:
+      firstGreeting:
+        text: "Hello Traveler! I am the Ashen Archwizard of Zyta. What Can I do for you?  "
+        pointer: "playerresponse1,playerresponse2,goodbye"
+      npcresponse1:
+        text: "That's a Warp Gate! They connect to locations all over the realm allowing for instant transmission between gates. High level mages can craft them!"
+        pointer: "playerresponse3"
+      npcresponse2:
+        text: "What can I help you with?"
+        pointer: "playerresponse1,playerresponse2,goodbye"
+      npcresponse3:
+        text: "Anything else I can help you with?"
+        pointer: "playerresponse1,playerresponse2,goodbye"
+      npcresponse4:
+        text: "Hmph. I had you figured for a mage. I think you'll appreciate this..."
+        events: "openmageshopdelay"
+      npcgoodbye:
+        text: "Farewell Traveler."
+
+    player_options:
+      playerresponse1:
+        text: "What's that thing behind you?"
+        pointer: "npcresponse1"
+      playerresponse2:
+        text: "Show me your wares"
+        pointer: "npcresponse4"
+      playerresponse3:
+        text: "Continue"
+        pointer: "npcresponse3"
+      playerresponse4:
+        text: "Continue"
+        pointer: "npcresponse4"
+      goodbye:
+        text: "Goodbye"
+        pointer: "npcgoodbye"

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 76.119.25.108
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1721868881299
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1721879541567
+  login: 1721963879614
+money: '0.0'
+last-account-name: Fatalitum
+lastlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: -1770.3172634099215
+  y: 73.0
+  z: -293.95090281971324
+  yaw: 118.31312561035156
+  pitch: 14.850347518920898
+logoutlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 159.5
+  y: 117.0
+  z: -1196.5
+  yaw: -4.9415598368796054E-6
+  pitch: 0.0

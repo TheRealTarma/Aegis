@@ -4,8 +4,8 @@ ignores: ''
 listen: Trade,Help,Announcement,Donator,Network,Staff,Local,Global
 mutes: {}
 blockedcommands: ''
-host: false
-party: 0d3bc9aa-f31b-435e-bac9-d76fda8a2f51
+host: true
+party: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
 filter: false
 notifications: true
 spy: false
@@ -13,4 +13,4 @@ commandspy: false
 rangedspy: false
 messagetoggle: true
 bungeetoggle: true
-date: 2024/Jul/22 02:55:47
+date: 2024/Jul/26 19:31:50

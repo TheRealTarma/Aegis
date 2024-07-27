@@ -1,0 +1,41 @@
+
+conversations:
+  Master_Angler:
+    quester: "Master Angler"
+    first: "firstGreeting"
+    NPC_options:
+      firstGreeting:
+        text: "Ahoy, Traveler! I be the Master Angler of Zyta. What be ye needin' from me?  "
+        pointer: "playerresponse1,playerresponse2,goodbye"
+      npcresponse1:
+        text: "With that newfangled warp gate conjured, ye hardly need to set sail these days, arr!"
+        pointer: "playerresponse3"
+      npcresponse2:
+        text: "What can I help you with?"
+        pointer: "playerresponse1,playerresponse2,goodbye"
+      npcresponse3:
+        text: "Be there anythin' else I can be helpin' ye with, matey?"
+        pointer: "playerresponse1,playerresponse2,goodbye"
+      npcresponse4:
+        # text: "Hmph. I had ye pegged for a fisherman. I reckon ye'll appreciate this..."
+        text: "arrr this be a work in progress"
+        # events: "openfishshopdelay"
+      npcgoodbye:
+        text: "Farewell, Traveler! May the winds be ever in yer favor, arr!"
+
+    player_options:
+      playerresponse1:
+        text: "Why are you here when you could be out on the High Seas?"
+        pointer: "npcresponse1"
+      playerresponse2:
+        text: "Show me your wares"
+        pointer: "npcresponse4"
+      playerresponse3:
+        text: "Continue"
+        pointer: "npcresponse3"
+      playerresponse4:
+        text: "Continue"
+        pointer: "npcresponse4"
+      goodbye:
+        text: "Goodbye"
+        pointer: "npcgoodbye"

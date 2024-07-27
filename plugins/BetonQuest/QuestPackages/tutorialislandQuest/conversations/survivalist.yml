@@ -1,7 +1,7 @@
 conversations:
   Survivalist:
     quester: "Survivalist"
-    first: "done,cooking3,woodcuttingcomplete,codininv,rodininv,firstGreeting"
+    first: "done,cooking3,woodcuttingcomplete,hasAxeininven,codininv,rodininv,firstGreeting"
     NPC_options:
       firstGreeting:
         text: "Hello, I am the resident Survivalist here on Tutorial Island. Being so far out in the ocean means that its up to me to ensure that the locals know how to survive out there, as well as ensure the chef is kept stocked with a steady supply of fish."
@@ -21,8 +21,11 @@ conversations:
         pointer: "continue3"
         conditions: "hasCodInInv"
       woodcutting:
-        text: "Next, let's talk about woodcutting, I mean you do need to cook somehow! Here is a stone axe to get you started. You will gain XP per log chopped. Higher tier axes, are available at higher levels. The higher the tier of axe you have, the higher the tier of wood you can chop. High tier axes have the ability to knock a tree over in one chop."
-        events: "givestoneaxe"
+        text: "Next, let's talk about woodcutting, I mean you do need to cook somehow! Here is a stone axe to get you started. You will gain XP per log chopped. Higher tier axes, are available at higher levels. The higher the tier of axe you have, the higher the tier of wood you can chop. High tier axes have the ability to knock a tree over in one chop. Collect me some Logs from the dead trees over there!"
+        events: "givestoneaxe,treereset"
+      hasAxeininven:
+        text: "I already gave you a Axe! Go chop me some logs!"
+        conditions: "hasStoneAxe"
       woodcuttingcomplete:
         text: "Excellent job! You can hold onto that axe, it should serve you well."
         pointer: "continue4"
@@ -31,7 +34,7 @@ conversations:
         text: "Now let's cover an equally important skill, cooking. (WIP) Basic recipes do not provide you much XP as they have no level requirement for crafting them, however the higher tier specialty foods give you a significant amount of XP. "
         pointer: "continue5"
       cooking2:
-        text: "Increasing your cooking skill will give you access to higher tier foods that provide you stronger benefits. You will have access to this basic recipe for now. Here are the ingredients. Go ahead and right click them on the cooking pot nearby. "
+        text: "Increasing your cooking skill will give you access to higher tier foods that provide you stronger benefits. You will have access to this basic recipe for now. Here are the ingredients. Go ahead and right click them on the cooking pot nearby with this Raw Porkchop and some Honey! "
         events: "giveingredients"
       cooking3:
         text: "Looks tasty! That's all I have to teach you! Head over to the Blacksmith at the quarry for your next lesson, Goodluck traveler."

@@ -1,2 +1,99 @@
-crafting-queue: {}
+crafting-queue:
+  forge:
+    recipe-bb6dd948-50e5-42b5-a4b2-d915be6190fb:
+      recipe: copper_ingot
+      start: 1721877066408
+      completion: 1721877176575
+    recipe-0c9cd5f0-0523-47df-84ad-c118f8fef468:
+      recipe: copper_ingot
+      start: 1721877066610
+      completion: 1721877182575
+    recipe-180f0c8f-c877-4ef1-97c2-e1fc0703fe16:
+      recipe: copper_ingot
+      start: 1721877066827
+      completion: 1721877188575
+    recipe-5a1399a4-5656-4908-a80d-1dbe3ef370c1:
+      recipe: copper_ingot
+      start: 1721877066963
+      completion: 1721877194575
+    recipe-853586e3-65cc-4ba6-85cb-8f2e14248727:
+      recipe: copper_ingot
+      start: 1721877148157
+      completion: 1721877200575
+    recipe-51aa08a1-2e01-4002-8c8a-066a56dd556b:
+      recipe: copper_ingot
+      start: 1721877148351
+      completion: 1721877206575
+    recipe-b88890dd-1e51-4aaa-9d0d-406cd5410d92:
+      recipe: copper_ingot
+      start: 1721877148834
+      completion: 1721877212575
+    recipe-b5d1bf53-53ae-4b06-a837-c857ab469599:
+      recipe: copper_ingot
+      start: 1721877149038
+      completion: 1721877218575
+    recipe-e651b08b-ed57-4195-b0cc-ba4fdb4aef9c:
+      recipe: copper_ingot
+      start: 1721877149206
+      completion: 1721877224575
+    recipe-4c70960a-8515-476e-a242-87bda8209721:
+      recipe: copper_ingot
+      start: 1721877149359
+      completion: 1721877230575
+    recipe-4ef65983-be31-40be-8d5f-bc1d78b46eb1:
+      recipe: copper_ingot
+      start: 1721877149549
+      completion: 1721877236575
+    recipe-49596272-404f-4e57-abb1-4c20e5d65327:
+      recipe: copper_ingot
+      start: 1721877149745
+      completion: 1721877242575
+    recipe-cc961e63-a129-4c71-9a91-1d62c7e0ed83:
+      recipe: copper_ingot
+      start: 1721877149893
+      completion: 1721877248575
+    recipe-734a3308-40de-430a-8652-b4da6c6ffb19:
+      recipe: copper_ingot
+      start: 1721877150086
+      completion: 1721877254575
+    recipe-5104e71d-e418-4bc4-98b3-8fc40cc90919:
+      recipe: copper_ingot
+      start: 1721877150432
+      completion: 1721877260575
+    recipe-6a86b75f-0d27-4566-9242-2f25beb4d0e7:
+      recipe: copper_ingot
+      start: 1721877150575
+      completion: 1721877266575
+    recipe-7d0bb10e-0de3-4b32-b17f-ce1abc94bb0f:
+      recipe: copper_ingot
+      start: 1721877150794
+      completion: 1721877272575
+    recipe-a3e47f97-2f27-48af-aea0-db532b84a524:
+      recipe: copper_ingot
+      start: 1721877150977
+      completion: 1721877278575
+    recipe-c7773703-b47a-4791-8588-ef27aaf1b095:
+      recipe: copper_ingot
+      start: 1721877151147
+      completion: 1721877284575
+    recipe-50fd4d1e-92f8-4e34-accb-749efe50dbca:
+      recipe: copper_ingot
+      start: 1721877151368
+      completion: 1721877290575
+    recipe-913773d0-88da-4583-99a0-e7791b9b5dab:
+      recipe: copper_ingot
+      start: 1721877160514
+      completion: 1721877296575
+    recipe-854cf013-2198-4988-9e55-0a6a2dc24445:
+      recipe: copper_ingot
+      start: 1721877160961
+      completion: 1721877302575
+    recipe-d6023398-39d1-4ab0-bc67-1f74b1b9bf44:
+      recipe: copper_ingot
+      start: 1721877172511
+      completion: 1721877308575
+    recipe-28f5af0f-197b-421b-9e31-3bf7d4804e67:
+      recipe: copper_ingot
+      start: 1721877172660
+      completion: 1721877314575
 permissions-from-items: []

@@ -1,0 +1,52 @@
+info:
+  namespace: tarmarpg
+armors_rendering:
+  iron_knight_1:
+    color: '#d60001'
+    layer_1: armor_textures/iron_armors/iron_knight_armor_1_layer_1
+    layer_2: armor_textures/iron_armors/iron_knight_armor_1_layer_2
+    use_color: false
+
+items:
+  iron_chestplate:
+    display_name: Iron Chestplate
+    permission: tarmarpg.iron_chestplate
+    mmoitem:
+      type: ARMOR
+      id: IRON_CHESTPLATE
+    resource:
+      generate: true
+      textures:
+      - armor_sprites/iron/iron_knight_chestplate_1
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: iron_knight_1
+  iron_leggings:
+    display_name: Iron leggings
+    permission: tarmarpg.iron_leggings
+    mmoitem:
+      type: ARMOR
+      id: IRON_LEGGINGS
+    resource:
+      generate: true
+      textures:
+      - armor_sprites/iron/iron_knight_leggins_1
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: iron_knight_1
+  iron_boots:
+    display_name: Iron boots
+    permission: tarmarpg.iron_boots
+    mmoitem:
+      type: ARMOR
+      id: IRON_BOOTS
+    resource:
+      generate: true
+      textures:
+      - armor_sprites/iron/iron_knight_boots_1
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: iron_knight_1

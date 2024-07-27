@@ -464,12 +464,14 @@ items:
     permission: tarmarpg.copper_helmet
     mmoitem:
       type: ARMOR
-      id: COPPER_FULL_HELMET
+      id: COPPER_FULL_HELM
     display_name: Copper Full Helmet
     resource:
       material: PAPER
       generate: false
-      model_path: "copper_helmets/copper_knight_helmet_1"
+      model_path: "copper_helmets/copper_knight_helmet_6"
+    behaviours:
+      hat: true
   iron_full_helmet:
     permission: tarmarpg.iron_helmet
     mmoitem:
@@ -492,6 +494,8 @@ items:
       material: PAPER
       generate: false
       model_path: "steel_helmets/steel_knight_helmet_1"
+    behaviours:
+      hat: true
   mithril_full_helmet:
     permission: tarmarpg.mithril_helmet
     mmoitem:
@@ -502,6 +506,8 @@ items:
       material: PAPER
       generate: false
       model_path: "mithril_helmets/mithril_knight_helmet_1"
+    behaviours:
+      hat: true
   adamant_full_helmet:
     permission: tarmarpg.adamant_helmet
     mmoitem:
@@ -512,6 +518,8 @@ items:
       material: PAPER
       generate: false
       model_path: "adamant_helmets/adamant_knight_helmet_1"
+    behaviours:
+      hat: true
   diamond_full_helmet:
     permission: tarmarpg.diamond_helmet
     mmoitem:

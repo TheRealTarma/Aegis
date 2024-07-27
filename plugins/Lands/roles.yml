@@ -80,6 +80,8 @@ land:
       # Default flag values. Please note that these only apply to new rentals.
       # Only admin lands can change these flags ingame. This prevents lands abusing this and selling areas where the tanant would have no permission to do anything.
       default:
+        - BLOCK_PLACE
+        - BLOCK_BREAK
         - PLANT
         - HARVEST
         - SHEAR
@@ -89,15 +91,18 @@ land:
         - INTERACT_CONTAINER
         - INTERACT_MECHANISM
         - INTERACT_VILLAGER
+        - BLOCK_IGNITE
         - ATTACK_PLAYER
         - ATTACK_ANIMAL
         - ATTACK_MONSTER
         - FLY
         - ELYTRA
         - LAND_ENTER
+        - SPAWN_TELEPORT
         - ENDER_PEARL
         - VEHICLE_USE
         - ITEM_PICKUP
+        - TRAMPLE_FARMLAND
         - PLAYER_TRUST
         - PLAYER_SETROLE
         - PLAYER_UNTRUST

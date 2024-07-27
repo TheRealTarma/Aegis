@@ -28,7 +28,7 @@ conversations:
         text: "Overflowing with confidence I see! Go ahead and speak to Skippy in the bar to get started, good luck traveler."
 #start of tutorial
       startoftutorial:
-        text: "This is Tutorial Island, a spec of and land in a sea of blue. Here we will cover the basics of the Aegis world. Around the island, you can find guides to help start you on your Journey."
+        text: "This is Tutorial Island, a spec of land in a sea of blue. Here we will cover the basics of the Aegis world. Around the island, you can find guides to help start you on your Journey."
         pointer: "continue4"
       tutorial2:
         text: "To start you off, I would like to quickly cover the Friends, Parties, Voting, and Banking System"
@@ -52,7 +52,7 @@ conversations:
         text: "Finally, but maybe most importantly, Banking is integral for ensuring that your riches are protected. If you happen upon misfortune on your ventures, upon your death you will drop part of your cash stack. Keeping your money in the bank protects it. Access your bank via one of many bankers spread around the world. Be wary, there is a tax on your withdrawals."
         pointer: "continue11"
       tutorial9:
-        text: "I'm afraid this is all I have to teach you! Speak to the Angler outside to continue the tutorial. If at any time you wish to skip over the rest, just talk to Skippy here in the Tavern. Good luck, adventurer!"
+        text: "I'm afraid this is all I have to teach you! Speak to the Survivalist outside to continue the tutorial. If at any time you wish to skip over the rest, just talk to Skippy here in the Tavern. Good luck, adventurer!"
     player_options:
       continue1:
         text: "Continue"

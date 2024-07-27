@@ -25,3 +25,4 @@ RPGRAT:
   Conditions: []
   SpawnConditions: []
   CooldownTimer: 1
+  ActiveMobs: 2

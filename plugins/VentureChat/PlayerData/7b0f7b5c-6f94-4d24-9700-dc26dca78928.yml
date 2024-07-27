@@ -1,0 +1,16 @@
+name: JoeMC2014
+current: Global
+ignores: ''
+listen: Trade,Help,Announcement,Network,Local,Global
+mutes: {}
+blockedcommands: ''
+host: false
+party: ''
+filter: true
+notifications: true
+spy: false
+commandspy: false
+rangedspy: false
+messagetoggle: true
+bungeetoggle: true
+date: 2024/Jul/23 22:50:58

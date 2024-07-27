@@ -6,6 +6,8 @@ WOODEN_SWORD:
     weapon-damage: 1.0
     profession-attack: 1.0
     max-durability: 59.0
+    lore:
+    - '§eAttack Level: §c1'
 STONE_SWORD:
   base:
     material: STONE_SWORD
@@ -14,6 +16,8 @@ STONE_SWORD:
     weapon-damage: 1.0
     profession-attack: 1.0
     max-durability: 131.0
+    lore:
+    - '§eAttack: §c1'
     crafting:
       shaped:
         '1':
@@ -31,50 +35,60 @@ COPPER_SWORD:
     name: Copper Sword
     max-durability: 191.0
     custom-model-data: 10000.0
+    lore:
+    - '§eAttack Level: §c6'
 IRON_SWORD:
   base:
     material: IRON_SWORD
     attack-damage: 6.0
     attack-speed: 1.6
-    weapon-damage: 1.0
+    weapon-damage: 1.5
     profession-attack: 11.0
     max-durability: 250.0
+    lore:
+    - '§eAttack Level: §c11'
 STEEL_SWORD:
   base:
     material: IRON_SWORD
     attack-damage: 6.3
     attack-speed: 1.6
-    weapon-damage: 1.0
+    weapon-damage: 2.0
     profession-attack: 21.0
     name: Steel Sword
     max-durability: 576.0
     custom-model-data: 10003.0
+    lore:
+    - '§eAttack Level: §c21'
 MITHRIL_SWORD:
   base:
     material: IRON_SWORD
     attack-damage: 6.6
     attack-speed: 1.6
-    weapon-damage: 1.0
+    weapon-damage: 2.5
     profession-attack: 31.0
     name: Mithril Sword
     max-durability: 1234.0
     custom-model-data: 10001.0
+    lore:
+    - '§eAttack Level: §c31'
 ADAMANT_SWORD:
   base:
     material: IRON_SWORD
     attack-damage: 6.9
     attack-speed: 1.6
-    weapon-damage: 1.0
+    weapon-damage: 3.0
     profession-attack: 41.0
     name: Adamant Sword
     max-durability: 1561.0
     custom-model-data: 10000.0
+    lore:
+    - '§eAttack Level: §c41'
 GOLDEN_SWORD:
   base:
     material: GOLDEN_SWORD
     attack-damage: 4.0
     attack-speed: 1.6
-    weapon-damage: 1.0
+    weapon-damage: 3.5
     profession-attack: 1.0
     name: Golden Sword
     max-durability: 59.0
@@ -83,16 +97,20 @@ DIAMOND_SWORD:
     material: DIAMOND_SWORD
     attack-damage: 7.0
     attack-speed: 1.6
-    weapon-damage: 1.0
+    weapon-damage: 3.5
     profession-attack: 51.0
     name: Diamond Sword
     max-durability: 1796.0
+    lore:
+    - '§eAttack Level: §c51'
 NETHERITE_SWORD:
   base:
     material: NETHERITE_SWORD
     attack-damage: 8.0
     attack-speed: 1.6
-    weapon-damage: 1.0
+    weapon-damage: 4.0
     profession-attack: 61.0
     name: Netherite Sword
     max-durability: 2031.0
+    lore:
+    - '§eAttack Level: §c61'

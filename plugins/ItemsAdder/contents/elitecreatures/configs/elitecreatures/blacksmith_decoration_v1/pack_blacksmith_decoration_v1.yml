@@ -31,16 +31,9 @@ items:
       model_path: blacksmith_decoration_v1/anvil
     behaviours:
       furniture:
-        solid: true
+        solid: false
         fixed_rotation: true
         entity: item_frame
-        hitbox:
-          length: 1
-          width: 1
-          height: 1
-          length_offset: 0
-          width_offset: 0
-          height_offset: 0
         placeable_on:
           walls: false
           ceiling: false
@@ -60,16 +53,9 @@ items:
       model_path: blacksmith_decoration_v1/bed
     behaviours:
       furniture:
-        solid: true
+        solid: false
         fixed_rotation: true
         entity: item_frame
-        hitbox:
-          length: 3
-          width: 2
-          height: 1
-          length_offset: 1
-          width_offset: -0.5
-          height_offset: 0
         placeable_on:
           walls: false
           ceiling: false
@@ -226,16 +212,9 @@ items:
       model_path: blacksmith_decoration_v1/furnace
     behaviours:
       furniture:
-        solid: true
+        solid: false
         fixed_rotation: true
         entity: item_frame
-        hitbox:
-          length: 3
-          width: 3
-          height: 3
-          length_offset: 1.0
-          width_offset: -0.5
-          height_offset: 0
         placeable_on:
           walls: false
           ceiling: false

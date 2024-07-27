@@ -22,7 +22,7 @@ conversations:
         text: "&dMagic XP&r:mc_potion: is earned by using Mana for spells. The higher your Magic level, the more &dmax Mana&r you have."
         pointer: "response6"
       message6:
-        text: "To access you Spell Book:mc_book:, do &e/s&r in chat. Once you have done so, go ahead and equip the burn spell. In order to cast spells, hit F and press the corresponding number that appears on screen while looking at your target."
+        text: "To access your Spell Book:mc_book:, do &e/s&r in chat. Once you have done so, go ahead and equip the burn spell. In order to cast spells, hit F and press the corresponding number that appears on screen while looking at your target."
         pointer: "response7"
       message7:
         text: "As your level increases in any of these skills, you gain access to higher-tier weapons, armors, and spells. This means more powerful equipment and abilities."

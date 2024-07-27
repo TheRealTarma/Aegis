@@ -1,0 +1,6 @@
+{
+    "parent": "potion_3d:royal",
+    "textures": {
+        "1": "potion_3d:colors/turquoise"
+    }
+}

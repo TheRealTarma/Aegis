@@ -17,8 +17,8 @@ resource-pack:
       url: ''
       skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: false
   apply-on-join: true
-  kick-player-on-decline: false
-  kick-player-on-fail: false
+  kick-player-on-decline: true
+  kick-player-on-fail: true
   delay-ticks: 1
   notify-other-plugins-interfering: true
   title:
@@ -28,7 +28,7 @@ resource-pack:
   expert_users:
     allow_other_plugins_resourcepacks: false
   protect-player:
-    black-screen: false
+    black-screen: true
     hide-hud: true
     cancel-movement: false
     lock-player: false

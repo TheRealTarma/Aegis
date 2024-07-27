@@ -1,0 +1,6 @@
+{
+    "parent": "potion_3d:fire",
+    "textures": {
+        "1": "potion_3d:colors/sky_blue"
+    }
+}

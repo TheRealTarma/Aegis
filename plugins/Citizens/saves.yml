@@ -35,13 +35,13 @@ npc:
         updateSkins: false
       spawned: true
       location:
-        bodyYaw: -31.320961
+        bodyYaw: -4.0543976
         world: world
         x: '2.969'
         y: '67.0'
         z: '95.015'
-        yaw: '-31.321'
-        pitch: '-4.9717'
+        yaw: '-4.0544'
+        pitch: '0.0'
       lookclose:
         range: '10.0'
         disablewhilenavigating: true
@@ -73,32 +73,32 @@ npc:
         talk-close: false
         text:
           '0': Hi, I'm <npc>!
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,text,owner,skintrait,spawned,commandtrait,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,commandtrait,lookclose,location,text,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: false
   '5':
     metadata:
-      cached-skin-uuid: 5417441d-de37-4dcc-9109-d3fd31722528
-      cached-skin-uuid-name: shopkeeper
+      cached-skin-uuid: 453cce52-89b2-436b-a19e-0567d4ae96ff
+      cached-skin-uuid-name: blacksmith
     name: Master Blacksmith
     uuid: a38fcb3a-baed-49b4-a5f3-4750ac87f815
     traits:
       type: PLAYER
       location:
-        bodyYaw: -14.951981
+        bodyYaw: 100.18579
         world: world
-        x: '-10.8491'
+        x: '-9.6823'
         y: '69.0'
-        z: '215.9822'
-        yaw: '-14.952'
-        pitch: '-5.9313'
+        z: '213.3256'
+        yaw: '120.1858'
+        pitch: '-16.1037'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
-        signature: Cgr4ZoBl4C8ChJDTl7TiifXm5+7ay3PgTZBKO3kcLJzzt5StKXrLPXNCxITYwVIHVVF0hBopIpqZ0u5ut7gXooAWt3qRxYQxCZ7NsYyGxYaWZKpXFhBXUSnoetW+Maq1bshbvt11wvyORlQ5JMMqXz7Na/ys1ELBD7iZ8XudPKGda/jDY6IFy4sHkYoSEUZyt68JXwWkN86rWl3tBmFA0lav6RThdqPlMOOm6d3BA8WKpbRldIneDSRK4wTn1hRCePnyfqamICG6yt7nHrXyF5KpJ+KAG34HGXHzkAbY3D4iqYtqBNSm+O5Zx0CqLsflK2yu0fFEU3Yvdh6jB7cwCqNWarSDNVcUKl3+Dgz/UoTJ0CTThkfPM/qgc1vQonvPaRzqd8BtXGJeSG32twrSwMsyD220CDB8/7i7u7WkKJTKC3qCv2yp78agaKNoYyE1Y7guK64nqffvhRERicWeFmgL/xbEWoBSW7fpnHVm5sztcDKBrmU6AsOPdmvaYSMQOCVA3QfLWoTf3gpZtSHZugiJEW47LvN33eAGYk8XhQld0CKYEJeKK1C0YUDndD9t/+Yx0vgFUTfj1+4gl+IHFhx6ciWWM/I22XMZ/x2gkJxjrw/qt7wFxQr0voY5SN3TB8SKwtpfnd7++7iJKR7SNwEI1FnXJ74yJQ/iwQEM43M=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxNzE5MzU4MjY0MCwKICAicHJvZmlsZUlkIiA6ICI1NDE3NDQxZGRlMzc0ZGNjOTEwOWQzZmQzMTcyMjUyOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaG9wa2VlcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhjYmMxMWVkNzFkNTNlZjUxNjE2N2MwNTc3Mjg5MzkxMGI5NmJkYzQyNTk1OTc1OWMwYjFlMzIwOGZiNmRlNWUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        signature: D/BgoozX0bzoH8x/jCFsqscZVjdcOXRW1FLpJCvvArTSATd3DN2B3b4n6Xcz5Nxmm0S0GdNwM2izDZ3pu7d0COetohf6z3kGj0G9TEGwGjixRWc9YVE7gqHgZXhAHC1BxrXOhP672h9+TgRtfbV7n3OKnlFf0jD/CB9WBrbCCTGn9BUc9qSqjqYjzjPAAdSNTYdIx2MQinEoByOoN7gfr/Q+CdlgMzFcF1Uy58aTtv8t+re+ri/Ph8c1MeuwEzVtIvK0mHe+qKx+faKf3WEJmuLFUIabl6tYnnPc+OOsmLUF//c0pS24h/ZMyOhb8TxjHbg5uoPxBP42NL47kJ428YZCSNlQW3l07JkcSq5HAdgnXjUvnsFzZasLiTTz6gkCqDrBJJa/Vp3MptTkwH0OwV9L8h50MQcIrWHTpTUocYXvFQrdDTTD+gFsC02b1Wo2e3vggYi3MG7rkWfBorM6xhQhdxmk7MZXe6pHAV2DGWDb85Ic5W6u6ayN2x1Q5dqD61ai3XxKq92NPICjMfA1bERO0NybvmOnmEiKam9VoubI4ddZxmbWwa34LHwvv1jZgT3Y+6/FWotWJzOjjPDydMiouxGDbFjvcDu8FV4X2pVFDWIjDJBUaSUbOLL7NkeRHE55bGjVEfFZxLs/Z7OMuKaJJ6NDYByKRcCHcu9Cq3s=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMTkyNTE4NDU0NCwKICAicHJvZmlsZUlkIiA6ICI0NTNjY2U1Mjg5YjI0MzZiYTE5ZTA1NjdkNGFlOTZmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbGFja3NtaXRoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxNDliOTgwMzAwYmI3MDBmNjIwYWRiYzRjNDVlY2JiNTU5NWMwMjg4MjViNWI3OGQzNzg3MDVlY2ZhZTVhMzciCiAgICB9CiAgfQp9
         updateSkins: false
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
@@ -146,7 +146,7 @@ npc:
           cachePaths: false
           cycle: false
         provider: linear
-    traitnames: scoreboardtrait,lookclose,inventory,type,skintrait,commandtrait,spawned,mounttrait,location,hologramtrait,owner,waypoints,rotationtrait
+    traitnames: skintrait,hologramtrait,inventory,location,owner,scoreboardtrait,spawned,type,rotationtrait,mounttrait,commandtrait,lookclose,waypoints
     navigator:
       speedmodifier: '0.30000001192092896'
       avoidwater: false
@@ -161,13 +161,13 @@ npc:
     uuid: e08a9f87-ec1f-4aa6-8c95-4d19884ef42b
     traits:
       location:
-        bodyYaw: -14.925934
+        bodyYaw: 30.433403
         world: world
         x: '7.0292'
         y: '67.0'
         z: '90.9387'
-        yaw: '-14.9259'
-        pitch: '-10.4665'
+        yaw: '30.4334'
+        pitch: '1.5808'
       text:
         delay: -1
         talkitem: default
@@ -224,7 +224,7 @@ npc:
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       spawned: true
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,text,owner,skintrait,commandtrait,spawned,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,commandtrait,location,text,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -237,13 +237,13 @@ npc:
     uuid: 1b6f71b4-a25a-4376-a44d-ad1322931bbc
     traits:
       location:
-        bodyYaw: 9.966759
+        bodyYaw: 35.153366
         world: world
         x: '11.0381'
         y: '67.0'
         z: '94.9819'
-        yaw: '9.9668'
-        pitch: '-11.1072'
+        yaw: '35.1534'
+        pitch: '-5.6471'
       text:
         delay: -1
         talkitem: default
@@ -300,7 +300,7 @@ npc:
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       spawned: true
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,text,owner,skintrait,spawned,commandtrait,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,commandtrait,location,text,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -313,13 +313,13 @@ npc:
     uuid: e6e4283d-5e30-40ea-b3c1-a36c43efc8ff
     traits:
       location:
-        bodyYaw: -4.565422
+        bodyYaw: -48.499386
         world: world
         x: '6.9719'
         y: '67.0'
         z: '98.9715'
-        yaw: '-4.5654'
-        pitch: '-10.1432'
+        yaw: '-48.4994'
+        pitch: '-51.5012'
       text:
         delay: -1
         talkitem: default
@@ -376,7 +376,7 @@ npc:
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       spawned: true
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,text,skintrait,owner,commandtrait,spawned,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,commandtrait,lookclose,location,text,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -386,13 +386,13 @@ npc:
     uuid: 3078dc49-9adc-4445-bbce-753a76c5c25f
     traits:
       location:
-        bodyYaw: -38.35001
+        bodyYaw: 127.38629
         world: world
         x: '-1873.1994'
         y: '73.0625'
         z: '-17.5534'
-        yaw: '-38.35'
-        pitch: '0.0'
+        yaw: '147.2061'
+        pitch: '-38.8852'
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
@@ -436,7 +436,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,owner,skintrait,spawned,commandtrait,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,commandtrait,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -449,12 +449,12 @@ npc:
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       location:
-        bodyYaw: 269.9809
+        bodyYaw: 9.0789795E-4
         world: world
-        x: '27.9613'
+        x: '-29.5'
         y: '67.0'
-        z: '129.5002'
-        yaw: '-90.0191'
+        z: '87.3977'
+        yaw: '9.0E-4'
         pitch: '-1.1996'
       skintrait:
         fetchDefaultSkin: true
@@ -599,7 +599,7 @@ npc:
       hologramtrait:
         lineHeight: -1.0
         viewRange: -1
-    traitnames: scoreboardtrait,inventory,type,mounttrait,location,text,owner,skintrait,hologramtrait,spawned,waypoints
+    traitnames: skintrait,spawned,hologramtrait,type,inventory,mounttrait,location,text,waypoints,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -630,18 +630,18 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 138.40567
+        bodyYaw: -58.72271
         world: world
         x: '126.8129'
         y: '67.0'
         z: '110.915'
-        yaw: '145.0043'
-        pitch: '-2.1316'
+        yaw: '-58.7227'
+        pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
       spawned: true
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,owner,skintrait,spawned,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -690,13 +690,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -25.945564
+        bodyYaw: -170.0237
         world: world
         x: '18.2126'
         y: '69.0'
         z: '274.0198'
-        yaw: '-25.9456'
-        pitch: '-1.5644'
+        yaw: '-170.0237'
+        pitch: '-4.6757'
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
@@ -704,7 +704,7 @@ npc:
       hologramtrait:
         lineHeight: -1.0
         viewRange: -1
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,hologramtrait,owner,skintrait,commandtrait,spawned,rotationtrait
+    traitnames: skintrait,spawned,hologramtrait,type,inventory,rotationtrait,mounttrait,commandtrait,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -754,17 +754,17 @@ npc:
             cost: '-1.0'
             experienceCost: -1
       location:
-        bodyYaw: -178.83058
+        bodyYaw: -20.161766
         world: world
         x: '344.1013'
         y: '64.0'
         z: '180.689'
-        yaw: '-178.8306'
-        pitch: '-21.3136'
+        yaw: '-20.1618'
+        pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,owner,skintrait,spawned,commandtrait,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,commandtrait,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -814,17 +814,17 @@ npc:
             cost: '-1.0'
             experienceCost: -1
       location:
-        bodyYaw: -164.28116
+        bodyYaw: 138.91147
         world: world
-        x: '-9.1009'
+        x: '-11.6675'
         y: '69.0'
-        z: '254.9804'
-        yaw: '-164.2812'
-        pitch: '-5.8417'
+        z: '255.0716'
+        yaw: '137.1142'
+        pitch: '-5.036'
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,owner,skintrait,spawned,commandtrait,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,commandtrait,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1019,7 +1019,7 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,hologramtrait,owner,skintrait,spawned,commandtrait,rotationtrait
+    traitnames: skintrait,spawned,hologramtrait,type,inventory,rotationtrait,mounttrait,lookclose,commandtrait,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1032,13 +1032,13 @@ npc:
     uuid: 91483e93-a136-4e8b-ad97-38f7b2ef45a0
     traits:
       location:
-        bodyYaw: 54.934723
+        bodyYaw: 84.51139
         world: world
         x: '25.0936'
         y: '67.0'
         z: '103.5736'
-        yaw: '54.9347'
-        pitch: '-15.1697'
+        yaw: '101.7184'
+        pitch: '-4.2665'
       commandtrait:
         cost: -1.0
         executionMode: LINEAR
@@ -1084,7 +1084,7 @@ npc:
           '1': 360.0
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,skintrait,owner,commandtrait,spawned,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,commandtrait,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1096,14 +1096,17 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
+        signature: FRu1uQNB1fJ+OqhPRQi7KrdpdARB+XKamfXMTmN+7bIKqWN72optb2iLFj9IR8n0Yxal1D7QpTjC1tOot2fWCOiLIdDoxc0uL1lPjlLF208uwBVILvdPUaa3K68mYmFsv0sQpYullOuIcgeZEt6xh+Y7mhJ0RVBHUjUTz4QCfKbNX/qbShpHiP4AuRGpynB9FzPrn9Zv4MBN7Cn9gcp7jK36nVRkARR/66G1Bbpws8LDa8JnILuDlJ/2Rh4wQtBfkmL4iuYuCFHln12htiZp1JLLJMEgQ0CgyINOFrKCtUVnVN67a3ImgEUPDiKMpyzDwDdN5V7eOrtWRRLohe/qFxPybpV52E60j8ta4akMSrC4k2wxWqKoEJtSMwhKOWwMOYZriikA9oE2ap/Ze2TYob9GpzMUIziZ+ikGODUgenReWSHtkORXBnxxT8pESzKm1fzS3UDIKNcPCPnYCCY0lJVsmau1TJOHg9p/MhlGuTXfbzYe8xNUwcX7UeFhOLLPpPni2TEn3IxGmygjeP/DNFP8HCtCR5TL0SIcBuYTS9N8wTV04sAeShb1U59/tvpbGSlczveceypUZaEvHR/rV/ky34rjqeDr4SViCWlktwXAABHKt9cr/ISEktt1kvFE6bs+px2QOrANlhD3KnXv8JeWzzmJtiaU5f+hHgKKSp8=
+        skinName: f51fbfcd-1b31-4b99-b840-e32e5ff2875e
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMTc4NzYwNjQ0NywKICAicHJvZmlsZUlkIiA6ICJkM2Y5MjEyMjY3YzM0YzEwYWNjOWZkNGI5MDFkYjI0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXl3ZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGJlMjA2YTBkMjNhMmUxZTIzOWE0OGM3MWFhOWQzOGZhOWQ2YTdjNDQ4MWJiMTEyOTJlOTk1OTljMDAyYzEwIgogICAgfQogIH0KfQ==
       location:
-        bodyYaw: -16.281113
+        bodyYaw: 108.7054
         world: world
         x: '-97.0144'
         y: '67.0'
         z: '177.2954'
-        yaw: '-16.2811'
-        pitch: '-21.5666'
+        yaw: '128.7054'
+        pitch: '-26.3687'
       spawned: true
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
@@ -1126,11 +1129,13 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,skintrait,owner,spawned,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid-name: f51fbfcd-1b31-4b99-b840-e32e5ff2875e
   '18':
     name: Ashen Archwizard
     uuid: c7d208d9-9701-4a24-ac96-57158af7db3a
@@ -1138,6 +1143,9 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
+        signature: SnKUSQzknN7cPcN6ONnjjuQ9yZLybr/TqIQrb+dzbTyjdVQclkdJYppa9cnF5q7dRKOUIDR25AIUK9kV1IrRq9YYp5fShp0LBfrXDSpNNBTozysxOEpkA+UcEqbv0TokMuLFtRXDl0t0k23Gq++vYiocYdW2NcYbiGxK7sS32Lsui7L7K6I7ItV4LNqeriXarWTvzTD0BDqrXnIrgwtg/adDoQFmv5K8O9rYFZq2OumQTe2xTPN8y+JZrgkQAnRpusbf8UmZAtItZZCAbq7nIi4JNr9ikxRj/fdq0qk7SRSmgYoOFFOeLrzWIQ9/xVfh4PYJ1iTFwPvTBH5VX6N/L+//8bii1g1gY/EGmAH9ENFx2LtciB3QsaRXj2l1weD7zCcMeZPYKQjY+9dgTnVSCYIxd/IS1at9/ZUkWas1zJ6OOwr1iUDxIloLGX7L2DK/rVACGn5AfP9swPXIMh3iAwTr2+BzJzoTSvi7jgbq5IUmPv/rY84vxZdNs2rD2MjOUIN+2Ak/JXoDw6WRZ9h0JzPCXc6VsbQyYA4Qo0n6gzW4JBW7zykD980WEwZlbn7ZTK4y007PuG6oMaiY53lsGk0pgBXut3gdXEZDic2N2NiSa4JGqgrU/CvoFPabAb86K9Dh9wHYaS0ma4B+GbdF0AILOYf/AVrAdxl/qvpJHok=
+        skinName: 23d2adf2-6d78-4981-a2ee-9cde8d4dc2bd
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMDkzNzQ2ODQyOCwKICAicHJvZmlsZUlkIiA6ICJlMDc4ODcyZDhmMmM0ODQ1ODlhODg1YjdiZWJmMzA5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21pZnRtYyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZDhkZTA1Njk3OTI5YmJiNzkzYzAyNGRjNzZhNDRmZjQ0MjI1NjViZTkzNWUzM2RmNWIzYTVlOWI3NmFkMjEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
       lookclose:
         range: '10.0'
         disablewhilenavigating: true
@@ -1157,22 +1165,36 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 150.35254
+        bodyYaw: 32.397705
         world: world
         x: '19.3565'
         y: '68.0'
         z: '146.6821'
-        yaw: '161.4054'
-        pitch: '-17.1401'
+        yaw: '32.3977'
+        pitch: '0.0'
       spawned: true
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       type: PLAYER
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,owner,skintrait,spawned,rotationtrait
+      equipment:
+        hand:
+          type_key: iron_ingot
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAGdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdABAeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImVsZW1lbnRfc3BlbGxib29rX2RhcmsifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwdXEAfgAGAAAAAXQAQHsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJlbGVtZW50X3NwZWxsYm9va19kYXJrIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAA8KAHQAbEg0c0lBQUFBQUFBQS8yWEtNUTZBSUF3RjBCOG5aSFB4ZXFUYVB4QmFJSlQ3eHdQNDVwZUJqRnczUFVTVksrR29pcHRHWjk4bEpzMmVNVnBSV1MzaDdPS01LUzl4L1E3d0Fhci9URHRPQUFBQQ==
+      inventory:
+        '0':
+          type_key: iron_ingot
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAGdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdABAeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6ImVsZW1lbnRfc3BlbGxib29rX2RhcmsifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwdXEAfgAGAAAAAXQAQHsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJlbGVtZW50X3NwZWxsYm9va19kYXJrIn1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAA8KAHQAbEg0c0lBQUFBQUFBQS8yWEtNUTZBSUF3RjBCOG5aSFB4ZXFUYVB4QmFJSlQ3eHdQNDVwZUJqRnczUFVTVksrR29pcHRHWjk4bEpzMmVNVnBSV1MzaDdPS01LUzl4L1E3d0Fhci9URHRPQUFBQQ==
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,equipment,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid-name: 23d2adf2-6d78-4981-a2ee-9cde8d4dc2bd
   '17':
     name: Tavern Keeper
     uuid: 8edacc11-ece3-4f8e-8ae8-7bdc83354acd
@@ -1229,18 +1251,18 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 43.768738
+        bodyYaw: 44.12175
         world: world
-        x: '55.1579'
+        x: '55.7357'
         y: '67.0'
-        z: '117.8132'
-        yaw: '43.7687'
-        pitch: '-3.7448'
+        z: '117.2258'
+        yaw: '44.1217'
+        pitch: '-6.1638'
       spawned: true
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       type: PLAYER
-    traitnames: scoreboardtrait,lookclose,inventory,sittrait,type,mounttrait,location,owner,skintrait,spawned,waypoints,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,location,waypoints,sittrait,owner,scoreboardtrait
     navigator:
       speedmodifier: '0.30000001192092896'
       avoidwater: false
@@ -1276,18 +1298,18 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: -32.19253
+        bodyYaw: -153.17958
         world: world
         x: '-42.6956'
         y: '68.0'
         z: '79.5334'
-        yaw: '-32.1925'
-        pitch: '0.4411'
+        yaw: '-153.1796'
+        pitch: '-2.7164'
       spawned: true
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       type: PLAYER
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,owner,skintrait,spawned,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1301,13 +1323,13 @@ npc:
     traits:
       spawned: true
       location:
-        bodyYaw: -143.83139
+        bodyYaw: -117.46643
         world: world
         x: '-1866.7864'
         y: '71.0'
         z: '28.1806'
-        yaw: '-143.8314'
-        pitch: '-18.6784'
+        yaw: '-117.4664'
+        pitch: '-32.4276'
       lookclose:
         range: '10.0'
         disablewhilenavigating: true
@@ -1347,7 +1369,7 @@ npc:
           amount: 1
           meta:
             encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABnQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAGdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdABMeyJib2xkIjp0cnVlLCJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IiNGRkZGMDAiLCJ0ZXh0IjoiTWFzdGVyJ3MgRmlzaGluZyBSb2QifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwdXEAfgAGAAAADHQAKnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiIifXQAN3siaXRhbGljIjpmYWxzZSwiY29sb3IiOiIjN0ZGRkQ0IiwidGV4dCI6IkRlc2NpcHRpb246In10AFh7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiIgLSBXaWVsZGVkIG9ubHkgYnkgdGhlIG1vc3Qgc2tpbGxlZCBvZiBhbmdsZXJzLCJ9dABceyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiIC0gdGhlIE1hc3RlcidzIEZpc2hpbmcgUm9kIHJlcHJlc2VudHMgdGhlIHBpbm5hY2xlIn10AFt7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiIgLSBvZiBmaXNoaW5nIGNyYWZ0c21hbnNoaXAuIE1ldGljdWxvdXNseSBjcmFmdGVkICJ9dABYeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiIC0gZm9yIHByZWNpc2lvbiwgaXQgc2lnbmlmaWNhbnRseSByZWR1Y2VzIHRoZSAifXQATXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IiAtIHRpbWUgaXQgdGFrZXMgZm9yIGEgZmlzaCB0byBiaXRlLiJ9dAAqeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IiJ9dAA0eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IiNGRkQ3MDAiLCJ0ZXh0IjoiRWZmZWN0czoifXQAQHsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IiAtIFJlZHVjZSB0aGUgaG9vayB0aW1lIn10AE17Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiIgLSBJbmNyZWFzZSB0aGUgY2hhbGxlbmdlIG9mIGZpc2hpbmcifXQAUXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IiAtIEhpZ2hlciBjaGFuY2Ugb2YgZ2V0dGluZyBxdWFsaXR5IGZpc2gifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAMNXdAC8SDRzSUFBQUFBQUFBLzIyTndRckNNQkJFQnlNU0EwVTgrRCtDNE5rL0NHdXoxVVczTGNrVzdNMVB0MVFFRWVjNHZIa1RnSURxTUJUcjlDamxLdTNGWTJsanozQzVTeDRMU1FoS3hUakhxWmpvSU1aYUtDWE9EanVsUjZ6bmVVeERwclBjeFVZQVQ0OTFTOHFscDVwUnZaSG04L0JqWFdIVDBJMi9EUHNUNWpocy85cUJGNVBsbStLNkFBQUE=
-    traitnames: scoreboardtrait,lookclose,inventory,equipment,type,mounttrait,location,skintrait,owner,spawned,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,equipment,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1361,13 +1383,13 @@ npc:
     traits:
       spawned: true
       location:
-        bodyYaw: -23.62468
+        bodyYaw: 132.56519
         world: world
         x: '-1871.321'
         y: '73.0'
         z: '-12.7124'
-        yaw: '-23.6247'
-        pitch: '-29.1662'
+        yaw: '152.5652'
+        pitch: '-24.2785'
       lookclose:
         range: '10.0'
         disablewhilenavigating: true
@@ -1395,7 +1417,7 @@ npc:
         skinName: aa00df6f-cdad-4871-bf8f-737ccd2cd015
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxOTk3NTA0MDk5NSwKICAicHJvZmlsZUlkIiA6ICIzMjNiYjlkYzkwZWU0Nzk5YjUxYzE3NjRmZDRhNjI3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOcGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZiOTQ1NTkxYzcwZDliZjIyZmM2MDMyMzExZGM4N2Q2NzIxNWZjMzBiMDU3MThmOTg4NzQ2NWUzZjhhYTk0MTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
         updateSkins: false
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,skintrait,owner,spawned,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1424,7 +1446,7 @@ npc:
       spawned: true
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
-    traitnames: scoreboardtrait,inventory,type,mounttrait,location,skintrait,owner,spawned
+    traitnames: skintrait,spawned,type,inventory,mounttrait,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1439,17 +1461,20 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
+        signature: W1NdQXBwvm7F7smkHLqvNX79V3VvQJ4C053gOcVCdfIuCUxR1IMXIRQE3pdZqRv3GtPH+dfo9lURQ6/56uugRet34njCTKQ6lVENt0aLSw4DbEerXv2IH7iTXWBqdG93xS2+kyZcuBOapIZP3m16iWb6WC3k1RYhlY+oActY68+KsctxSJNKH2sKhPtUqqUuepL0xe1C/wjEXEapcQsnxbFRn90kA2fnzqUaiuEQSh2qpAY8W5H7OASyJvrug9NIcubbxhsV4FY7S0Rwvl16LsZmKCuAw5U5puUW7jhRCzG6k0+ns9IMHgdRzA9sBKwI8ZXc8NoIVYiESICrbCs67sFM2lbJlNId4xCtrrZUFWi/H1DzebGsy85lbMFlxlpv9WccWQO2Fywf2QOf9tvV5o7pkXzm2qCLoRk0F+Bkg6fFLF2hrIpVyxbiGfOXvV1y77eo2P7T3oMP5CUyVqINatnsUEU35ADZO1HVvbwMWsGnCIO7nzJaCFVlGvWKEvtP9ruE+bSJSiPjtCu4143V7qsby/zTOyI2jukJRtjRNLij7l6zyynINTzqErCizuizIW6D4n2iTm83DbRLfk5ovdRQOhkCG5q35ndMfxqa6RH14+jZG/MU2QcbAOBofXHjCnu0XDchvP6jVh/2gdEF1wiGOAsfXMYstwM1+68B6r4=
+        skinName: 505e90d7-aa87-442a-9e4e-4392944ff536
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMTY3MTE0NjYzMywKICAicHJvZmlsZUlkIiA6ICIzY2I3YTA3YWY3ZjM0ZWZiYTlkNGI4ODQ3NDM4Mzc0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJZb3VUdWJlX0RFRkZZIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E3MWJiYzg2YWM1NDM5YTNkZjIyMjRhMTllYzA0OTk5ZjI1ZjRjNTZlOWViYjQ2NWM5ZjJiNGZhZDMyOGVkOTUiCiAgICB9CiAgfQp9
       hologramtrait:
         lineHeight: -1.0
         viewRange: -1
       location:
-        bodyYaw: -35.11553
+        bodyYaw: 89.47412
         world: world
         x: '-1817.1649'
         y: '71.0'
         z: '-22.1011'
-        yaw: '-35.1155'
-        pitch: '-27.0337'
+        yaw: '102.9122'
+        pitch: '0.0'
       lookclose:
         range: '10.0'
         disablewhilenavigating: true
@@ -1469,15 +1494,49 @@ npc:
           '0': 0.0
           '1': 360.0
       type: PLAYER
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,hologramtrait,owner,skintrait,spawned,rotationtrait
+      equipment:
+        hand:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF0AAhpbnRlcm5hbHVxAH4ABgAAAAV0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUN0ADh7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiSXJvbiBMb25nc3dvcmQifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA+gdABoSDRzSUFBQUFBQUFBL3dYQlVRcUFRQWdGd0VkZjVrZFhERWxaaEZZWFhlajZ6VERBWU44MlcxU3RDSWNyTHErTSs4MFkvV1VwNFF5WjFrc2VBMjJwS2JVRzhBTXNCakJBUFFBQUFBPT0=
+        helmet:
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QACGludGVybmFsdXEAfgAGAAAACHQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAOnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJJcm9uIEZ1bGwgSGVsbWV0In1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAV0AC17Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoicmVkIiwidGV4dCI6IkFybW9yIn10ACp7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiIn10AKl7ImV4dHJhIjpbeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSIsInRleHQiOiIgIn0seyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0Ijoi4pygIEFybW9yOiAifSx7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiKzIuNSJ9XSwidGV4dCI6IiJ9dAAqeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IiJ9dAA+eyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0IjoiRHVyYWJpbGl0eTogMTY1IC8gMTY1In1zcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAApBnNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAAAXQAFEdFTkVSSUNfQVRUQUNLX1NQRUVEc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAAFzcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAh0AAZhbW91bnR0AARuYW1ldAAEdXVpZHQACW9wZXJhdGlvbnVxAH4ABgAAAAV0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4AHgAAAAAAAAAAdAANbW1vaXRlbXNEZWNveXQAJDg3ODUxZTI4LWFmMTItNDNmNi04OThlLWM2MmJkZTZiZDBlY3NxAH4AHQAAAAB4eABzcQB+ACQAAAABdwQAAAABdAAPSElERV9BVFRSSUJVVEVTeHQCLEg0c0lBQUFBQUFBQS80VlJ6VW9ETVJqODhLZXNCYVVLSXVobENTS0lvcWhvb2FmR0pyV0J6YVpzVW1ncEpheDJxd3RkSytsNkVQRk5QSGlSbm4yRitpWStpVm1MS3oyWnd3Y2ZNOG5NWklvQUJkampYREJGdWRTWUVLYVk4TEduYWJ0SkEwYjlHdFdFMXFrdmFYVVhmbzRERy9tRmJHclZhVkpZeGdFWGdRT2xlWXdSS0xGQStMcmU4anpkb0I2bnlvSFZuT1JqVG1HTm1kRzlXMzhjRHQxR05Fd1dZU3ZIT1c1cjBncndKZk9ZNmxqMTl3S3MvZm5OTkt0TE0xK0xzSjBEdFpaVWdtc3VDUFUwd1FvRDdCZUtVSXpUS0JtSC9YNWtIRmlJKzFDS3JiSWVXR1Y5WjVXajFJR1YrekNKeGcvaFRRUk9HcG9rTkErM052TjYvcmI5a3diMmxZU0ZicytCWWtPcW9EUExRWjZSVE1NVVZWQzJva01rcm1RNk1rK28wbjFHYzVIMTU4YzROWlk0bnh5OTlGNEtjUEJQSHpYaFM4VlVLME9xcyt5MnhaMzhWak1RZFNxbFJmUHE5bjZyMjh4WnBHT05zSnIyUkVDaDNVWFR5V0E2dWNFbUdSbnIzRzZ6T1oyY3VkTkorZXYxemYzQktuWWJISndlbmMrVHl1VFJoTmZ4TUU2Zkt1N0p4Ymw3bkUzVWcyOXhJdjRHWWdJQUFBPT0=
+        chestplate:
+          type_key: leather_chestplate
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QACGludGVybmFsdAAFY29sb3J1cQB+AAYAAAAJdAAISXRlbU1ldGF0AA9DT0xPUkFCTEVfQVJNT1J0ADl7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiSXJvbiBDaGVzdHBsYXRlIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAd0AC17Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoicmVkIiwidGV4dCI6IkFybW9yIn10ACp7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiIn10AKd7ImV4dHJhIjpbeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfYXF1YSIsInRleHQiOiIgIn0seyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImdyYXkiLCJ0ZXh0Ijoi4pygIEFybW9yOiAifSx7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiKzYifV0sInRleHQiOiIifXQAKnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiIifXQAe3siZXh0cmEiOlt7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoieWVsbG93IiwidGV4dCI6IkRlZmVuc2UgTGV2ZWw6ICJ9LHsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJyZWQiLCJ0ZXh0IjoiMTEifV0sInRleHQiOiIifXQAKnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiIifXQAPnsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IkR1cmFiaWxpdHk6IDI0MCAvIDI0MCJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxNzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAF0ABRHRU5FUklDX0FUVEFDS19TUEVFRHNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIdAAGYW1vdW50dAAEbmFtZXQABHV1aWR0AAlvcGVyYXRpb251cQB+AAYAAAAFdAAmb3JnLmJ1a2tpdC5hdHRyaWJ1dGUuQXR0cmlidXRlTW9kaWZpZXJzcgAQamF2YS5sYW5nLkRvdWJsZYCzwkopa/sEAgABRAAFdmFsdWV4cQB+ACEAAAAAAAAAAHQADW1tb2l0ZW1zRGVjb3l0ACQ4Nzg1MWUyOC1hZjEyLTQzZjYtODk4ZS1jNjJiZGU2YmQwZWNzcQB+ACAAAAAAeHgAc3EAfgAnAAAAAXcEAAAAAXQAD0hJREVfQVRUUklCVVRFU3h0AoBINHNJQUFBQUFBQUEvNFZTMFdvVFFSUzlOQmpXZ01ZcXBjVytMSXZVaHdwYUZRdDV5cmd6TlFPN08yRm5BZzBoRE9ObW9vdlpKT3hPeFZENkp6NzRsbWQvSWY2SlgrQW5PSnZRYlNNRjUrSENuWFB1blhQdTNBYUFBM3RoeUtnZ0laZTRINkdRK2pKZ01ZSEZ3RnN0eDZ0bGd2SnNsbnN2eW13VFY4czM3bXA1K3Z2N0QzZU50V3cyUG42M1RkRllqL1cwMEc2Z3YrcEpTVWxPVHJZcHAvZ2lWeC9UU1dvV0xmZjEyMWZ1eXpKNlF3Y2VWWkxLS0NtR0pvMVpKUDBPNGFJYklFRWNlRkJ4ckdoaUNmbHM2dnFmZFdIbUUyVjBIUjVXQkJTSExHNGZ3UG80c0ZzQkpQSTdLQkljZGdiREd1eFg5eUU2bDdnWG8vYzBvS0p2aS83VTRHbUYrajB1V0NoRGhra2dNUklJNFBrVEJ4b2RMdUwrUmcyNTlMaFJ4bXQ1WldvTnN3L2N6UEtGMXhwY2VsdkM1YStmaGNrdDhSLzkzdFh3cWc1SE54NHdwb0t5Q0FXU25IZEpUSzEySWpFNUl4RW43V2ZYM2g1dlQwNzB1d1R1cmYwM29KRWFuUlZxTk5KNURYYVRpOExNTWptcS9zRFdkeDI0UDFXWkx1WXEwZUFZbFdjcW4zOXlZQ2NkUVRPMUNtVnlhOExOc2ZxaWIzVm9pNDJNR3V4bDZwdTg4d1dvdy9GL1RQa3M0b0tLWG9tME54MXQxV0ZWMVkzWkdlSGNvcFgvbzJ2L04xdXhYdUxEY29udlhzVWgvQVVObHM4by9nSUFBQT09c3EAfgAAc3EAfgADdXEAfgAGAAAABXEAfgAIdAAFQUxQSEF0AANSRUR0AARCTFVFdAAFR1JFRU51cQB+AAYAAAAFdAAFQ29sb3JzcQB+ACAAAAD/c3EAfgAgAAAA1nNxAH4AIAAAAAFxAH4ANg==
+        leggings:
+          type_key: leather_leggings
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QACGludGVybmFsdAAFY29sb3J1cQB+AAYAAAAJdAAISXRlbU1ldGF0AA9DT0xPUkFCTEVfQVJNT1J0ADd7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiSXJvbiBsZWdnaW5ncyJ9c3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHN0ABNbTGphdmEvbGFuZy9PYmplY3Q7eHB1cQB+AAYAAAAHdAAteyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6InJlZCIsInRleHQiOiJBcm1vciJ9dAAqeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IiJ9dACneyJleHRyYSI6W3siaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2FxdWEiLCJ0ZXh0IjoiICJ9LHsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IuKcoCBBcm1vcjogIn0seyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6Iis1In1dLCJ0ZXh0IjoiIn10ACp7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiIn10AHt7ImV4dHJhIjpbeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6InllbGxvdyIsInRleHQiOiJEZWZlbnNlIExldmVsOiAifSx7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoicmVkIiwidGV4dCI6IjExIn1dLCJ0ZXh0IjoiIn10ACp7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiIn10AD57Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiJEdXJhYmlsaXR5OiAyMjUgLyAyMjUifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcSc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAABdAAUR0VORVJJQ19BVFRBQ0tfU1BFRURzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAVxAH4ACHQABmFtb3VudHQABG5hbWV0AAR1dWlkdAAJb3BlcmF0aW9udXEAfgAGAAAABXQAJm9yZy5idWtraXQuYXR0cmlidXRlLkF0dHJpYnV0ZU1vZGlmaWVyc3IAEGphdmEubGFuZy5Eb3VibGWAs8JKKWv7BAIAAUQABXZhbHVleHEAfgAhAAAAAAAAAAB0AA1tbW9pdGVtc0RlY295dAAkODc4NTFlMjgtYWYxMi00M2Y2LTg5OGUtYzYyYmRlNmJkMGVjc3EAfgAgAAAAAHh4AHNxAH4AJwAAAAF3BAAAAAF0AA9ISURFX0FUVFJJQlVURVN4dAJ4SDRzSUFBQUFBQUFBLzRWUzBXcmJNQlM5TkN4NGdYUnJXUm1zTDhhTTdxR0QwWTVTeUZNMFMwMUZiU3RZQ2pTRUlMeEVDYVp4VW14M0xKVCt5UjcybHVmOXdVaS9wUHVTeVE1Vlp5aE1EeGV1empuU09aZmJBTEJnei9jWkZjVG5FdmNENUZOWGVpd2tzQnc0NjlWa3ZScWhORm1renNlaTI5VDE2ck85WHAzKytmSFRMckdXN2lhSEoxV0t3bXFpNXBteVBmVk56UXJLNk9pb1NqbkZOMm4wTlo3RitiSmxIeCtmMkorSzZnd3RlRzBzRlZWU0RFMGFza0I2cE5PaFFZZGIwRFFNYlpsb09GM005VmZUYVR5ZlpuWFlOakFLZlJhMjMwQjVMTmd4QUFuY2N4UUlEbHVEWVEzZW1uc2ZYVXJjQzlFWDZsSFIxNktIR3J3enFOdmpndm5TWjVoNEVpT0JBRDdzV3RBNDV5THNiN3k0dHc3UG85eHBPVVdydzdJT3p4ZnAwbWtOYnAyS2JYbi9LOHRUVGF5NGQrNkdkM1U0ZUVxQU1SV1VCY2lUNUxKTFFxcWRFNG5KR1FrNGFiOS9UTFpiblpub2R3bThLTk0zb0JIbktzbWk4VmlsTmRnWjNXVDVJcEZqTTMydHY3RGc1VHhLVkhZZGpSUlllWlFtVVhvOXRXQXJIa016MXY3a3pFejMxU1M2VXYvbzIrSHYwa1FOOXBMb3UzejJmYWpENFg4aXVTemdnb3BlZ2JRM3NiUnEzNmk2SVRzam5HdlVwRDk0VFArMEQrWHk3aGZMKy93S0R1RXZNMFNlNlBZQ0FBQT1zcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAh0AAVBTFBIQXQAA1JFRHQABEJMVUV0AAVHUkVFTnVxAH4ABgAAAAV0AAVDb2xvcnNxAH4AIAAAAP9zcQB+ACAAAADWc3EAfgAgAAAAAXEAfgA2
+        boots:
+          type_key: leather_boots
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QACGludGVybmFsdAAFY29sb3J1cQB+AAYAAAAJdAAISXRlbU1ldGF0AA9DT0xPUkFCTEVfQVJNT1J0ADR7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiSXJvbiBib290cyJ9c3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHN0ABNbTGphdmEvbGFuZy9PYmplY3Q7eHB1cQB+AAYAAAAHdAAteyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6InJlZCIsInRleHQiOiJBcm1vciJ9dAAqeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IiJ9dACneyJleHRyYSI6W3siaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2FxdWEiLCJ0ZXh0IjoiICJ9LHsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidGV4dCI6IuKcoCBBcm1vcjogIn0seyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6IndoaXRlIiwidGV4dCI6IisyIn1dLCJ0ZXh0IjoiIn10ACp7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiIn10AHt7ImV4dHJhIjpbeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6InllbGxvdyIsInRleHQiOiJEZWZlbnNlIExldmVsOiAifSx7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoicmVkIiwidGV4dCI6IjExIn1dLCJ0ZXh0IjoiIn10ACp7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiIn10AD57Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoiZ3JheSIsInRleHQiOiJEdXJhYmlsaXR5OiAxOTUgLyAxOTUifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcnc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAABdAAUR0VORVJJQ19BVFRBQ0tfU1BFRURzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAVxAH4ACHQABmFtb3VudHQABG5hbWV0AAR1dWlkdAAJb3BlcmF0aW9udXEAfgAGAAAABXQAJm9yZy5idWtraXQuYXR0cmlidXRlLkF0dHJpYnV0ZU1vZGlmaWVyc3IAEGphdmEubGFuZy5Eb3VibGWAs8JKKWv7BAIAAUQABXZhbHVleHEAfgAhAAAAAAAAAAB0AA1tbW9pdGVtc0RlY295dAAkODc4NTFlMjgtYWYxMi00M2Y2LTg5OGUtYzYyYmRlNmJkMGVjc3EAfgAgAAAAAHh4AHNxAH4AJwAAAAF3BAAAAAF0AA9ISURFX0FUVFJJQlVURVN4dAJsSDRzSUFBQUFBQUFBLzRWUzBXcmJNQlM5TkRSNGhtN3JvQXpXRnlORys5REJ5TVlveTFPVVNHMEZ0aFVzQlJwQ0VHNmlqTEE2THJZNkdrci9wQTk5eS9OK0lmMlRmY25rbURnTEZLYUhDMWZuSEhITzFYVUJIRGdJQXM0a0RZUWkvUkFIcktOOEhsR1lEOUJ5TVZrdVJqaEwwZ3g5S3JxeUxoZGZ2ZVhpOU0vams3ZkNtcmFibkh6WnBtaWlKM3FXYTgvWHYvUjFRUmsxR3R1VVUzS2J4VmZUNjZtWk43M0c5Mi9lNTZLaW9RTnZLMHRGVll5QXl5SWVxamJuVWppd1Y4SFdMN1ZZbHM2OGRwcWF2QTZ2S3d4SEFZOWFVQjRIOWl1QWhwMExIRW9CTzROaERkNVg5d0crVktRWDRUYnptZXhiMFhNTlBsUm9weWNrRDFUQUNmVVZ3UklESEI4NzRGNElHZlZMSTYxN0pFeHNVQk1WclkzSno0VkpzemxxRHU3UmxtZjEvRHMzbVNWdXJLT0g0VU1kampiMkNXR1M4UkQ3aWw1MmFjU3NiYW9JUGFPaG9LMlA2MWp2dGtjbCsxMEt1NnZvTHJoVG81TThIbzkxVm9QOTBXMXUwa1NOcTZGYlBYYmcxU3hPZEg0VGp6UTRKczZTT0x2NTRjRE9kR3psMXB5Nkt1ZjZaaEwvMVArSVc5MXl0RFU0U09JNzllTGpVSWVULytUcDhGQklKbnNGc3Y2ck9oeFdxbTdFejZnUUZxMmlINjJqYjlaZ3RiQ0h4Y0srdkhaRCtBdkE2NTNiNmdJQUFBPT1zcQB+AABzcQB+AAN1cQB+AAYAAAAFcQB+AAh0AAVBTFBIQXQAA1JFRHQABEJMVUV0AAVHUkVFTnVxAH4ABgAAAAV0AAVDb2xvcnNxAH4AIAAAAP9zcQB+ACAAAADWc3EAfgAgAAAAAXEAfgA2
+      inventory:
+        '0':
+          type_key: paper
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF0AAhpbnRlcm5hbHVxAH4ABgAAAAV0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUN0ADh7Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiSXJvbiBMb25nc3dvcmQifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA+gdABoSDRzSUFBQUFBQUFBL3dYQlVRcUFRQWdGd0VkZjVrZFhERWxaaEZZWFhlajZ6VERBWU44MlcxU3RDSWNyTHErTSs4MFkvV1VwNFF5WjFrc2VBMjJwS2JVRzhBTXNCakJBUFFBQUFBPT0=
+    traitnames: skintrait,spawned,hologramtrait,type,inventory,rotationtrait,mounttrait,equipment,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: false
+    metadata:
+      cached-skin-uuid-name: 505e90d7-aa87-442a-9e4e-4392944ff536
   '25':
     metadata:
       cached-skin-uuid: 453cce52-89b2-436b-a19e-0567d4ae96ff
-      cached-skin-uuid-name: blacksmith
+      cached-skin-uuid-name: 1bea9857-28df-4bea-b332-d669d030417e
     name: Blacksmith
     uuid: 35ae73d4-29a3-4e66-917d-3dcc7cd47438
     traits:
@@ -1486,17 +1545,18 @@ npc:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       skintrait:
         fetchDefaultSkin: true
-        signature: Rg6oe0fMtDNNwfJMy9opFigiSvOsR6TgkpnwWdU3SQidTTWPPO/GUnIjG6Niicp7PHCTjPXG20tEkj+nHTTBSEsqg72WJPGdvZRAzDm4Ltn8poyK8hXj1yCV/89jNXOy4LZMFUZK3jHjVKsqCz8APG290JYNt4GW+QZA1kN1xyRLvxygwSY9Y2OTBFG5um1YJUKgWPxWOdvpx280WWR7K0B0CoNj+YD+lr9PviJL8UoMVtr0EJAPz+hoHUaXSHpIO3WO2jwUQHBY/O31GVipQZBcCmQtJ5zX4lWH4DnxITYl/l77BkywgqbrcYCHIEoTAB24PlYLQjtX3W/L7Gsp203zHn9RZvzfFFE3jrTSZxTNPbNDXIQ4hMU2K2x2uz+w/m/hzS8hkomjZJxZVOEr2vECl1Kc6LdFXAKc+EsUBswhoNWTY3Q3ic3myse/ZUVhZyh8OKiLjoRgpqQiwhOOT6n83pYaQl/6+SmnmG0B3jlAveL7wXaCDYvtYkORdiC/gzgznS+AHgAf8nCsoEJN5eclHvw1vOjXesJpUDStjDBy7Ycv2bDPCBFt+RKDSjio/ptzmAgNhmmvQFOnNZUn+EKv+Dpv0vpq65Cs/hOg3XwO9TtULZvqinFMwHztBYR+5uqNOSp6dqMhVTLOqg07x+xuhLoF+wgprNfSnANpGC4=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMTMzMjYxODEzNSwKICAicHJvZmlsZUlkIiA6ICI0NTNjY2U1Mjg5YjI0MzZiYTE5ZTA1NjdkNGFlOTZmZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbGFja3NtaXRoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxNDliOTgwMzAwYmI3MDBmNjIwYWRiYzRjNDVlY2JiNTU5NWMwMjg4MjViNWI3OGQzNzg3MDVlY2ZhZTVhMzciCiAgICB9CiAgfQp9
+        signature: IS5S8kD1szozbd7AG18NU8O+ASiIl25iViO2O5zJazh4xxDwg0TKLEy/L06s6j4Bzvnx5jPb/ZBt0378EVCnTXYEsg5oo8Fa7VkHoxhX0QzixIN6/w+sfJlYZ0MR/SYwlDiK4BUA79LNNF2v4SbXYkQm8Rd1bgPUAm0ww5HWvlZWXWQE0AWbD28KnNXemsrWSn8HLcopdy6biHym7+L0TyGoLeTNPsbVM/+Q0sKZzBpmyzYJvkg4h5t9zeYzkYrP18G9WOiYLJMHSO39qRJFS9rdBtICgu/fWekAWLh1+UOfCudXDwF23D9YMfDWPqkebNDG+n+wWfXSv3+eWCfEctqXNZVmGBPSKtVXOgpwpTjg6M1uTokagOyfwzojYO/2jEA/I21z15iAoBh6yjMimfQy/41DSSfvFPuE9bStR1FTUF/AjGhMTNWpmkhS0jsHocq10P4V9dxFM0D0uIDxnqCNUOrpyGkUp/dphG93ZnI/2nZDEfwz7B9fwRSIdCyymOarMKcrHuw4/OX5HVRSSsdQK/uDPCw6elDo9LdhCx5/j5DGuB6Dpz9DXwePCwzTFt3O1bia2uyLATKYkoj70Vq5YvqaxzpTZq7tQPWE4lC4BmOzBY3c+WY68W77SD00svgmF9yJs51L7iVkD+Ey60ftScyTVUuFlysdvXz0o3M=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMDkxMzYzNDA1MywKICAicHJvZmlsZUlkIiA6ICJmNzM0MmExODMxZDA0ZDA5ODc4Y2ViOTVmOTUxYTllMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RNMWtzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEzYmE1ZjZjZThjZTEyYjM5MWRkNDc3NTE2MjcxODEzMDhiYzdhZjRmYjVmYWE0ZDE5MmI1NDU2ZTk0ZTAxNTAiCiAgICB9CiAgfQp9
         updateSkins: false
+        skinName: 1bea9857-28df-4bea-b332-d669d030417e
       location:
-        bodyYaw: 136.41046
+        bodyYaw: 131.29999
         world: world
         x: '-1789.4651'
         y: '65.0'
         z: '18.9579'
-        yaw: '116.4105'
-        pitch: '-44.3964'
+        yaw: '151.3'
+        pitch: '-38.9828'
       lookclose:
         range: '10.0'
         disablewhilenavigating: true
@@ -1516,7 +1576,7 @@ npc:
           '0': 0.0
           '1': 360.0
       type: PLAYER
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,skintrait,owner,spawned,rotationtrait
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1524,25 +1584,26 @@ npc:
   '27':
     metadata:
       cached-skin-uuid: d216eac7-7899-44c8-adc8-65e41e1cd117
-      cached-skin-uuid-name: mayor
+      cached-skin-uuid-name: cda3f3b6-9254-4639-ac9e-8249dd070f7c
     name: Mayor
     uuid: eaeb2aa8-1eb9-439a-8831-a29aeafe2889
     traits:
       skintrait:
         fetchDefaultSkin: true
-        signature: qv5KeX81E4n2CSYuJ6esm2fuZjl4/y6BjZT5e6Hm3d+f+BzIx0sH6/W/QNLgWfvyHDOVG1jbNVjfdrXZbxWKbWDBOy7hwcjLFeA0b3DHda8X57QOMe31/U7BR7BJ83Z0waT6GlWyWFVqJzaFZhPqy7H2CO5gbPgoVv8l+sZgLx6Jvrmpar2VsgBQsccZlZRKadixU6UsAmQLl6zf6Ubfaw1cBt04c3u2MjqEz8bsKBcDRNscCWkDy5CqQyfYnvepZZZKS/LN9bbL2pAPC3MVikwis7GldQJR5IL3glIp9h5tBPMqqKoYdn5J6755O9ArQKoNtqQ8UbF+K0UcOEqRkusV51TdOfg0Y1ai2mmc2xFG2JzbZ9UFXkzbyuSoTbXJpHdwjkFYaTqlt5lvKjNKmNFQPmgvNHYUvUKBYlZ3mI3OSe/gbJ629lJ7mH+GtA7f+OZjUpMBs8kVNEhG4ITrNO5YfAcr4ETNENQB2PRUGV1sRDSZTisCObG2o/PMIC1aTYk9p2RWgxfqHavFryqmVmvjx4Od+R2VxY0P81S+QIcOKEjHhV0boijZLMxwEQE62oA3gX2Rbo4h69a+nyrWB0tDeEOJOwu+VnKqQ5nzk7aG46u79kg9ulbVA3eVIjKHoCwnQKZ5MqDhtuK+dBiMgVkMbX5kdQ7lh96gUsz8/CE=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMTQyNDQxMjcxMCwKICAicHJvZmlsZUlkIiA6ICJkMjE2ZWFjNzc4OTk0NGM4YWRjODY1ZTQxZTFjZDExNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXlvciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MzUxY2I4MTY4Mzg0OTA3ZTEwM2MzNTkwOGFjN2FiOTBjMWY2ZWI1YjM2MWIwMjE3ODY5OTA1MGMxNTY3ZTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        signature: ThbHAx+UYO7uoQ/Xo75j+j7yjKaqlJjLtTvOvFvf7UuaaCfEFA6pc3cg7bNnSkiA3H1CWrOWLRdQixe9/zl6R4BjHcBSS5bS0pa/z3fqkhxVwPhc2M82QaX7wEoEZIZzSOk2cSlCP1dKMiAYxS/SKAZ2jpW2oy1Jdu9SpktXJ/yZMjxGCk/KIqQWlxwh7hqHIYel2pdIDJM978Fnw55Tj43/QadfKqb/AluV/oi86Nssmsab1w161Cucq1Zqcuzh4Tpwq0Sv+FAECFEZG8t12nlSYfnKI/S41zMljo6VbZNhmHql9uQ+y2QBLU448Q2n2RV0Eh8Jb32JCxnMlddE86eitztWaMz7VrGoW5Qm0mqyvX/m+RSLF6rcQ1oa9qyRiFMByXHu6hkGlTnslzpmEAOvllOWIYlxnUeuBgifgqP6/xlHeIFWMJsssJOVycqqBMxV5SzOY2ga32evpspNwDBQNQvna8gcyUbwUjRy7n2sDnI6Rcd8Yeu/CElX1A/ORDQ61ARurb9saADIqp6dVx/Q9fBtNK+h5Yq6Gc6hRXS6huNqxiPSUJxchkbnzHFYcttFMGW0KtPkvqbP37vwD8AsUoNXXBEPHh3I5zEPl1ITbxVNEeHiDSjuwSTNl4sNI+DoD4LUTnr+WYpPD8Vr/+5zXUfjjaYnuCIBqI9ibfk=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxNzI0MDkyMTQ3MiwKICAicHJvZmlsZUlkIiA6ICI2YWVmMjM3Y2RhNDY0Y2QzYTdiZDcxYjg3YzFlMDEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWlqdW5va2kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIwYTlmY2ZmNTRmODVkMmIzMDRkYmZhNzVjOGNlOGJmZjI4OGExYzA3YTU2MTE4YjhlZDA4MTEzZGE0OTA3MSIKICAgIH0KICB9Cn0=
         updateSkins: false
+        skinName: cda3f3b6-9254-4639-ac9e-8249dd070f7c
       owner:
         uuid: 5cbd3a99-1bfe-4454-bb63-3a726985d6e3
       location:
-        bodyYaw: 52.618774
+        bodyYaw: -128.41801
         world: world
         x: '-1800.5524'
         y: '71.0'
         z: '-65.9747'
-        yaw: '52.6188'
-        pitch: '-4.3917'
+        yaw: '-128.418'
+        pitch: '5.0556'
       spawned: true
       type: PLAYER
       lookclose:
@@ -1563,7 +1624,24 @@ npc:
         randomYawRange:
           '0': 0.0
           '1': 360.0
-    traitnames: scoreboardtrait,lookclose,inventory,type,mounttrait,location,skintrait,owner,spawned,rotationtrait
+      equipment:
+        hand:
+          type_key: charcoal
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF0AAhpbnRlcm5hbHVxAH4ABgAAAAV0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUN0AC97Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiQ29pbnMifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcrdABoSDRzSUFBQUFBQUFBL3dYQllRcUFJQXdHMEEvL3BLUGJkQ0FaYnRBUW5iaWdqdDk3QkJESUhoM0JJcm96a2dtTzVqYWpYaGxsOHRCWTNCVG42N3ZIN2F1R2ZjQVAvQWVXNkRvQUFBQT0=
+        offhand:
+          type_key: charcoal
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF0AAhpbnRlcm5hbHVxAH4ABgAAAAV0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUN0AC57Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiQm9vayJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxB0AGhINHNJQUFBQUFBQUEvd1hCMFFxQU1BZ0YwRXRQbS9TUHc2V1FqRTJaUVgxKzV4QkFJSHQwSm92b0xqaE1VTHY3YUI2NkN1cmlxUmw4S2M3WDk4amJvNlY5d0ErMVFXVHRQQUFBQUE9PQ==
+      inventory:
+        '0':
+          type_key: charcoal
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAARY3VzdG9tLW1vZGVsLWRhdGF0AAhpbnRlcm5hbHVxAH4ABgAAAAV0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUN0AC97Iml0YWxpYyI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0IjoiQ29pbnMifXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAACcrdABoSDRzSUFBQUFBQUFBL3dYQllRcUFJQXdHMEEvL3BLUGJkQ0FaYnRBUW5iaWdqdDk3QkJESUhoM0JJcm96a2dtTzVqYWpYaGxsOHRCWTNCVG42N3ZIN2F1R2ZjQVAvQWVXNkRvQUFBQT0=
+    traitnames: skintrait,spawned,type,inventory,rotationtrait,mounttrait,lookclose,equipment,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -1571,7 +1649,7 @@ npc:
   '28':
     metadata:
       cached-skin-uuid: 096f0a63-8093-4f5b-a774-a2b1204ab3d1
-      cached-skin-uuid-name: magician
+      cached-skin-uuid-name: 6b1c6eab-4d35-4ddc-8abb-b86bca4c2640
     name: Magician
     uuid: f5e868e5-61a9-4eff-b592-13520885b692
     traits:
@@ -1589,10 +1667,23 @@ npc:
         pitch: '10.5'
       skintrait:
         fetchDefaultSkin: true
-        signature: P+kaJefK4y6QtScluDIX8BUhv8sRbnRp4ShAKAFQqke1TOZ6ZsojiGwTWYDDXdE3xlqnBX0CDEg8LxiPnZ335nRk+SDYoomHSDgrwtTuFct6Vd+6BJ48AUz8R0coHAqsT9OKe0Nc8pkWYNONKwauUYArbcwQ8OGtC7P66eoqnMvETqvq4Vv7h1wxIpepFa2YobQSEjCXD5NKnIdiJ1vVz7dF2V8okchQohywjsqCCoZzIkN0M90tSRxuAN36Th0Bg2PdiBjXxZEAK8C7/IJBCBKfWdsWIXDu4Y5VAVFmJY7DyfFOCzC78aM/Pp+depTdKNs5L9uRHPlZUvYH1C6qTlu5uRJlLvREMlg7p1jc78qwlT1HuOAHlq70zk7bSbjv5tz+GcypTVkooPxe3u1T5W7UZ36ymNIOG8fL9y/vBAW6Q8bPtamJJg7PsBtu8BgV2VgQz8BCSc7hCZH0l8ubb1mjW1bXB2oE2qQOCpXM0xNHzBQUvjRQ318HiqJO9lb8uw2Y6QrfW/9ElWBwz/DUjc8uf+o6amaj6aLWl0uTYEjXPS576pHCgrY+zF+aMZ4ZKA95N/6CF0iPY9LHRSNFzSdSOV+DHvXcfG96mT07xFWkMsTfcoIfllb+j5NECpkrRL1CWyulL6QqvNHTojqe0q+l4PH08G9FruxXGilEanQ=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMTYwNzE1MTIyNSwKICAicHJvZmlsZUlkIiA6ICIwOTZmMGE2MzgwOTM0ZjViYTc3NGEyYjEyMDRhYjNkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYWdpY2lhbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MDllYzk2NjcwMGFmOTcyZTk5MWYxNWJlNjcwYzhhZmEyNWI0NjFlMzZkMjcwN2RjMzYzNzdlNDQ5Njg5MmUxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+        signature: mwzSrzBflInn/9vnYkEQeaDfG8W3oFxyCEcUwv2xtJIMq4VT0sSBBI5nx06IzITE1bGdph/DtxvQkPAvboW6p1Ne2O7BfKIeoM6G7IWk+UBEkahxF8qpGT04Cw1ruCm29ifd1oIHDG8p8neE/4sCUsP64fgw9IhAvh9K6wS6jPgp8Ee6fK7QxThAVfhoxMqDnOUIf3TZkDM7bNlMCzeckbPq/yhITUy9v0MySgz0lzFwAY4ARvby+MhcqNGC3CTEt+uUQ24XoV19ILgthaIercUlB9MfO9VP8NSImgJwtYI3E/CgsHrSvNTFno6NmiRAKHWI8X8clzjAkuG0RIRHtn+pPT7j97zbUkeDQsAcWtEDR9AlF6HKq876mUi9froolMZ8ZQzRtogHO3uumPqkAztWRoxi3dCTuHqxJhDNeTBD30rneg6omvoz9Xmr9eFoTQDD5ZP4mPLoTI8m1Z22NpbyVZYzzZFc7AjQwlQtApixDMQ4TIZlmuh9oI9zsaQwS18Nuyu4i2kO/Mnd2SzITkGt1BMTAdLZXhEzaBWsEwikrrS3vC+uqw6Lggdkj3BU7A4i9TQDXFtuak2p24Z1eKLMeaqjUpY+u0xZBoHPhDkxUNFnyvZ46bPC22/2QMB/mNPNZXcd8IIll4JaQjh0x/ceaWUHeGSJcSlIYLW/oH4=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcyMTM4MzAzNDQyMCwKICAicHJvZmlsZUlkIiA6ICI3OGFjMTRjOWQzZGU0Y2Q5YThiMzNhYzZlOGE4YzQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmdlbGFQbGF5c3oiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZTNmNmFlYTYzNzRlY2U2ZjU3NjI0MTRkZjBlNzhjYjQ4N2E4MWVhNDJmMjQ1MTI5ZWFkOWU2OTI1NjUyZiIKICAgIH0KICB9Cn0=
         updateSkins: false
-    traitnames: scoreboardtrait,inventory,type,mounttrait,location,owner,skintrait,spawned
+        skinName: 6b1c6eab-4d35-4ddc-8abb-b86bca4c2640
+      equipment:
+        hand:
+          type_key: wooden_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QACGludGVybmFsdXEAfgAGAAAACHQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAN3siaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJHYW5kYWxmIFN0aWNrIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAR0AAIiInQARXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidHJhbnNsYXRlIjoiaXRlbS5tb2RpZmllcnMubWFpbmhhbmQifXQAcXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyZWVuIiwiZXh0cmEiOlt7InRyYW5zbGF0ZSI6ImF0dHJpYnV0ZS5uYW1lLmdlbmVyaWMuYXR0YWNrX2RhbWFnZSJ9XSwidGV4dCI6IiA2ICJ9dAByeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfZ3JlZW4iLCJleHRyYSI6W3sidHJhbnNsYXRlIjoiYXR0cmlidXRlLm5hbWUuZ2VuZXJpYy5hdHRhY2tfc3BlZWQifV0sInRleHQiOiIgMi4xICJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxFzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAJ0ABVHRU5FUklDX0FUVEFDS19EQU1BR0VzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAZxAH4ACHQABmFtb3VudHQABG5hbWV0AARzbG90dAAEdXVpZHQACW9wZXJhdGlvbnVxAH4ABgAAAAZ0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4AHUAUAAAAAAAAdAAKaXRlbXNhZGRlcnQABEhBTkR0ACRkNTk0ZDFkMy0yM2Y1LTMwNDgtYWVjNS1hMzhkNDYwNGZmYjBzcQB+ABwAAAAAeHQAFEdFTkVSSUNfQVRUQUNLX1NQRUVEc3EAfgAjAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAZxAH4ACHEAfgAocQB+AClxAH4AKnEAfgArcQB+ACx1cQB+AAYAAAAGcQB+AC5zcQB+AC+//mZmZmZmZnEAfgAxcQB+ADJ0ACQxZTA3YTRmNi02YmJiLTM5ZGQtYjRiZi0wNTNhZWJmNGJjYzNxAH4ANHh4AHNxAH4AIwAAAAF3BAAAAAF0AA9ISURFX0FUVFJJQlVURVN4dACwSDRzSUFBQUFBQUFBLzIzTlFRckNNQkJHNFo4R1NnMklkdUY5dklBYkx4REd6RlNHSm0zSnBGUjNIbDNjZGVFN3dQYzg0T0cxU2paaWx1Snd5ZlFLY2JVNjU4QnJvWWNtclcvQTNUc2NKc3BpQzBYQldja1dpVW9wMkRZWHRnNk5NbzVQbXBqU0VLeHFIRnVjQmhwbDUxeHZIL3h5NlA4K2dDL2JPa1J2a2dBQUFBPT0=
+      inventory:
+        '0':
+          type_key: wooden_sword
+          amount: 1
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAACHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAATYXR0cmlidXRlLW1vZGlmaWVyc3QACUl0ZW1GbGFnc3QACGludGVybmFsdXEAfgAGAAAACHQACEl0ZW1NZXRhdAAKVU5TUEVDSUZJQ3QAN3siaXRhbGljIjpmYWxzZSwiY29sb3IiOiJ3aGl0ZSIsInRleHQiOiJHYW5kYWxmIFN0aWNrIn1zcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAR0AAIiInQARXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJncmF5IiwidHJhbnNsYXRlIjoiaXRlbS5tb2RpZmllcnMubWFpbmhhbmQifXQAcXsiaXRhbGljIjpmYWxzZSwiY29sb3IiOiJkYXJrX2dyZWVuIiwiZXh0cmEiOlt7InRyYW5zbGF0ZSI6ImF0dHJpYnV0ZS5uYW1lLmdlbmVyaWMuYXR0YWNrX2RhbWFnZSJ9XSwidGV4dCI6IiA2ICJ9dAByeyJpdGFsaWMiOmZhbHNlLCJjb2xvciI6ImRhcmtfZ3JlZW4iLCJleHRyYSI6W3sidHJhbnNsYXRlIjoiYXR0cmlidXRlLm5hbWUuZ2VuZXJpYy5hdHRhY2tfc3BlZWQifV0sInRleHQiOiIgMi4xICJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAJxFzcgAXamF2YS51dGlsLkxpbmtlZEhhc2hNYXA0wE5cEGzA+wIAAVoAC2FjY2Vzc09yZGVyeHIAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAJ0ABVHRU5FUklDX0FUVEFDS19EQU1BR0VzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAZxAH4ACHQABmFtb3VudHQABG5hbWV0AARzbG90dAAEdXVpZHQACW9wZXJhdGlvbnVxAH4ABgAAAAZ0ACZvcmcuYnVra2l0LmF0dHJpYnV0ZS5BdHRyaWJ1dGVNb2RpZmllcnNyABBqYXZhLmxhbmcuRG91YmxlgLPCSilr+wQCAAFEAAV2YWx1ZXhxAH4AHUAUAAAAAAAAdAAKaXRlbXNhZGRlcnQABEhBTkR0ACRkNTk0ZDFkMy0yM2Y1LTMwNDgtYWVjNS1hMzhkNDYwNGZmYjBzcQB+ABwAAAAAeHQAFEdFTkVSSUNfQVRUQUNLX1NQRUVEc3EAfgAjAAAAAXcEAAAAAXNxAH4AAHNxAH4AA3VxAH4ABgAAAAZxAH4ACHEAfgAocQB+AClxAH4AKnEAfgArcQB+ACx1cQB+AAYAAAAGcQB+AC5zcQB+AC+//mZmZmZmZnEAfgAxcQB+ADJ0ACQxZTA3YTRmNi02YmJiLTM5ZGQtYjRiZi0wNTNhZWJmNGJjYzNxAH4ANHh4AHNxAH4AIwAAAAF3BAAAAAF0AA9ISURFX0FUVFJJQlVURVN4dACwSDRzSUFBQUFBQUFBLzIzTlFRckNNQkJHNFo4R1NnMklkdUY5dklBYkx4REd6RlNHSm0zSnBGUjNIbDNjZGVFN3dQYzg0T0cxU2paaWx1Snd5ZlFLY2JVNjU4QnJvWWNtclcvQTNUc2NKc3BpQzBYQldja1dpVW9wMkRZWHRnNk5NbzVQbXBqU0VLeHFIRnVjQmhwbDUxeHZIL3h5NlA4K2dDL2JPa1J2a2dBQUFBPT0=
+    traitnames: skintrait,spawned,type,inventory,mounttrait,equipment,location,owner,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

@@ -1,14 +1,19 @@
 {
   "main": {
-    "name": "kageyy",
-    "minutesPlayed": 0
+    "username": "kageyy",
+    "minutesPlayed": 312
   },
   "daily-rewards": {
     "startDate": "2024-06-04",
-    "lastJoinDate": "2024-06-14",
+    "lastJoinDate": "2024-07-26",
     "collectedDays": [],
-    "dayNum": 7,
-    "streak": 0,
-    "highestStreak": 0
+    "dayNum": 1,
+    "streak": 1,
+    "highestStreak": 1
+  },
+  "global-playtime-rewards": {
+    "lastCollectedPlaytime": 0,
+    "startDate": "2024-07-24",
+    "previousDayEndPlaytime": 0
   }
 }

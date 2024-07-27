@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 74.98.183.161
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1721783321624
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1721867659560
+  login: 1721863289018
+money: '0.0'
+last-account-name: FlippingMermaid
+lastlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: -1772.3019945709555
+  y: 73.0
+  z: -292.58164972300165
+  yaw: 172.1124267578125
+  pitch: 6.300043106079102
+logoutlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: 28.56864038247049
+  y: 69.0
+  z: 204.75796510319688
+  yaw: -65.076416015625
+  pitch: -4.651549816131592

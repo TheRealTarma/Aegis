@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1721865763367
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1714943398053
-  login: 1714943376479
+  logout: 1721867652886
+  login: 1721866517875
 money: '0.0'
 last-account-name: RangedMerica
 logoutlocation:
-  world: fd453e50-5701-4983-bddf-cfb8a8755fe7
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
   world-name: world
-  x: 42.0
-  y: 63.0
-  z: -2.0
-  yaw: -44.998321533203125
-  pitch: 18.000198364257812
+  x: 29.425584687170414
+  y: 69.0
+  z: 205.12827654035144
+  yaw: 116.25045776367188
+  pitch: 13.500007629394531
+lastlocation:
+  world: 3bae506c-ce1d-4ff2-b61d-7a32da2f4d12
+  world-name: world
+  x: -1772.5462942013407
+  y: 73.0
+  z: -292.9650791786954
+  yaw: 174.01773071289062
+  pitch: 6.449782848358154

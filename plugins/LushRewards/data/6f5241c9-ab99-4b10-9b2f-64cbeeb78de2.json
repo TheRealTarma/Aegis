@@ -1,0 +1,23 @@
+{
+  "main": {
+    "username": "JiggleTwit",
+    "minutesPlayed": 205
+  },
+  "daily-rewards": {
+    "startDate": "2024-07-25",
+    "lastJoinDate": "2024-07-26",
+    "lastCollectedDate": "2024-07-26",
+    "collectedDays": [
+      1,
+      2
+    ],
+    "dayNum": 2,
+    "streak": 2,
+    "highestStreak": 2
+  },
+  "global-playtime-rewards": {
+    "lastCollectedPlaytime": 0,
+    "startDate": "2024-07-25",
+    "previousDayEndPlaytime": 0
+  }
+}

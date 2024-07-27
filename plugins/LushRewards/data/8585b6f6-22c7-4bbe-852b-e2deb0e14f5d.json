@@ -1,0 +1,24 @@
+{
+  "main": {
+    "username": "itsakaleigh",
+    "minutesPlayed": 348
+  },
+  "daily-rewards": {
+    "startDate": "2024-07-23",
+    "lastJoinDate": "2024-07-25",
+    "lastCollectedDate": "2024-07-25",
+    "collectedDays": [
+      1,
+      2,
+      3
+    ],
+    "dayNum": 3,
+    "streak": 3,
+    "highestStreak": 3
+  },
+  "global-playtime-rewards": {
+    "lastCollectedPlaytime": 0,
+    "startDate": "2024-07-23",
+    "previousDayEndPlaytime": 0
+  }
+}

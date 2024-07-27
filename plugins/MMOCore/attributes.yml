@@ -11,7 +11,7 @@ attack:
     # Buffs given every 1 attribute point spent
     # in this specific attribute.
     buff:
-        attack_damage: .1
+        attack_damage: .05
 
 defense:
 

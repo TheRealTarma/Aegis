@@ -1,0 +1,14 @@
+info:
+  namespace: template
+categories:
+  template:
+    name: template
+    enabled: true
+    icon: element_spellbook:element_spellbook_dark
+    permission: ia.menu.template
+    items:
+    - element_spellbook:element_spellbook_dark
+    - element_spellbook:element_spellbook_earth
+    - element_spellbook:element_spellbook_light
+    - element_spellbook:element_spellbook_water
+    - element_spellbook:element_spellbook_wind

@@ -1,0 +1,24 @@
+DARK_MAGICRING:
+  mythicmobs-skill-id: element_spellbook_skill_dark_magicring
+  modifiers:
+  - damage
+EARTH_MAGICRING:
+  mythicmobs-skill-id: element_spellbook_skill_earth_magicring
+  modifiers:
+  - damage
+FIRE_MAGICRING:
+  mythicmobs-skill-id: element_spellbook_skill_fire_magicring
+  modifiers:
+  - damage
+LIGHT_MAGICRING:
+  mythicmobs-skill-id: element_spellbook_skill_light_magicring
+  modifiers:
+  - heal
+WATER_MAGICRING:
+  mythicmobs-skill-id: element_spellbook_skill_water_magicring
+  modifiers:
+  - damage
+WIND_MAGICRING:
+  mythicmobs-skill-id: element_spellbook_skill_wind_magicring
+  modifiers:
+  - damage

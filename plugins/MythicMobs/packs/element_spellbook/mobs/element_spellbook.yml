@@ -1,0 +1,272 @@
+##################################################################################################
+#  We are not responsible for any bugs that may occur as a result of file modifications.
+##################################################################################################
+element_spellbook_entity_dark_magicring:
+  Type: ARMOR_STAND
+  Display: ""
+  Health: 50
+  Damage: 0
+  Options:
+    Invisible: true
+    Invincible: true
+    Collidable: false
+    HasGravity: false
+    ApplyInvisibility: true
+    NoAI: true
+    AlwaysShowName: false
+    Interactable: true
+    Marker: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Silent: true
+  Skills:
+  - model{mid=dark_magicring} @self ~onSpawn
+  - state{s=animation} @self ~onSpawn
+  - remove{delay=25} @self ~onSpawn
+  - effect:particlering{particle=Witch;speed=0.5;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=4} @SelfLocation{y=0} ~onSpawn
+  - effect:particlering{particle=Witch;speed=0.5;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=7} @SelfLocation{y=1} ~onSpawn
+
+element_spellbook_entity_dark:
+  Type: ARMOR_STAND
+  Display: ""
+  Health: 50
+  Damage: 0
+  Options:
+    Invisible: true
+    Invincible: true
+    Collidable: false
+    HasGravity: false
+    ApplyInvisibility: true
+    NoAI: true
+    AlwaysShowName: false
+    Interactable: true
+    Marker: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Silent: true
+  Skills:
+  - sound{s=element_spellbook:element_spellbook.shadow;p=1;v=1} @self ~onSpawn
+  - setrotation{relative=false;yaw=0;pitch=0} @self ~onSpawn
+  - model{mid=skill_dark} @self ~onSpawn
+  - state{s=animation} @self ~onSpawn
+  - remove{delay=20} @self ~onSpawn
+
+element_spellbook_entity_dark1:
+  Type: ARMOR_STAND
+  Display: ""
+  Health: 50
+  Damage: 0
+  Options:
+    Invisible: true
+    Invincible: true
+    Collidable: false
+    HasGravity: false
+    ApplyInvisibility: true
+    NoAI: true
+    AlwaysShowName: false
+    Interactable: true
+    Marker: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Silent: true
+  Skills:
+  - sound{s=element_spellbook:element_spellbook.shadow;p=1;v=1} @self ~onSpawn
+  - setrotation{relative=false;yaw=120;pitch=0} @self ~onSpawn
+  - model{mid=skill_dark} @self ~onSpawn
+  - state{s=animation} @self ~onSpawn
+  - remove{delay=20} @self ~onSpawn
+element_spellbook_entity_dark2:
+  Type: ARMOR_STAND
+  Display: ""
+  Health: 50
+  Damage: 0
+  Options:
+    Invisible: true
+    Invincible: true
+    Collidable: false
+    HasGravity: false
+    ApplyInvisibility: true
+    NoAI: true
+    AlwaysShowName: false
+    Interactable: true
+    Marker: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Silent: true
+  Skills:
+  - sound{s=element_spellbook:element_spellbook.shadow;p=1;v=1} @self ~onSpawn
+  - setrotation{relative=false;yaw=240;pitch=0} @self ~onSpawn
+  - model{mid=skill_dark} @self ~onSpawn
+  - state{s=animation} @self ~onSpawn
+  - remove{delay=20} @self ~onSpawn
+
+
+element_spellbook_entity_earth_magicring:
+  Type: ARMOR_STAND
+  Display: ""
+  Health: 50
+  Damage: 0
+  Options:
+    Invisible: true
+    Invincible: true
+    Collidable: false
+    HasGravity: false
+    ApplyInvisibility: true
+    NoAI: true
+    AlwaysShowName: false
+    Interactable: true
+    Marker: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Silent: true
+  Skills:
+  - model{mid=earth_magicring} @self ~onSpawn
+  - state{s=animation} @self ~onSpawn
+  - remove{delay=25} @self ~onSpawn
+  - effect:particlering{p=block_crack;material=DIRT;speed=0.5;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=4;repeat=2;repeatInterval=2} @SelfLocation{y=0} ~onSpawn
+  - effect:particlering{p=block_crack;material=DIRT;speed=0.5;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=7;repeat=2;repeatInterval=2} @SelfLocation{y=1} ~onSpawn
+
+element_spellbook_entity_earth_magicring_obj_1:
+  Type: block_display
+  Display: ""
+  DisplayOptions:
+    Block: DIRT
+    BlockLight: 7
+    SkyLight: 7
+    Translation: -0.25,0,-0.25
+    Scale: 0.5,0.5,0.5
+  Skills:
+  - setrotation{relative=false;yaw=0;pitch=0} @self ~onSpawn
+  - effect:particles{p=block_crack;material=DIRT;Size=1;a=10;hS=0.3;vS=0.3;delay=40} @self ~onSpawn
+  - remove{delay=40} @self ~onSpawn
+  
+element_spellbook_entity_earth_magicring_obj_2:
+  Type: block_display
+  Display: ""
+  DisplayOptions:
+    Block: COARSE_DIRT
+    BlockLight: 7
+    SkyLight: 7
+    Translation: -0.25,0,-0.25
+    Scale: 0.5,0.5,0.5
+  Skills:
+  - setrotation{relative=false;yaw=0;pitch=0} @self ~onSpawn
+  - effect:particles{p=block_crack;material=DIRT;Size=1;a=10;hS=0.3;vS=0.3;delay=40} @self ~onSpawn
+  - remove{delay=40} @self ~onSpawn
+
+
+element_spellbook_entity_fire_magicring:
+  Type: ARMOR_STAND
+  Display: ""
+  Health: 50
+  Damage: 0
+  Options:
+    Invisible: true
+    Invincible: true
+    Collidable: false
+    HasGravity: false
+    ApplyInvisibility: true
+    NoAI: true
+    AlwaysShowName: false
+    Interactable: true
+    Marker: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Silent: true
+  Skills:
+  - model{mid=fire_magicring} @self ~onSpawn
+  - state{s=animation} @self ~onSpawn
+  - remove{delay=25} @self ~onSpawn
+  - effect:particlering{particle=flame;speed=0.1;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=4} @SelfLocation{y=0} ~onSpawn
+  - effect:particlering{particle=flame;speed=0.1;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=7} @SelfLocation{y=1} ~onSpawn
+
+element_spellbook_entity_light_magicring:
+  Type: ARMOR_STAND
+  Display: ""
+  Health: 50
+  Damage: 0
+  Options:
+    Invisible: true
+    Invincible: true
+    Collidable: false
+    HasGravity: false
+    ApplyInvisibility: true
+    NoAI: true
+    AlwaysShowName: false
+    Interactable: true
+    Marker: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Silent: true
+  Skills:
+  - model{mid=light_magicring} @self ~onSpawn
+  - state{s=animation} @self ~onSpawn
+  - remove{delay=25} @self ~onSpawn
+  - effect:particlering{particle=Wax_Off;speed=0.1;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=4} @SelfLocation{y=0} ~onSpawn
+  - effect:particlering{particle=Wax_Off;speed=0.1;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=7} @SelfLocation{y=1} ~onSpawn
+
+element_spellbook_entity_water_magicring:
+  Type: ARMOR_STAND
+  Display: ""
+  Health: 50
+  Damage: 0
+  Options:
+    Invisible: true
+    Invincible: true
+    Collidable: false
+    HasGravity: false
+    ApplyInvisibility: true
+    NoAI: true
+    AlwaysShowName: false
+    Interactable: true
+    Marker: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Silent: true
+  Skills:
+  - model{mid=water_magicring} @self ~onSpawn
+  - state{s=animation} @self ~onSpawn
+  - remove{delay=25} @self ~onSpawn
+  - effect:particlering{particle=Rain;speed=0.1;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=4} @SelfLocation{y=0} ~onSpawn
+  - effect:particlering{particle=Rain;speed=0.1;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=7} @SelfLocation{y=1} ~onSpawn
+  - effect:particlering{particle=Snowflake;speed=0.1;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=4} @SelfLocation{y=0} ~onSpawn
+  - effect:particlering{particle=Snowflake;speed=0.1;radius=1.75;points=10;amount=1;hS=0.5;vS=0;delay=7} @SelfLocation{y=1} ~onSpawn
+
+element_spellbook_entity_water_magicring_obj_1:
+  Type: block_display
+  Display: ""
+  DisplayOptions:
+    Block: ICE
+    BlockLight: 10
+    SkyLight: 10
+    Translation: -0.25,0,-0.25
+    Scale: 0.5,0.5,0.5
+  Skills:
+  - setrotation{relative=false;yaw=0;pitch=0} @self ~onSpawn
+  - effect:particles{p=block_crack;material=ICE;Size=1;a=1;hS=0.3;vS=0.3;delay=100} @self ~onSpawn
+  - remove{delay=100} @self ~onSpawn
+
+element_spellbook_entity_wind_magicring:
+  Type: ARMOR_STAND
+  Display: ""
+  Health: 50
+  Damage: 0
+  Options:
+    Invisible: true
+    Invincible: true
+    Collidable: false
+    HasGravity: false
+    ApplyInvisibility: true
+    NoAI: true
+    AlwaysShowName: false
+    Interactable: true
+    Marker: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    Silent: true
+  Skills:
+  - model{mid=wind_magicring} @self ~onSpawn
+  - state{s=animation} @self ~onSpawn
+  - remove{delay=25} @self ~onSpawn
+  - effect:particlering{particle=White_Ash;speed=0.1;radius=1.75;points=35;amount=1;hS=0.5;vS=0;delay=4} @SelfLocation{y=0} ~onSpawn
+  - effect:particlering{particle=White_Ash;speed=0.1;radius=1.75;points=35;amount=1;hS=0.5;vS=0;delay=7} @SelfLocation{y=1} ~onSpawn

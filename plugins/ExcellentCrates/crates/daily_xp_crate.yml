@@ -25,6 +25,10 @@ Block:
       Size: 1.0
 Milestones:
   Repeatable: false
+  List:
+    '0':
+      Reward_Id: 'null'
+      Openings: 0
 Rewards:
   List:
     10percentattack:

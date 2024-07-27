@@ -180,14 +180,14 @@ general:
 economic:
   # Default configuration: taxes, upkeep and nation upkeep are collected every day at midnight.
   interval:
-    # Collect taxes, upkeep and nation upkeep at midnight.
-    # Format: 24 hour format.
-    time: '24:00:00'
     # Set amount of days between each payment.
     # Example:
     # 1 = executes every day at the time specified at the top of this section.
     # 2 = executes every second day at the time specified at the top of this section.
     days_2: 1
+    # Set the time of day. Collect taxes, upkeep and nation upkeep at this time after x days.
+    # Format: 24 hour format.
+    time: '24:00:00'
     # Set the minimum time between a player's attempt to change the tax or upkeep and the next collection.
     change-cooldown_time: 3h
 
@@ -377,7 +377,7 @@ land:
       # Cost for teleportation to a rentable area.
       costs_7: 0.0
       # Cooldown for teleportation to a rentable area.
-      rent-tp-cooldown_time: 1h
+      rent-tp-cooldown_time: 24h
 
   # Invite settings
   invite:
@@ -572,7 +572,7 @@ chunk:
   teleport:
     # Teleportation cooldown
     # Bypass permission: lands.bypass.cooldown.teleport
-    chunk-tp-cooldown_time: 1h
+    chunk-tp-cooldown_time: 24h
     # Cost for a teleportation.
     costs_3: 0
 
@@ -687,7 +687,7 @@ random-teleport:
   # You can use '*' as a entry, to allow all worlds.
   # NOTE: World names are case-sensitive. If you don't enter them correctly, issues might occur.
   wild-worlds_list:
-    - Flat
+    - world
 
   # Should permissions for random teleportation be per world based instead of just lands.command.wild?
   # Example: world 'A': lands.command.wild.a, world 'B': lands.command.wild.b

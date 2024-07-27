@@ -16,12 +16,12 @@ general:
       nation: '&cManaged by Nation'
       land: '&cManaged by Lands'
   inbox-filter:
+    general: General
     members: '&eMembers ☺'
     war: '&4War ⚔'
     economy: '&cEconomy $'
     relations: '&aRelations'
     posts: '&7Posts'
-    general: General
   wYes: '&aYes'
   war:
     defenders: '&aDefenders'
@@ -59,6 +59,55 @@ general:
     east: East
     south: South
     west: West
+
+skull:
+  area:
+    sub: OAK_FENCE
+    default: DARK_OAK_FENCE
+physical:
+  selection:
+    lore:
+    - '&7Use this tool to create a selection.'
+    - '&7Selections can be used for:'
+    - ' &8- &e/claim'
+    - ' &8- &e/unclaim'
+    - ' &8- &e/assign'
+    name: '&2&lSelection Tool'
+    material: GOLDEN_HOE
+  capture_flag:
+    lore:
+    - '&7Place this flag on the enemy land'
+    - '&7during war in order to capture it.'
+    name: '&2&lCapture Flag'
+    material: BEACON
+  currency:
+    name: ''
+    material: GOLD_INGOT
+  claim_block:
+    lore:
+    - '&7You can claim a chunk'
+    - '&7by placing this block'
+    - '&7in the wilderness.'
+    - '&7Owner:&3 {owner}'
+    name: '&2&lClaimblock'
+    material: GRASS_BLOCK
+  info:
+    lore:
+    - '&7Use this tool to get'
+    - '&7information about the claim'
+    - '&7you''re pointing at.'
+    name: '&2&lInfo Tool'
+    material: FEATHER
+  camp:
+    lore:
+    - '&7Place this item to create a temporary'
+    - '&7camp that will be deleted after'
+    - '&5{time}&7.'
+    - '&7Radius:&3 {radius}'
+    - '&7Camps can''t be expanded.'
+    name: '&2&lCamp'
+    material: CAMPFIRE
+
 common:
   items:
     default:
@@ -143,6 +192,10 @@ common:
         - '&7You need&c {cost} &7to pay for'
         - '&7the teleportation.'
         name: '&4&lNot enough Money'
+      child_failure_noaccess_owner:
+        name: '&4&lNot allowed'
+        lore:
+        - '&7Only the owner of {object}&7 can do that.'
       child_failure_spawn_teleport:
         lore:
         - '&cYou''re not allowed to teleport'
@@ -238,19 +291,12 @@ common:
         name: '&6&lCategory: {category}'
         material: BOOKSHELF
         slots: 40
-      placeholder_1:
-        material: GRAY_STAINED_GLASS_PANE
-        slots: 1-45
       child_failure_global-action:
         name: '&4&lDisplay all Areas enabled'
         lore:
         - '&cCan''t disable this, if you''re viewing entries'
         - '&cfor all areas. &7Enable "&6&lView only area&7"'
         - '&7to change this.'
-      child_failure_noaccess_owner:
-        name: '&4&lNot allowed'
-        lore:
-        - '&7Only the owner of {object}&7 can do that.'
       war_attackers:
         lore:
         - '&8✖ &7View all attacking lands.'
@@ -286,9 +332,13 @@ common:
         - ' &8• &7If no team reaches {points} points, the war'
         - '   &7will timeout in&5 {time}&7.'
         name: '&6&lPoint Distribution'
+      placeholder_1:
+        material: GRAY_STAINED_GLASS_PANE
+        slots: 1-45
   size: 45
   entries: 10-36
   auto-correct: true
+
 gui:
   area_various:
     title: '&8Miscellaneous'
@@ -842,10 +892,22 @@ gui:
       default:
         entry_object:
           lore:
-          - '&7Claimed:&5 {time} &7ago'
           - '&8✖ &7Teleport to this chunk.'
-          name: '&6&lWorld: {world} X: {x} Z: {z}'
+          - '   &8• &7World: {world}'
+          - '   &8• &7X: {x}'
+          - '   &8• &7Z: {z}'
+          - '   &8• &7Claimed:&5 {time} &7ago'
+          name: '&6&l{world}, {x}, {z}'
           material: skin:8449b9318e33158e64a46ab0de121c3d40000e3332c1574932b3c849d8fa0dc2
+        entry_object_server:
+          lore:
+          - '&8✖ &7Teleport to this chunk.'
+          - '   &8• &7Server: {server}'
+          - '&8• &7World: {world}'
+          - '   &8• &7X: {x}'
+          - '   &8• &7Z: {z}'
+          - '   &8• &7Claimed:&5 {time} &7ago'
+          name: '&e{server} &6&l{world}, {x}, {z}'
         refresh_toggle:
           lore:
           - '&8✖ &7Click here to toggle'
@@ -858,15 +920,6 @@ gui:
           - '&cYou need to wait another&4 {time}'
           - '&cbefore you can do this again.'
           name: '&4&lCooldown'
-        entry_object_server:
-          lore:
-          - '&8✖ &7Teleport to this chunk.'
-          - '   &8• &7Server: {server}'
-          - '&8• &7World: {world}'
-          - '   &8• &7X: {x}'
-          - '   &8• &7Z: {z}'
-          - '   &8• &7Claimed:&5 {time} &7ago'
-          name: '&e{server} &6&l{world}, {x}, {z}'
   list_admin_wilderness_roleflags:
     title: '&8Player Flags'
   list_war_lands:
@@ -927,7 +980,7 @@ gui:
           name: '&c&l✘ {title}'
           material: RED_STAINED_GLASS
   land:
-    title: '&8{level} {land}'
+    title: '&8{level_prefix}{land}'
     items:
       default:
         mainblock_reposition:
@@ -1151,6 +1204,15 @@ gui:
           - '   &7than yours or you''re a'
           - '   &7member of this role.'
           name: '&4&lRole Priority'
+        entry_block_spreading:
+          name: '&6&lBlock Spreading from Land: {enabled}'
+          lore:
+          - '&8✖ &7Allow blocks to spread into this area'
+          - '   &7from other areas of this land?'
+          - '    &8• &7This affects blocks such as amethyst blocks.'
+          - '    &8• &7Blocks from the wilderness can never spread'
+          - '      &7into this area.'
+          material: BUDDING_AMETHYST
         entry_piston_griefing:
           lore:
           - '&8✖ &7Allow pistons from wilderness or other'
@@ -1238,15 +1300,6 @@ gui:
           - '   &7Unlocked: {unlocked}'
           name: '&6&lWater and Lava Flow: {enabled}'
           material: WATER_BUCKET
-        entry_block_spreading:
-          material: BUDDING_AMETHYST
-          name: '&6&lBlock Spreading from Land: {enabled}'
-          lore:
-          - '&8✖ &7Allow blocks to spread into this area'
-          - '   &7from other areas of this land?'
-          - '    &8• &7This affects blocks such as amethyst blocks.'
-          - '    &8• &7Blocks from the wilderness can never spread'
-          - '      &7into this area.'
   list_role_settings:
     title: '&8Flags'
     items:
@@ -1721,6 +1774,46 @@ gui:
           name: '&6&lTaxes'
           material: GOLD_INGOT
           slots: 31
+        rental_setup:
+          name: '&6&lSetup Rental'
+          lore:
+          - '&8✖ &7Setup this area to be rented or sold.'
+          material: INHERIT
+          slots: 34
+        rental_setup_land:
+          name: '&6&lSell Land'
+          lore:
+          - '&8✖ &7Setup the whole land to be sold.'
+          - '   &8• &7A whole land or its default area &8(&6{area}&8)'
+          - '     &7can only be sold and not setup for rental.'
+          material: INHERIT
+          slots: 34
+        rental_setup_change_sell:
+          name: '&6&lChange Purchase Offer'
+          lore:
+          - '&8✖ &bLEFT CLICK'
+          - '   &7Update purchase offer values.'
+          - '   &7Current:'
+          - '    &8• &7Cost:&c {cost}'
+          - ''
+          - '&8✖ &3DROP'
+          - '   &7Remove this offer.'
+          material: INHERIT
+          slots: 34
+        rental_setup_change_rent:
+          name: '&6&lChange Rental Offer'
+          lore:
+          - '&8✖ &bLEFT CLICK'
+          - '   &7Update rental offer values.'
+          - '   &7Current:'
+          - '    &8• &7Interval:&5 {interval}'
+          - '    &8• &7Cost per interval:&c {cost}'
+          - '    &8• &7Max time:&5 {max-time}'
+          - ''
+          - '&8✖ &3DROP'
+          - '   &7Remove this offer.'
+          material: INHERIT
+          slots: 34
         child_failure_spawn_area:
           name: '&4&lMust be in Area'
           lore:
@@ -1734,46 +1827,6 @@ gui:
           name: '&aSpawn set'
           lore:
           - '&7You set the spawn at your current position.'
-        rental_setup:
-          material: INHERIT
-          slots: 34
-          name: '&6&lSetup Rental'
-          lore:
-          - '&8✖ &7Setup this area to be rented or sold.'
-        rental_setup_land:
-          material: INHERIT
-          slots: 34
-          name: '&6&lSell Land'
-          lore:
-          - '&8✖ &7Setup the whole land to be sold.'
-          - '   &8• &7A whole land or its default area &8(&6{area}&8)'
-          - '     &7can only be sold and not setup for rental.'
-        rental_setup_change_sell:
-          material: INHERIT
-          slots: 34
-          name: '&6&lChange Purchase Offer'
-          lore:
-          - '&8✖ &bLEFT CLICK'
-          - '   &7Update purchase offer values.'
-          - '   &7Current:'
-          - '    &8• &7Cost:&c {cost}'
-          - ''
-          - '&8✖ &3DROP'
-          - '   &7Remove this offer.'
-        rental_setup_change_rent:
-          material: INHERIT
-          slots: 34
-          name: '&6&lChange Rental Offer'
-          lore:
-          - '&8✖ &bLEFT CLICK'
-          - '   &7Update rental offer values.'
-          - '   &7Current:'
-          - '    &8• &7Interval:&5 {interval}'
-          - '    &8• &7Cost per interval:&c {cost}'
-          - '    &8• &7Max time:&5 {max-time}'
-          - ''
-          - '&8✖ &3DROP'
-          - '   &7Remove this offer.'
   list_area_players:
     title: '&8{area} &7> &8Trusted Players'
     items:
@@ -1802,7 +1855,7 @@ gui:
           - '&8✖ &9SHIFT + RIGHT CLICK'
           - '   &7▼ Demote'
           - '&8✖ &3DROP'
-          - '   &7Untrust in this area.'
+          - '   &7Untrust'
           name: '&e&l{player}'
           material: INHERIT
         child_failure_edit_player_area:
@@ -1822,11 +1875,17 @@ gui:
           - '   &7trusted in this area &8(&6{area}&8)&7?'
           - '    &8• &6&lIf disabled:'
           - '      &7It displays players of the whole land.'
-          - '      &7Also it allows you to trust or untrust'
-          - '      &7players from the whole land.'
           name: '&6&lView only Area: {current}'
           material: HOPPER
           slots: 41
+        global-action:
+          name: '&6&lExecute for all Areas: {current}'
+          lore:
+          - '&8✖ &7Trust or untrust players in the whole land?'
+          - '   &8• &7If disabled: Only trusts/untrusts'
+          - '     &7players for area&6 {area}&7.'
+          material: skin:c9c8881e42915a9d29bb61a16fb26d059913204d265df5b439b3d792acd56
+          slots: 44
         child_failure_priority:
           lore:
           - '&cYou''re not allowed to'
@@ -1835,6 +1894,17 @@ gui:
           - '   &7than yours or you''re a'
           - '   &7member of the same role.'
           name: '&4&lRole Priority'
+        entry_area_all:
+          lore:
+          - '&7Trusted in these areas:'
+          - '{areas}'
+          - ''
+          - '&8✖ &bLEFT CLICK'
+          - '   &7View more information.'
+          - '&8✖ &3DROP'
+          - '   &7Untrust'
+          name: '&e&l{player}'
+          material: INHERIT
         child_failure_access:
           lore:
           - '&cYou''re not allowed to untrust'
@@ -1872,25 +1942,6 @@ gui:
           - '&7To leave a land use &e/lands leave'
           - '&7instead.'
           name: '&4&lCan''t untrust yourself'
-        global-action:
-          material: skin:c9c8881e42915a9d29bb61a16fb26d059913204d265df5b439b3d792acd56
-          slots: 44
-          name: '&6&lExecute for all Areas: {current}'
-          lore:
-          - '&8✖ &7Trust or untrust players in the whole land?'
-          - '   &8• &7If disabled: Only trusts/untrusts'
-          - '     &7players for area&6 {area}&7.'
-        entry_area_all:
-          material: INHERIT
-          lore:
-          - '&7Trusted in these areas:'
-          - '{areas}'
-          - ''
-          - '&8✖ &bLEFT CLICK'
-          - '   &7View more information.'
-          - '&8✖ &3DROP'
-          - '   &7Untrust'
-          name: '&e&l{player}'
   list_admin_lands:
     title: '&8Admin Lands'
     items:
@@ -1969,35 +2020,49 @@ gui:
           - '&8✖ &7Manage members.'
           name: '&6&lMembers'
           material: skin:e8b8c6a46d87cf86a55df214cf84bf45cca25edb9a676e96364dd6a6eea235b3
-          slots: 20
+          slots: 11
+        members_online:
+          name: '&6&lOnline Members'
+          lore:
+          - '&8✖ &7View members that are online.'
+          material: CLOCK
+          slots: 32
         invites:
           lore:
           - '&8✖ &7Manage outgoing invites.'
           name: '&6&lInvites'
           material: WRITABLE_BOOK
-          slots: 24
+          slots: 15
         banned:
           lore:
           - '&8✖ &7Manage banned players.'
           name: '&6&lBanned'
           material: BARRIER
-          slots: 22
+          slots: 13
         membership-requests:
           lore:
           - '&8✖ &7Manage incoming membership requests.'
           name: '&6&lMembership Requests'
           material: BOOKSHELF
-          slots: 26
-        members_online:
-          material: CLOCK
-          slots: 32
-          name: '&6&lOnline Members'
-          lore:
-          - '&8✖ &7View members that are online.'
+          slots: 17
   war:
     title: '&8War'
     items:
       default:
+        war_points_declaration:
+          lore:
+          - '&7A team needs&3 {points} &7points to win.'
+          - ' &8• &7Kill: &3{p_kill} point(s)'
+          - ' &8• &7Capture: &3{p_cap} point(s)'
+          - '    &8• &7To capture an enemy area, place'
+          - '      &7a capture flag inside it. You'
+          - '      &7can see the crafting recipe'
+          - '      &7for it in this menu.'
+          - ''
+          - ' &8• &7The war will start in:&5 {time}'
+          name: '&6&lPoint Distribution'
+          material: IRON_INGOT
+          slots: 13
         child_failure_permission:
           lore:
           - '&cYou''re not allowed to do'
@@ -2034,13 +2099,13 @@ gui:
           - '&7of the capture flag item.'
           name: '&6&lCapture flag Recipe'
           material: BEACON
-          slots: 13
+          slots: 15
         tribute_defender:
           lore:
           - '&8✖ &7Surrender in this war'
           - '    &8• &7You''ll need to pay&c {tribute}'
           - '      &7as a tribute to the attackers.'
-          - '    &8• &7&lIf the tribute equals 0:'
+          - '    &8• &7If the tribute equals 0:'
           - '      &7The attackers don''t accept'
           - '      &7a surrender.'
           name: '&6&lSurrender:&c {tribute}'
@@ -2056,11 +2121,18 @@ gui:
           - '&7Attackers aren''t allowed to'
           - '&7surrender in wars at all.'
           name: '&4&lCan''t surrender'
+        flags:
+          name: '&6&lActive Flags'
+          lore:
+          - '&7Involved players can do the following'
+          - '&7things in affected lands:'
+          - '{settings}'
+          material: IRON_PICKAXE
+          slots: 14
         child_failure_cost:
           lore:
-          - '&cYou &8({object}&8) &chave'
-          - '&cnot enough money to pay the'
-          - '&ctribute of&4 {tribute}&c.'
+          - '&cYou &8({object}&8) &chave not enough'
+          - '&cmoney to pay the tribute of&4 {tribute}&c.'
           name: '&4&lNot enough Money'
         spawn:
           lore:
@@ -2079,12 +2151,13 @@ gui:
           lore:
           - '&8✖ &bLEFT CLICK'
           - '   &7Change the tribute value for this war.'
-          - '    &8• &7&lIf the tribute equals 0:'
+          - '    &8• &7If the tribute equals 0:'
           - '      &7The defenders won''t be able'
           - '      &7to surrender.'
-          - '    &8• &7&lIf the defenders surrender:'
+          - '    &8• &7If the defenders surrender:'
           - '      &7Defenders need to pay&c {tribute}'
           - '      &7to you.'
+          - ''
           - '&8✖ &9RIGHT CLICK'
           - '   &7If you, as a attacker, want to'
           - '   &7surrender you''ll need to pay'
@@ -2092,28 +2165,6 @@ gui:
           name: '&6&lTribute:&c {tribute}'
           material: GOLD_INGOT
           slots: 29
-        war_points_declaration:
-          material: IRON_INGOT
-          slots: 13
-          lore:
-          - '&7A team needs&3 {points} &7points to win.'
-          - ' &8• &7Kill: &3{p_kill} point(s)'
-          - ' &8• &7Capture: &3{p_cap} point(s)'
-          - '    &8• &7To capture an enemy area, place'
-          - '      &7a capture flag inside it. You'
-          - '      &7can see the crafting recipe'
-          - '      &7for it in this menu.'
-          - ''
-          - ' &8• &7The war will start in:&5 {time}'
-          name: '&6&lPoint Distribution'
-        flags:
-          material: IRON_PICKAXE
-          slots: 14
-          name: '&6&lActive Flags'
-          lore:
-          - '&7Involved players can do the following'
-          - '&7things in affected lands:'
-          - '{settings}'
         war_attackers:
           material: IRON_SWORD
           slots: 11
@@ -2123,6 +2174,20 @@ gui:
         war_points:
           material: IRON_INGOT
           slots: 13
+  list_wars:
+    title: '&8Ongoing Wars'
+    items:
+      default:
+        entry_object:
+          name: '{attacker}&7 vs. {defender}'
+          lore:
+          - ' &8• &7Progress:&3 {points} / {points_towin} &7points'
+          - '   {points_bar}'
+          - ''
+          - ' &8• &7Timeout: &5{timeout}'
+          - ' &8• &7Attacker: {attacker}'
+          - ' &8• &7Defender: {defender}'
+          material: IRON_SWORD
   admin_main:
     title: '&8Admin Main Menu'
     items:
@@ -2734,7 +2799,7 @@ gui:
         entry_area:
           lore:
           - '&7{description}'
-          - '&8✖ &7Mange this area.'
+          - '&8✖ &7Manage this area.'
           - '&8✖ &3DROP'
           - '   &7Delete this area.'
           name: '&6&l{area}'
@@ -2791,10 +2856,22 @@ gui:
           name: '&a&lUnban Player'
           material: skin:548d7d1e03e1af145b0125ab841285672b421265da2ab915015f9058438ba2d8
           slots: 42
+        entry_area_all:
+          lore:
+          - '&7Banned in these areas:'
+          - '{areas}'
+          - ''
+          - '&8✖ &7View more information.'
+          - '&8✖ &3DROP'
+          - '   &7Unban'
+          name: '&e&l{player}'
+          material: INHERIT
         entry_area:
           lore:
           - '&7This player is banned in this area.'
           - '&8✖ &7View more information.'
+          - '&8✖ &3DROP'
+          - '   &7Unban'
           name: '&e&l{player}'
           material: INHERIT
         refresh_toggle:
@@ -2808,34 +2885,37 @@ gui:
           name: '&6&lView only Area: {current}'
           material: HOPPER
           slots: 41
-        ban:
-          lore:
-          - '&8✖ &7Ban a player from this area.'
-          - ' &8• &7Banned players won''t be able to'
-          - '   &7enter or teleport into it.'
-          name: '&c&lBan Player'
-          material: skin:ffec3d25ae0d147c342c45370e0e43300a4e48a5b43f9bb858babff756144dac
-          slots: 40
-        entry_area_all:
-          material: INHERIT
-          lore:
-          - '&7Banned in these areas:'
-          - '{areas}'
-          - ''
-          - '&8✖ &7View more information.'
-          - '&8✖ &3DROP'
-          - '   &7Unban'
-          name: '&e&l{player}'
         global-action:
-          material: skin:c9c8881e42915a9d29bb61a16fb26d059913204d265df5b439b3d792acd56
-          slots: 44
           name: '&6&lExecute for all Areas: {current}'
           lore:
           - '&8✖ &7Ban or unban players in the whole land?'
           - '   &8• &7If disabled: Only bans/unbans'
           - '     &7players for area&6 {area}&7.'
+          material: skin:c9c8881e42915a9d29bb61a16fb26d059913204d265df5b439b3d792acd56
+          slots: 44
+        ban:
+          lore:
+          - '&8✖ &7Ban a player from this area.'
+          - '    &8• &7Banned players won''t be able to'
+          - '      &7enter or teleport into it.'
+          name: '&c&lBan Player'
+          material: skin:ffec3d25ae0d147c342c45370e0e43300a4e48a5b43f9bb858babff756144dac
+          slots: 40
   war_capture_recipe:
     title: '&8Capture Flag Recipe'
+  war_info:
+    title: '&8War Info'
+    items:
+      default:
+        war_attackers:
+          material: IRON_SWORD
+          slots: 21
+        war_defenders:
+          material: SHIELD
+          slots: 23
+        war_points:
+          material: IRON_INGOT
+          slots: 25
   list_role_players:
     title: '&8Players'
     items:
@@ -2943,6 +3023,7 @@ gui:
         entry_object:
           lore:
           - '{message}'
+          - ''
           - '&8✖ &7Click to remove.'
           name: '&6&l#{id}&7 {date}'
           material: PAPER
@@ -3117,7 +3198,7 @@ gui:
         child_failure_war:
           lore:
           - '&cYou can''t manage this while {object}'
-          - '&cis enganged in an upcoming or'
+          - '&cis engaged in an upcoming or'
           - '&cactive war against&4 {enemy}&c.'
           name: '&4&lUpcoming or active War'
         add_nation:
@@ -3210,6 +3291,30 @@ gui:
           slots: 21
   list_land_storage:
     title: '&8Storage'
+  list_members_online:
+    title: '&8Online Members'
+    items:
+      default:
+        entry_area:
+          name: '&e&l{player}'
+          lore:
+          - '&7Role: {role}'
+          material: INHERIT
+        entry_area_all:
+          name: '&e&l{player}'
+          material: INHERIT
+        entry_nation:
+          name: '&e&l{player}'
+          material: INHERIT
+        refresh_toggle:
+          lore:
+          - '&8✖ &7Display only players which are'
+          - '   &7trusted in this area &8(&6{area}&8)&7?'
+          - '    &8• &6&lIf disabled:'
+          - '      &7It displays players of the whole land.'
+          name: '&6&lView only Area: {current}'
+          material: HOPPER
+          slots: 40
   list_nation_lands:
     title: '&8Nation Members'
     items:
@@ -3220,7 +3325,13 @@ gui:
           - '   &7Available:&3 {lands} &8/&c {max}'
           name: '&a&lInvite Land'
           material: skin:ffec3d25ae0d147c342c45370e0e43300a4e48a5b43f9bb858babff756144dac
-          slots: 40
+          slots: 39
+        members_online:
+          name: '&6&lOnline Members'
+          lore:
+          - '&8✖ &7View members that are online.'
+          material: CLOCK
+          slots: 41
         entry_object:
           lore:
           - '&7Title:'
@@ -3237,260 +3348,156 @@ gui:
           - '&8✖ &7Untrust a land from your nation.'
           name: '&c&lUntrust Land'
           material: skin:548d7d1e03e1af145b0125ab841285672b421265da2ab915015f9058438ba2d8
-          slots: 42
-        members_online:
-          material: CLOCK
-          slots: 41
-          name: '&6&lOnline Members'
-          lore:
-          - '&8✖ &7View members that are online.'
+          slots: 43
   rental_setup:
+    title: '{type} Setup'
     items:
       default:
         type:
-          material: OAK_SIGN
-          slots: 32
           name: '&6&lType: {type}'
           lore:
           - '&8✖ &7Change between rental and sell.'
+          material: OAK_SIGN
+          slots: 32
         interval:
-          material: CLOCK
-          slots: 12
           name: '&6&lInterval: {interval}'
           lore:
           - '&8✖ &7Tenants will pay&c {cost}&7 each for each&5 {interval}'
           - '   &7for which they extend their rental.'
-        max-time:
           material: CLOCK
-          slots: 16
+          slots: 12
+        max-time:
           name: '&6&lMax total Time: {max-time}'
           lore:
           - '&8✖ &7Change the max total time a player'
           - '   &7can rent this area.'
+          material: CLOCK
+          slots: 16
         cost_rental:
-          material: GOLD_INGOT
-          slots: 14
           name: '&6&lCost per Interval:&c {cost}'
           lore:
           - '&8✖ &7Change how much a tenant pays'
           - '   &7for every&5 {interval}&7.'
-        cost_sell:
           material: GOLD_INGOT
           slots: 14
+        cost_sell:
           name: '&6&lTotal Cost:&c {cost}'
           lore:
           - '&8✖ &7Change how much a buyer pays.'
+          material: GOLD_INGOT
+          slots: 14
         confirm_rental:
-          material: LIME_STAINED_GLASS_PANE
-          slots: 45
           name: '&a&lConfirm'
           lore:
           - '&8✖ &7Setup this area for rental.'
           - '   &8• &7Interval:&5 {interval}'
           - '   &8• &7Cost per {interval}:&c {cost}'
           - '   &8• &7Max total time:&5 {max-time}'
-        confirm_sell:
           material: LIME_STAINED_GLASS_PANE
           slots: 45
+        confirm_sell:
           name: '&a&lConfirm'
           lore:
           - '&8✖ &7Setup this area to be sold.'
           - '   &8• &7Total cost:&c {cost}'
-    title: '{type} Setup'
+          material: LIME_STAINED_GLASS_PANE
+          slots: 45
   select_time:
+    title: Time
     items:
       default:
         refresh_d_plus:
+          name: '&a&l+{value} day(s)'
           material: GLOWSTONE_DUST
           slots: 24
           data:
             modify: 1
-          name: '&a&l+{value} day(s)'
+        refresh_d_minus:
+          name: '&c&l-{value} day(s)'
+          material: REDSTONE
+          slots: 22
+          data:
+            modify: -1
         refresh_h_plus:
+          name: '&a&l+{value} hour(s)'
           material: GLOWSTONE_DUST
           slots: 25
           data:
             modify: 1
-          name: '&a&l+{value} hour(s)'
+        current:
+          name: '&6&lCurrent:&5 {time}'
+          material: CLOCK
+          slots: 23
+        refresh_h_minus:
+          name: '&c&l-{value} hour(s)'
+          material: REDSTONE
+          slots: 21
+          data:
+            modify: -1
         refresh_m_plus:
+          name: '&a&l+{value} minute(s)'
           material: GLOWSTONE_DUST
           slots: 26
           data:
             modify: 5
-          name: '&a&l+{value} minute(s)'
-        refresh_d_minus:
-          material: REDSTONE
-          slots: 22
-          data:
-            modify: -1
-          name: '&c&l-{value} day(s)'
-        refresh_h_minus:
-          material: REDSTONE
-          slots: 21
-          data:
-            modify: -1
-          name: '&c&l-{value} hour(s)'
         refresh_m_minus:
+          name: '&c&l-{value} minute(s)'
           material: REDSTONE
           slots: 20
           data:
             modify: -5
-          name: '&c&l-{value} minute(s)'
-        current:
-          material: CLOCK
-          slots: 23
-          name: '&6&lCurrent:&5 {time}'
         confirm:
+          name: '&a&lConfirm'
           material: LIME_STAINED_GLASS_PANE
           slots: 45
-          name: '&a&lConfirm'
-    title: Time
   select_value:
+    title: Value
     items:
       default:
         refresh_plus-1:
+          name: '&a+{value}'
           material: GLOWSTONE_DUST
           slots: 26
           data:
             modify: 1
-          name: '&a+{value}'
         refresh_plus-2:
+          name: '&a+{value}'
           material: GLOWSTONE_DUST
           slots: 25
           data:
             modify: 50
-          name: '&a+{value}'
         refresh_plus-3:
+          name: '&a+{value}'
           material: GLOWSTONE_DUST
           slots: 24
           data:
             modify: 500
-          name: '&a+{value}'
         current:
+          name: '&6&lCurrent: {value}'
           material: GOLD_INGOT
           slots: 23
-          name: '&6&lCurrent: {value}'
         refresh_minus-3:
+          name: '&c-{value}'
           material: GLOWSTONE_DUST
           slots: 22
           data:
             modify: -500
-          name: '&c-{value}'
         refresh_minus-2:
+          name: '&c-{value}'
           material: GLOWSTONE_DUST
           slots: 21
           data:
             modify: -50
-          name: '&c-{value}'
         refresh_minus-1:
+          name: '&c-{value}'
           material: GLOWSTONE_DUST
           slots: 20
           data:
             modify: -1
-          name: '&c-{value}'
         confirm:
+          name: '&a&lConfirm'
           material: LIME_STAINED_GLASS_PANE
           slots: 45
-          name: '&a&lConfirm'
-    title: Value
-  list_members_online:
-    items:
-      default:
-        refresh_toggle:
-          material: HOPPER
-          slots: 40
-          lore:
-          - '&8✖ &7Display only players which are'
-          - '   &7trusted in this area &8(&6{area}&8)&7?'
-          - '    &8• &6&lIf disabled:'
-          - '      &7It displays players of the whole land.'
-          name: '&6&lView only Area: {current}'
-        entry_area_all:
-          material: INHERIT
-          name: '&e&l{player}'
-        entry_area:
-          material: INHERIT
-          name: '&e&l{player}'
-          lore:
-          - '&7Role: {role}'
-        entry_nation:
-          material: INHERIT
-          name: '&e&l{player}'
-    title: '&8Online Members'
-  list_wars:
-    items:
-      default:
-        entry_object:
-          material: IRON_SWORD
-          name: '{attacker}&7 vs. {defender}'
-          lore:
-          - ' &8• &7Progress:&3 {points} / {points_towin} &7points'
-          - '   {points_bar}'
-          - ''
-          - ' &8• &7Timeout: &5{timeout}'
-          - ' &8• &7Attacker: {attacker}'
-          - ' &8• &7Defender: {defender}'
-    title: '&8Ongoing Wars'
-  war_info:
-    items:
-      default:
-        war_attackers:
-          material: IRON_SWORD
-          slots: 21
-        war_defenders:
-          material: SHIELD
-          slots: 23
-        war_points:
-          material: IRON_INGOT
-          slots: 25
-    title: '&8War Info'
-skull:
-  area:
-    sub: OAK_FENCE
-    default: DARK_OAK_FENCE
-physical:
-  selection:
-    lore:
-    - '&7Use this tool to create a selection.'
-    - '&7Selections can be used for:'
-    - ' &8- &e/claim'
-    - ' &8- &e/unclaim'
-    - ' &8- &e/assign'
-    name: '&2&lSelection Tool'
-    material: GOLDEN_HOE
-  capture_flag:
-    lore:
-    - '&7Place this flag on the enemy land'
-    - '&7during war in order to capture it.'
-    name: '&2&lCapture Flag'
-    material: BEACON
-  currency:
-    name: ''
-    material: GOLD_INGOT
-  claim_block:
-    lore:
-    - '&7You can claim a chunk'
-    - '&7by placing this block'
-    - '&7in the wilderness.'
-    - '&7Owner:&3 {owner}'
-    name: '&2&lClaimblock'
-    material: GRASS_BLOCK
-  info:
-    lore:
-    - '&7Use this tool to get'
-    - '&7information about the claim'
-    - '&7you''re pointing at.'
-    name: '&2&lInfo Tool'
-    material: FEATHER
-  camp:
-    lore:
-    - '&7Place this item to create a temporary'
-    - '&7camp that will be deleted after'
-    - '&5{time}&7.'
-    - '&7Radius:&3 {radius}'
-    - '&7Camps can''t be expanded.'
-    name: '&2&lCamp'
-    material: CAMPFIRE
 common_sounds:
   # Play a sound when the item is set in the menu.
   set:

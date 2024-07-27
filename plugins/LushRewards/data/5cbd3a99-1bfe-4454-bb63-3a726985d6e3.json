@@ -1,14 +1,16 @@
 {
   "main": {
     "username": "Tarma_",
-    "minutesPlayed": 12654
+    "minutesPlayed": 700
   },
   "daily-rewards": {
     "startDate": "2024-06-07",
-    "lastJoinDate": "2024-07-22",
-    "lastCollectedDate": "2024-07-19",
-    "collectedDays": [],
-    "dayNum": 1,
+    "lastJoinDate": "2024-07-26",
+    "lastCollectedDate": "2024-07-25",
+    "collectedDays": [
+      1
+    ],
+    "dayNum": 2,
     "streak": 1,
     "highestStreak": 3
   },

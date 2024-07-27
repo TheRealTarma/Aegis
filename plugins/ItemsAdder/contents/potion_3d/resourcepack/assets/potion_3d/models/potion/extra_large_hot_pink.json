@@ -1,0 +1,6 @@
+{
+    "parent": "potion_3d:extra_large",
+    "textures": {
+        "1": "potion_3d:colors/hot_pink"
+    }
+}

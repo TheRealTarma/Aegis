@@ -41,13 +41,13 @@ creativemode_drain: false
 
 
 # Max Endurance
-endurance: 400
+endurance: 800
 
 # Regen rate stat
-regen_rate: 6
+regen_rate: 8
 
 # sprint drain default stat
-sprint_drain_rate: 0.3
+sprint_drain_rate: 0.2
 
 
 # apply or not slowness when the stamina reach 0
@@ -60,7 +60,7 @@ ExhaustionParticle: true
 # -2 stamina everytime
 # the player jump
 JumpDrain: true
-JumpDrainRate: 2
+JumpDrainRate: 1
 
 
 # Jump cancel can produce
@@ -70,7 +70,7 @@ jumpCancel: false
 
 # Combat drain rate
 # Every swing
-EnduranceCombat: false
+EnduranceCombat: true
 # -2 every hit
 swingDrainRate: 2
 # Time in seconds
